@@ -10,6 +10,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import io
 import os
 from time import sleep
+from random import uniform
 
 SCOPES = 'https://www.googleapis.com/auth/drive'
 SERVICE_ACCOUNT_SECRET_FILE = 'service_secret.json'
@@ -113,7 +114,7 @@ class AgrcDriver(object):
                     if backoff > 8:
                         raise Exception('Download Failed: {}'.format(e))
                     print 'Retrying download in: {} seconds'.format(backoff)
-                    sleep(backoff)
+                    sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
                     raise Exception('download Failed')
@@ -144,7 +145,7 @@ class AgrcDriver(object):
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
                     print 'Retrying upload in: {} seconds'.format(backoff)
-                    sleep(backoff)
+                    sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
                     raise Exception('Upload Failed')
@@ -172,7 +173,7 @@ class AgrcDriver(object):
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
                     print 'Retrying upload in: {} seconds'.format(backoff)
-                    sleep(backoff)
+                    sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
                     msg = "Upload Failed \n{}".format(e)
@@ -208,7 +209,7 @@ class AgrcDriver(object):
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
                     print 'Retrying upload in: {} seconds'.format(backoff)
-                    sleep(backoff)
+                    sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
                     raise Exception('Upload Failed')
@@ -268,7 +269,7 @@ class AgrcDriver(object):
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
                     print 'Retrying upload in: {} seconds'.format(backoff)
-                    sleep(backoff)
+                    sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
                     msg = "Upload Failed \n{}".format(e)

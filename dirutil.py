@@ -356,7 +356,7 @@ def get_name_folder_id(name, parent_id):
     return category_id
 
 
-def reassignparents():
+def reassign_feature_parents():
     ided_feature_specs = get_spec_catnames(spec_manager.get_feature_spec_path_list(), True)
     for spec_name in ided_feature_specs:
         print spec_name
@@ -366,6 +366,19 @@ def reassignparents():
         user_drive.change_file_parent(spec['gdb_id'], old_parent_id, new_parent_id)
         user_drive.change_file_parent(spec['shape_id'], old_parent_id, new_parent_id)
         spec['parent_ids'] = [new_parent_id]
+        spec_manager.save_spec_json(spec)
+
+
+def reassign_package_parents():
+    """store all zipped packages in folder for backup in preperation for package folder views."""
+    package_specs = spec_manager.get_package_specs()
+    for spec in package_specs:
+        old_parent_id = spec['parent_ids'][0]
+        new_parent_id = '0ByStJjVZ7c7mVHp0V2lfVWgxdFU'
+        user_drive.change_file_parent(spec['gdb_id'], old_parent_id, new_parent_id)
+        user_drive.change_file_parent(spec['shape_id'], old_parent_id, new_parent_id)
+        spec['gdb_id'] = ''
+        spec['shape_id'] = ''
         spec_manager.save_spec_json(spec)
 
 
