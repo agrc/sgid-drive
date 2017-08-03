@@ -7,10 +7,10 @@
         "SGID10.UTILITIES.BroadbandRoadBuffers_historic", 
         "SGID10.UTILITIES.BroadbandWireless_historic"
     ], 
-    "gdb_id": "0ByStJjVZ7c7manRKNTVlS2ctV2M", 
+    "gdb_id": "0ByStJjVZ7c7mTjd5VGR2Mm9uaGc", 
     "name": "BroadbandInternet", 
     "parent_ids": [
         "0ByStJjVZ7c7mMjdWS3RsTkRPaE0"
     ], 
-    "shape_id": "0ByStJjVZ7c7mSHpaU1hpMER5UDA"
+    "shape_id": "0ByStJjVZ7c7mVDN2UGQ1QngzR2s"
 }

@@ -8,10 +8,10 @@
         "SGID10.TRANSPORTATION.UDOTRoutes_LRS", 
         "SGID10.TRANSPORTATION.UDOTTenthMileRefPoints"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mSWNOaTNuUkttenc", 
+    "gdb_id": "0ByStJjVZ7c7mZWhqNGczazBJNkk", 
     "name": "LRSRouteCharacteristics", 
     "parent_ids": [
         "0ByStJjVZ7c7meDJJSUJMM0c0M2s"
     ], 
-    "shape_id": "0ByStJjVZ7c7mVTZUWWR3eGZFT2c"
+    "shape_id": "0ByStJjVZ7c7mNlN3UzRFZEZUT28"
 }

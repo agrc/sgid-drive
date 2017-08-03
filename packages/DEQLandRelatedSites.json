@@ -8,10 +8,10 @@
         "SGID10.ENVIRONMENT.StreamMonitorSites", 
         "SGID10.ENVIRONMENT.DWMRCSolidWasteFacilities"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mYjNXMndRY0Nxd0U", 
+    "gdb_id": "0ByStJjVZ7c7mMng4Y0NsVEZxWUk", 
     "name": "DEQLandRelatedSites", 
     "parent_ids": [
         "0ByStJjVZ7c7mQXRWQjY3YXpBRlU"
     ], 
-    "shape_id": "0ByStJjVZ7c7mejRLTHQ3UDhXQ2M"
+    "shape_id": "0ByStJjVZ7c7mWHhIZEczQnNpQk0"
 }

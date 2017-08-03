@@ -4,10 +4,10 @@
         "SGID10.BOUNDARIES.UtahConservationDistricts", 
         "SGID10.BOUNDARIES.UtahConservationZones"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mVHNQNlhjOXpGdEU", 
+    "gdb_id": "0ByStJjVZ7c7mdHVQQ2tIdTREWHc", 
     "name": "UtahSoilConservationDistrictsAndZones", 
     "parent_ids": [
         "0ByStJjVZ7c7maEVPT1p3R1ZwSEE"
     ], 
-    "shape_id": "0ByStJjVZ7c7mQkZWNkVKMkR1azg"
+    "shape_id": "0ByStJjVZ7c7mZUdKNTM1MlJmRDQ"
 }

@@ -8,10 +8,10 @@
         "SGID10.ECONOMY.TransitSpecialTaxAreas", 
         "SGID10.ECONOMY.EnterpriseZones"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mRm9rczU4a211dGM", 
+    "gdb_id": "0ByStJjVZ7c7mcjZyUXdqdVFXUFE", 
     "name": "CurrentTaxingUnits", 
     "parent_ids": [
         "0ByStJjVZ7c7maDc4YmxKTjdTZTQ"
     ], 
-    "shape_id": "0ByStJjVZ7c7mdzZsNXVYQnZDaWM"
+    "shape_id": "0ByStJjVZ7c7mSVl4Smhob1hFMk0"
 }

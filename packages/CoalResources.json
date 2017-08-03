@@ -6,10 +6,10 @@
         "SGID10.ENERGY.CoalLeases", 
         "SGID10.ENERGY.CoalMines_UGS"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mR09QX1pxZldhaVk", 
+    "gdb_id": "0ByStJjVZ7c7mZ0tpLUxjcHIzOGs", 
     "name": "CoalResources", 
     "parent_ids": [
         "0ByStJjVZ7c7mLXFFdGZwc2JtaGc"
     ], 
-    "shape_id": "0ByStJjVZ7c7mbjdwUGNBeVRyQjA"
+    "shape_id": "0ByStJjVZ7c7mSVEyeDdDaUxVZlk"
 }

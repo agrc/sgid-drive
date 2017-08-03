@@ -166,7 +166,7 @@ class AgrcDriver(object):
             try:
                 status, response = request.next_chunk()
             except errors.HttpError, e:
-                if e.resp.status in [404]:
+                if e.resp.status in [404]:  # TODO restart on 410 gone
                     # Start the upload all over again.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
@@ -254,6 +254,33 @@ class AgrcDriver(object):
         request = self.service.files().update(fileId=file_id,
                                               addParents=new_parent_id,
                                               removeParents=old_parent_id,
+                                              fields='id')
+
+        response = None
+        backoff = 1
+        while response is None:
+            try:
+                response = request.execute()
+            except errors.HttpError, e:
+                if e.resp.status in [404]:
+                    # Start the upload all over again.
+                    raise Exception('Upload Failed 404')
+                elif e.resp.status in [500, 502, 503, 504]:
+                    if backoff > 8:
+                        raise Exception('Upload Failed: {}'.format(e))
+                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    sleep(backoff + uniform(.001, .999))
+                    backoff += backoff
+                else:
+                    msg = "Upload Failed \n{}".format(e)
+                    raise Exception(msg)
+        # keep_version(response.get('id'), drive_service)
+
+        return response.get('id')
+
+    def add_file_parent(self, file_id, new_parent_id):
+        request = self.service.files().update(fileId=file_id,
+                                              addParents=new_parent_id,
                                               fields='id')
 
         response = None

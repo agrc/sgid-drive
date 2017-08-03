@@ -4,10 +4,10 @@
         "SGID10.BOUNDARIES.ZipCodes", 
         "SGID10.LOCATION.ZipCodePOBoxes"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mZGlXanZyeFgzNzA", 
+    "gdb_id": "0ByStJjVZ7c7mRi1ESVp0WkVOcXc", 
     "name": "USPS", 
     "parent_ids": [
         "0ByStJjVZ7c7mclo0ZWtWeWlBSUU"
     ], 
-    "shape_id": "0ByStJjVZ7c7mcWQ2VjVkbzB6b0E"
+    "shape_id": "0ByStJjVZ7c7mRXV3VDUyVU04cUU"
 }

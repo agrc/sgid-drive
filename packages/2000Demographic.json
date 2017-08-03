@@ -7,10 +7,10 @@
         "SGID10.DEMOGRAPHIC.CensusTracts2000", 
         "SGID10.DEMOGRAPHIC.MetroMicroStatisticalAreas"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mQnFocUFjSzNkcnc", 
+    "gdb_id": "0ByStJjVZ7c7menFmXzBHT3BvNFk", 
     "name": "2000Demographic", 
     "parent_ids": [
         "0ByStJjVZ7c7mcG5IZzluYXZpY1E"
     ], 
-    "shape_id": "0ByStJjVZ7c7mR0hjalhIbEM5NTA"
+    "shape_id": "0ByStJjVZ7c7mSHBzekRzaUJtdzQ"
 }

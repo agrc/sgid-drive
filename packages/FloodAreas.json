@@ -5,10 +5,10 @@
         "SGID10.WATER.GSLFlooding", 
         "SGID10.WATER.GSLShorelineFlooding"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mdXJmX3RyaTlTUDQ", 
+    "gdb_id": "0ByStJjVZ7c7mZnd2cXdQRUZBZk0", 
     "name": "FloodAreas", 
     "parent_ids": [
         "0ByStJjVZ7c7mWjBJbHdWYW5jaFE"
     ], 
-    "shape_id": "0ByStJjVZ7c7mQWp4akV5NGhqems"
+    "shape_id": "0ByStJjVZ7c7mTDJiYmFFQU1pYTA"
 }

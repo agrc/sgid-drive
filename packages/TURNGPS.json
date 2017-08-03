@@ -4,10 +4,10 @@
         "SGID10.CADASTRE.TURN_GPS_BaseLines", 
         "SGID10.CADASTRE.TURN_GPS_Stations"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mc3J6WlpHVFlhN3c", 
+    "gdb_id": "0ByStJjVZ7c7mSkdFS2xCbWZPZ1k", 
     "name": "TURNGPS", 
     "parent_ids": [
         "0ByStJjVZ7c7mckRXZEl0UE8yZVE"
     ], 
-    "shape_id": "0ByStJjVZ7c7mTnN2NkM4ankwdEk"
+    "shape_id": "0ByStJjVZ7c7mY2hsY09jTXh4bEU"
 }

@@ -9,10 +9,10 @@
         "SGID10.DEMOGRAPHIC.PopPlacePts2010_Approx", 
         "SGID10.DEMOGRAPHIC.UrbanAreasCensus2010"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mZ1NiUGJkVUpyODA", 
+    "gdb_id": "0ByStJjVZ7c7mVHpqV01ZdzBBVms", 
     "name": "Census2010", 
     "parent_ids": [
         "0ByStJjVZ7c7mSThyMmZtSzJMREk"
     ], 
-    "shape_id": "0ByStJjVZ7c7mOWJ3NWhzMjVScG8"
+    "shape_id": "0ByStJjVZ7c7mVVZNRHNieUFUbDQ"
 }

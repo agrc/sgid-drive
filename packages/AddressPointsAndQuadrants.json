@@ -4,10 +4,10 @@
         "SGID10.LOCATION.AddressPoints", 
         "SGID10.LOCATION.AddressSystemQuadrants"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mS05BZmMwV0JiR3M", 
+    "gdb_id": "0ByStJjVZ7c7mU3I2SHpONHQwSFU", 
     "name": "AddressPointsAndQuadrants", 
     "parent_ids": [
         "0ByStJjVZ7c7mcVFBanVmTXlOQkU"
     ], 
-    "shape_id": "0ByStJjVZ7c7mZ1VueXBYdDRHSnc"
+    "shape_id": "0ByStJjVZ7c7mSUJaVzQ3MW1WLVU"
 }

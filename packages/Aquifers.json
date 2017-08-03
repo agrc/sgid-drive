@@ -4,10 +4,10 @@
         "SGID10.GEOSCIENCE.Aquifer_RechargeDischargeAreas", 
         "SGID10.GEOSCIENCE.Aquifer_BasinFillBoundary"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mT1ZDeUZyZ2JrRDA", 
+    "gdb_id": "0ByStJjVZ7c7mVTk4MVVxckx4eTg", 
     "name": "Aquifers", 
     "parent_ids": [
         "0ByStJjVZ7c7mVmZudmFKS0hIUFE"
     ], 
-    "shape_id": "0ByStJjVZ7c7mSUFNVXQ2U2NGbGc"
+    "shape_id": "0ByStJjVZ7c7mU0VwLUZvWDlqbXc"
 }

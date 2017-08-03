@@ -7,10 +7,10 @@
         "SGID10.INDICES.USGS250KQuads1x2", 
         "SGID10.INDICES.USGS100KQuads"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mRzVuVU50cnp6a00", 
+    "gdb_id": "0ByStJjVZ7c7mN2FJdVRaa1lXajQ", 
     "name": "USGSurveyTopographicMapIndices", 
     "parent_ids": [
         "0ByStJjVZ7c7meG9ZM2N4QzZrM0E"
     ], 
-    "shape_id": "0ByStJjVZ7c7mak55cl9wTnFiVnM"
+    "shape_id": "0ByStJjVZ7c7mYURxZkdVWExBX3M"
 }

@@ -7,10 +7,10 @@
         "SGID10.GEOSCIENCE.LandslideInventoryMappedAreas", 
         "SGID10.GEOSCIENCE.LandslideInventoryPolygons"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mak1xMVZPbWVtRnM", 
+    "gdb_id": "0ByStJjVZ7c7mYlBhbkpsZUtVUGc", 
     "name": "LandslideInventory", 
     "parent_ids": [
         "0ByStJjVZ7c7mb3ZPclRyYzV6cTA"
     ], 
-    "shape_id": "0ByStJjVZ7c7mWkJsd1JFMUhxZzA"
+    "shape_id": "0ByStJjVZ7c7mLWlKREpWdkJFNmM"
 }

@@ -11,10 +11,10 @@
         "SGID10.INDICES.DEM90_Quads", 
         "SGID10.INDICES.DEM90_Statewide"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mOFdUb0YxUmlZaFU", 
+    "gdb_id": "0ByStJjVZ7c7meUs3d3NCRVo3dVE", 
     "name": "USGSurveyDEMAndNEDExtentsAndIndices", 
     "parent_ids": [
         "0ByStJjVZ7c7mRHpHSWdFWkwtTGs"
     ], 
-    "shape_id": "0ByStJjVZ7c7mUE9HcUlxWFlUMU0"
+    "shape_id": "0ByStJjVZ7c7mempwSlA1bHRtWWM"
 }

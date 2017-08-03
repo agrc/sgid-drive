@@ -13,10 +13,10 @@
         "SGID10.INDICES.LiDAR2006_Raw_Extents", 
         "SGID10.INDICES.LiDAR2006_Raw_Tiles"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mWGJ4M2pzOERoUmc", 
+    "gdb_id": "0ByStJjVZ7c7mNmdGeEdWYjZoY0U", 
     "name": "LiDARExtentsAndIndices", 
     "parent_ids": [
         "0ByStJjVZ7c7mV3l5cERKdk14NTA"
     ], 
-    "shape_id": "0ByStJjVZ7c7mVVI5aWxpbHRwQTg"
+    "shape_id": "0ByStJjVZ7c7malk4TVhjbGotejQ"
 }

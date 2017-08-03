@@ -6,10 +6,10 @@
         "SGID10.INDICES.NED30_County", 
         "SGID10.INDICES.NED30_Statewide"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mWUhpMzJ0NE9TRlk", 
+    "gdb_id": "0ByStJjVZ7c7mMTZoYXU2WHVVN0E", 
     "name": "USGSurveyNEDExtentsAndIndices", 
     "parent_ids": [
         "0ByStJjVZ7c7mZGhCd0JxVzAtUXM"
     ], 
-    "shape_id": "0ByStJjVZ7c7mcXl3VFJKNElYX3M"
+    "shape_id": "0ByStJjVZ7c7mR3Q5azJIRDFHOW8"
 }

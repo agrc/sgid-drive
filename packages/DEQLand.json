@@ -12,13 +12,10 @@
         "SGID10.ENVIRONMENT.FACILITYUST", 
         "SGID10.ENVIRONMENT.DWMRCSolidWasteFacilities"
     ], 
-    "gdb_id": "0ByStJjVZ7c7ma3RpRTN1bUpMQW8", 
-    "hash_id": "", 
+    "gdb_id": "0ByStJjVZ7c7mNW5fckozNzkxY2c", 
     "name": "DEQLand", 
-    "packages": [], 
     "parent_ids": [
         "0ByStJjVZ7c7mSXJYTUJGbTZ0elU"
     ], 
-    "sgid_name": "", 
-    "shape_id": "0ByStJjVZ7c7mVkRqd0tBRlV6YWs"
+    "shape_id": "0ByStJjVZ7c7mYThqcUx2YmI5S1k"
 }

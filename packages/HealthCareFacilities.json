@@ -4,10 +4,10 @@
         "SGID10.HEALTH.HealthCareFacilities", 
         "SGID10.HEALTH.EmergencyMedicalServices"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mSGxhNHFYVEh1Zlk", 
+    "gdb_id": "0ByStJjVZ7c7mdFJsQ1pCWFktUkU", 
     "name": "HealthCareFacilities", 
     "parent_ids": [
         "0ByStJjVZ7c7mR1lXZFJ5bkRZcnM"
     ], 
-    "shape_id": "0ByStJjVZ7c7mc2pqU1dNR1E2c0E"
+    "shape_id": "0ByStJjVZ7c7mUzU2alBQRGx6Z3c"
 }

@@ -375,11 +375,48 @@ def reassign_package_parents():
     for spec in package_specs:
         old_parent_id = spec['parent_ids'][0]
         new_parent_id = '0ByStJjVZ7c7mVHp0V2lfVWgxdFU'
+        time.sleep(0.1)
         user_drive.change_file_parent(spec['gdb_id'], old_parent_id, new_parent_id)
         user_drive.change_file_parent(spec['shape_id'], old_parent_id, new_parent_id)
         spec['gdb_id'] = ''
         spec['shape_id'] = ''
         spec_manager.save_spec_json(spec)
+
+
+def get_folder_id(name, parent_id):
+    """Get drive id for a folder with name of name and in parent_id drive folder."""
+    name_id = user_drive.get_file_id_by_name_and_directory(name, parent_id)
+    if not name_id:
+        print 'Creating drive folder: {}'.format(name)
+        name_id = user_drive.create_drive_folder(name, [parent_id])
+
+    return name_id
+
+
+def add_features_to_package_folder():
+    """store all zipped packages in folder for backup in preperation for package folder views."""
+    package_specs = spec_manager.get_package_specs()
+    for spec in package_specs:
+        if spec['gdb_id'] != '':
+            print 'skip', spec['name']
+            continue
+        package_folder_id = spec['parent_ids'][0]
+        package_name = spec['name']
+        print package_name
+        gdb_folder_id = get_folder_id(package_name + '_gdb', package_folder_id)
+        shp_folder_id = get_folder_id(package_name + '_shp', package_folder_id)
+        spec['gdb_id'] = gdb_folder_id
+        spec['shape_id'] = shp_folder_id
+        spec_manager.save_spec_json(spec)
+
+        feature_names = spec['feature_classes']
+        for name in feature_names:
+            print '\t', name
+            feature = spec_manager.get_feature(name)
+            time.sleep(0.02)
+            user_drive.add_file_parent(feature['gdb_id'], gdb_folder_id)
+            time.sleep(0.02)
+            user_drive.add_file_parent(feature['shape_id'], shp_folder_id)
 
 
 def get_hash_size_csv():
@@ -486,9 +523,7 @@ if __name__ == '__main__':
     if args.top_dir:
         list_ftp_links_by_subfolder('/Users/kwalker/Documents/repos/gis.utah.gov/' + args.top_dir)
 
-
-    get_total_data_size()
-
+    add_features_to_package_folder()
 
     # print 'day', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.DAY))
     # print 'week', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.WEEK))

@@ -4,10 +4,10 @@
         "SGID10.FARMING.GrazingAllotments", 
         "SGID10.FARMING.GrazingImprovementRegions"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mNFowbGVjaUp4Vms", 
+    "gdb_id": "0ByStJjVZ7c7mQVVOcEtmZkFUa0E", 
     "name": "Grazing", 
     "parent_ids": [
         "0ByStJjVZ7c7mWkotY1RhNGxOTVE"
     ], 
-    "shape_id": "0ByStJjVZ7c7mM2otMWZfanBFaWM"
+    "shape_id": "0ByStJjVZ7c7mT1AwdWIzLTJ3WWs"
 }

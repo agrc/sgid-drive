@@ -10,10 +10,10 @@
         "SGID10.ENERGY.UREZPhase2_Geothermal", 
         "SGID10.ENERGY.UREZPhase2_ZoneBoundaries"
     ], 
-    "gdb_id": "0ByStJjVZ7c7mU3hKLXB5Sko2dEE", 
+    "gdb_id": "0ByStJjVZ7c7maGRTVXNlOVpHeFk", 
     "name": "RenewableEnergyResources", 
     "parent_ids": [
         "0ByStJjVZ7c7mN0VrUTZaRFZKWHM"
     ], 
-    "shape_id": "0ByStJjVZ7c7mY0hDa2ozN05HcDg"
+    "shape_id": "0ByStJjVZ7c7mb0xTUmY3T0tPVDg"
 }
