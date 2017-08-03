@@ -16,7 +16,45 @@ SCOPES = 'https://www.googleapis.com/auth/drive'
 SERVICE_ACCOUNT_SECRET_FILE = 'service_secret.json'
 # oauth2
 OAUTH_CLIENT_SECRET_FILE = 'client_secret.json'
-APPLICATION_NAME = 'Drive API Python Quickstart'
+APPLICATION_NAME = 'SGID on Drive'
+
+
+def get_oauth_credentials(secrets, scopes, application_name=APPLICATION_NAME):
+    """
+    Get valid user credentials from storage.
+
+    If nothing has been stored, or if the stored credentials are invalid,
+    the OAuth2 flow is completed to obtain the new credentials.
+    Returns:
+        Credentials, the obtained credential.
+
+    """
+    home_dir = os.path.expanduser('~')
+    credential_dir = os.path.join(home_dir, '.credentials')
+    if not os.path.exists(credential_dir):
+        os.makedirs(credential_dir)
+    credential_path = os.path.join(credential_dir,
+                                   'sgid-drive-loader.json')
+
+    store = Storage(credential_path)
+    credentials = store.get()
+    if not credentials or credentials.invalid:
+        flow = client.flow_from_clientsecrets(secrets, scopes)
+        flow.user_agent = application_name
+        # if flags:
+        #     credentials = tools.run_flow(flow, store, flags)
+        credentials = tools.run_flow(flow, store, AgrcDriver.flags)
+        print('Storing credentials to ' + credential_path)
+
+    return credentials
+
+
+def get_credentials(secrets, scopes):
+    """Get service account credentials from json key file."""
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(secrets, scopes)
+
+    return credentials
+
 
 class AgrcDriver(object):
     flags = None
@@ -28,51 +66,16 @@ class AgrcDriver(object):
         else:
             self.service = self.setup_drive_service(secrets, scopes)
 
-    def get_oauth_credentials(self, secrets, scopes, application_name=APPLICATION_NAME):
-        """
-        Get valid user credentials from storage.
-
-        If nothing has been stored, or if the stored credentials are invalid,
-        the OAuth2 flow is completed to obtain the new credentials.
-        Returns:
-            Credentials, the obtained credential.
-
-        """
-        home_dir = os.path.expanduser('~')
-        credential_dir = os.path.join(home_dir, '.credentials')
-        if not os.path.exists(credential_dir):
-            os.makedirs(credential_dir)
-        credential_path = os.path.join(credential_dir,
-                                       'drive-python-quickstart.json')
-
-        store = Storage(credential_path)
-        credentials = store.get()
-        if not credentials or credentials.invalid:
-            flow = client.flow_from_clientsecrets(secrets, scopes)
-            flow.user_agent = application_name
-            # if flags:
-            #     credentials = tools.run_flow(flow, store, flags)
-            credentials = tools.run_flow(flow, store, AgrcDriver.flags)
-            print('Storing credentials to ' + credential_path)
-
-        return credentials
-
     def setup_oauth_service(self, secrets, scopes):
-        credentials = self.get_oauth_credentials(secrets, scopes)
+        credentials = get_oauth_credentials(secrets, scopes)
         http = credentials.authorize(httplib2.Http())
         service = discovery.build('drive', 'v3', http=http)
 
         return service
 
-    def get_credentials(self, secrets, scopes):
-        """Get service account credentials from json key file."""
-        credentials = ServiceAccountCredentials.from_json_keyfile_name(secrets, scopes)
-
-        return credentials
-
     def setup_drive_service(self, secrets, scopes):
         # get auth
-        credentials = self.get_credentials(secrets, scopes)
+        credentials = get_credentials(secrets, scopes)
         http = credentials.authorize(httplib2.Http())
         self.service = discovery.build('drive', 'v3', http=http)
 
@@ -148,7 +151,7 @@ class AgrcDriver(object):
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
-                    raise Exception('Upload Failed')
+                    raise Exception('Update Failed')
 
         return response.get('id')
 
@@ -178,7 +181,6 @@ class AgrcDriver(object):
                 else:
                     msg = "Upload Failed \n{}".format(e)
                     raise Exception(msg)
-        # keep_version(response.get('id'), drive_service)
 
         return response.get('id')
 
@@ -250,6 +252,31 @@ class AgrcDriver(object):
 
         return response.get('id')
 
+    def get_parents(self, file_id):
+        request = self.service.files().update(fileId=file_id,
+                                              fields='id, parents')
+
+        response = None
+        backoff = 1
+        while response is None:
+            try:
+                response = request.execute()
+            except errors.HttpError, e:
+                if e.resp.status in [404]:
+                    # Start the upload all over again.
+                    raise Exception('Upload Failed 404')
+                elif e.resp.status in [500, 502, 503, 504]:
+                    if backoff > 8:
+                        raise Exception('Upload Failed: {}'.format(e))
+                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    sleep(backoff + uniform(.001, .999))
+                    backoff += backoff
+                else:
+                    msg = "Upload Failed \n{}".format(e)
+                    raise Exception(msg)
+
+        return response.get('parents')
+
     def change_file_parent(self, file_id, old_parent_id, new_parent_id):
         request = self.service.files().update(fileId=file_id,
                                               addParents=new_parent_id,
@@ -274,7 +301,6 @@ class AgrcDriver(object):
                 else:
                     msg = "Upload Failed \n{}".format(e)
                     raise Exception(msg)
-        # keep_version(response.get('id'), drive_service)
 
         return response.get('id')
 
@@ -301,7 +327,6 @@ class AgrcDriver(object):
                 else:
                     msg = "Upload Failed \n{}".format(e)
                     raise Exception(msg)
-        # keep_version(response.get('id'), drive_service)
 
         return response.get('id')
 

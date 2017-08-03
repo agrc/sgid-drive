@@ -187,6 +187,39 @@ def get_category_folder_id(category, parent_id):
     return category_id
 
 
+def init_drive_package(package):
+    category_id = get_category_folder_id(package['category'], UTM_DRIVE_FOLDER)
+    category_packages_id = get_category_folder_id('packages', category_id)
+    drive_folder_id = get_category_folder_id(package['name'], category_packages_id)
+    gdb_folder_id = get_category_folder_id(package['name'] + '_gdb', drive_folder_id)
+    shp_folder_id = get_category_folder_id(package['name'] + '_shp', drive_folder_id)
+    if drive_folder_id not in package['parent_ids']:
+        package['parent_ids'].append(drive_folder_id)
+    if gdb_folder_id != package['gdb_id']:
+        package['gdb_id'] = gdb_folder_id
+    if shp_folder_id != package['shape_id']:
+        package['shape_id'] = shp_folder_id
+    spec_manager.save_spec_json(package)
+
+
+def sync_feature_and_package(feature_spec, package_spec):
+    package_list = [p.lower() for p in feature_spec['packages']]
+    feature_list = [f.lower() for f in package_spec['feature_classes']]
+    if package_spec['name'].lower() not in package_list:
+        feature_spec['packages'].append(package_spec['name'])
+    if feature_spec['sgid_name'].lower() not in feature_list:
+        package_spec['feature_classes'].append(feature_spec['sgid_name'])
+
+    if package_spec['gdb_id'] not in drive.get_parents(feature_spec['gdb_id']):
+        get_user_drive().add_file_parent(feature_spec['gdb_id'], package_spec['gdb_id'])
+        print 'add package gdb_id'
+    if package_spec['shape_id'] not in drive.get_parents(feature_spec['shape_id']):
+        get_user_drive().add_file_parent(feature_spec['shape_id'], package_spec['shape_id'])
+        print 'add package shape_id'
+    spec_manager.save_spec_json(feature_spec)
+    spec_manager.save_spec_json(package_spec)
+
+
 def update_feature(workspace, feature_name, output_directory, load_to_drive=True, force_update=False):
     """Update a feature class on drive if it has changed."""
     print '\nStarting feature:', feature_name
@@ -196,6 +229,11 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
         raise Exception(msg)
 
     feature = spec_manager.get_feature(feature_name)
+    # Handle new packages and changes to feature['packages'] list
+    for package in [spec_manager.get_package(p) for p in feature['packages']]:
+        if len(package['parent_ids']) == 0 or package['gdb_id'] == '' or package['shape_id'] == '':
+            init_drive_package(package)
+        sync_feature_and_package(feature, package)
 
     category_id = get_category_folder_id(feature['category'], UTM_DRIVE_FOLDER)
     # Check for name folder
@@ -342,9 +380,6 @@ def run_features(workspace, output_directory, feature_list_json=None, load=True,
     features = []
     if not feature_list_json:
         for feature_spec in spec_manager.get_feature_specs(update_cycles):
-        # for root, subdirs, files in os.walk(spec_manager.FEATURE_SPEC_FOLDER):
-        #     for filename in files:
-        #         feature_spec = spec_manager.load_feature_json(os.path.join(root, filename))
             if feature_spec['sgid_name'] != '' and\
                     (category is None or category.upper() == feature_spec['category'].upper()):
                 features.append(feature_spec['sgid_name'])
@@ -356,9 +391,7 @@ def run_features(workspace, output_directory, feature_list_json=None, load=True,
     packages = []
     for feature in features:
         packages.extend(update_feature(workspace, feature, output_directory, load_to_drive=load, force_update=force))
-    if not skip_packages:
-        for package in set(packages):
-            update_package(workspace, package, temp_package_directory, load_to_drive=load)
+    print '{} packages updated'.format(len(packages))
 
 
 def run_packages(workspace, output_directory, package_list_json=None, load=True, force=False):
@@ -372,33 +405,26 @@ def run_packages(workspace, output_directory, package_list_json=None, load=True,
     features = []
     packages_to_check = []
     if not package_list_json:
-        for root, subdirs, files in os.walk(spec_manager.PACKAGE_SPEC_FOLDER):
-            for filename in files:
-                if filename == '.DS_Store':
-                    continue
-                packages_to_check.append(filename)
-            break
+        packages_to_check = spec_manager.get_package_specs()
     else:
         with open(package_list_json, 'r') as json_file:
             run_all_lists = json.load(json_file)
-            packages_to_check.extend(run_all_lists['packages'])
+            for name in run_all_lists['packages']:
+                packages_to_check.append(spec_manager.get_package(name))
 
     for p in packages_to_check:
-        if not p.endswith('.json'):
-            p += '.json'
-        packages_spec = spec_manager.get_package(p)
+        packages_spec = p
         fcs = packages_spec['feature_classes']
         if fcs != '' and len(fcs) > 0:
             for f in fcs:
-                spec_manager.add_package_to_feature(f, p.replace('.json', ''))
+                spec_manager.add_package_to_feature(f, p['name'])
                 features.append(f)
 
     features = set(features)
     packages = []
     for feature in features:
         packages.extend(update_feature(workspace, feature, output_directory, load_to_drive=load, force_update=force))
-    for package in set(packages):
-        update_package(workspace, package, temp_package_directory, load_to_drive=load)
+    print '{} packages updated'.format(len(packages))
 
 
 def run_feature(workspace, source_name, output_directory, load=True, force=False, skip_packages=False):
@@ -408,9 +434,11 @@ def run_feature(workspace, source_name, output_directory, load=True, force=False
                               output_directory,
                               load_to_drive=load,
                               force_update=force)
-    if not skip_packages:
-        for package in set(packages):
-            update_package(workspace, package, temp_package_directory, load_to_drive=load)
+    for p in packages:
+        print 'Package updated: {}'.format(p)
+    # if not skip_packages:
+    #     for package in set(packages):
+    #         update_package(workspace, package, temp_package_directory, load_to_drive=load)
 
 
 def run_package(workspace, package_name, output_directory, load=True, force=False):

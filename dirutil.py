@@ -452,6 +452,8 @@ def get_total_data_size():
         time.sleep(0.1)
         print '\t', size
         sizes.append(size)
+        if len(sizes) == 10:
+            return
 
     print 'Total feature MBs:', sum(sizes)
     packages = spec_manager.get_package_specs()
@@ -523,7 +525,7 @@ if __name__ == '__main__':
     if args.top_dir:
         list_ftp_links_by_subfolder('/Users/kwalker/Documents/repos/gis.utah.gov/' + args.top_dir)
 
-    add_features_to_package_folder()
+    get_total_data_size()
 
     # print 'day', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.DAY))
     # print 'week', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.WEEK))
