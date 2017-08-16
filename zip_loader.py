@@ -31,6 +31,7 @@ LOG_SHEET_NAME = 'Drive Update'
 
 
 def get_user_drive(user_drive=user_drive):
+    """Get Drive service that has been authenticated as a user."""
     if user_drive is None:
         user_services = driver.ApiService((driver.APIS.drive, driver.APIS.sheets),
                                           secrets=driver.OAUTH_CLIENT_SECRET_FILE,
@@ -78,8 +79,6 @@ def zip_folder(folder_path, zip_name):
         original_size += info.file_size
         compress_size += info.compress_size
     zf.close()
-    # print '{} Compressed size: {} MB'.format(ntpath.basename(zip_name),
-    #                                          compress_size / 1000000.0)
 
 
 def unzip(zip_path, output_path):
@@ -111,7 +110,7 @@ def detect_changes(data_path, fields, past_hashes, output_hashes, shape_token=No
     attribute_subindex = -1
     cursor_fields.append('OID@')
     if shape_token:
-        cursor_fields.append('SHAPE@XY')
+        cursor_fields.append('SHAPE@XY')  # TODO: Use centriod SHAPE@XY coordinates for change mapping.
         cursor_fields.append(shape_token)
         attribute_subindex = -3
 
@@ -199,6 +198,11 @@ def get_category_folder_id(category, parent_id):
 
 
 def init_drive_package(package):
+    """
+    Create Drive folders for package and get Drive ids.
+
+    package: package spec
+    """
     category_id = get_category_folder_id(package['category'], UTM_DRIVE_FOLDER)
     category_packages_id = get_category_folder_id('packages', category_id)
     drive_folder_id = get_category_folder_id(package['name'], category_packages_id)
@@ -214,6 +218,7 @@ def init_drive_package(package):
 
 
 def sync_feature_and_package(feature_spec, package_spec):
+    """Add package to feature and feature to package."""
     package_list = [p.lower() for p in feature_spec['packages']]
     feature_list = [f.lower() for f in package_spec['feature_classes']]
     if package_spec['name'].lower() not in package_list:
@@ -232,20 +237,25 @@ def sync_feature_and_package(feature_spec, package_spec):
 
 
 def src_data_exists(data_path):
+    """Check for extistance and accessibility of data."""
     if not arcpy.Exists(data_path):
-        msg = '{} does not exist'.format(data_path)
         return False
     try:
         with arcpy.da.SearchCursor(data_path, 'OID@') as cursor:
             pass
-    except RuntimeError, e:
+    except RuntimeError as e:
         return False
 
     return True
 
 
 def update_feature(workspace, feature_name, output_directory, load_to_drive=True, force_update=False):
-    """Update a feature class on drive if it has changed."""
+    """
+    Update a feature class on drive if it has changed.
+
+    workspace: string path or connection to a workspace that contains feature_name
+    feature_name: string SGID name such as SGID10.RECREATION.Trails
+    """
     print '\nStarting feature:', feature_name
     feature_time = clock()
 
@@ -282,8 +292,6 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
     past_hash_store = os.path.join(past_hash_directory, output_name + '_hash', output_name + '_hashes.csv')
     past_hashes = None
     if feature['hash_id']:
-        # print 'Skip'  # TODO come up with some skip logic for failed runs and excepted features
-        # return feature['packages']
         drive.download_file(feature['hash_id'], past_hash_zip)
         print 'Past hashes downloaded'
         unzip(past_hash_zip, past_hash_directory)
