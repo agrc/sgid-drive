@@ -1,0 +1,13 @@
+{
+    "category": "ELEVATION", 
+    "gdb_id": "0B6R_P-pQXOcsTkJxb1hPME9wRUU", 
+    "hash_id": "0B6R_P-pQXOcsRFFpUW4tV29HZmc", 
+    "name": "ContoursGeneralized200Ft", 
+    "packages": [], 
+    "parent_ids": [
+        "0B6R_P-pQXOcsd0RDcUVqQXl5bW8"
+    ], 
+    "sgid_name": "SGID10.ELEVATION.ContoursGeneralized200Ft", 
+    "shape_id": "0B6R_P-pQXOcsLU1EeHJwQUl4RzA", 
+    "update_cycle": ""
+}
