@@ -3,7 +3,9 @@
     "gdb_id": "0ByStJjVZ7c7mbC04bUxZSHc2SDg", 
     "hash_id": "0ByStJjVZ7c7mWG1UN01KWUpnVHc", 
     "name": "Railroads", 
-    "packages": [], 
+    "packages": [
+        "MainlineRailroads"
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mb05pQjd6WFJzWXc"
     ], 

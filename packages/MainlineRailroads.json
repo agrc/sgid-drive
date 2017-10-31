@@ -1,0 +1,13 @@
+{
+    "category": "TRANSPORTATION", 
+    "feature_classes": [
+        "SGID10.TRANSPORTATION.Railroads", 
+        "SGID10.TRANSPORTATION.Railroad_Mileposts"
+    ], 
+    "gdb_id": "0ByStJjVZ7c7mbTlEYTJ3aEU1SGc", 
+    "name": "MainlineRailroads", 
+    "parent_ids": [
+        "0ByStJjVZ7c7mb1BKRXVwQU04Z2c"
+    ], 
+    "shape_id": "0ByStJjVZ7c7meGQyWjUzNWFIeWM"
+}
