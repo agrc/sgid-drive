@@ -15,13 +15,14 @@ import re
 import spec_manager
 from oauth2client import tools
 import driver
-# from driver import AgrcDriver
+
 api_secrets = driver.SERVICE_ACCOUNT_SECRET_FILE
 api_oauth = False
+# If service account key file does not exist use a user account and OAuth2 instead.
 if not os.path.exists(api_secrets):
     api_secrets = driver.OAUTH_CLIENT_SECRET_FILE
     api_oauth = True
-
+# Declare all services and scopes required.
 api_services = driver.ApiService((driver.APIS.drive, driver.APIS.sheets),
                                  secrets=api_secrets,
                                  scopes=' '.join((driver.AgrcDriver.FULL_SCOPE, driver.AgrcSheets.FULL_SCOPE)),
@@ -29,10 +30,11 @@ api_services = driver.ApiService((driver.APIS.drive, driver.APIS.sheets),
 drive = driver.AgrcDriver(api_services.services[0])
 sheets = driver.AgrcSheets(api_services.services[1])
 user_drive = None
+# If main drive service is a user account use it for file creation as well
 if api_secrets == driver.OAUTH_CLIENT_SECRET_FILE:
     user_drive = drive
 
-
+#IDs for drive objects
 HASH_DRIVE_FOLDER = '0ByStJjVZ7c7mMVRpZjlVdVZ5Y0E'
 UTM_DRIVE_FOLDER = '0ByStJjVZ7c7mNlZRd2ZYOUdyX2M'
 LOG_SHEET_ID = '11ASS7LnxgpnD0jN4utzklREgMf1pcvYjcXcIcESHweQ'
@@ -40,7 +42,12 @@ LOG_SHEET_NAME = 'Drive Update'
 
 
 def get_user_drive(user_drive=user_drive):
-    """Get Drive service that has been authenticated as a user."""
+    """
+    Get Drive service that has been authenticated as a user.
+
+    It is important not to use a service account to create things because then it will be the owner
+    and it is not in a domain.
+    """
     if user_drive is None:
         user_services = driver.ApiService((driver.APIS.drive, driver.APIS.sheets),
                                           secrets=driver.OAUTH_CLIENT_SECRET_FILE,
@@ -184,13 +191,17 @@ def create_outputs(output_directory, input_feature, output_name):
 
 def load_zip_to_drive(spec, id_key, new_zip, parent_folder_ids):
     """Create or update a zip file on drive."""
+    # File should exist if id is in spec so use any account to update.
     if spec[id_key]:
         drive.update_file(spec[id_key], new_zip, 'application/zip')
+    # File does not exist so create it with a user account in order to have control over ownership.
     else:
         temp_id = get_user_drive().create_drive_file(ntpath.basename(new_zip),
                                                      parent_folder_ids,
                                                      new_zip,
                                                      'application/zip')
+        # Make agrc gmail account the owner
+        get_user_drive().create_owner(temp_id, "agrc@utah.gov")
         spec[id_key] = temp_id
 
     drive.keep_revision(spec[id_key])
@@ -202,6 +213,8 @@ def get_category_folder_id(category, parent_id):
     if not category_id:
         print 'Creating drive folder: {}'.format(category)
         category_id = get_user_drive().create_drive_folder(category, [parent_id])
+        # Make agrc gmail account the owner
+        get_user_drive().create_owner(category_id, "agrc@utah.gov")
 
     return category_id
 

@@ -392,7 +392,8 @@ class AgrcDriver(object):
 
         return response.get('id')
 
-    def create_owner(self, file_id, email='kwalker@utah.gov'):
+    def create_owner(self, file_id, email):
+        """Transfer ownership of a file."""
         domain_permission = {
             'type': 'user',
             'role': 'owner',
