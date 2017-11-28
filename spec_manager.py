@@ -130,21 +130,24 @@ def get_feature(source_name, packages=[], create=False):
     return feature
 
 
-def add_feature_to_package(package_name, feature_source_name):
+def _add_feature_to_package(package_name, feature_source_name):
+    """depreciated"""
     package = get_package(package_name)
     if feature_source_name not in package['feature_classes']:
         package['feature_classes'].append(feature_source_name)
     save_spec_json(package)
 
 
-def remove_feature_from_package(package_name, feature_source_name):
+def _remove_feature_from_package(package_name, feature_source_name):
+    """depreciated"""
     package = get_package(package_name)
     if feature_source_name in package['feature_classes']:
         package['feature_classes'].remove(feature_source_name)
         save_spec_json(package)
 
 
-def add_package_to_feature(source_name, package_name):
+def _add_package_to_feature(source_name, package_name):
+    """depreciated"""
     add_feature_to_package(package_name, source_name)
     feature = get_feature(source_name, [package_name], create=True)
     save_spec_json(feature)
@@ -274,8 +277,8 @@ if __name__ == '__main__':
 
     parser.add_argument('-c', action='store_true', dest='create',
                         help='Create a feature spec if it does not exist')
-    parser.add_argument('--add_package', action='store', dest='package_name',
-                        help='Add a package to feature spec')
+    # parser.add_argument('--add_package', action='store', dest='package_name',
+    #                     help='Add a package to feature spec')
     parser.add_argument('source_name', action='store',
                         help='Source name for the feature')
 
@@ -283,12 +286,12 @@ if __name__ == '__main__':
     if args.create:
         get_feature(args.source_name, create=True)
 
-    if args.package_name:
-        feature_spec_path = os.path.join(FEATURE_SPEC_FOLDER, create_feature_spec_name(args.source_name))
-        if os.path.exists(feature_spec_path) or args.create:
-            add_package_to_feature(args.source_name, args.package_name)
-        else:
-            msg = "Feature does not exist at {}".format(feature_spec_path)
-            raise Exception(msg)
+    # if args.package_name:
+    #     feature_spec_path = os.path.join(FEATURE_SPEC_FOLDER, create_feature_spec_name(args.source_name))
+    #     if os.path.exists(feature_spec_path) or args.create:
+    #         _add_package_to_feature(args.source_name, args.package_name)
+    #     else:
+    #         msg = "Feature does not exist at {}".format(feature_spec_path)
+    #         raise Exception(msg)
 
     # _list_nonexistant_features('Database Connections\Connection to sgid.agrc.utah.gov.sde')

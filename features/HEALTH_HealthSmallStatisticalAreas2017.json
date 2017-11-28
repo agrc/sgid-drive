@@ -1,0 +1,13 @@
+{
+    "category": "HEALTH", 
+    "gdb_id": "0B6R_P-pQXOcsbXQzZHZuN1R3aVk", 
+    "hash_id": "0B6R_P-pQXOcsSFlYVFVPczMtNXM", 
+    "name": "HealthSmallStatisticalAreas2017", 
+    "packages": [], 
+    "parent_ids": [
+        "0B6R_P-pQXOcsQnc5bnBFajRfZzA"
+    ], 
+    "sgid_name": "SGID10.HEALTH.HealthSmallStatisticalAreas2017", 
+    "shape_id": "0B6R_P-pQXOcsT3BFY0NqTG82TFU", 
+    "update_cycle": ""
+}

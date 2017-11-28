@@ -293,6 +293,24 @@ class AgrcDriver(object):
         else:
             return None
 
+    def list_files_in_directory(self, parent_id):
+        files = []
+        page_token = None
+        while True:
+            response = self.service.files().list(q="'{}' in parents  and explicitlyTrashed=false".format(parent_id),
+                                                 spaces='drive',
+                                                 fields='nextPageToken, files(id, name)',
+                                                 pageToken=page_token).execute()
+            for file in response.get('files', []):
+                # Process change
+                files.append((file.get('name'), file.get('id')))
+
+            page_token = response.get('nextPageToken', None)
+            if page_token is None:
+                break
+
+        return files
+
     def get_size(self, file_id):
         file_size = self.service.files().get(fileId=file_id,
                                              fields='size').execute()
@@ -369,6 +387,32 @@ class AgrcDriver(object):
     def add_file_parent(self, file_id, new_parent_id):
         request = self.service.files().update(fileId=file_id,
                                               addParents=new_parent_id,
+                                              fields='id')
+
+        response = None
+        backoff = 1
+        while response is None:
+            try:
+                response = request.execute()
+            except errors.HttpError, e:
+                if e.resp.status in [404]:
+                    # Start the upload all over again.
+                    raise Exception('Upload Failed 404')
+                elif e.resp.status in [500, 502, 503, 504]:
+                    if backoff > 8:
+                        raise Exception('Upload Failed: {}'.format(e))
+                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    sleep(backoff + uniform(.001, .999))
+                    backoff += backoff
+                else:
+                    msg = "Upload Failed \n{}".format(e)
+                    raise Exception(msg)
+
+        return response.get('id')
+
+    def remove_file_parent(self, file_id, parent_id):
+        request = self.service.files().update(fileId=file_id,
+                                              removeParents=parent_id,
                                               fields='id')
 
         response = None

@@ -88,7 +88,7 @@ def package_specs_from_gdbs(directory_path, category):
     arcpy.env.workspace = directory_path
     gdbs = arcpy.ListWorkspaces('*', 'FileGDB')
     new_package_paths = []
-    # import pdb; pdb.set_trace()
+    #
     for gdb in gdbs:
         arcpy.env.workspace = gdb
         gdb_name = os.path.basename(gdb).replace('.gdb', '')
@@ -167,7 +167,6 @@ def get_all_ftp_links(top_dir):
             data_paths.extend(links)
 
     return data_paths
-
 
 
 def list_ftp_links_by_subfolder(top_dir):
@@ -313,6 +312,99 @@ def replace_metadata_links(top_dir='data/ftplinktest', rewrite_source=False):
     print len(set(data_paths))
     print len(set(not_founds))
     return set(data_paths)
+
+
+def replace_direct_package_links(top_dir='data/ftplinktest', rewrite_source=False):
+    ftp_link_matcher = ftp_link_matcher = re.compile(r'[\"\(](ftp://ftp\.agrc\.utah\.gov/SGID93_Vector/NAD83/MetadataHTML)(.+?)[\"\)]')
+    data_paths = []
+    not_founds = []
+
+    def get_all_direct_link_matchers(direct_link_json='data/direct_packages.json'):
+        direct_links = []
+        packages = None
+        with open(direct_link_json, 'r') as json_file:
+            packages = json.load(json_file)
+        for p in packages:
+            for zip_name in packages[p]:
+                direct_links.append(re.compile(zip_name.values()[0].replace('https://drive.google.com/a/utah.gov/uc?id=', '').replace('&export=download', '')))
+        return direct_links
+
+    def get_replace_link(link):
+        new_prefix = 'ftp://ftp.agrc.utah.gov/UtahSGID_Vector/UTM12_NAD83/Metadata/'
+        new_html_file_path = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
+        if not os.path.exists(new_html_file_path + 'SGID10.' + link + '.xml'):
+            print link, 'does not exist as new'
+            return None
+        else:
+            return new_prefix + 'SGID10.' + link + '.xml'
+
+    def check_direct_links_in_file(path, direct_links, preview_name):
+        data_links = []
+        lines = []
+        re_write = False
+        with open(path, 'r') as search_file:
+            for line in search_file:
+                for link_matcher in direct_links:
+                    matches = link_matcher.findall(line)
+                    if len(matches) > 0:
+                        print search_file
+                        print line
+                        data_links.append(line)
+
+                    # if link in line:
+                    #     data_links.append(line)
+                # matches = matcher.findall(line)
+                # if len(matches) > 0:
+                #     data_links.append(line)
+                #     replace_line = line
+                #     c = 1
+                #     for m in matches:
+                #         re_write = True
+                #         link = parse_metadata_link(m[1])
+                #         if link is None:
+                #             print 'other:', m[1]
+                #             print path
+                #         else:
+                #             replace_link = get_replace_link(link)
+                #             if replace_link is None:
+                #                 not_founds.append(m[0] + m[1])
+                #                 continue
+                #             download = m[0] + m[1]
+                #             replacer = re.compile(download)
+                #             replace_line = replacer.sub(replace_link, replace_line)
+                #             c += 1
+                #             data_links.append(download)
+                #
+                #     lines.append(replace_line)
+                # else:
+                #     lines.append(line)
+        if re_write:
+            with open('data/ftplinktest/replaces_preview/preview' + str(preview_name) + '.html', 'w') as re_file:
+                for line in lines:
+                    re_file.write(line)
+            if rewrite_source:
+                with open(path, 'w') as re_file:
+                    for line in lines:
+                        re_file.write(line)
+
+        return data_links
+
+    preview_count = 0
+    links = None
+    direct_links = get_all_direct_link_matchers()
+    for root, dirs, files in os.walk(top_dir, topdown=True):
+        for name in files:
+            dir_path = os.path.join(root, name)
+            links = check_direct_links_in_file(dir_path, direct_links, preview_count)
+# `            if links > 0:
+#                 preview_count += 1
+#             data_paths.extend(links)`
+
+    # for n in not_founds:
+    #     print n
+    print len(links)
+    # print len(set(not_founds))
+    # return set(data_paths)
 
 
 def replace_ftp_links(top_dir='data/ftplinktest', rewrite_source=False):
@@ -766,6 +858,17 @@ def get_feature_download_links():
     spec_manager.save_spec_json(feature_links, 'data/feature_downloads.json')
 
 
+def create_old_package_json(folder_id):
+    packages = {}
+    name_ids = user_drive.list_files_in_directory(folder_id)
+    print len(name_ids)
+    for name, id_number in name_ids:
+        package_name = name.replace('_gdb.zip', '').replace('_shp.zip', '')
+        if package_name not in packages:
+            packages[package_name] = []
+        packages[package_name].append({name: driver.get_download_link(id_number)})
+    with open('data/direct_packages.json', 'wb') as p_file:
+        p_file.write(json.dumps(packages, sort_keys=True, indent=4))
 
 
 if __name__ == '__main__':
@@ -796,7 +899,8 @@ if __name__ == '__main__':
     if args.top_dir:
         list_ftp_links_by_subfolder('/Users/kwalker/Documents/repos/gis.utah.gov/' + args.top_dir)
 
-    get_feature_download_links()
+    replace_direct_package_links('/Users/kwalker/Documents/repos/gis.utah.gov/data')
+    # get_feature_download_links()
     # replaced_urls = replace_old_metadata()
     # for old_url in replaced_urls:
     #     old_html_path = old_url.replace('ftp://ftp.agrc.utah.gov/', '/Volumes/ftp/')

@@ -239,23 +239,56 @@ def init_drive_package(package):
     spec_manager.save_spec_json(package)
 
 
-def sync_feature_and_package(feature_spec, package_spec):
-    """Add package to feature and feature to package."""
-    package_list = [p.lower() for p in feature_spec['packages']]
+def sync_package_and_features(package_spec):
+    """Add package to features if it is not already there."""
     feature_list = [f.lower() for f in package_spec['feature_classes']]
-    if package_spec['name'].lower() not in package_list:
-        feature_spec['packages'].append(package_spec['name'])
-    if feature_spec['sgid_name'].lower() not in feature_list:
-        package_spec['feature_classes'].append(feature_spec['sgid_name'])
+    current_gdb_ids = []
+    current_shp_ids = []
 
-    if package_spec['gdb_id'] not in drive.get_parents(feature_spec['gdb_id']):
-        get_user_drive().add_file_parent(feature_spec['gdb_id'], package_spec['gdb_id'])
-        print 'add package gdb_id'
-    if package_spec['shape_id'] not in drive.get_parents(feature_spec['shape_id']):
-        get_user_drive().add_file_parent(feature_spec['shape_id'], package_spec['shape_id'])
-        print 'add package shape_id'
+    for feature_spec in [spec_manager.get_feature(f) for f in feature_list]:
+        package_list = [p.lower() for p in feature_spec['packages']]
+        if package_spec['name'].lower() not in package_list:
+            feature_spec['packages'].append(package_spec['name'])
+
+        if package_spec['gdb_id'] not in drive.get_parents(feature_spec['gdb_id']):
+            get_user_drive().add_file_parent(feature_spec['gdb_id'], package_spec['gdb_id'])
+            print 'add package gdb_id'
+        if package_spec['shape_id'] not in drive.get_parents(feature_spec['shape_id']):
+            get_user_drive().add_file_parent(feature_spec['shape_id'], package_spec['shape_id'])
+            print 'add package shape_id'
+
+        current_gdb_ids.append(feature_spec['gdb_id'])
+        current_shp_ids.append(feature_spec['shape_id'])
+
+        spec_manager.save_spec_json(feature_spec)
+
+    folder_gdb_ids = [name_id[1] for name_id in drive.list_files_in_directory(package_spec['gdb_id'])]
+    for gdb_id in folder_gdb_ids:
+        if gdb_id not in current_gdb_ids:
+            get_user_drive().remove_file_parent(gdb_id, package_spec['gdb_id'])
+            print 'remove package gdb_id'
+
+    folder_shp_ids = [name_id[1] for name_id in drive.list_files_in_directory(package_spec['shape_id'])]
+    for shp_id in folder_shp_ids:
+        if shp_id not in current_shp_ids:
+            get_user_drive().remove_file_parent(shp_id, package_spec['shape_id'])
+            print 'remove package shp_id'
+
+
+def sync_feature_to_package(feature_spec, package_spec):
+    """Remove packages from feature if feature is not listed in package."""
+    feature_list = [f.lower() for f in package_spec['feature_classes']]
+
+    if feature_spec['sgid_name'].lower() not in feature_list:
+        feature_spec['packages'].remove(package_spec['name'])
+        if package_spec['gdb_id'] in drive.get_parents(feature_spec['gdb_id']):
+            get_user_drive().remove_file_parent(feature_spec['gdb_id'], package_spec['gdb_id'])
+            print 'remove package gdb_id'
+        if package_spec['shape_id'] in drive.get_parents(feature_spec['shape_id']):
+            get_user_drive().remove_file_parent(feature_spec['shape_id'], package_spec['shape_id'])
+            print 'remove package shape_id'
+
     spec_manager.save_spec_json(feature_spec)
-    spec_manager.save_spec_json(package_spec)
 
 
 def src_data_exists(data_path):
@@ -295,9 +328,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
         return []
     # Handle new packages and changes to feature['packages'] list
     for package in [spec_manager.get_package(p) for p in feature['packages']]:
-        if len(package['parent_ids']) == 0 or package['gdb_id'] == '' or package['shape_id'] == '':
-            init_drive_package(package)
-        sync_feature_and_package(feature, package)
+        sync_feature_to_package(feature, package)
 
     category_id = get_category_folder_id(feature['category'], UTM_DRIVE_FOLDER)
     # Check for name folder
@@ -486,16 +517,19 @@ def run_packages(workspace, output_directory, package_list_json=None, load=True,
             for name in run_all_lists['packages']:
                 packages_to_check.append(spec_manager.get_package(name))
 
-    for p in packages_to_check:
-        packages_spec = p
-        fcs = packages_spec['feature_classes']
+    for package_spec in packages_to_check:
+
+        if len(package_spec['parent_ids']) == 0 or package_spec['gdb_id'] == '' or package_spec['shape_id'] == '':
+            init_drive_package(package_spec)
+        sync_package_and_features(package_spec)
+
+        fcs = package_spec['feature_classes']
         if fcs != '' and len(fcs) > 0:
             for f in fcs:
                 if src_data_exists(os.path.join(workspace, f)):
-                    spec_manager.add_package_to_feature(f, p['name'])
                     features.append(f)
                 else:
-                    print 'Package {}, feature {} does not exist'.format(p, f)
+                    print 'Package {}, feature {} does not exist'.format(package_spec, f)
 
     features = set(features)
     packages = []
