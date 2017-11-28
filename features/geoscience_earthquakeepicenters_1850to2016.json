@@ -1,0 +1,15 @@
+{
+    "category": "geoscience", 
+    "gdb_id": "1Zl4_-cmeh7KqAtcFiyEBIszWnNd_RizB", 
+    "hash_id": "1WEteyuVJBtjbHikKVhi_NbnUDQ9cXoo-", 
+    "name": "earthquakeepicenters_1850to2016", 
+    "packages": [
+        "Earthquakes"
+    ], 
+    "parent_ids": [
+        "1ONL2xxMdNxuC2mUdb_FFRj2DQ3mG0vzK"
+    ], 
+    "sgid_name": "sgid10.geoscience.earthquakeepicenters_1850to2016", 
+    "shape_id": "1SU4J6tugpUD56RUNzADeGJiv9B8B8ORD", 
+    "update_cycle": ""
+}

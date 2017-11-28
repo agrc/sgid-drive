@@ -1,0 +1,15 @@
+{
+    "category": "geoscience", 
+    "gdb_id": "1ppz2u00WKD5sAPEwPUibAuxvTzyCLTFt", 
+    "hash_id": "1FXyqqPX4AJgOBk0imBRgufx_kKJUTKqr", 
+    "name": "earthquakeepicentersmininginduced_1928to2016", 
+    "packages": [
+        "Earthquakes"
+    ], 
+    "parent_ids": [
+        "1fPKhrAre-XHhTfYNg4qVRUhPn4TdBUUD"
+    ], 
+    "sgid_name": "sgid10.geoscience.earthquakeepicentersmininginduced_1928to2016", 
+    "shape_id": "1zGj7JfqUiCnachiQlGBywRP0By3cSREU", 
+    "update_cycle": ""
+}

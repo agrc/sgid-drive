@@ -1,0 +1,13 @@
+{
+    "category": "GEOSCIENCE", 
+    "feature_classes": [
+        "SGID10.GEOSCIENCE.EarthquakeEpicenters_1850to2016", 
+        "SGID10.GEOSCIENCE.EarthquakeEpicentersMiningInduced_1928to2016"
+    ], 
+    "gdb_id": "1OcqUsFmbwuPPgNUJSDySiUKYodoUWIOK", 
+    "name": "Earthquakes", 
+    "parent_ids": [
+        "1h-J5vfUyZf6G9BpD0kqBiSCcXLKnmq2O"
+    ], 
+    "shape_id": "1nLWTtdfrVSkCznchHNrRf7bbjHxDKk3C"
+}
