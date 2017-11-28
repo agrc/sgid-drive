@@ -1,0 +1,15 @@
+{
+    "category": "GEOSCIENCE", 
+    "gdb_id": "12z9a1GnC0vSjuJrG5kNq5dQu-qMLEz7A", 
+    "hash_id": "1AW4hlxAgQ6qS9zBDn5xA3F0mrE6Omp2U", 
+    "name": "GeochronRadiocarbon", 
+    "packages": [
+        "Geochron"
+    ], 
+    "parent_ids": [
+        "170HlHq6x_yFbNWBllLh5DqUgwUlL3Tfq"
+    ], 
+    "sgid_name": "SGID10.GEOSCIENCE.GeochronRadiocarbon", 
+    "shape_id": "1ud3oBWQaLoyL2pptXmZOsBPzp_72U9AM", 
+    "update_cycle": ""
+}

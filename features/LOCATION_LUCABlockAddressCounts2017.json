@@ -1,0 +1,13 @@
+{
+    "category": "LOCATION", 
+    "gdb_id": "1DtpGbrJNWtTSiUAevEX38QqmH7AjX3qE", 
+    "hash_id": "12LUOBgjAC8Or4pLDnmjH1DoruwhxldrX", 
+    "name": "LUCABlockAddressCounts2017", 
+    "packages": [], 
+    "parent_ids": [
+        "1sKMQxDBjW8LknsEojZXZwMdVY1T1UXvO"
+    ], 
+    "sgid_name": "SGID10.LOCATION.LUCABlockAddressCounts2017", 
+    "shape_id": "1siM8grOlSa_HS4MTlzPHb7g2gIyPIi_P", 
+    "update_cycle": ""
+}

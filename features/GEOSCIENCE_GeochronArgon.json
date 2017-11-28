@@ -1,0 +1,15 @@
+{
+    "category": "GEOSCIENCE", 
+    "gdb_id": "1Rdn2r1dkc9EvQHHdBOPKl7ABbteQhI6D", 
+    "hash_id": "1Te-Xi5kFduJC_HfrBaDwMtmk3yDvBSh7", 
+    "name": "GeochronArgon", 
+    "packages": [
+        "Geochron"
+    ], 
+    "parent_ids": [
+        "1anIz30r2aztQRgJLRlDn2xDVhEhiy2Oh"
+    ], 
+    "sgid_name": "SGID10.GEOSCIENCE.GeochronArgon", 
+    "shape_id": "1jd_pGy1PpF7QQ0EsWsGJPg8zPZxbrbcQ", 
+    "update_cycle": ""
+}

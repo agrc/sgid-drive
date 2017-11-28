@@ -1,0 +1,15 @@
+{
+    "category": "GEOSCIENCE", 
+    "gdb_id": "13a4RUURAulU-PsU4Jm8DIjcIA9ndfo79", 
+    "hash_id": "1Dl6hMtGvz0E5SZgQwDfGuUrvEE0zULPz", 
+    "name": "GeochronProject", 
+    "packages": [
+        "Geochron"
+    ], 
+    "parent_ids": [
+        "1hcPlWm-vly6Iu0qcgJGsJdrVXWxJssv2"
+    ], 
+    "sgid_name": "SGID10.GEOSCIENCE.GeochronProject", 
+    "shape_id": "18ZNF6yc7SsZnWkjCIYfM1Ha6TsjM1rhC", 
+    "update_cycle": ""
+}

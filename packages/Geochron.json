@@ -1,0 +1,15 @@
+{
+    "category": "GEOSCIENCE", 
+    "feature_classes": [
+        "SGID10.GEOSCIENCE.GeochronArgon", 
+        "SGID10.GEOSCIENCE.GeochronLuminescence", 
+        "SGID10.GEOSCIENCE.GeochronProject", 
+        "SGID10.GEOSCIENCE.GeochronRadiocarbon"
+    ], 
+    "gdb_id": "1UmrE0Iaz6G-HdGZNYUslR9br5xxMDZGj", 
+    "name": "Geochron", 
+    "parent_ids": [
+        "1TdReD6QvaAxKm7Nbjw7e4hQFYXO_wAas"
+    ], 
+    "shape_id": "1BqmECWo9ynAe3Ajgf03y-EuZF0hrntkM"
+}

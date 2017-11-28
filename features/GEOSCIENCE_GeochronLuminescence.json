@@ -1,0 +1,15 @@
+{
+    "category": "GEOSCIENCE", 
+    "gdb_id": "1mAx7gIfi0ZhzmleTI_-TU4xITklE8ufe", 
+    "hash_id": "1wleItED8XXU-d50o79KWkAueyBw1Z8O5", 
+    "name": "GeochronLuminescence", 
+    "packages": [
+        "Geochron"
+    ], 
+    "parent_ids": [
+        "1QlUhHkMx__VfXZkt07HvICk2LWaajzyc"
+    ], 
+    "sgid_name": "SGID10.GEOSCIENCE.GeochronLuminescence", 
+    "shape_id": "1Av2XpFz-HXRKPZU8qSAj0wNJW3jQZfMi", 
+    "update_cycle": ""
+}

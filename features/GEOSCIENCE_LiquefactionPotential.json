@@ -1,0 +1,13 @@
+{
+    "category": "GEOSCIENCE", 
+    "gdb_id": "1O9MZ-k81GkBoix68FcaIEb7OKIW800b9", 
+    "hash_id": "1rSHyOAMQ7qIISfzGctonU9yL8Asg1i_8", 
+    "name": "LiquefactionPotential", 
+    "packages": [], 
+    "parent_ids": [
+        "19-g5VMx_iIRyJFeas-0vynwkj7u3eONH"
+    ], 
+    "sgid_name": "SGID10.GEOSCIENCE.LiquefactionPotential", 
+    "shape_id": "1eYNP_gXvUcDmQ7Hny-lU0Mx0wvhL2Or2", 
+    "update_cycle": ""
+}
