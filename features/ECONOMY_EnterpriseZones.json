@@ -1,15 +1,15 @@
 {
-    "category": "ECONOMY",
-    "gdb_id": "0ByStJjVZ7c7mMDhGR2FwcXNQWjg",
-    "hash_id": "0ByStJjVZ7c7mbDlSVlU2Q3Q4OGM",
-    "name": "EnterpriseZones",
+    "category": "ECONOMY", 
+    "gdb_id": "0ByStJjVZ7c7mMDhGR2FwcXNQWjg", 
+    "hash_id": "0ByStJjVZ7c7mbDlSVlU2Q3Q4OGM", 
+    "name": "EnterpriseZones", 
     "packages": [
         "CurrentTaxingUnits"
-    ],
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mT1NnNlJrWkNWMGs"
-    ],
-    "sgid_name": "SGID10.ECONOMY.EnterpriseZones",
-    "shape_id": "0ByStJjVZ7c7mTXl5bk1Kai1iUjQ",
+    ], 
+    "sgid_name": "SGID10.ECONOMY.EnterpriseZones", 
+    "shape_id": "0ByStJjVZ7c7mTXl5bk1Kai1iUjQ", 
     "update_cycle": "day"
 }

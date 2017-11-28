@@ -1,0 +1,15 @@
+{
+  "category": "ENVIRONMENT",
+  "gdb_id": "183ENDt537lVXzgZc-qQKqCnOOL0gQ0-i",
+  "hash_id": "1b63LrgLIwf82ZP9IiNGhYqQ3P4SsP7X7",
+  "name": "DWMRCLLRWUMillFacilities",
+  "packages": [
+    "DEQLandRelatedContaminantAndCleanupSites"
+  ],
+  "parent_ids": [
+    "1F1aQ8BHAL22UPGEqMxc44fGpO3eQJOSN"
+  ],
+  "sgid_name": "SGID10.ENVIRONMENT.DWMRCLLRWUMillFacilities",
+  "shape_id": "1X-DSvC4I4UDCk08y0W220SmO1GiB1uIz",
+  "update_cycle": "day"
+}
