@@ -4,7 +4,8 @@
     "hash_id": "0ByStJjVZ7c7mWTVadlNQMUZZREE", 
     "name": "LandslideCompilationScarps", 
     "packages": [
-        "LandslideInventory"
+        "LandslideInventory", 
+        "Landslides"
     ], 
     "parent_ids": [
         "0ByStJjVZ7c7mRzlrdmswSnotWGs"

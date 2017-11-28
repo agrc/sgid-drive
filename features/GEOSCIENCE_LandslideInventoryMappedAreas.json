@@ -4,7 +4,8 @@
     "hash_id": "0ByStJjVZ7c7mRmY2OWF0QlhQNk0", 
     "name": "LandslideInventoryMappedAreas", 
     "packages": [
-        "LandslideInventory"
+        "LandslideInventory", 
+        "Landslides"
     ], 
     "parent_ids": [
         "0ByStJjVZ7c7mQ0xKRDhuWDJlams"

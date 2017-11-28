@@ -4,7 +4,8 @@
     "hash_id": "0ByStJjVZ7c7mTHlBZm50bWg3RHc", 
     "name": "LandslideInventoryPolygons", 
     "packages": [
-        "LandslideInventory"
+        "LandslideInventory", 
+        "Landslides"
     ], 
     "parent_ids": [
         "0ByStJjVZ7c7meWZ0b0staXhTdG8"
