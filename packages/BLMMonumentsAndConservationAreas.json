@@ -1,0 +1,14 @@
+{
+    "category": "BOUNDARIES", 
+    "feature_classes": [
+        "SGID10.BOUNDARIES.BLMMonumentsAndNCAs", 
+        "SGID10.BOUNDARIES.BLMMonumentsAndNCAs_Historic", 
+        "SGID10.BOUNDARIES.BLMMonumentsAndNCAs_Line"
+    ], 
+    "gdb_id": "1xj73cdZjyPxkybNX9TyWid9KYtwKqs7l", 
+    "name": "BLMMonumentsAndConservationAreas", 
+    "parent_ids": [
+        "1m6BhUUa5DIR58nMwhEAE37guBEAx4PZj"
+    ], 
+    "shape_id": "18wpYoa3BmReVvcrcDh9B4Keau4rTER2H"
+}

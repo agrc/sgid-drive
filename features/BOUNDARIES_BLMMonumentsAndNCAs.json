@@ -3,7 +3,9 @@
     "gdb_id": "0ByStJjVZ7c7mdnVqSU9NQ3R5S3M", 
     "hash_id": "0ByStJjVZ7c7mNTA3OWRXcXVEazQ", 
     "name": "BLMMonumentsAndNCAs", 
-    "packages": [], 
+    "packages": [
+        "BLMMonumentsAndConservationAreas"
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mVmdqTFc2Q2N0ZWs"
     ], 
