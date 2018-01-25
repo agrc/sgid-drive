@@ -899,7 +899,9 @@ if __name__ == '__main__':
     if args.top_dir:
         list_ftp_links_by_subfolder('/Users/kwalker/Documents/repos/gis.utah.gov/' + args.top_dir)
 
-    replace_direct_package_links('/Users/kwalker/Documents/repos/gis.utah.gov/data')
+    sheets_range = user_sheets.get_range('1cNO1-AQcgcIK3JdgpIS-KVtA9OZWW8y3JrL5wz6W2_g', 'Multi-Segment', 'B8:AJ28')
+    import pdb; pdb.set_trace()
+    # replace_direct_package_links('/Users/kwalker/Documents/repos/gis.utah.gov/data')
     # get_feature_download_links()
     # replaced_urls = replace_old_metadata()
     # for old_url in replaced_urls:

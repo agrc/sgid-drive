@@ -522,12 +522,23 @@ class AgrcSheets(object):
                                                               body=value_range_body)
         response = request.execute()
 
+    def get_range(self, spreadsheet_id, sheet_name, a1_range):
+        # The ID of the spreadsheet to update.
+        spreadsheet_id = spreadsheet_id
+
+        # The A1 notation of a range to search
+        range_ = '{0}!{1}'.format(sheet_name, a1_range)
+
+        request = self.service.spreadsheets().values().get(spreadsheetId=spreadsheet_id,
+                                                           range=range_,
+                                                           majorDimension='ROWS')
+        return request.execute()['values']
+
     def get_column(self, spreadsheet_id, sheet_name, column_letter):
         # The ID of the spreadsheet to update.
         spreadsheet_id = spreadsheet_id
 
         # The A1 notation of a range to search for a logical table of data.
-        # Values will be appended after the last row of the table.
         range_ = '{0}!{1}2:{1}'.format(sheet_name, column_letter)
 
         request = self.service.spreadsheets().values().get(spreadsheetId=spreadsheet_id,
