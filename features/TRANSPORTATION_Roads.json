@@ -4,7 +4,6 @@
     "hash_id": "0ByStJjVZ7c7mYTZKYzh4bDRkNEE", 
     "name": "Roads", 
     "packages": [
-        "UtahTransitSystems", 
         "LRSRouteCharacteristics", 
         "UtahRoadAndHighwaySystem"
     ], 

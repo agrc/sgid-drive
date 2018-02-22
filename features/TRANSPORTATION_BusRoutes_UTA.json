@@ -3,7 +3,9 @@
     "gdb_id": "0ByStJjVZ7c7mXy0wcENfR0NWN0k", 
     "hash_id": "0ByStJjVZ7c7mNEV3TE1nd0hHUUE", 
     "name": "BusRoutes_UTA", 
-    "packages": [], 
+    "packages": [
+        "UtahTransitSystems"
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mcGVTR0VrNWV1dHM"
     ], 

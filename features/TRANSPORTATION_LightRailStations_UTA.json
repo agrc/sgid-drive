@@ -3,7 +3,9 @@
     "gdb_id": "0ByStJjVZ7c7mVzU3THJ4aDdrSTQ", 
     "hash_id": "0ByStJjVZ7c7meTdtdzQyYXRYWGs", 
     "name": "LightRailStations_UTA", 
-    "packages": [], 
+    "packages": [
+        "UtahTransitSystems"
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mdE1XLU50MU1ncEk"
     ], 

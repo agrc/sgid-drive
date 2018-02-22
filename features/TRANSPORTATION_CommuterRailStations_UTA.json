@@ -3,7 +3,9 @@
     "gdb_id": "0ByStJjVZ7c7mYzUtd3BFcE5LN3M", 
     "hash_id": "0ByStJjVZ7c7mSnFtTGd5SC1lUVk", 
     "name": "CommuterRailStations_UTA", 
-    "packages": [], 
+    "packages": [
+        "UtahTransitSystems"
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mUnpLakFCM2tMbE0"
     ], 

@@ -617,7 +617,6 @@ def delete_feature(source_name):
     spec_manager.delete_spec_json(feature)
 
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Update zip files on drive', parents=[tools.argparser])
 

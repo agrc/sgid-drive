@@ -4,7 +4,6 @@
     "hash_id": "0ByStJjVZ7c7mU2dqV3ZJWXBKN2M", 
     "name": "UDOTMileposts", 
     "packages": [
-        "UtahTransitSystems", 
         "LRSRouteCharacteristics", 
         "UtahRoadAndHighwaySystem"
     ], 

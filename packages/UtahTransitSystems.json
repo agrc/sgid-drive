@@ -1,15 +1,17 @@
 {
-    "category": "TRANSPORTATION", 
+    "category": "TRANSPORTATION",
     "feature_classes": [
-        "SGID10.TRANSPORTATION.Roads", 
-        "SGID10.TRANSPORTATION.Roads_FreewayExits", 
-        "SGID10.TRANSPORTATION.UDOTMileposts", 
-        "SGID10.TRANSPORTATION.UDOTRoutes_LRS"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mQWV2bThuQTlTZmM", 
-    "name": "UtahTransitSystems", 
+        "SGID10.TRANSPORTATION.BusRoutes_UTA",
+        "SGID10.TRANSPORTATION.BusStops_UTA",
+        "SGID10.TRANSPORTATION.CommuterRailRoutes_UTA",
+        "SGID10.TRANSPORTATION.CommuterRailStations_UTA",
+        "SGID10.TRANSPORTATION.LightRail_UTA",
+        "SGID10.TRANSPORTATION.LightRailStations_UTA"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mQWV2bThuQTlTZmM",
+    "name": "UtahTransitSystems",
     "parent_ids": [
         "0ByStJjVZ7c7mcV8wS0otTmRRMWM"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mZy1TN1B5czliYVE"
 }

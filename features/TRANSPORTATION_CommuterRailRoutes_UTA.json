@@ -3,7 +3,9 @@
     "gdb_id": "0ByStJjVZ7c7mUWczdHRhRkRSbVk", 
     "hash_id": "0ByStJjVZ7c7mS0wtNW1la2NlVlU", 
     "name": "CommuterRailRoutes_UTA", 
-    "packages": [], 
+    "packages": [
+        "UtahTransitSystems"
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mcDB2Z1kycjdneGc"
     ], 

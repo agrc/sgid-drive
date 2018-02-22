@@ -1,15 +1,15 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7mdGdWV0NxYWtRejA", 
-    "hash_id": "0ByStJjVZ7c7mWUNvRkpsTWtMdUE", 
-    "name": "VistaBallotAreas", 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7mdGdWV0NxYWtRejA",
+    "hash_id": "0ByStJjVZ7c7mWUNvRkpsTWtMdUE",
+    "name": "VistaBallotAreas",
     "packages": [
         "UtahPoliticalDistricts_Thru2011"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mX2FlbjZvXzNtYkU"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.VistaBallotAreas", 
-    "shape_id": "0ByStJjVZ7c7meTJMRGZkYnRoOFE", 
-    "update_cycle": "demand"
+    ],
+    "sgid_name": "SGID10.POLITICAL.VistaBallotAreas",
+    "shape_id": "0ByStJjVZ7c7meTJMRGZkYnRoOFE",
+    "update_cycle": "annual"
 }

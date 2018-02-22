@@ -388,7 +388,6 @@ class AgrcDriver(object):
         request = self.service.files().update(fileId=file_id,
                                               addParents=new_parent_id,
                                               fields='id')
-
         response = None
         backoff = 1
         while response is None:
@@ -496,7 +495,7 @@ class AgrcSheets(object):
     def __init__(self, api_service):
         self.service = api_service
 
-    def append_row(self, spreadsheet_id, sheet_name, row_values):
+    def append_row(self, spreadsheet_id, sheet_name, row_values, inputOption='USER_ENTERED'):
         # The ID of the spreadsheet to update.
         spreadsheet_id = spreadsheet_id
 
@@ -505,7 +504,7 @@ class AgrcSheets(object):
         range_ = sheet_name
 
         # How the input data should be interpreted.
-        value_input_option = 'USER_ENTERED'
+        value_input_option = inputOption
 
         # How the input data should be inserted.
         insert_data_option = 'INSERT_ROWS'

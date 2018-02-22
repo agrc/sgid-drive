@@ -3,7 +3,9 @@
     "gdb_id": "0ByStJjVZ7c7mRTJwVU52c1VCNDA", 
     "hash_id": "0ByStJjVZ7c7mMkx6d1JzT09jOWc", 
     "name": "BusStops_UTA", 
-    "packages": [], 
+    "packages": [
+        "UtahTransitSystems"
+    ], 
     "parent_ids": [
         "0ByStJjVZ7c7mRV9wbDVaNUNRVHc"
     ], 
