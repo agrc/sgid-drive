@@ -8,3 +8,4 @@ Application to update Google Drive files with SGID data.
 - Use shell of your choice and navigate to local repository directory
 - Run `python zip_loader.py -h` for a list of options
   - Most common usage is: ` python zip_loader.py "path to workspace containing features" --feature "your.full.featurename"`
+# sgid-postgis

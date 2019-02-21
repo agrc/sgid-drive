@@ -1,0 +1,13 @@
+{
+    "category": "GEOSCIENCE", 
+    "gdb_id": "1Ngbke3E0JMF5YZb_XsfSGJFitsIaWt0A", 
+    "hash_id": "1YsHKZuhtWU4_OX5AHe2VyMtib0n2FGnV", 
+    "name": "AlluvialFans", 
+    "packages": [], 
+    "parent_ids": [
+        "1LBn_Ku951eSSNyFIHKKs8Ak0p9KN21Uh"
+    ], 
+    "sgid_name": "SGID10.GEOSCIENCE.AlluvialFans", 
+    "shape_id": "1LpFkYmn-RIL1YXW-Ckn9PmvMj0_R9EoD", 
+    "update_cycle": ""
+}
