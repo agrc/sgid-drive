@@ -38,7 +38,7 @@
         "SGID10.INDICES.SLCo_1977_County", 
         "SGID10.INDICES.SLCo_1977_Outline", 
         "SGID10.INDICES.SLCo_1977_Quads", 
-        "SGID10.INDICES.Google_GCP", 
+        "SGID10.INDICES.Google_FlightBlocks", 
         "SGID10.INDICES.Google_UtahServiceDates", 
         "SGID10.INDICES.Google_Tiles"
     ], 
