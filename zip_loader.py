@@ -3,7 +3,7 @@ import shutil
 import os
 import zipfile
 import csv
-from time import clock, sleep
+from time import clock
 from datetime import datetime
 # from hashlib import md5
 from xxhash import xxh64
