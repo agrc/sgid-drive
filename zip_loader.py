@@ -84,7 +84,7 @@ def _is_naughty_field(fld):
 def zip_folder(folder_path, zip_name):
     """Zip a folder with compression to reduce storage size."""
     zf = zipfile.ZipFile(zip_name, "w", zipfile.ZIP_DEFLATED)
-    for root, subdirs, files in os.walk(folder_path):
+    for root, _, files in os.walk(folder_path):
         for filename in files:
             if not filename.endswith('.lock'):
                 zf.write(os.path.join(root, filename),
@@ -153,9 +153,7 @@ def detect_changes(data_path, fields, past_hashes, output_hashes, shape_token=No
                     hasher.update(digest)
                     digest = hasher.hexdigest()
 
-                oid = row[attribute_subindex]
                 hash_writer.writerow((digest,))
-                # hash_writer.writerow((oid, digest, str(row[-2])))
 
                 if digest not in past_hashes:
                     changes += 1
@@ -296,9 +294,9 @@ def src_data_exists(data_path):
     if not arcpy.Exists(data_path):
         return False
     try:
-        with arcpy.da.SearchCursor(data_path, 'OID@') as cursor:
+        with arcpy.da.SearchCursor(data_path, 'OID@'):
             pass
-    except RuntimeError as e:
+    except RuntimeError:
         return False
 
     return True

@@ -131,32 +131,9 @@ def get_feature(source_name, packages=[], create=False):
     return feature
 
 
-def _add_feature_to_package(package_name, feature_source_name):
-    """depreciated"""
-    package = get_package(package_name)
-    if feature_source_name not in package['feature_classes']:
-        package['feature_classes'].append(feature_source_name)
-    save_spec_json(package)
-
-
-def _remove_feature_from_package(package_name, feature_source_name):
-    """depreciated"""
-    package = get_package(package_name)
-    if feature_source_name in package['feature_classes']:
-        package['feature_classes'].remove(feature_source_name)
-        save_spec_json(package)
-
-
-def _add_package_to_feature(source_name, package_name):
-    """depreciated"""
-    add_feature_to_package(package_name, source_name)
-    feature = get_feature(source_name, [package_name], create=True)
-    save_spec_json(feature)
-
-
 def get_package_spec_path_list():
     packages = []
-    for root, subdirs, files in os.walk(PACKAGE_SPEC_FOLDER):
+    for _, _, files in os.walk(PACKAGE_SPEC_FOLDER):
         for filename in files:
             if filename == '.DS_Store':
                 continue
@@ -167,7 +144,7 @@ def get_package_spec_path_list():
 
 def get_feature_spec_path_list():
     features = []
-    for root, subdirs, files in os.walk(FEATURE_SPEC_FOLDER):
+    for _, _, files in os.walk(FEATURE_SPEC_FOLDER):
         for filename in files:
             if filename == '.DS_Store':
                 continue
