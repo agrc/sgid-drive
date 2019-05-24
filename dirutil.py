@@ -1,3 +1,4 @@
+"""Junk module of functions that help update ftp links to drive links on gis.utah.gov"""
 import os
 import hashlib
 import re
@@ -899,15 +900,6 @@ if __name__ == '__main__':
     if args.top_dir:
         list_ftp_links_by_subfolder('/Users/kwalker/Documents/repos/gis.utah.gov/' + args.top_dir)
 
-    sheets_range = user_sheets.get_range('1cNO1-AQcgcIK3JdgpIS-KVtA9OZWW8y3JrL5wz6W2_g', 'Multi-Segment', 'B8:AJ28')
-    import pdb; pdb.set_trace()
-    # replace_direct_package_links('/Users/kwalker/Documents/repos/gis.utah.gov/data')
-    # get_feature_download_links()
-    # replaced_urls = replace_old_metadata()
-    # for old_url in replaced_urls:
-    #     old_html_path = old_url.replace('ftp://ftp.agrc.utah.gov/', '/Volumes/ftp/')
-    #     write_new_page(old_html_path, get_new_metadata_url(old_url))
-
     # print 'day', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.DAY))
     # print 'week', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.WEEK))
     # print 'month', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.MONTH))
@@ -915,74 +907,3 @@ if __name__ == '__main__':
     # print 'biannual', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.BIANNUAL))
     # print 'annual', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.ANNUAL))
     # print 'never', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.NEVER))
-
-    # # : Find all ftp Metadata links
-    # all_dir = os.path.join(home_dir, 'Documents/repos/gis.utah.gov/data')
-    # all_ftp_paths = get_all_ftp_links(all_dir)
-    # ftp_metadata = []
-    # for path in all_ftp_paths:
-    #     print path
-    #     ftp_metadata.append(parse_metadata_link(path))
-    #
-    # # with open('data/not_found_meta.csv', 'wb')
-    # ftp_metadata = set(ftp_metadata)
-    # print len(ftp_metadata)
-    # for l in ftp_metadata:
-    #     ftp_metadata = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
-    #     new_xml_path = os.path.join(ftp_metadata, 'SGID10.' + l + '.xml')
-    #     if not os.path.exists(new_xml_path):
-    #         print '\'SGID10.' + l + '\','
-    #         # print new_xml_path
-
-    # : Find all ftp links
-    # data_dir = os.path.join(home_dir, 'Documents/repos/gis.utah.gov/data')
-    # datas = get_all_ftp_links(data_dir)
-    # post_dir = os.path.join(home_dir, 'Documents/repos/gis.utah.gov/_posts')
-    # posts = get_all_ftp_links(post_dir)
-    # ftp_links = []
-    #
-    # for path in datas:
-    #     ftp_links.append(parse_metadata_link(path))
-    # for path in posts:
-    #     ftp_links.append(parse_ftp_link(path, '_posts'))
-    # ftp_links = [l for l in ftp_links if l is not None]
-    # print 'total links', len(ftp_links)
-    # for f in ftp_links:
-    #     print f.name
-
-    # datas.extend(posts)
-    # unique_paths = set(datas)
-    # exts = [p[p.rfind('.'):] for p in unique_paths if '.' in p]
-    # print 'ext files', len(exts)
-    # print set(exts)
-    # print 'unique links', len(unique_paths)
-    # ftp_links = [l for l in ftp_links if l is not None]
-    # ftp_catnames = {}
-    # for fl in ftp_links:
-    #     if fl.ext is None or fl.ext == '.zip':
-    #         ftp_catnames["{}:{}".format(fl.category, fl.name).lower()] = fl
-    #
-    # spec_catnames = get_feature_catnames()
-    # not_found = [ftp_catnames[n] for n in ftp_catnames if n not in spec_catnames]
-    # # not_found = create_new_features(spec_catnames, ftp_catnames, r'Database Connections\Connection to sgid.agrc.utah.gov.sde')
-    # package_names = [n.replace('.json', '').lower() for n in spec_manager.get_package_spec_path_list()]
-    # not_package = get_not_found_packages(not_found, package_names)
-    # print 'non-feature, not found packages', len(not_package)
-    #
-    # ftp_packaged_data = [f for f in ftp_links if f.packaged]
-    # print 'total packagedData paths', len(ftp_packaged_data)
-    # not_package_at_all = get_not_found_packages(ftp_packaged_data, package_names)
-    # not_package_is_feature = []
-    # not_packge_not_feature_paths = [f.path for f in not_package]
-    # for p in not_package_at_all:
-    #     if p.path[:p.path.rfind('/') + 1] not in not_packge_not_feature_paths:
-    #         not_package_is_feature.append(p.path.strip())
-    # print 'Not found packages', len(not_package_at_all)
-    #
-    # problem_paths = [np.path.strip() for np in not_package]
-    # problem_paths.extend(not_package_is_feature)
-    # problem_paths.sort()
-    # print len(set(problem_paths))
-    # with open('data/notfound.txt', 'w') as f_out:
-    #     for p in problem_paths:
-    #         f_out.write(p + ',\n')

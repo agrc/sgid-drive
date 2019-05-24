@@ -1,3 +1,4 @@
+"""Code to facilitate interaction with the Google Drive API"""
 from apiclient import errors
 from apiclient.http import MediaFileUpload, MediaIoBaseDownload, MediaIoBaseUpload
 import httplib2
@@ -128,8 +129,6 @@ class AgrcDriver(object):
         while response is False:
             try:
                 status, response = downloader.next_chunk()
-                # if status:
-                #     print "Download %d%%." % int(status.progress() * 100)
             except errors.HttpError, e:
                 if e.resp.status in [404]:
                     # Start the upload all over again.

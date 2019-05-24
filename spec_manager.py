@@ -1,3 +1,4 @@
+"""Code to manage spec json files"""
 import os
 import json
 import argparse
@@ -277,8 +278,6 @@ if __name__ == '__main__':
 
     parser.add_argument('-c', action='store_true', dest='create',
                         help='Create a feature spec if it does not exist')
-    # parser.add_argument('--add_package', action='store', dest='package_name',
-    #                     help='Add a package to feature spec')
     parser.add_argument('source_name', action='store',
                         help='Source name for the feature')
 
@@ -286,12 +285,3 @@ if __name__ == '__main__':
     if args.create:
         get_feature(args.source_name, create=True)
 
-    # if args.package_name:
-    #     feature_spec_path = os.path.join(FEATURE_SPEC_FOLDER, create_feature_spec_name(args.source_name))
-    #     if os.path.exists(feature_spec_path) or args.create:
-    #         _add_package_to_feature(args.source_name, args.package_name)
-    #     else:
-    #         msg = "Feature does not exist at {}".format(feature_spec_path)
-    #         raise Exception(msg)
-
-    # _list_nonexistant_features('Database Connections\Connection to sgid.agrc.utah.gov.sde')

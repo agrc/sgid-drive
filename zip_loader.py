@@ -410,72 +410,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
     return packages
 
 
-def update_package(workspace, package_name, output_directory, load_to_drive=True, force_update=False):
-    """Update a package on drive."""
-    print '\nStarting package:', package_name
-    package = spec_manager.get_package(package_name)
-    # Check for category folder
-    category_id = get_category_folder_id(package['category'], UTM_DRIVE_FOLDER)
-    category_packages_id = get_category_folder_id('packages', category_id)
-    drive_folder_id = get_category_folder_id(package['name'], category_packages_id)
-    if drive_folder_id not in package['parent_ids']:
-        package['parent_ids'].append(drive_folder_id)
-
-    package_gdb = arcpy.CreateFileGDB_management(output_directory, package['name'])[0]
-    package_shape = os.path.join(output_directory, package['name'])
-    os.makedirs(package_shape)
-    print 'Copying...'
-    for feature_class in package['feature_classes']:
-        spec_name = spec_manager.create_feature_spec_name(feature_class)
-        feature_spec = os.path.join('features', spec_name)
-        if not os.path.exists(feature_spec):
-            print 'New feature'
-            update_feature(workspace, feature_class, os.path.join(output_directory, '..'), load_to_drive, force_update)
-
-        spec = spec_manager.get_feature(feature_class, [package_name], create=True)
-
-        is_table = arcpy.Describe(os.path.join(workspace, feature_class)).datasetType.lower() == 'table'
-        copier = _get_copier(is_table)
-
-        feature_output_name = spec['name']
-        out_fc_path = os.path.join(package_gdb, feature_output_name)
-
-        shape_directory_path = os.path.join(output_directory, '..', feature_output_name)
-        fc_path = os.path.join(shape_directory_path + '.gdb', feature_output_name)
-        if os.path.exists(shape_directory_path) and arcpy.Exists(fc_path):
-            # print feature_class, 'local'
-            copier(fc_path,
-                   out_fc_path)
-
-            shutil.copytree(shape_directory_path, os.path.join(package_shape, feature_output_name))
-
-        else:
-            # print feature_class, 'workspace'
-            copier(os.path.join(workspace, feature_class),
-                   out_fc_path)
-
-            s_dir = os.path.join(package_shape, feature_output_name)
-            os.makedirs(s_dir)
-            copier(os.path.join(workspace, feature_class),
-                   os.path.join(s_dir, feature_output_name))
-
-    # Zip up outputs
-    new_gdb_zip = os.path.join(output_directory, '{}_gdb.zip'.format(package['name']))
-    new_shape_zip = os.path.join(output_directory, '{}_shp.zip'.format(package['name']))
-    print 'Zipping...'
-    zip_folder(package_gdb, new_gdb_zip)
-    zip_folder(package_shape, new_shape_zip)
-
-    if load_to_drive:
-        # Upload to drive
-        load_zip_to_drive(package, 'gdb_id', new_gdb_zip, package['parent_ids'])
-        load_zip_to_drive(package, 'shape_id', new_shape_zip, package['parent_ids'])
-        print 'All zips loaded'
-
-    spec_manager.save_spec_json(package)
-
-
-def run_features(workspace, output_directory, feature_list_json=None, load=True, force=False, category=None, skip_packages=False, update_cycles=None):
+def run_features(workspace, output_directory, feature_list_json=None, load=True, force=False, category=None, update_cycles=None):
     """
     CLI option to update all features in spec_manager.FEATURE_SPEC_FOLDER or just those in feature_list_json.
 
@@ -538,7 +473,7 @@ def run_packages(workspace, output_directory, package_list_json=None, load=True,
     print '{} packages updated'.format(len(packages))
 
 
-def run_feature(workspace, source_name, output_directory, load=True, force=False, skip_packages=False):
+def run_feature(workspace, source_name, output_directory, load=True, force=False):
     """CLI option to update one feature."""
     if src_data_exists(os.path.join(workspace, source_name)):
         packages = update_feature(workspace,
@@ -550,9 +485,6 @@ def run_feature(workspace, source_name, output_directory, load=True, force=False
             print 'Package updated: {}'.format(p)
     else:
         print '{} does not exist in workspace'.format(source_name)
-    # if not skip_packages:
-    #     for package in set(packages):
-    #         update_package(workspace, package, temp_package_directory, load_to_drive=load)
 
 
 def run_package(workspace, package_name, output_directory, load=True, force=False):
@@ -624,8 +556,6 @@ if __name__ == '__main__':
                         help='Force unchanged features and packages to create zip files')
     parser.add_argument('-n', action='store_false', dest='load',
                         help='Do not upload any files to drive')
-    parser.add_argument('-s', action='store_true', dest='skip_packages',
-                        help='Do not run packages from features that have changed')
     parser.add_argument('--all', action='store_true', dest='check_features',
                         help='Check all features for changes and update changed features and packages')
     parser.add_argument('--category', action='store', dest='feature_category',
@@ -701,15 +631,13 @@ if __name__ == '__main__':
                      load=args.load,
                      force=args.force,
                      category=args.feature_category,
-                     skip_packages=args.skip_packages,
                      update_cycles=update_cycles)
     elif args.feature_list:
         run_features(workspace,
                      output_directory,
                      load=args.load,
                      force=args.force,
-                     feature_list_json=args.feature_list,
-                     skip_packages=args.skip_packages)
+                     feature_list_json=args.feature_list)
 
     if args.check_packages:
         run_packages(workspace, output_directory, load=args.load, force=args.force)
@@ -717,7 +645,7 @@ if __name__ == '__main__':
         run_packages(workspace, output_directory, package_list_json=args.package_list, load=args.load, force=args.force)
 
     if args.feature:
-        run_feature(workspace, args.feature, output_directory, load=args.load, force=args.force, skip_packages=args.skip_packages)
+        run_feature(workspace, args.feature, output_directory, load=args.load, force=args.force)
 
     if args.package:
         run_package(workspace, args.package, output_directory, load=args.load, force=args.force)
