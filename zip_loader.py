@@ -526,7 +526,7 @@ def upload_zip(source_name, output_directory):
 def delete_feature(source_name):
     """Delete a feature, remove it from packages and delete all it's files on drive."""
     print('Deleting', source_name)
-    confirm_delete = raw_input('Are you sure you want to permanently delete files (yes, no): ')
+    confirm_delete = input('Are you sure you want to permanently delete files (yes, no): ')
     feature = spec_manager.get_feature(source_name)
     if 'y' not in confirm_delete.lower():
         print('Quitting without delete')
