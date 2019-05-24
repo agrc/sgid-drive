@@ -133,30 +133,30 @@ def detect_changes(data_path, fields, past_hashes, output_hashes, shape_token=No
     hashes = {}
     changes = 0
     with arcpy.da.SearchCursor(data_path, cursor_fields) as cursor, \
-            open(hash_store, 'wb') as hash_csv:
-            hash_writer = csv.writer(hash_csv)
-            hash_writer.writerow(('hash',))
-            # hash_writer.writerow(('src_id', 'hash', 'centroidxy'))
-            for row in cursor:
-                hasher = xxh64()  # Create/reset hash object
-                hasher.update(float_subber.sub(r'\1', str(row[:attribute_subindex])))  # Hash only attributes
-                if shape_token:
-                    shape_string = row[-1]
-                    if shape_string:  # None object won't hash
-                        shape_string = float_subber.sub(r'\1', shape_string)
-                        hasher.update(shape_string)
-                    else:
-                        hasher.update('No shape')  # Add something to the hash to represent None geometry object
-                # Generate a unique hash if current row has duplicates
+            open(hash_store, 'w') as hash_csv:
+        hash_writer = csv.writer(hash_csv)
+        hash_writer.writerow(('hash',))
+        # hash_writer.writerow(('src_id', 'hash', 'centroidxy'))
+        for row in cursor:
+            hasher = xxh64()  # Create/reset hash object
+            hasher.update(float_subber.sub(r'\1', str(row[:attribute_subindex])))  # Hash only attributes
+            if shape_token:
+                shape_string = row[-1]
+                if shape_string:  # None object won't hash
+                    shape_string = float_subber.sub(r'\1', shape_string)
+                    hasher.update(shape_string)
+                else:
+                    hasher.update('No shape')  # Add something to the hash to represent None geometry object
+            # Generate a unique hash if current row has duplicates
+            digest = hasher.hexdigest()
+            while digest in hashes:
+                hasher.update(digest)
                 digest = hasher.hexdigest()
-                while digest in hashes:
-                    hasher.update(digest)
-                    digest = hasher.hexdigest()
 
-                hash_writer.writerow((digest,))
+            hash_writer.writerow((digest,))
 
-                if digest not in past_hashes:
-                    changes += 1
+            if digest not in past_hashes:
+                changes += 1
 
     print('Total changes: {}'.format(changes))
 
