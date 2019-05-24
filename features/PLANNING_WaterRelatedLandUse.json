@@ -1,13 +1,13 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mVjh4YnRYaUFJeUk", 
-    "hash_id": "0ByStJjVZ7c7mSUJEdDRCS3B0aFE", 
-    "name": "WaterRelatedLandUse", 
-    "packages": [], 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mVjh4YnRYaUFJeUk",
+    "hash_id": "0ByStJjVZ7c7mSUJEdDRCS3B0aFE",
+    "name": "WaterRelatedLandUse",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mbjZFZU9qMFJSbm8"
-    ], 
-    "sgid_name": "SGID10.PLANNING.WaterRelatedLandUse", 
-    "shape_id": "0ByStJjVZ7c7mZ1ZYajVMc1FLY1U", 
+    ],
+    "sgid_name": "SGID10.PLANNING.WaterRelatedLandUse",
+    "shape_id": "0ByStJjVZ7c7mZ1ZYajVMc1FLY1U",
     "update_cycle": "annual"
 }

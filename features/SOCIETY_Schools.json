@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mN1Bobk5uYmNodW8", 
-    "hash_id": "0ByStJjVZ7c7mM1lrMzVWaWM2WEk", 
-    "name": "Schools", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mN1Bobk5uYmNodW8",
+    "hash_id": "0ByStJjVZ7c7mM1lrMzVWaWM2WEk",
+    "name": "Schools",
     "packages": [
         "SchoolsLibraries"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mSTFXWnl4NVFfNkU"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.Schools", 
-    "shape_id": "0ByStJjVZ7c7mOXB2NWpKaEJkMWc", 
+    ],
+    "sgid_name": "SGID10.SOCIETY.Schools",
+    "shape_id": "0ByStJjVZ7c7mOXB2NWpKaEJkMWc",
     "update_cycle": "annual"
 }

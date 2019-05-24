@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mZkc5SXBlTWhxQVk", 
-    "hash_id": "0ByStJjVZ7c7mbXUzZUhrZXdrOWM", 
-    "name": "Parcels_Emery", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mZkc5SXBlTWhxQVk",
+    "hash_id": "0ByStJjVZ7c7mbXUzZUhrZXdrOWM",
+    "name": "Parcels_Emery",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mZDJtd1Rub0l6N00"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Emery", 
-    "shape_id": "0ByStJjVZ7c7mYnhxalY3N2xTaXc", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Emery",
+    "shape_id": "0ByStJjVZ7c7mYnhxalY3N2xTaXc",
     "update_cycle": "biannual"
 }

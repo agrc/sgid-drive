@@ -160,7 +160,7 @@ def detect_changes(data_path, fields, past_hashes, output_hashes, shape_token=No
                 if digest not in past_hashes:
                     changes += 1
 
-    print 'Total changes: {}'.format(changes)
+    print('Total changes: {}'.format(changes))
 
     return changes
 
@@ -211,7 +211,7 @@ def get_category_folder_id(category, parent_id):
     """Get drive id for a folder with name of category and in parent_id drive folder."""
     category_id = drive.get_file_id_by_name_and_directory(category, parent_id)
     if not category_id:
-        print 'Creating drive folder: {}'.format(category)
+        print('Creating drive folder: {}'.format(category))
         category_id = get_user_drive().create_drive_folder(category, [parent_id])
         # Make agrc gmail account the owner
         get_user_drive().create_owner(category_id, "agrc@utah.gov")
@@ -252,10 +252,10 @@ def sync_package_and_features(package_spec):
 
         if package_spec['gdb_id'] not in drive.get_parents(feature_spec['gdb_id']):
             get_user_drive().add_file_parent(feature_spec['gdb_id'], package_spec['gdb_id'])
-            print 'add package gdb_id'
+            print('add package gdb_id')
         if package_spec['shape_id'] not in drive.get_parents(feature_spec['shape_id']):
             get_user_drive().add_file_parent(feature_spec['shape_id'], package_spec['shape_id'])
-            print 'add package shape_id'
+            print('add package shape_id')
 
         current_gdb_ids.append(feature_spec['gdb_id'])
         current_shp_ids.append(feature_spec['shape_id'])
@@ -266,13 +266,13 @@ def sync_package_and_features(package_spec):
     for gdb_id in folder_gdb_ids:
         if gdb_id not in current_gdb_ids:
             get_user_drive().remove_file_parent(gdb_id, package_spec['gdb_id'])
-            print 'remove package gdb_id'
+            print('remove package gdb_id')
 
     folder_shp_ids = [name_id[1] for name_id in drive.list_files_in_directory(package_spec['shape_id'])]
     for shp_id in folder_shp_ids:
         if shp_id not in current_shp_ids:
             get_user_drive().remove_file_parent(shp_id, package_spec['shape_id'])
-            print 'remove package shp_id'
+            print('remove package shp_id')
 
 
 def sync_feature_to_package(feature_spec, package_spec):
@@ -283,10 +283,10 @@ def sync_feature_to_package(feature_spec, package_spec):
         feature_spec['packages'].remove(package_spec['name'])
         if package_spec['gdb_id'] in drive.get_parents(feature_spec['gdb_id']):
             get_user_drive().remove_file_parent(feature_spec['gdb_id'], package_spec['gdb_id'])
-            print 'remove package gdb_id'
+            print('remove package gdb_id')
         if package_spec['shape_id'] in drive.get_parents(feature_spec['shape_id']):
             get_user_drive().remove_file_parent(feature_spec['shape_id'], package_spec['shape_id'])
-            print 'remove package shape_id'
+            print('remove package shape_id')
 
     spec_manager.save_spec_json(feature_spec)
 
@@ -311,7 +311,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
     workspace: string path or connection to a workspace that contains feature_name
     feature_name: string SGID name such as SGID10.RECREATION.Trails
     """
-    print '\nStarting feature:', feature_name
+    print('\nStarting feature:', feature_name)
     feature_time = clock()
 
     input_feature_path = os.path.join(workspace, feature_name)
@@ -346,7 +346,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
     past_hashes = None
     if feature['hash_id']:
         drive.download_file(feature['hash_id'], past_hash_zip)
-        print 'Past hashes downloaded'
+        print('Past hashes downloaded')
         unzip(past_hash_zip, past_hash_directory)
         past_hashes = get_hash_lookup(past_hash_store, hash_field)
     else:
@@ -375,7 +375,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
     if change_count != 0 or force_update:
         packages = feature['packages']
         # Copy data local
-        print 'Copying...'
+        print('Copying...')
         fc_directory, shape_directory = create_outputs(
                                                      output_directory,
                                                      input_feature_path,
@@ -385,7 +385,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
         new_gdb_zip = os.path.join(output_directory, '{}_gdb.zip'.format(output_name))
         new_shape_zip = os.path.join(output_directory, '{}_shp.zip'.format(output_name))
         new_hash_zip = os.path.join(output_directory, '{}_hash.zip'.format(output_name))
-        print 'Zipping...'
+        print('Zipping...')
         zip_folder(fc_directory, new_gdb_zip)
         zip_folder(shape_directory, new_shape_zip)
         zip_folder(hash_directory, new_hash_zip)
@@ -394,7 +394,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
             load_zip_to_drive(feature, 'gdb_id', new_gdb_zip, feature['parent_ids'])
             load_zip_to_drive(feature, 'shape_id', new_shape_zip, feature['parent_ids'])
             load_zip_to_drive(feature, 'hash_id', new_hash_zip, [HASH_DRIVE_FOLDER])
-            print 'All zips loaded'
+            print('All zips loaded')
 
         spec_manager.save_spec_json(feature)
         now = datetime.now()
@@ -431,7 +431,7 @@ def run_features(workspace, output_directory, feature_list_json=None, load=True,
     packages = []
     for feature in features:
         packages.extend(update_feature(workspace, feature, output_directory, load_to_drive=load, force_update=force))
-    print '{} packages updated'.format(len(packages))
+    print('{} packages updated'.format(len(packages)))
 
 
 def run_packages(workspace, output_directory, package_list_json=None, load=True, force=False):
@@ -464,13 +464,13 @@ def run_packages(workspace, output_directory, package_list_json=None, load=True,
                 if src_data_exists(os.path.join(workspace, f)):
                     features.append(f)
                 else:
-                    print 'Package {}, feature {} does not exist'.format(package_spec, f)
+                    print('Package {}, feature {} does not exist'.format(package_spec, f))
 
     features = set(features)
     packages = []
     for feature in features:
         packages.extend(update_feature(workspace, feature, output_directory, load_to_drive=load, force_update=force))
-    print '{} packages updated'.format(len(packages))
+    print('{} packages updated'.format(len(packages)))
 
 
 def run_feature(workspace, source_name, output_directory, load=True, force=False):
@@ -482,9 +482,9 @@ def run_feature(workspace, source_name, output_directory, load=True, force=False
                                   load_to_drive=load,
                                   force_update=force)
         for p in packages:
-            print 'Package updated: {}'.format(p)
+            print('Package updated: {}'.format(p))
     else:
-        print '{} does not exist in workspace'.format(source_name)
+        print('{} does not exist in workspace'.format(source_name))
 
 
 def run_package(workspace, package_name, output_directory, load=True, force=False):
@@ -516,36 +516,36 @@ def upload_zip(source_name, output_directory):
 
     # Upload to drive
     load_zip_to_drive(feature, 'gdb_id', new_gdb_zip, feature['parent_ids'])
-    print 'GDB loaded'
+    print('GDB loaded')
     load_zip_to_drive(feature, 'shape_id', new_shape_zip, feature['parent_ids'])
-    print 'Shape loaded'
+    print('Shape loaded')
     load_zip_to_drive(feature, 'hash_id', new_hash_zip, [HASH_DRIVE_FOLDER])
-    print 'Hash loaded'
+    print('Hash loaded')
 
     spec_manager.save_spec_json(feature)
 
 
 def delete_feature(source_name):
     """Delete a feature, remove it from packages and delete all it's files on drive."""
-    print 'Deleting', source_name
+    print('Deleting', source_name)
     confirm_delete = raw_input('Are you sure you want to permanently delete files (yes, no): ')
     feature = spec_manager.get_feature(source_name)
     if 'y' not in confirm_delete.lower():
-        print 'Quitting without delete'
+        print('Quitting without delete')
         return None
 
     drive_delete_user = get_user_drive()
-    print 'Deleting drive files'
+    print('Deleting drive files')
     drive_delete_user.delete_file(feature['gdb_id'])
     drive_delete_user.delete_file(feature['hash_id'])
     drive_delete_user.delete_file(feature['shape_id'])
     drive_delete_user.delete_file(feature['parent_ids'][0])
 
     for package_name in feature['packages']:
-        print 'Deleting from package', package_name
+        print('Deleting from package', package_name)
         spec_manager.remove_feature_from_package(package_name, feature['sgid_name'])
 
-    print 'Deleting json file'
+    print('Deleting json file')
     spec_manager.delete_spec_json(feature)
 
 
@@ -604,7 +604,7 @@ if __name__ == '__main__':
             os.makedirs(temp_package_directory)
         else:
             shutil.rmtree(directory)
-            print 'Temp directory removed'
+            print('Temp directory removed')
             os.makedirs(package_dir)
     if not args.zip_feature:
         renew_temp_directory(output_directory, temp_package_directory)
@@ -656,4 +656,4 @@ if __name__ == '__main__':
     if args.delete_feature:
         delete_feature(args.delete_feature)
 
-    print '\nComplete!', clock() - start_time
+    print('\nComplete!', clock() - start_time)

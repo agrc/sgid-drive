@@ -56,7 +56,7 @@ def get_update_cycles(steward_info):
     update_types = list(update_types)
     update_types.sort()
     for t in update_types:
-        print t
+        print(t)
 
 
 def get_feature_update_cycles(steward_info):
@@ -66,7 +66,7 @@ def get_feature_update_cycles(steward_info):
         for row in reader:
             feature = 'SGID10.' + row['SGID Data Layer']
             if feature in features or feature.strip() == '':
-                print 'wtf?'
+                print('wtf?')
                 continue
             update = row['Refresh Cycle (Days)'].lower()
             features[feature] = update
@@ -77,7 +77,7 @@ def get_feature_update_cycles(steward_info):
 def set_spec_update_types(feature_name, update_type):
     import arcpy
     if not arcpy.Exists(os.path.join(r'Database Connections\Connection to sgid.agrc.utah.gov.sde', feature_name)):
-        print '^Does not exist'
+        print('^Does not exist')
         return
     feature = spec_manager.get_feature(feature_name)
     feature['update_cycle'] = update_type
@@ -100,8 +100,8 @@ def package_specs_from_gdbs(directory_path, category):
         package_json = spec_manager.create_package_spec(gdb_name,
                                                         sgid_names,
                                                         category.upper())
-        print package_json
-        print sgid_names
+        print(package_json)
+        print(sgid_names)
         print
         new_package_paths.append(package_json)
 
@@ -115,9 +115,9 @@ def get_directory_count(top_dir):
     for root, dirs, files in os.walk(top_dir, topdown=True):
         for name in dirs:
             dir_path = os.path.join(root, name)
-            print dir_path
+            print(dir_path)
             dircount += 1
-    print dircount
+    print(dircount)
 
 
 def get_file_count(top_dir, ext, size_limit=None):
@@ -132,7 +132,7 @@ def get_file_count(top_dir, ext, size_limit=None):
                 else:
                     file_count += 1
 
-    print 'count: {}, type: {}, size <= {}'.format(file_count, ext, size_limit)
+    print('count: {}, type: {}, size <= {}'.format(file_count, ext, size_limit))
 
 
 def hash_files(file_list):
@@ -143,7 +143,7 @@ def hash_files(file_list):
             hex_digest.append(local_file_hash)
 
     for h in hex_digest:
-        print h
+        print(h)
 
 
 def get_all_ftp_links(top_dir):
@@ -192,7 +192,7 @@ def list_ftp_links_by_subfolder(top_dir):
 
     for sub_dir in sub_dir_counts:
         links = get_all_ftp_links(os.path.join(top_dir, sub_dir))
-        print sub_dir, len(links)
+        print(sub_dir, len(links))
         sub_dir_counts[sub_dir] = len(links)
 
     return sub_dir_counts
@@ -207,13 +207,13 @@ def replace_ftp_link(ftp_path, feature_specs, package_specs):
             if 'shp' in last_7:
                 if link.packaged:
                     zip_id = driver.get_webview_link(spec['shape_id'])
-                    print 'package direct', link.path
+                    print('package direct', link.path)
                 else:
                     zip_id = driver.get_download_link(spec['shape_id'])
             elif 'gdb' in last_7:
                 if link.packaged:
                     zip_id = driver.get_webview_link(spec['gdb_id'])
-                    print 'package direct', link.path
+                    print('package direct', link.path)
                 else:
                     zip_id = driver.get_download_link(spec['gdb_id'])
             return '{}'.format(zip_id)
@@ -226,22 +226,22 @@ def replace_ftp_link(ftp_path, feature_specs, package_specs):
         for m in matches:
             link = parse_ftp_link(m[1], '')
             if link is None:
-                print 'other:', m[1]
-                print ftp_path
+                print('other:', m[1])
+                print(ftp_path)
             elif (not link.packaged and link.get_catname() in feature_specs):
                 replace_link = get_replace_link(link, feature_specs[link.get_catname()])
                 if replace_link is None:
-                    print 'other:', link.path
+                    print('other:', link.path)
                     continue
                 return replace_link
             elif (link.packaged and link.get_catname() in package_specs):
                 replace_link = get_replace_link(link, package_specs[link.get_catname()])
                 if replace_link is None:
-                    print 'other:', link.path
+                    print('other:', link.path)
                     continue
                 return replace_link
             else:
-                print 'not found in specs:', link.path, ftp_path
+                print('not found in specs:', link.path, ftp_path)
 
 
 def replace_metadata_links(top_dir='data/ftplinktest', rewrite_source=False):
@@ -253,7 +253,7 @@ def replace_metadata_links(top_dir='data/ftplinktest', rewrite_source=False):
         new_prefix = 'ftp://ftp.agrc.utah.gov/UtahSGID_Vector/UTM12_NAD83/Metadata/'
         new_html_file_path = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
         if not os.path.exists(new_html_file_path + 'SGID10.' + link + '.xml'):
-            print link, 'does not exist as new'
+            print(link, 'does not exist as new')
             return None
         else:
             return new_prefix + 'SGID10.' + link + '.xml'
@@ -272,8 +272,8 @@ def replace_metadata_links(top_dir='data/ftplinktest', rewrite_source=False):
                         re_write = True
                         link = parse_metadata_link(m[1])
                         if link is None:
-                            print 'other:', m[1]
-                            print path
+                            print('other:', m[1])
+                            print(path)
                         else:
                             replace_link = get_replace_link(link)
                             if replace_link is None:
@@ -309,9 +309,9 @@ def replace_metadata_links(top_dir='data/ftplinktest', rewrite_source=False):
             data_paths.extend(links)
 
     # for n in not_founds:
-    #     print n
-    print len(set(data_paths))
-    print len(set(not_founds))
+    #     print(n)
+    print(len(set(data_paths)))
+    print(len(set(not_founds)))
     return set(data_paths)
 
 
@@ -334,7 +334,7 @@ def replace_direct_package_links(top_dir='data/ftplinktest', rewrite_source=Fals
         new_prefix = 'ftp://ftp.agrc.utah.gov/UtahSGID_Vector/UTM12_NAD83/Metadata/'
         new_html_file_path = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
         if not os.path.exists(new_html_file_path + 'SGID10.' + link + '.xml'):
-            print link, 'does not exist as new'
+            print(link, 'does not exist as new')
             return None
         else:
             return new_prefix + 'SGID10.' + link + '.xml'
@@ -348,8 +348,8 @@ def replace_direct_package_links(top_dir='data/ftplinktest', rewrite_source=Fals
                 for link_matcher in direct_links:
                     matches = link_matcher.findall(line)
                     if len(matches) > 0:
-                        print search_file
-                        print line
+                        print(search_file)
+                        print(line)
                         data_links.append(line)
 
                     # if link in line:
@@ -363,8 +363,8 @@ def replace_direct_package_links(top_dir='data/ftplinktest', rewrite_source=Fals
                 #         re_write = True
                 #         link = parse_metadata_link(m[1])
                 #         if link is None:
-                #             print 'other:', m[1]
-                #             print path
+                #             print('other:', m[1])
+                #             print(path)
                 #         else:
                 #             replace_link = get_replace_link(link)
                 #             if replace_link is None:
@@ -402,9 +402,9 @@ def replace_direct_package_links(top_dir='data/ftplinktest', rewrite_source=Fals
 #             data_paths.extend(links)`
 
     # for n in not_founds:
-    #     print n
-    print len(links)
-    # print len(set(not_founds))
+    #     print(n)
+    print(len(links))
+    # print(len(set(not_founds)))
     # return set(data_paths)
 
 
@@ -440,12 +440,12 @@ def replace_ftp_links(top_dir='data/ftplinktest', rewrite_source=False):
                     for m in matches:
                         link = parse_ftp_link(m[1], top_dir)
                         if link is None:
-                            print 'other:', m[1]
-                            print path
+                            print('other:', m[1])
+                            print(path)
                         elif (not link.packaged and link.get_catname() in feature_specs):
                             replace_link = get_replace_link(link, feature_specs[link.get_catname()])
                             if replace_link is None:
-                                print 'other:', link.path
+                                print('other:', link.path)
                                 continue
                             download = m[0] + m[1]
                             replacer = re.compile(download)
@@ -455,7 +455,7 @@ def replace_ftp_links(top_dir='data/ftplinktest', rewrite_source=False):
                         elif (link.packaged and link.get_catname() in package_specs):
                             replace_link = get_replace_link(link, package_specs[link.get_catname()])
                             if replace_link is None:
-                                print 'other:', link.path
+                                print('other:', link.path)
                                 continue
                             download = m[0] + m[1]
                             replacer = re.compile(download)
@@ -463,10 +463,10 @@ def replace_ftp_links(top_dir='data/ftplinktest', rewrite_source=False):
                             c += 1
                             data_links.append(download)
                         else:
-                            print 'not found:', link.path
+                            print('not found:', link.path)
                             if link.packaged:
                                 not_founds.append(link.name)
-                            print path
+                            print(path)
 
                     lines.append(replace_line)
                 else:
@@ -491,7 +491,7 @@ def replace_ftp_links(top_dir='data/ftplinktest', rewrite_source=False):
             data_paths.extend(links)
 
     # for n in not_founds:
-    #     print n
+    #     print(n)
     return data_paths
 
 
@@ -522,7 +522,7 @@ def parse_ftp_link(link, src_dir):
 
     uniquer = "{}_{}_{}".format(category, name, packaged)
     if uniquer in FtpLink.unique_links:
-        print uniquer, link
+        print(uniquer, link)
         return None
 
     return FtpLink(category, name, packaged, src_dir, ext, link)
@@ -552,7 +552,7 @@ def create_new_features(spec_catnames, ftp_catname_dict, workspace):
             fc = "{}.{}.{}".format('SGID10', ftp_link.category.upper(), ftp_link.name)
             if arcpy.Exists(os.path.join(workspace, fc)):
                 spec_manager.get_feature(fc, create=True)
-                print catname
+                print(catname)
             else:
                 not_found.append(ftp_link)
     return not_found
@@ -572,7 +572,7 @@ def get_name_folder_id(name, parent_id):
     """Get drive id for a folder with name of category and in parent_id drive folder."""
     category_id = user_drive.get_file_id_by_name_and_directory(name, parent_id)
     if not category_id:
-        print 'Creating drive folder: {}'.format(name)
+        print('Creating drive folder: {}'.format(name))
         category_id = user_drive.create_drive_folder(name, [parent_id])
 
     return category_id
@@ -581,7 +581,7 @@ def get_name_folder_id(name, parent_id):
 def reassign_feature_parents():
     ided_feature_specs = get_spec_catnames(spec_manager.get_feature_spec_path_list(), True)
     for spec_name in ided_feature_specs:
-        print spec_name
+        print(spec_name)
         spec = ided_feature_specs[spec_name]
         old_parent_id = spec['parent_ids'][0]
         new_parent_id = get_name_folder_id(spec['name'], old_parent_id)
@@ -595,7 +595,7 @@ def get_folder_id(name, parent_id):
     """Get drive id for a folder with name of name and in parent_id drive folder."""
     name_id = user_drive.get_file_id_by_name_and_directory(name, parent_id)
     if not name_id:
-        print 'Creating drive folder: {}'.format(name)
+        print('Creating drive folder: {}'.format(name))
         name_id = user_drive.create_drive_folder(name, [parent_id])
 
     return name_id
@@ -609,11 +609,11 @@ def get_hash_size_csv():
         if feature['hash_id'] == "":
             continue
         name = feature['sgid_name']
-        print name
+        print(name)
         size = user_drive.get_size(feature['hash_id'])
         time.sleep(0.5)
         cycle = feature['update_cycle']
-        print '\t', size
+        print('\t', size)
         hash_size_records.append([name, size, cycle])
 
     with open(out_csv, 'wb') as out_table:
@@ -628,17 +628,17 @@ def get_spec_property_csv(properties):
     count = 0
     for feature in features:
         if count % 50 == 0:
-            print count
+            print(count)
         count += 1
         out_row = [feature[p] for p in properties]
         if feature['gdb_id'] == "":
-            print feature['sgid_name']
+            print(feature['sgid_name'])
             continue
         out_row.append(float(user_drive.get_size(feature['gdb_id'])) / 1048576)
         time.sleep(0.01)
         output_rows.append(out_row)
 
-    print count
+    print(count)
     with open(out_csv, 'wb') as out_table:
         table = csv.writer(out_table)
         table.writerow(properties + ['MB'])
@@ -652,31 +652,31 @@ def get_total_data_size():
         if feature['gdb_id'] == "" or feature['shape_id'] == "":
             continue
         name = feature['sgid_name']
-        print name
+        print(name)
         size = user_drive.get_size(feature['gdb_id']) * 0.000001
         size += user_drive.get_size(feature['shape_id']) * 0.000001
         time.sleep(0.1)
-        print '\t', size
+        print('\t', size)
         sizes.append(size)
         if len(sizes) == 10:
             return
 
-    print 'Total feature MBs:', sum(sizes)
+    print('Total feature MBs:', sum(sizes))
     packages = spec_manager.get_package_specs()
     for package in packages:
         if package['gdb_id'] == "" or package['shape_id'] == "":
             continue
         name = package['name']
-        print name
+        print(name)
         size = user_drive.get_size(package['gdb_id']) * 0.000001
         size += user_drive.get_size(package['shape_id']) * 0.000001
         time.sleep(0.1)
-        print '\t', size
+        print('\t', size)
         sizes.append(size)
 
-    print 'total specs:', len(features) + len(packages)
-    print 'total sizes:', len(sizes)
-    print 'Total MBs:', sum(sizes)
+    print('total specs:', len(features) + len(packages))
+    print('total sizes:', len(sizes))
+    print('Total MBs:', sum(sizes))
 
 
 def set_cycle_by_date_in_name():
@@ -685,7 +685,7 @@ def set_cycle_by_date_in_name():
         sgid_name = feature['sgid_name']
         matches = dated.findall(sgid_name)
         if len(matches) == 1 and feature['update_cycle'] == 'day':
-            print sgid_name, matches
+            print(sgid_name, matches)
             feature['update_cycle'] = spec_manager.UPDATE_CYCLES.NEVER
             spec_manager.save_spec_json(feature)
 
@@ -708,9 +708,9 @@ def set_cycle_by_csv():
         if sgid_name in update_cycles:
             feature['update_cycle'] = update_cycles[sgid_name]
             spec_manager.save_spec_json(feature)
-            # print sgid_name, feature['update_cycle'], update_cycles[sgid_name]
+            # print(sgid_name, feature['update_cycle'], update_cycles[sgid_name])
         else:
-            print sgid_name, 'not found!!!'
+            print(sgid_name, 'not found!!!')
 
 def check_empty_gdb_ids():
     features = spec_manager.get_feature_specs()
@@ -720,16 +720,16 @@ def check_empty_gdb_ids():
             f_id = user_drive.get_file_id_by_name_and_directory(feature['name'], cat_id)
             time.sleep(0.01)
             if f_id is None:
-                print "'{}',".format(feature['sgid_name'])
+                print("'{}',".format(feature['sgid_name']))
 
 
 def check_feature_in_packages(sgid_name_list):
     packages = spec_manager.get_package_specs()
     for package in packages:
-        print package['name']
+        print(package['name'])
         for f in package['feature_classes']:
             if f in packages:
-                print '\t', f
+                print('\t', f)
 
 
 def replace_paths_in_stewardship():
@@ -749,10 +749,10 @@ def replace_paths_in_stewardship():
         else:
             paths[i] = None
 
-    print len(drive_paths)
+    print(len(drive_paths))
     user_sheets.replace_column(spreadsheet, sheet, column, paths)
     # for i, path in enumerate(paths, start=2):
-    #     print i, path
+    #     print(i, path)
 
 
 def add_permissions(category, user_email):
@@ -765,7 +765,7 @@ def add_permissions(category, user_email):
                 feature['shape_id']
             ]
             for file_id in ids:
-                print user_drive.add_editor(file_id, user_email), feature['name']
+                print(user_drive.add_editor(file_id, user_email), feature['name'])
                 time.sleep(0.2)
 
 
@@ -780,10 +780,10 @@ def find_id(drive_id):
                 feature['parent_ids'][0]
             ]
         except IndexError:
-            print 'no parents', feature['name']
+            print('no parents', feature['name'])
 
         if drive_id in ids:
-            print feature['name']
+            print(feature['name'])
 
 
 def write_new_page(old_html, new_xml_url):
@@ -821,24 +821,24 @@ def find_old_metadata():
     ftp_metadata = []
     old_html_prefix = '/Volumes/ftp/SGID93_Vector/NAD83/MetadataHTML'
     for path in all_ftp_paths:
-        # print old_html_prefix + path
+        # print(old_html_prefix + path)
         ftp_metadata.append(path.strip())
 
     # with open('data/not_found_meta.csv', 'wb')
     ftp_metadata = set(ftp_metadata)
-    print 'Old links on site', len(ftp_metadata)
+    print('Old links on site', len(ftp_metadata))
     for path in ftp_metadata:
         l = parse_metadata_link(path)
         ftp_metadata = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
         new_xml_path = os.path.join(ftp_metadata, 'SGID10.' + l + '.xml')
         new_xml_name = 'SGID10.' + l + '.xml'
         if not os.path.exists(new_xml_path):
-            print '\'SGID10.' + l + "',"
-            # print path
+            print('\'SGID10.' + l + "',")
+            # print(path)
             pass
         else:
             #write_new_page(old_html_prefix + path, new_xml_name)
-            print new_xml_path
+            print(new_xml_path)
             pass
 
 
@@ -862,7 +862,7 @@ def get_feature_download_links():
 def create_old_package_json(folder_id):
     packages = {}
     name_ids = user_drive.list_files_in_directory(folder_id)
-    print len(name_ids)
+    print(len(name_ids))
     for name, id_number in name_ids:
         package_name = name.replace('_gdb.zip', '').replace('_shp.zip', '')
         if package_name not in packages:
@@ -878,7 +878,7 @@ if __name__ == '__main__':
     if os.path.exists('data/ftplinktest/replaces_preview'):
         shutil.rmtree('data/ftplinktest/replaces_preview')
     os.makedirs('data/ftplinktest/replaces_preview')
-    print 'Temp directory removed'
+    print('Temp directory removed')
 
     parser = argparse.ArgumentParser(description='Update links')
 
@@ -894,16 +894,16 @@ if __name__ == '__main__':
         data_dir = '/Users/kwalker/Documents/repos/gis.utah.gov/data/' + args.feature_category
 
         paths = replace_ftp_links(data_dir, rewrite_source=args.rewrite_source)
-        print 'UPDATED'
+        print('UPDATED')
         for p in paths:
-            print p
+            print(p)
     if args.top_dir:
         list_ftp_links_by_subfolder('/Users/kwalker/Documents/repos/gis.utah.gov/' + args.top_dir)
 
-    # print 'day', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.DAY))
-    # print 'week', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.WEEK))
-    # print 'month', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.MONTH))
-    # print 'quarter', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.QUARTER))
-    # print 'biannual', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.BIANNUAL))
-    # print 'annual', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.ANNUAL))
-    # print 'never', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.NEVER))
+    # print('day', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.DAY)))
+    # print('week', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.WEEK)))
+    # print('month', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.MONTH)))
+    # print('quarter', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.QUARTER)))
+    # print('biannual', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.BIANNUAL)))
+    # print('annual', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.ANNUAL)))
+    # print('never', len(spec_manager.get_feature_specs(spec_manager.UPDATE_CYCLES.NEVER)))

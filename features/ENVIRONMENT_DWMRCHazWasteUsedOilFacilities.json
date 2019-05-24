@@ -1,15 +1,15 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mWDBsNzRMR2o4azA", 
-    "hash_id": "0ByStJjVZ7c7mbHo1bEhQY0tVdnc", 
-    "name": "DWMRCHazWasteUsedOilFacilities", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mWDBsNzRMR2o4azA",
+    "hash_id": "0ByStJjVZ7c7mbHo1bEhQY0tVdnc",
+    "name": "DWMRCHazWasteUsedOilFacilities",
     "packages": [
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mcjlUeURLUkRQVk0"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.DWMRCHazWasteUsedOilFacilities", 
-    "shape_id": "0ByStJjVZ7c7mbjhlenQwdXVnMTg", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.DWMRCHazWasteUsedOilFacilities",
+    "shape_id": "0ByStJjVZ7c7mbjhlenQwdXVnMTg",
     "update_cycle": "day"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mNmp0ZmFwRHltOXM", 
-    "hash_id": "0ByStJjVZ7c7mU3FURm1lZm1BaXc", 
-    "name": "UPDESSites", 
-    "packages": [], 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mNmp0ZmFwRHltOXM",
+    "hash_id": "0ByStJjVZ7c7mU3FURm1lZm1BaXc",
+    "name": "UPDESSites",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mRFJGU3FxUkR3QVk"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.UPDESSites", 
-    "shape_id": "0ByStJjVZ7c7mS0lGejFYQ0xxcW8", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.UPDESSites",
+    "shape_id": "0ByStJjVZ7c7mS0lGejFYQ0xxcW8",
     "update_cycle": "day"
 }

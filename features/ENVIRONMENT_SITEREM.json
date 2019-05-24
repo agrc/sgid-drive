@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7menpqMmh5QU16NVk", 
-    "hash_id": "0ByStJjVZ7c7mUEhZcFc5MUExS0E", 
-    "name": "SITEREM", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7menpqMmh5QU16NVk",
+    "hash_id": "0ByStJjVZ7c7mUEhZcFc5MUExS0E",
+    "name": "SITEREM",
     "packages": [
-        "DEQLand", 
+        "DEQLand",
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mX2Y3d0FwZGd0S0U"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.SITEREM", 
-    "shape_id": "0ByStJjVZ7c7mSEV2SWo5MExJU0U", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.SITEREM",
+    "shape_id": "0ByStJjVZ7c7mSEV2SWo5MExJU0U",
     "update_cycle": "day"
 }

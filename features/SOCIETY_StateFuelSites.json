@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mUmtDRGpqZEd0ZVk", 
-    "hash_id": "0ByStJjVZ7c7maTJ4ZlJoWWVQNlU", 
-    "name": "StateFuelSites", 
-    "packages": [], 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mUmtDRGpqZEd0ZVk",
+    "hash_id": "0ByStJjVZ7c7maTJ4ZlJoWWVQNlU",
+    "name": "StateFuelSites",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mMzd6VGQxenN6Z0k"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.StateFuelSites", 
-    "shape_id": "0ByStJjVZ7c7maWV0aXFheXgyYWs", 
+    ],
+    "sgid_name": "SGID10.SOCIETY.StateFuelSites",
+    "shape_id": "0ByStJjVZ7c7maWV0aXFheXgyYWs",
     "update_cycle": "annual"
 }

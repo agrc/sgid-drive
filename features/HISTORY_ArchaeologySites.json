@@ -1,13 +1,13 @@
 {
-    "category": "HISTORY", 
-    "gdb_id": "0ByStJjVZ7c7mdDBqMVhPMFhQSlU", 
-    "hash_id": "0ByStJjVZ7c7mTDNlTmxTN1RfN28", 
-    "name": "ArchaeologySites", 
-    "packages": [], 
+    "category": "HISTORY",
+    "gdb_id": "0ByStJjVZ7c7mdDBqMVhPMFhQSlU",
+    "hash_id": "0ByStJjVZ7c7mTDNlTmxTN1RfN28",
+    "name": "ArchaeologySites",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcjFCd0tmcEdHcmM"
-    ], 
-    "sgid_name": "SGID10.HISTORY.ArchaeologySites", 
-    "shape_id": "0ByStJjVZ7c7mUlQ4Y2VieG9JRFk", 
+    ],
+    "sgid_name": "SGID10.HISTORY.ArchaeologySites",
+    "shape_id": "0ByStJjVZ7c7mUlQ4Y2VieG9JRFk",
     "update_cycle": "week"
 }

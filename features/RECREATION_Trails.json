@@ -1,15 +1,15 @@
 {
-    "category": "RECREATION", 
-    "gdb_id": "1rEFJ5wcMHPNzNClGW7-UOP7a6EidpUhx", 
-    "hash_id": "1_dbS2uCGSbjSpjMgbLpKx-Z4DklpW4s-", 
-    "name": "Trails", 
+    "category": "RECREATION",
+    "gdb_id": "1rEFJ5wcMHPNzNClGW7-UOP7a6EidpUhx",
+    "hash_id": "1_dbS2uCGSbjSpjMgbLpKx-Z4DklpW4s-",
+    "name": "Trails",
     "packages": [
         "Trails"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7maXd5LW11YjRQWUk"
-    ], 
-    "sgid_name": "SGID10.RECREATION.Trails", 
-    "shape_id": "1R70QPokUBeAlzWu9lu8fMFiSTsDihIbn", 
+    ],
+    "sgid_name": "SGID10.RECREATION.Trails",
+    "shape_id": "1R70QPokUBeAlzWu9lu8fMFiSTsDihIbn",
     "update_cycle": "week"
 }

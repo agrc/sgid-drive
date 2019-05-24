@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mVTRWUG9NMnBjbmM", 
-    "hash_id": "0ByStJjVZ7c7mYXNsRmxWeGtvb0U", 
-    "name": "Parcels_Weber", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mVTRWUG9NMnBjbmM",
+    "hash_id": "0ByStJjVZ7c7mYXNsRmxWeGtvb0U",
+    "name": "Parcels_Weber",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7meWRjQzdRTFh1VHM"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Weber", 
-    "shape_id": "0ByStJjVZ7c7mWGF5UzQ4WFVscHc", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Weber",
+    "shape_id": "0ByStJjVZ7c7mWGF5UzQ4WFVscHc",
     "update_cycle": "month"
 }

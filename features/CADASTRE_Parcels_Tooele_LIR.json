@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mV0VBWnBZVF90ZEU", 
-    "hash_id": "0ByStJjVZ7c7mUmRYb1dYMFRuTTg", 
-    "name": "Parcels_Tooele_LIR", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mV0VBWnBZVF90ZEU",
+    "hash_id": "0ByStJjVZ7c7mUmRYb1dYMFRuTTg",
+    "name": "Parcels_Tooele_LIR",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mRDNrVFhmTGhzNVk"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Tooele_LIR", 
-    "shape_id": "0ByStJjVZ7c7mQVFYN3o5cE5EdEU", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Tooele_LIR",
+    "shape_id": "0ByStJjVZ7c7mQVFYN3o5cE5EdEU",
     "update_cycle": "annual"
 }

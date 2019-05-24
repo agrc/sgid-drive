@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mWWJNX3NYY1pqS2c", 
-    "hash_id": "0ByStJjVZ7c7mR05zc015WWdZak0", 
-    "name": "MeanderedWater_GCDB", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mWWJNX3NYY1pqS2c",
+    "hash_id": "0ByStJjVZ7c7mR05zc015WWdZak0",
+    "name": "MeanderedWater_GCDB",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mTlNtS0o5WC0xSmc"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.MeanderedWater_GCDB", 
-    "shape_id": "0ByStJjVZ7c7mN2Nnb1U2emNwMWs", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.MeanderedWater_GCDB",
+    "shape_id": "0ByStJjVZ7c7mN2Nnb1U2emNwMWs",
     "update_cycle": "annual"
 }

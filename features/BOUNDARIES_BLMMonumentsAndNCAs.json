@@ -1,15 +1,15 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mdnVqSU9NQ3R5S3M", 
-    "hash_id": "0ByStJjVZ7c7mNTA3OWRXcXVEazQ", 
-    "name": "BLMMonumentsAndNCAs", 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mdnVqSU9NQ3R5S3M",
+    "hash_id": "0ByStJjVZ7c7mNTA3OWRXcXVEazQ",
+    "name": "BLMMonumentsAndNCAs",
     "packages": [
         "BLMMonumentsAndConservationAreas"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVmdqTFc2Q2N0ZWs"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.BLMMonumentsAndNCAs", 
-    "shape_id": "0ByStJjVZ7c7mQjZQNkFqM3JrQmc", 
+    ],
+    "sgid_name": "SGID10.BOUNDARIES.BLMMonumentsAndNCAs",
+    "shape_id": "0ByStJjVZ7c7mQjZQNkFqM3JrQmc",
     "update_cycle": "annual"
 }

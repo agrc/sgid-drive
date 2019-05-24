@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mV0VxcWFjQ1hJY1U", 
-    "hash_id": "0ByStJjVZ7c7mLXpuQ3NPUzNnUnM", 
-    "name": "Google_Tiles", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mV0VxcWFjQ1hJY1U",
+    "hash_id": "0ByStJjVZ7c7mLXpuQ3NPUzNnUnM",
+    "name": "Google_Tiles",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mbkZRbmlMS0RJVDg"
-    ], 
-    "sgid_name": "SGID10.INDICES.Google_Tiles", 
-    "shape_id": "0ByStJjVZ7c7mUUtLR0RScDJGczQ", 
+    ],
+    "sgid_name": "SGID10.INDICES.Google_Tiles",
+    "shape_id": "0ByStJjVZ7c7mUUtLR0RScDJGczQ",
     "update_cycle": "annual"
 }

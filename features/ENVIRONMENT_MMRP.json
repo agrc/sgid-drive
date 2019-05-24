@@ -1,15 +1,15 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mVEpkZW5oNWFfNFE", 
-    "hash_id": "0ByStJjVZ7c7mUDEybTdyOE9KYlk", 
-    "name": "MMRP", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mVEpkZW5oNWFfNFE",
+    "hash_id": "0ByStJjVZ7c7mUDEybTdyOE9KYlk",
+    "name": "MMRP",
     "packages": [
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mSkRtd1NEZzlBOGc"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.MMRP", 
-    "shape_id": "0ByStJjVZ7c7mdm4zSU9fUkNUT1E", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.MMRP",
+    "shape_id": "0ByStJjVZ7c7mdm4zSU9fUkNUT1E",
     "update_cycle": "day"
 }

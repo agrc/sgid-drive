@@ -1,17 +1,17 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mVnpRWVh6UmtOSlE", 
-    "hash_id": "0ByStJjVZ7c7mQ3ZUbUtBSEFGN00", 
-    "name": "DWMRCSolidWasteFacilities", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mVnpRWVh6UmtOSlE",
+    "hash_id": "0ByStJjVZ7c7mQ3ZUbUtBSEFGN00",
+    "name": "DWMRCSolidWasteFacilities",
     "packages": [
-        "DEQLand", 
-        "DEQLandRelatedContaminantAndCleanupSites", 
+        "DEQLand",
+        "DEQLandRelatedContaminantAndCleanupSites",
         "DEQLandRelatedSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWjlkekxfc1FXMUU"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.DWMRCSolidWasteFacilities", 
-    "shape_id": "0ByStJjVZ7c7mNl9qSl9uWjgwM00", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.DWMRCSolidWasteFacilities",
+    "shape_id": "0ByStJjVZ7c7mNl9qSl9uWjgwM00",
     "update_cycle": "day"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "LOCATION", 
-    "gdb_id": "0ByStJjVZ7c7meGZPSTVwSTVtRk0", 
-    "hash_id": "0ByStJjVZ7c7mTUN1TUpqVmxkTWM", 
-    "name": "PlaceNamesGNIS2010", 
-    "packages": [], 
+    "category": "LOCATION",
+    "gdb_id": "0ByStJjVZ7c7meGZPSTVwSTVtRk0",
+    "hash_id": "0ByStJjVZ7c7mTUN1TUpqVmxkTWM",
+    "name": "PlaceNamesGNIS2010",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mQ05IaFVQNmEyY0k"
-    ], 
-    "sgid_name": "SGID10.LOCATION.PlaceNamesGNIS2010", 
-    "shape_id": "0ByStJjVZ7c7mN0hGaGtjUTFwREU", 
+    ],
+    "sgid_name": "SGID10.LOCATION.PlaceNamesGNIS2010",
+    "shape_id": "0ByStJjVZ7c7mN0hGaGtjUTFwREU",
     "update_cycle": "week"
 }

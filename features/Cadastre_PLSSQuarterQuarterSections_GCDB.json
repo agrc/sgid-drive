@@ -1,15 +1,15 @@
 {
-    "category": "Cadastre", 
-    "gdb_id": "0ByStJjVZ7c7mWktIMThaR1RBMHM", 
-    "hash_id": "0ByStJjVZ7c7mXzY2eFhCVHdsUzA", 
-    "name": "PLSSQuarterQuarterSections_GCDB", 
+    "category": "Cadastre",
+    "gdb_id": "0ByStJjVZ7c7mWktIMThaR1RBMHM",
+    "hash_id": "0ByStJjVZ7c7mXzY2eFhCVHdsUzA",
+    "name": "PLSSQuarterQuarterSections_GCDB",
     "packages": [
         "PLSS_GCDB_Cadastre"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7maHZCVWhkSUFRMFE"
-    ], 
-    "sgid_name": "SGID10.Cadastre.PLSSQuarterQuarterSections_GCDB", 
-    "shape_id": "0ByStJjVZ7c7mUm1UU0FnVmxiOEU", 
+    ],
+    "sgid_name": "SGID10.Cadastre.PLSSQuarterQuarterSections_GCDB",
+    "shape_id": "0ByStJjVZ7c7mUm1UU0FnVmxiOEU",
     "update_cycle": "biannual"
 }

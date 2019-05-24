@@ -1,15 +1,15 @@
 {
-    "category": "RECREATION", 
-    "gdb_id": "14HnAn6MgzlDNihLw7UunT0h-foLJdOUG", 
-    "hash_id": "1jMoeC4HxPhH5GrbTx_4gQcjUjaop9ZJo", 
-    "name": "Trailheads", 
+    "category": "RECREATION",
+    "gdb_id": "14HnAn6MgzlDNihLw7UunT0h-foLJdOUG",
+    "hash_id": "1jMoeC4HxPhH5GrbTx_4gQcjUjaop9ZJo",
+    "name": "Trailheads",
     "packages": [
         "Trails"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRGhxb2o1OEJ4NFU"
-    ], 
-    "sgid_name": "SGID10.RECREATION.Trailheads", 
-    "shape_id": "1reIXDD3bPXSLUKdCnHsO0gdaje8uts49", 
+    ],
+    "sgid_name": "SGID10.RECREATION.Trailheads",
+    "shape_id": "1reIXDD3bPXSLUKdCnHsO0gdaje8uts49",
     "update_cycle": "month"
 }

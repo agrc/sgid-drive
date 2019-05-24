@@ -120,8 +120,8 @@ def get_feature(source_name, packages=[], create=False):
     else:
         try:
             feature = load_feature_json(feature_spec)
-        except ValueError, e:
-            print '!bad json!:', source_name
+        except ValueError as e:
+            print('!bad json!:', source_name)
             raise(e)
         for p in packages:
             if p not in feature['packages']:
@@ -225,16 +225,16 @@ def _list_packages_with_nonexistant_features(workspace, package_list=None):
             for f in fcs:
                 if f in bad_features or not arcpy.Exists(os.path.join(workspace, f)):
                     if f not in bad_features:
-                        print f
+                        print(f)
                         bad_features.append(f)
                     if p not in bad_packages:
                         bad_packages[p] = []
                     bad_packages[p].append(f)
     print
     for p in bad_packages:
-        print p
+        print(p)
         for f in bad_packages[p]:
-            print ' ', f
+            print(' ', f)
 
 
 def _list_nonexistant_features(workspace):
@@ -246,11 +246,11 @@ def _list_nonexistant_features(workspace):
         fc = feature_spec['sgid_name']
         if fc in bad_features or not arcpy.Exists(os.path.join(workspace, fc)):
             if fc in bad_features:
-                print 'TWICE!!!!', fc
+                print('TWICE!!!!', fc)
             bad_features.append(fc)
 
     for f in bad_features:
-        print f
+        print(f)
 
 
 def _clear_driveids(path, spec):
@@ -284,4 +284,3 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.create:
         get_feature(args.source_name, create=True)
-

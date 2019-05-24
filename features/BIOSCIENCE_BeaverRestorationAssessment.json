@@ -1,13 +1,13 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mNHFwajNmMU1KTVU", 
-    "hash_id": "0ByStJjVZ7c7md2E3TVQ3QmNCLU0", 
-    "name": "BeaverRestorationAssessment", 
-    "packages": [], 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mNHFwajNmMU1KTVU",
+    "hash_id": "0ByStJjVZ7c7md2E3TVQ3QmNCLU0",
+    "name": "BeaverRestorationAssessment",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mZmJtZXNPN1l3ZFE"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.BeaverRestorationAssessment", 
-    "shape_id": "0ByStJjVZ7c7mWmx2eTA4TmdEOFU", 
+    ],
+    "sgid_name": "SGID10.BIOSCIENCE.BeaverRestorationAssessment",
+    "shape_id": "0ByStJjVZ7c7mWmx2eTA4TmdEOFU",
     "update_cycle": "week"
 }

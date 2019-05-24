@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mRlpVTG85bm5xYW8", 
-    "hash_id": "0ByStJjVZ7c7mak1HaHhpQnV4NVU", 
-    "name": "Parcels_Cache_LIR", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mRlpVTG85bm5xYW8",
+    "hash_id": "0ByStJjVZ7c7mak1HaHhpQnV4NVU",
+    "name": "Parcels_Cache_LIR",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mMXRaQVM3V0o1Q1E"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Cache_LIR", 
-    "shape_id": "0ByStJjVZ7c7mai03bGE1bU9ydVU", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Cache_LIR",
+    "shape_id": "0ByStJjVZ7c7mai03bGE1bU9ydVU",
     "update_cycle": "annual"
 }

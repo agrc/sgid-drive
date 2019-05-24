@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7meEhITkFJY0djWkU", 
-    "hash_id": "0ByStJjVZ7c7mQy1PbGRoUjMyczQ", 
-    "name": "Parcels_Wasatch", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7meEhITkFJY0djWkU",
+    "hash_id": "0ByStJjVZ7c7mQy1PbGRoUjMyczQ",
+    "name": "Parcels_Wasatch",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mTzFNaXROcnVsYm8"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Wasatch", 
-    "shape_id": "0ByStJjVZ7c7mdF80MG9tNnpCaFk", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Wasatch",
+    "shape_id": "0ByStJjVZ7c7mdF80MG9tNnpCaFk",
     "update_cycle": "biannual"
 }

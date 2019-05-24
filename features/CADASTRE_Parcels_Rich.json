@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mNkE1eDQ4OThtUTQ", 
-    "hash_id": "0ByStJjVZ7c7mcm9iRFNpOHlHVkE", 
-    "name": "Parcels_Rich", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mNkE1eDQ4OThtUTQ",
+    "hash_id": "0ByStJjVZ7c7mcm9iRFNpOHlHVkE",
+    "name": "Parcels_Rich",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mMWYtZFBLXzFHT0U"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Rich", 
-    "shape_id": "0ByStJjVZ7c7meDdCeDROR2YtbU0", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Rich",
+    "shape_id": "0ByStJjVZ7c7meDdCeDROR2YtbU0",
     "update_cycle": "biannual"
 }

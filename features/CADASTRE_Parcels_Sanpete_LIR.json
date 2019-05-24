@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mU3V1QmRqTjBKUmM", 
-    "hash_id": "0ByStJjVZ7c7mMUFkaWQyb1hBYzQ", 
-    "name": "Parcels_Sanpete_LIR", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mU3V1QmRqTjBKUmM",
+    "hash_id": "0ByStJjVZ7c7mMUFkaWQyb1hBYzQ",
+    "name": "Parcels_Sanpete_LIR",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mVU03RTJwdUxPNnM"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Sanpete_LIR", 
-    "shape_id": "0ByStJjVZ7c7mbXpQRUVOTUQzb1k", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Sanpete_LIR",
+    "shape_id": "0ByStJjVZ7c7mbXpQRUVOTUQzb1k",
     "update_cycle": "annual"
 }

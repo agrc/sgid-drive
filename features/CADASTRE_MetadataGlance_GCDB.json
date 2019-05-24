@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mQVZlMnJ1TkZuT2s", 
-    "hash_id": "0ByStJjVZ7c7mZk9lV2tjeHZucGM", 
-    "name": "MetadataGlance_GCDB", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mQVZlMnJ1TkZuT2s",
+    "hash_id": "0ByStJjVZ7c7mZk9lV2tjeHZucGM",
+    "name": "MetadataGlance_GCDB",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7ma2ZtT1N0Ym5ibjQ"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.MetadataGlance_GCDB", 
-    "shape_id": "0ByStJjVZ7c7mVFV2eGhLSnlkY3c", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.MetadataGlance_GCDB",
+    "shape_id": "0ByStJjVZ7c7mVFV2eGhLSnlkY3c",
     "update_cycle": "annual"
 }

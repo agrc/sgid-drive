@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mS3VjVUwzaGUwek0", 
-    "hash_id": "0ByStJjVZ7c7mSG1yTW5SaWJBNDg", 
-    "name": "Parcels_Sevier", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mS3VjVUwzaGUwek0",
+    "hash_id": "0ByStJjVZ7c7mSG1yTW5SaWJBNDg",
+    "name": "Parcels_Sevier",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mR3R0VGRQdDZkems"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Sevier", 
-    "shape_id": "0ByStJjVZ7c7mQjNOZGxVSndDM2s", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Sevier",
+    "shape_id": "0ByStJjVZ7c7mQjNOZGxVSndDM2s",
     "update_cycle": "biannual"
 }

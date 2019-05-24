@@ -1,15 +1,15 @@
 {
-    "category": "Cadastre", 
-    "gdb_id": "0ByStJjVZ7c7mTU0xRzVMajNodUE", 
-    "hash_id": "0ByStJjVZ7c7mY2tTSDhXRDF4ejQ", 
-    "name": "PLSSTownships_GCDB", 
+    "category": "Cadastre",
+    "gdb_id": "0ByStJjVZ7c7mTU0xRzVMajNodUE",
+    "hash_id": "0ByStJjVZ7c7mY2tTSDhXRDF4ejQ",
+    "name": "PLSSTownships_GCDB",
     "packages": [
         "PLSS_GCDB_Cadastre"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mdTBYbndwOVZhV00"
-    ], 
-    "sgid_name": "SGID10.Cadastre.PLSSTownships_GCDB", 
-    "shape_id": "0ByStJjVZ7c7mWk94Tk52aG80QWM", 
+    ],
+    "sgid_name": "SGID10.Cadastre.PLSSTownships_GCDB",
+    "shape_id": "0ByStJjVZ7c7mWk94Tk52aG80QWM",
     "update_cycle": "biannual"
 }

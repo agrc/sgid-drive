@@ -1,15 +1,15 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mR1YtUnZGYTlZd2M", 
-    "hash_id": "0ByStJjVZ7c7mWFFvYmloX3RfS2s", 
-    "name": "LandOwnership", 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mR1YtUnZGYTlZd2M",
+    "hash_id": "0ByStJjVZ7c7mWFFvYmloX3RfS2s",
+    "name": "LandOwnership",
     "packages": [
         "Wilderness_ProtectedLandsAndProposals"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVl9DcnJNSUh6OUE"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.LandOwnership", 
-    "shape_id": "0ByStJjVZ7c7mNWhwdmEtci1TNzA", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.LandOwnership",
+    "shape_id": "0ByStJjVZ7c7mNWhwdmEtci1TNzA",
     "update_cycle": "week"
 }

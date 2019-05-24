@@ -1,15 +1,15 @@
 {
-    "category": "UTILITIES", 
-    "gdb_id": "0ByStJjVZ7c7mUHBPTnRaamhjaGc", 
-    "hash_id": "0ByStJjVZ7c7mdkU0M3IwT3Y5TE0", 
-    "name": "BroadbandService", 
+    "category": "UTILITIES",
+    "gdb_id": "0ByStJjVZ7c7mUHBPTnRaamhjaGc",
+    "hash_id": "0ByStJjVZ7c7mdkU0M3IwT3Y5TE0",
+    "name": "BroadbandService",
     "packages": [
         "BroadbandInternet"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUFhPcy1xaGo1QXc"
-    ], 
-    "sgid_name": "SGID10.UTILITIES.BroadbandService", 
-    "shape_id": "0ByStJjVZ7c7ma0tTVVhSWEdfV0U", 
+    ],
+    "sgid_name": "SGID10.UTILITIES.BroadbandService",
+    "shape_id": "0ByStJjVZ7c7ma0tTVVhSWEdfV0U",
     "update_cycle": "biannual"
 }

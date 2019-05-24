@@ -1,15 +1,15 @@
 {
-    "category": "LOCATION", 
-    "gdb_id": "0ByStJjVZ7c7mSmFPLVlUcG9hWkk", 
-    "hash_id": "0ByStJjVZ7c7mUjVBUFdTR25pN0U", 
-    "name": "AddressSystemQuadrants", 
+    "category": "LOCATION",
+    "gdb_id": "0ByStJjVZ7c7mSmFPLVlUcG9hWkk",
+    "hash_id": "0ByStJjVZ7c7mUjVBUFdTR25pN0U",
+    "name": "AddressSystemQuadrants",
     "packages": [
         "AddressPointsAndQuadrants"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mZDdZQW5Rb3lGUU0"
-    ], 
-    "sgid_name": "SGID10.LOCATION.AddressSystemQuadrants", 
-    "shape_id": "0ByStJjVZ7c7maVBEcE1xR2FING8", 
+    ],
+    "sgid_name": "SGID10.LOCATION.AddressSystemQuadrants",
+    "shape_id": "0ByStJjVZ7c7maVBEcE1xR2FING8",
     "update_cycle": "quarter"
 }

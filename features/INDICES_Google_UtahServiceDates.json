@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mUG11MXBGZnRuR0k", 
-    "hash_id": "0ByStJjVZ7c7mamliOE1fZ3U3RXc", 
-    "name": "Google_UtahServiceDates", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mUG11MXBGZnRuR0k",
+    "hash_id": "0ByStJjVZ7c7mamliOE1fZ3U3RXc",
+    "name": "Google_UtahServiceDates",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mcWEzaXNRU09FUGM"
-    ], 
-    "sgid_name": "SGID10.INDICES.Google_UtahServiceDates", 
-    "shape_id": "0ByStJjVZ7c7mY05EOERhc0IyamM", 
+    ],
+    "sgid_name": "SGID10.INDICES.Google_UtahServiceDates",
+    "shape_id": "0ByStJjVZ7c7mY05EOERhc0IyamM",
     "update_cycle": "annual"
 }

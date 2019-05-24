@@ -1,15 +1,15 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mc3AwY0lPT1dXUlU", 
-    "hash_id": "0ByStJjVZ7c7mS1h3TTRYNWY4aWM", 
-    "name": "BFNONTARGETED", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mc3AwY0lPT1dXUlU",
+    "hash_id": "0ByStJjVZ7c7mS1h3TTRYNWY4aWM",
+    "name": "BFNONTARGETED",
     "packages": [
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWi04Mk51YS1xSG8"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.BFNONTARGETED", 
-    "shape_id": "0ByStJjVZ7c7mWUlUSHZzMDJObUU", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.BFNONTARGETED",
+    "shape_id": "0ByStJjVZ7c7mWUlUSHZzMDJObUU",
     "update_cycle": "day"
 }

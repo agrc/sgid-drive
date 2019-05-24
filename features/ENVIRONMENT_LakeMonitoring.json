@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mc1Z0ZlZWS0RfT0E", 
-    "hash_id": "0ByStJjVZ7c7mYUJrUmZvWUtxc3M", 
-    "name": "LakeMonitoring", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mc1Z0ZlZWS0RfT0E",
+    "hash_id": "0ByStJjVZ7c7mYUJrUmZvWUtxc3M",
+    "name": "LakeMonitoring",
     "packages": [
-        "DEQLandRelatedSites", 
+        "DEQLandRelatedSites",
         "DEQWaterMonitoring"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUDNCQWxQX0M0QjA"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.LakeMonitoring", 
-    "shape_id": "0ByStJjVZ7c7mSGJ0MFdvdE4zSUU", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.LakeMonitoring",
+    "shape_id": "0ByStJjVZ7c7mSGJ0MFdvdE4zSUU",
     "update_cycle": "day"
 }

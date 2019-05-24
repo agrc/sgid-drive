@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mdm9kUnpGdTZHbk0", 
-    "hash_id": "0ByStJjVZ7c7mNHpRQTd4bGxJTlE", 
-    "name": "DNROilGasFields", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mdm9kUnpGdTZHbk0",
+    "hash_id": "0ByStJjVZ7c7mNHpRQTd4bGxJTlE",
+    "name": "DNROilGasFields",
     "packages": [
         "DOGMOilAndGasResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mZ2JCRmRHSEdvcGM"
-    ], 
-    "sgid_name": "SGID10.ENERGY.DNROilGasFields", 
-    "shape_id": "0ByStJjVZ7c7mVHhzUHJGelZLWFk", 
+    ],
+    "sgid_name": "SGID10.ENERGY.DNROilGasFields",
+    "shape_id": "0ByStJjVZ7c7mVHhzUHJGelZLWFk",
     "update_cycle": "quarter"
 }

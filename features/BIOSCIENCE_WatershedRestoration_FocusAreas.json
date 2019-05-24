@@ -1,13 +1,13 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mZW8yb2NzdlFMaFE", 
-    "hash_id": "0ByStJjVZ7c7meUR4VzdoWS1Qa0E", 
-    "name": "WatershedRestoration_FocusAreas", 
-    "packages": [], 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mZW8yb2NzdlFMaFE",
+    "hash_id": "0ByStJjVZ7c7meUR4VzdoWS1Qa0E",
+    "name": "WatershedRestoration_FocusAreas",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mZGNSOU1paEIxeVU"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.WatershedRestoration_FocusAreas", 
-    "shape_id": "0ByStJjVZ7c7mRWxMd3puMGFFd2c", 
+    ],
+    "sgid_name": "SGID10.BIOSCIENCE.WatershedRestoration_FocusAreas",
+    "shape_id": "0ByStJjVZ7c7mRWxMd3puMGFFd2c",
     "update_cycle": "annual"
 }

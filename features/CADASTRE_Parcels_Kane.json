@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mMTJkYnlSUFBtYmc", 
-    "hash_id": "0ByStJjVZ7c7meHFDZEtGLUJpcXM", 
-    "name": "Parcels_Kane", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mMTJkYnlSUFBtYmc",
+    "hash_id": "0ByStJjVZ7c7meHFDZEtGLUJpcXM",
+    "name": "Parcels_Kane",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mUUt2dzV4SmN0WHc"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Kane", 
-    "shape_id": "0ByStJjVZ7c7mRXVDTFlVZUxXNnc", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Kane",
+    "shape_id": "0ByStJjVZ7c7mRXVDTFlVZUxXNnc",
     "update_cycle": "biannual"
 }
