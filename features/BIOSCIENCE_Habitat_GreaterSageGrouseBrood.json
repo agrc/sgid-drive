@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mQ2Q2S0piOXpNVXM", 
-    "hash_id": "0ByStJjVZ7c7mUFhObE1aRVFpeUk", 
-    "name": "Habitat_GreaterSageGrouseBrood", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mQ2Q2S0piOXpNVXM",
+    "hash_id": "0ByStJjVZ7c7mUFhObE1aRVFpeUk",
+    "name": "Habitat_GreaterSageGrouseBrood",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7meU9fdnQ0TklIaWs"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_GreaterSageGrouseBrood", 
-    "shape_id": "0ByStJjVZ7c7mT19qLXR2cy1Ub28", 
+    ],
+    "sgid_name": "SGID10.BIOSCIENCE.Habitat_GreaterSageGrouseBrood",
+    "shape_id": "0ByStJjVZ7c7mT19qLXR2cy1Ub28",
     "update_cycle": "annual"
 }

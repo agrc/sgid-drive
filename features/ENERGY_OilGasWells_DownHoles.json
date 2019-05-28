@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mdzN1REU0SzUxZGM", 
-    "hash_id": "0ByStJjVZ7c7mRVNzUmQ1YU5RRlU", 
-    "name": "OilGasWells_DownHoles", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mdzN1REU0SzUxZGM",
+    "hash_id": "0ByStJjVZ7c7mRVNzUmQ1YU5RRlU",
+    "name": "OilGasWells_DownHoles",
     "packages": [
         "DOGMOilAndGasResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQzM0aWpmNGlSQ0k"
-    ], 
-    "sgid_name": "SGID10.ENERGY.OilGasWells_DownHoles", 
-    "shape_id": "0ByStJjVZ7c7mR2s4eFl6YXF1V3c", 
+    ],
+    "sgid_name": "SGID10.ENERGY.OilGasWells_DownHoles",
+    "shape_id": "0ByStJjVZ7c7mR2s4eFl6YXF1V3c",
     "update_cycle": "day"
 }

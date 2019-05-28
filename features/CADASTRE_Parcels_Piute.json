@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mUGw4dDNXM2lQNTQ", 
-    "hash_id": "0ByStJjVZ7c7mbzRXOUh2NGxkMlE", 
-    "name": "Parcels_Piute", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mUGw4dDNXM2lQNTQ",
+    "hash_id": "0ByStJjVZ7c7mbzRXOUh2NGxkMlE",
+    "name": "Parcels_Piute",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mOWcxOGhyTFB4SGc"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Piute", 
-    "shape_id": "0ByStJjVZ7c7meFpUcjcyNFFtUFk", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Piute",
+    "shape_id": "0ByStJjVZ7c7meFpUcjcyNFFtUFk",
     "update_cycle": "biannual"
 }

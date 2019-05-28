@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mQjdSYnE5TklkTm8", 
-    "hash_id": "0ByStJjVZ7c7mSkQtRFU0VUNqYVU", 
-    "name": "Parcels_Daggett", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mQjdSYnE5TklkTm8",
+    "hash_id": "0ByStJjVZ7c7mSkQtRFU0VUNqYVU",
+    "name": "Parcels_Daggett",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7md1FYZDkzWjZkZEE"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Daggett", 
-    "shape_id": "0ByStJjVZ7c7mVk5razYtR19XNDA", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Daggett",
+    "shape_id": "0ByStJjVZ7c7mVk5razYtR19XNDA",
     "update_cycle": "biannual"
 }

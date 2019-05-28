@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7md2pHLUNfelRWaXc", 
-    "hash_id": "0ByStJjVZ7c7mT3VCUXdRNFNncVE", 
-    "name": "PLSSPoint_AGRC", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7md2pHLUNfelRWaXc",
+    "hash_id": "0ByStJjVZ7c7mT3VCUXdRNFNncVE",
+    "name": "PLSSPoint_AGRC",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mUTFjZnp2TTMwRzQ"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.PLSSPoint_AGRC", 
-    "shape_id": "0ByStJjVZ7c7mS1JiWXZtazFkOVU", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.PLSSPoint_AGRC",
+    "shape_id": "0ByStJjVZ7c7mS1JiWXZtazFkOVU",
     "update_cycle": "annual"
 }

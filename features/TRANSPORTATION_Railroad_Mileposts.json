@@ -1,15 +1,15 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7meE5ndEZtbU4zRzQ", 
-    "hash_id": "0ByStJjVZ7c7mOXFUQko2S0VmVW8", 
-    "name": "Railroad_Mileposts", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7meE5ndEZtbU4zRzQ",
+    "hash_id": "0ByStJjVZ7c7mOXFUQko2S0VmVW8",
+    "name": "Railroad_Mileposts",
     "packages": [
         "MainlineRailroads"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUGZ6SThxSEtSQVk"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.Railroad_Mileposts", 
-    "shape_id": "0ByStJjVZ7c7mU3RQNHR3SmkwdkE", 
+    ],
+    "sgid_name": "SGID10.TRANSPORTATION.Railroad_Mileposts",
+    "shape_id": "0ByStJjVZ7c7mU3RQNHR3SmkwdkE",
     "update_cycle": "annual"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mazNHT3lCQ0Ytckk", 
-    "hash_id": "0ByStJjVZ7c7md1VQQmtucTBoUTQ", 
-    "name": "Parcels_Morgan_LIR", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mazNHT3lCQ0Ytckk",
+    "hash_id": "0ByStJjVZ7c7md1VQQmtucTBoUTQ",
+    "name": "Parcels_Morgan_LIR",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mV3h1c3NWOW9UMVU"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Morgan_LIR", 
-    "shape_id": "0ByStJjVZ7c7mZFM2OXZVQ0dJeU0", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Morgan_LIR",
+    "shape_id": "0ByStJjVZ7c7mZFM2OXZVQ0dJeU0",
     "update_cycle": "annual"
 }

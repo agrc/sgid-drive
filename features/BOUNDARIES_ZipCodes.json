@@ -1,15 +1,15 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mQTZ1bEU4aDM2eG8", 
-    "hash_id": "0ByStJjVZ7c7mSENhVVE2cWhJRnM", 
-    "name": "ZipCodes", 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mQTZ1bEU4aDM2eG8",
+    "hash_id": "0ByStJjVZ7c7mSENhVVE2cWhJRnM",
+    "name": "ZipCodes",
     "packages": [
         "USPS"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMkhTMV80dVRKaTQ"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.ZipCodes", 
-    "shape_id": "0ByStJjVZ7c7mTzlIVFduaTBucWs", 
+    ],
+    "sgid_name": "SGID10.BOUNDARIES.ZipCodes",
+    "shape_id": "0ByStJjVZ7c7mTzlIVFduaTBucWs",
     "update_cycle": "annual"
 }

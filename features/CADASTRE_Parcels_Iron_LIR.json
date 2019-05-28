@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mRUNQRDA2OXRFWHc", 
-    "hash_id": "0ByStJjVZ7c7mZ0ZCSzNlTk9MWW8", 
-    "name": "Parcels_Iron_LIR", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mRUNQRDA2OXRFWHc",
+    "hash_id": "0ByStJjVZ7c7mZ0ZCSzNlTk9MWW8",
+    "name": "Parcels_Iron_LIR",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mSXVSaG1QR21XenM"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Iron_LIR", 
-    "shape_id": "0ByStJjVZ7c7mclgwRXRTY2VsRlU", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Iron_LIR",
+    "shape_id": "0ByStJjVZ7c7mclgwRXRTY2VsRlU",
     "update_cycle": "annual"
 }

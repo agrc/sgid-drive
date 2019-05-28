@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mQnlCNVIwZVZVUUk", 
-    "hash_id": "0ByStJjVZ7c7ma3FjSTRRbFJjRHM", 
-    "name": "Parcels_Utah", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mQnlCNVIwZVZVUUk",
+    "hash_id": "0ByStJjVZ7c7ma3FjSTRRbFJjRHM",
+    "name": "Parcels_Utah",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mWlV1M21QeW5Bd1k"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Utah", 
-    "shape_id": "0ByStJjVZ7c7mZHE1UXowZ3QyRVE", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Utah",
+    "shape_id": "0ByStJjVZ7c7mZHE1UXowZ3QyRVE",
     "update_cycle": "month"
 }

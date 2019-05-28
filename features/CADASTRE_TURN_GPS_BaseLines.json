@@ -1,15 +1,15 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mZktSREFyYjJSMzA", 
-    "hash_id": "0ByStJjVZ7c7mN2lwejB5eGtLTjg", 
-    "name": "TURN_GPS_BaseLines", 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mZktSREFyYjJSMzA",
+    "hash_id": "0ByStJjVZ7c7mN2lwejB5eGtLTjg",
+    "name": "TURN_GPS_BaseLines",
     "packages": [
         "TURNGPS"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mZ1AyZWVoV1gwTEE"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.TURN_GPS_BaseLines", 
-    "shape_id": "0ByStJjVZ7c7mZ1ZJek9BcTdYRzQ", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.TURN_GPS_BaseLines",
+    "shape_id": "0ByStJjVZ7c7mZ1ZJek9BcTdYRzQ",
     "update_cycle": "annual"
 }

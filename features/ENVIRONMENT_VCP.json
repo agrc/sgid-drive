@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mMXdCM2FNYkdualk", 
-    "hash_id": "0ByStJjVZ7c7malNTN2JYRHhpS3M", 
-    "name": "VCP", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mMXdCM2FNYkdualk",
+    "hash_id": "0ByStJjVZ7c7malNTN2JYRHhpS3M",
+    "name": "VCP",
     "packages": [
-        "DEQLand", 
+        "DEQLand",
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mT2xWcGJtV1dIWm8"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.VCP", 
-    "shape_id": "0ByStJjVZ7c7mcllacW5VWXQyZFE", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.VCP",
+    "shape_id": "0ByStJjVZ7c7mcllacW5VWXQyZFE",
     "update_cycle": "day"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "Cadastre", 
-    "gdb_id": "0ByStJjVZ7c7mNFpHdmpPWFVmWkE", 
-    "hash_id": "0ByStJjVZ7c7mTUdQdjQ1NEdaNkk", 
-    "name": "PLSSPoint_GCDB", 
+    "category": "Cadastre",
+    "gdb_id": "0ByStJjVZ7c7mNFpHdmpPWFVmWkE",
+    "hash_id": "0ByStJjVZ7c7mTUdQdjQ1NEdaNkk",
+    "name": "PLSSPoint_GCDB",
     "packages": [
         "PLSS_GCDB_Cadastre"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUGJwUGdRUXpuX3M"
-    ], 
-    "sgid_name": "SGID10.Cadastre.PLSSPoint_GCDB", 
-    "shape_id": "0ByStJjVZ7c7mNE5iZnJ3VWFhbms", 
+    ],
+    "sgid_name": "SGID10.Cadastre.PLSSPoint_GCDB",
+    "shape_id": "0ByStJjVZ7c7mNE5iZnJ3VWFhbms",
     "update_cycle": "biannual"
 }

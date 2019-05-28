@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mRnY4UW9YWXFqYkk", 
-    "hash_id": "0ByStJjVZ7c7mWUJfWjRDUE9Ecnc", 
-    "name": "Parcels_Grand", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mRnY4UW9YWXFqYkk",
+    "hash_id": "0ByStJjVZ7c7mWUJfWjRDUE9Ecnc",
+    "name": "Parcels_Grand",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mbmp0UGNxbFRkT3c"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Grand", 
-    "shape_id": "0ByStJjVZ7c7mSmRFb3lYcDlRWWs", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Grand",
+    "shape_id": "0ByStJjVZ7c7mSmRFb3lYcDlRWWs",
     "update_cycle": "biannual"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "HEALTH", 
-    "gdb_id": "0ByStJjVZ7c7mUVNneng4bGtIcDg", 
-    "hash_id": "0ByStJjVZ7c7mc2V2VEp1eVZWbnc", 
-    "name": "HealthDistricts2015", 
-    "packages": [], 
+    "category": "HEALTH",
+    "gdb_id": "0ByStJjVZ7c7mUVNneng4bGtIcDg",
+    "hash_id": "0ByStJjVZ7c7mc2V2VEp1eVZWbnc",
+    "name": "HealthDistricts2015",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mUjNwXzRwby0ycFE"
-    ], 
-    "sgid_name": "SGID10.HEALTH.HealthDistricts2015", 
-    "shape_id": "0ByStJjVZ7c7memZOLUVzR0xyVmM", 
+    ],
+    "sgid_name": "SGID10.HEALTH.HealthDistricts2015",
+    "shape_id": "0ByStJjVZ7c7memZOLUVzR0xyVmM",
     "update_cycle": "annual"
 }

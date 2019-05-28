@@ -129,14 +129,14 @@ class AgrcDriver(object):
         while response is False:
             try:
                 status, response = downloader.next_chunk()
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again.
                     raise Exception('Download Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Download Failed: {}'.format(e))
-                    print 'Retrying download in: {} seconds'.format(backoff)
+                    print('Retrying download in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -161,14 +161,14 @@ class AgrcDriver(object):
         while response is None:
             try:
                 response = request.execute()
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -189,14 +189,14 @@ class AgrcDriver(object):
         while response is None:
             try:
                 status, response = request.next_chunk()
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:  # TODO restart on 410 gone
                     # Start the upload all over again.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -227,14 +227,14 @@ class AgrcDriver(object):
                 status, response = request.next_chunk()
                 # if status:
                 #     print('{} percent {}'.format(name, int(status.progress() * 100)))
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again or error.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -264,14 +264,14 @@ class AgrcDriver(object):
                 status, response = request.next_chunk()
                 # if status:
                 #     print('{} percent {}'.format(name, int(status.progress() * 100)))
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again or error.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -318,7 +318,7 @@ class AgrcDriver(object):
     def create_drive_folder(self, name, parent_ids):
         # existing_file_id = get_file_id_by_name_and_directory(name, parent_ids[0], service)
         # if existing_file_id:
-        #     print 'Existing file'
+        #     print('Existing file')
         #     return existing_file_id
             # raise Exception('Drive folder {} already exists at: {}'.format(name, existing_file_id))
 
@@ -340,14 +340,14 @@ class AgrcDriver(object):
         while response is None:
             try:
                 response = request.execute()
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -367,14 +367,14 @@ class AgrcDriver(object):
         while response is None:
             try:
                 response = request.execute()
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -392,14 +392,14 @@ class AgrcDriver(object):
         while response is None:
             try:
                 response = request.execute()
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -418,14 +418,14 @@ class AgrcDriver(object):
         while response is None:
             try:
                 response = request.execute()
-            except errors.HttpError, e:
+            except errors.HttpError as e:
                 if e.resp.status in [404]:
                     # Start the upload all over again.
                     raise Exception('Upload Failed 404')
                 elif e.resp.status in [500, 502, 503, 504]:
                     if backoff > 8:
                         raise Exception('Upload Failed: {}'.format(e))
-                    print 'Retrying upload in: {} seconds'.format(backoff)
+                    print('Retrying upload in: {} seconds'.format(backoff))
                     sleep(backoff + uniform(.001, .999))
                     backoff += backoff
                 else:
@@ -565,7 +565,7 @@ class AgrcSheets(object):
                                                               valueInputOption=value_input_option,
                                                               body=value_range_body)
         response = request.execute()
-        print response
+        print(response)
 
 
 if __name__ == '__main__':

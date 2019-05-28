@@ -1,13 +1,13 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mZlJaNDJNcEpWd28", 
-    "hash_id": "0ByStJjVZ7c7mOUNSNkZ4QXM0WVk", 
-    "name": "SchoolDistricts", 
-    "packages": [], 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mZlJaNDJNcEpWd28",
+    "hash_id": "0ByStJjVZ7c7mOUNSNkZ4QXM0WVk",
+    "name": "SchoolDistricts",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcnl5SzBzdmtfLXM"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.SchoolDistricts", 
-    "shape_id": "0ByStJjVZ7c7mcHVjNkJUVXRYYXc", 
+    ],
+    "sgid_name": "SGID10.BOUNDARIES.SchoolDistricts",
+    "shape_id": "0ByStJjVZ7c7mcHVjNkJUVXRYYXc",
     "update_cycle": "annual"
 }

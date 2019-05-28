@@ -1,13 +1,13 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mQ2pXYzM3MHFPbHM", 
-    "hash_id": "0ByStJjVZ7c7mUlQ2Q05YX1llVjQ", 
-    "name": "ConservationEasements", 
-    "packages": [], 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mQ2pXYzM3MHFPbHM",
+    "hash_id": "0ByStJjVZ7c7mUlQ2Q05YX1llVjQ",
+    "name": "ConservationEasements",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mNFBiQnkxY3hCLTA"
-    ], 
-    "sgid_name": "SGID10.PLANNING.ConservationEasements", 
-    "shape_id": "0ByStJjVZ7c7mSTNxQkh0N2JYdGM", 
+    ],
+    "sgid_name": "SGID10.PLANNING.ConservationEasements",
+    "shape_id": "0ByStJjVZ7c7mSTNxQkh0N2JYdGM",
     "update_cycle": "annual"
 }

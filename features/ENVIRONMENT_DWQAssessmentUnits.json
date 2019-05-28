@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mNWRvTzA1ZnRwaUE", 
-    "hash_id": "0ByStJjVZ7c7meDVyWDBhT3owc0k", 
-    "name": "DWQAssessmentUnits", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mNWRvTzA1ZnRwaUE",
+    "hash_id": "0ByStJjVZ7c7meDVyWDBhT3owc0k",
+    "name": "DWQAssessmentUnits",
     "packages": [
-        "DEQLandRelatedSites", 
+        "DEQLandRelatedSites",
         "DEQWaterMonitoring"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWUJsbVQtZUFINHc"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.DWQAssessmentUnits", 
-    "shape_id": "0ByStJjVZ7c7mdGtHaXVEVGE5Wk0", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.DWQAssessmentUnits",
+    "shape_id": "0ByStJjVZ7c7mdGtHaXVEVGE5Wk0",
     "update_cycle": "day"
 }

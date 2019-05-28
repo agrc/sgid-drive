@@ -1,13 +1,13 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mLTBGZDVfaEc1dTQ", 
-    "hash_id": "0ByStJjVZ7c7mZWxEaHpFaXlmSm8", 
-    "name": "DAQAirEmissionsInventory", 
-    "packages": [], 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mLTBGZDVfaEc1dTQ",
+    "hash_id": "0ByStJjVZ7c7mZWxEaHpFaXlmSm8",
+    "name": "DAQAirEmissionsInventory",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mYkpUaldTLXljVm8"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.DAQAirEmissionsInventory", 
-    "shape_id": "0ByStJjVZ7c7mYkNWU2tRUmt4bVE", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.DAQAirEmissionsInventory",
+    "shape_id": "0ByStJjVZ7c7mYkNWU2tRUmt4bVE",
     "update_cycle": "day"
 }

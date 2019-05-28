@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mZTdkU2JWY1pwdTQ", 
-    "hash_id": "0ByStJjVZ7c7mWmJpQ1Z3cVFUMW8", 
-    "name": "TRI", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mZTdkU2JWY1pwdTQ",
+    "hash_id": "0ByStJjVZ7c7mWmJpQ1Z3cVFUMW8",
+    "name": "TRI",
     "packages": [
-        "DEQLand", 
+        "DEQLand",
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQTRIZFlrV005dWc"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.TRI", 
-    "shape_id": "0ByStJjVZ7c7mLXBmWjh6cVVWQ3c", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.TRI",
+    "shape_id": "0ByStJjVZ7c7mLXBmWjh6cVVWQ3c",
     "update_cycle": "day"
 }

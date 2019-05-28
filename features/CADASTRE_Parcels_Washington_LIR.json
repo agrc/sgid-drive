@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mVGo4MkJOaU96blk", 
-    "hash_id": "0ByStJjVZ7c7mQmg0UmVvV0VNMzA", 
-    "name": "Parcels_Washington_LIR", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mVGo4MkJOaU96blk",
+    "hash_id": "0ByStJjVZ7c7mQmg0UmVvV0VNMzA",
+    "name": "Parcels_Washington_LIR",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mbHJQQnBpWWt0eWM"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Washington_LIR", 
-    "shape_id": "0ByStJjVZ7c7mcDdqLTEwbThLaHM", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Washington_LIR",
+    "shape_id": "0ByStJjVZ7c7mcDdqLTEwbThLaHM",
     "update_cycle": "annual"
 }

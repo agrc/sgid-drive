@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mSjhoQVlmeDRyV0U", 
-    "hash_id": "0ByStJjVZ7c7mRTJpNUltOFdsakE", 
-    "name": "NPL", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mSjhoQVlmeDRyV0U",
+    "hash_id": "0ByStJjVZ7c7mRTJpNUltOFdsakE",
+    "name": "NPL",
     "packages": [
-        "DEQLand", 
+        "DEQLand",
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRWJNNHVyUWNaVjA"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.NPL", 
-    "shape_id": "0ByStJjVZ7c7maDdBQUN4TU5ra2c", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.NPL",
+    "shape_id": "0ByStJjVZ7c7maDdBQUN4TU5ra2c",
     "update_cycle": "day"
 }

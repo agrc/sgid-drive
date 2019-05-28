@@ -1,15 +1,15 @@
 {
-    "category": "FARMING", 
-    "gdb_id": "0ByStJjVZ7c7mYWlqMnpBdXlBUEk", 
-    "hash_id": "0ByStJjVZ7c7melVDZ0puakdmVnM", 
-    "name": "GrazingImprovementRegions", 
+    "category": "FARMING",
+    "gdb_id": "0ByStJjVZ7c7mYWlqMnpBdXlBUEk",
+    "hash_id": "0ByStJjVZ7c7melVDZ0puakdmVnM",
+    "name": "GrazingImprovementRegions",
     "packages": [
         "Grazing"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mN19iWnRIVzlNcVU"
-    ], 
-    "sgid_name": "SGID10.FARMING.GrazingImprovementRegions", 
-    "shape_id": "0ByStJjVZ7c7mZTdfcHRya29xWWs", 
+    ],
+    "sgid_name": "SGID10.FARMING.GrazingImprovementRegions",
+    "shape_id": "0ByStJjVZ7c7mZTdfcHRya29xWWs",
     "update_cycle": "annual"
 }

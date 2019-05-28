@@ -1,15 +1,15 @@
 {
-    "category": "ECONOMY", 
-    "gdb_id": "0ByStJjVZ7c7mdEVpTHdBS25KRjQ", 
-    "hash_id": "0ByStJjVZ7c7mMUZGWjgwZUJtbUE", 
-    "name": "TransitSpecialTaxAreas", 
+    "category": "ECONOMY",
+    "gdb_id": "0ByStJjVZ7c7mdEVpTHdBS25KRjQ",
+    "hash_id": "0ByStJjVZ7c7mMUZGWjgwZUJtbUE",
+    "name": "TransitSpecialTaxAreas",
     "packages": [
         "CurrentTaxingUnits"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mcVlHOXQ0djUtaEU"
-    ], 
-    "sgid_name": "SGID10.ECONOMY.TransitSpecialTaxAreas", 
-    "shape_id": "0ByStJjVZ7c7mNGRzeE5WNkxTWDQ", 
+    ],
+    "sgid_name": "SGID10.ECONOMY.TransitSpecialTaxAreas",
+    "shape_id": "0ByStJjVZ7c7mNGRzeE5WNkxTWDQ",
     "update_cycle": "annual"
 }

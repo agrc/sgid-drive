@@ -1,13 +1,13 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mUFlITUhwQ3AxWjA", 
-    "hash_id": "0ByStJjVZ7c7mRkpOYlhlc2dObVE", 
-    "name": "Counties_LabelLines", 
-    "packages": [], 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mUFlITUhwQ3AxWjA",
+    "hash_id": "0ByStJjVZ7c7mRkpOYlhlc2dObVE",
+    "name": "Counties_LabelLines",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mY3NMMGowT0NRMm8"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.Counties_LabelLines", 
-    "shape_id": "0ByStJjVZ7c7mVWJBckMtZFRiMGM", 
+    ],
+    "sgid_name": "SGID10.BOUNDARIES.Counties_LabelLines",
+    "shape_id": "0ByStJjVZ7c7mVWJBckMtZFRiMGM",
     "update_cycle": "annual"
 }

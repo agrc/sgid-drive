@@ -1,15 +1,15 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mbnFpYUl1bDZtaDQ", 
-    "hash_id": "0ByStJjVZ7c7mVFlRRUEyeEZDMVk", 
-    "name": "Counties", 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mbnFpYUl1bDZtaDQ",
+    "hash_id": "0ByStJjVZ7c7mVFlRRUEyeEZDMVk",
+    "name": "Counties",
     "packages": [
         "StateCountyMunicipalBoundaries"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7meGczWmtSRENUb0k"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.Counties", 
-    "shape_id": "0ByStJjVZ7c7mc3BGRXhKa0N0U2c", 
+    ],
+    "sgid_name": "SGID10.BOUNDARIES.Counties",
+    "shape_id": "0ByStJjVZ7c7mc3BGRXhKa0N0U2c",
     "update_cycle": "annual"
 }

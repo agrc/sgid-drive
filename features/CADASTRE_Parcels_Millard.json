@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mSGdZRi1KQzlIZGM", 
-    "hash_id": "0ByStJjVZ7c7mVXkycEhoaUI0TWc", 
-    "name": "Parcels_Millard", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mSGdZRi1KQzlIZGM",
+    "hash_id": "0ByStJjVZ7c7mVXkycEhoaUI0TWc",
+    "name": "Parcels_Millard",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mU2FRLWs1eUZxMnM"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Millard", 
-    "shape_id": "0ByStJjVZ7c7mQXdUNzhPd2gzTWs", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Millard",
+    "shape_id": "0ByStJjVZ7c7mQXdUNzhPd2gzTWs",
     "update_cycle": "biannual"
 }

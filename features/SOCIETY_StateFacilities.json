@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mRDhtX2JJblRjWVk", 
-    "hash_id": "0ByStJjVZ7c7mMWlnbllpUHpiMWs", 
-    "name": "StateFacilities", 
-    "packages": [], 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mRDhtX2JJblRjWVk",
+    "hash_id": "0ByStJjVZ7c7mMWlnbllpUHpiMWs",
+    "name": "StateFacilities",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mbGN6YWlxRWJKcUU"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.StateFacilities", 
-    "shape_id": "0ByStJjVZ7c7makFFYVZka011dkE", 
+    ],
+    "sgid_name": "SGID10.SOCIETY.StateFacilities",
+    "shape_id": "0ByStJjVZ7c7makFFYVZka011dkE",
     "update_cycle": "annual"
 }

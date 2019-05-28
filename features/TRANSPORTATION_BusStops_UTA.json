@@ -1,15 +1,15 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mRTJwVU52c1VCNDA", 
-    "hash_id": "0ByStJjVZ7c7mMkx6d1JzT09jOWc", 
-    "name": "BusStops_UTA", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mRTJwVU52c1VCNDA",
+    "hash_id": "0ByStJjVZ7c7mMkx6d1JzT09jOWc",
+    "name": "BusStops_UTA",
     "packages": [
         "UtahTransitSystems"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRV9wbDVaNUNRVHc"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.BusStops_UTA", 
-    "shape_id": "0ByStJjVZ7c7mMF9ZUkdiMEpsb3M", 
+    ],
+    "sgid_name": "SGID10.TRANSPORTATION.BusStops_UTA",
+    "shape_id": "0ByStJjVZ7c7mMF9ZUkdiMEpsb3M",
     "update_cycle": "biannual"
 }

@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mbG5PU05qZ3FIeTA", 
-    "hash_id": "0ByStJjVZ7c7mMmN0TnJqTS04SEU", 
-    "name": "DWQGroundWaterPermits", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mbG5PU05qZ3FIeTA",
+    "hash_id": "0ByStJjVZ7c7mMmN0TnJqTS04SEU",
+    "name": "DWQGroundWaterPermits",
     "packages": [
-        "DEQLandRelatedSites", 
+        "DEQLandRelatedSites",
         "DEQWaterMonitoring"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mbWUxS0lfdjhfdUU"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.DWQGroundWaterPermits", 
-    "shape_id": "0ByStJjVZ7c7maXd1S0M3WmdJa2M", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.DWQGroundWaterPermits",
+    "shape_id": "0ByStJjVZ7c7maXd1S0M3WmdJa2M",
     "update_cycle": "day"
 }

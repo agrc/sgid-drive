@@ -1,15 +1,15 @@
 {
-    "category": "HEALTH", 
-    "gdb_id": "0ByStJjVZ7c7mYzR2TEdaTHIwa0E", 
-    "hash_id": "0ByStJjVZ7c7memJIb1k3WTRkWVk", 
-    "name": "HealthSmallStatisticalAreas2014", 
+    "category": "HEALTH",
+    "gdb_id": "0ByStJjVZ7c7mYzR2TEdaTHIwa0E",
+    "hash_id": "0ByStJjVZ7c7memJIb1k3WTRkWVk",
+    "name": "HealthSmallStatisticalAreas2014",
     "packages": [
         "SmallStatisticalAreas"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mel9xaXZWVEp2Ykk"
-    ], 
-    "sgid_name": "SGID10.HEALTH.HealthSmallStatisticalAreas2014", 
-    "shape_id": "0ByStJjVZ7c7mNlNPZU5SRVFJcVU", 
+    ],
+    "sgid_name": "SGID10.HEALTH.HealthSmallStatisticalAreas2014",
+    "shape_id": "0ByStJjVZ7c7mNlNPZU5SRVFJcVU",
     "update_cycle": "annual"
 }

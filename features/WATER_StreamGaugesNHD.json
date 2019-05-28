@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mTUtUSGlCUmpzRkE", 
-    "hash_id": "0ByStJjVZ7c7mOVQwR1FsOHhYOGc", 
-    "name": "StreamGaugesNHD", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mTUtUSGlCUmpzRkE",
+    "hash_id": "0ByStJjVZ7c7mOVQwR1FsOHhYOGc",
+    "name": "StreamGaugesNHD",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcXhqWGNYYmV1THM"
-    ], 
-    "sgid_name": "SGID10.WATER.StreamGaugesNHD", 
-    "shape_id": "0ByStJjVZ7c7mbkRFUlp2QzRTalE", 
+    ],
+    "sgid_name": "SGID10.WATER.StreamGaugesNHD",
+    "shape_id": "0ByStJjVZ7c7mbkRFUlp2QzRTalE",
     "update_cycle": "annual"
 }

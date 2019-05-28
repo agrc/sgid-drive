@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mMXhFdDIzN3hFbDA", 
-    "hash_id": "0ByStJjVZ7c7mZVBYWGl6NUpkekk", 
-    "name": "ICBUFFERZONES", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mMXhFdDIzN3hFbDA",
+    "hash_id": "0ByStJjVZ7c7mZVBYWGl6NUpkekk",
+    "name": "ICBUFFERZONES",
     "packages": [
-        "DEQLand", 
+        "DEQLand",
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUDRFSS1Bc0N2STA"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.ICBUFFERZONES", 
-    "shape_id": "0ByStJjVZ7c7mQjI2NjVEQ0pUV1U", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.ICBUFFERZONES",
+    "shape_id": "0ByStJjVZ7c7mQjI2NjVEQ0pUV1U",
     "update_cycle": "day"
 }

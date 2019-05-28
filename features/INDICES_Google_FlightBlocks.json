@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mdTdmU3NFNkJVbWM", 
-    "hash_id": "0ByStJjVZ7c7mM1ZuRWxwTHlPanc", 
-    "name": "Google_FlightBlocks", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mdTdmU3NFNkJVbWM",
+    "hash_id": "0ByStJjVZ7c7mM1ZuRWxwTHlPanc",
+    "name": "Google_FlightBlocks",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mN1BuRzV4cVg2RkE"
-    ], 
-    "sgid_name": "SGID10.INDICES.Google_FlightBlocks", 
-    "shape_id": "0ByStJjVZ7c7mUmM5dmFxem1KQlU", 
+    ],
+    "sgid_name": "SGID10.INDICES.Google_FlightBlocks",
+    "shape_id": "0ByStJjVZ7c7mUmM5dmFxem1KQlU",
     "update_cycle": "annual"
 }

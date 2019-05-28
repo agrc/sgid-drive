@@ -1,15 +1,15 @@
 {
-    "category": "ECONOMY", 
-    "gdb_id": "0ByStJjVZ7c7mVHZMRXk1eWI3SzQ", 
-    "hash_id": "0ByStJjVZ7c7mODhPbkdxZjNGdms", 
-    "name": "SalesTaxAreas", 
+    "category": "ECONOMY",
+    "gdb_id": "0ByStJjVZ7c7mVHZMRXk1eWI3SzQ",
+    "hash_id": "0ByStJjVZ7c7mODhPbkdxZjNGdms",
+    "name": "SalesTaxAreas",
     "packages": [
         "CurrentTaxingUnits"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQy1iYXlqQTJLQUE"
-    ], 
-    "sgid_name": "SGID10.ECONOMY.SalesTaxAreas", 
-    "shape_id": "0ByStJjVZ7c7mY2ZMNTZneXp3bms", 
+    ],
+    "sgid_name": "SGID10.ECONOMY.SalesTaxAreas",
+    "shape_id": "0ByStJjVZ7c7mY2ZMNTZneXp3bms",
     "update_cycle": "annual"
 }

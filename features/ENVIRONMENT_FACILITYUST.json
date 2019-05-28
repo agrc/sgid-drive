@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mZ1NJWWNWeWNXNzg", 
-    "hash_id": "0ByStJjVZ7c7mUlVScFgtaWRKR2c", 
-    "name": "FACILITYUST", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mZ1NJWWNWeWNXNzg",
+    "hash_id": "0ByStJjVZ7c7mUlVScFgtaWRKR2c",
+    "name": "FACILITYUST",
     "packages": [
-        "DEQLand", 
+        "DEQLand",
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVlJEWnRhdXphQms"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.FACILITYUST", 
-    "shape_id": "0ByStJjVZ7c7mLUlyNGVxVDhNdG8", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.FACILITYUST",
+    "shape_id": "0ByStJjVZ7c7mLUlyNGVxVDhNdG8",
     "update_cycle": "day"
 }

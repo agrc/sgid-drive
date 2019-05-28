@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mekRublZnQWNsY3c", 
-    "hash_id": "0ByStJjVZ7c7mdXJ6Q252ellwM2c", 
-    "name": "Parcels_Garfield", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mekRublZnQWNsY3c",
+    "hash_id": "0ByStJjVZ7c7mdXJ6Q252ellwM2c",
+    "name": "Parcels_Garfield",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mSEN0RTJVT3VBUUE"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Garfield", 
-    "shape_id": "0ByStJjVZ7c7mYktWSTZpQkVvaVU", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Garfield",
+    "shape_id": "0ByStJjVZ7c7mYktWSTZpQkVvaVU",
     "update_cycle": "annual"
 }

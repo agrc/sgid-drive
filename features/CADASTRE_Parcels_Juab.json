@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mZGdIZllHMHFvSFU", 
-    "hash_id": "0ByStJjVZ7c7mN3dfYnlMX1hmZUE", 
-    "name": "Parcels_Juab", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mZGdIZllHMHFvSFU",
+    "hash_id": "0ByStJjVZ7c7mN3dfYnlMX1hmZUE",
+    "name": "Parcels_Juab",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcm5RaFRrV0lPcjg"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.Parcels_Juab", 
-    "shape_id": "0ByStJjVZ7c7mUW01TFpFNWxKekE", 
+    ],
+    "sgid_name": "SGID10.CADASTRE.Parcels_Juab",
+    "shape_id": "0ByStJjVZ7c7mUW01TFpFNWxKekE",
     "update_cycle": "biannual"
 }

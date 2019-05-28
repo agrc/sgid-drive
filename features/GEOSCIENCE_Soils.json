@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mUWpNaDBsN3IyVVk", 
-    "hash_id": "0ByStJjVZ7c7mTUNtQUI2cWRnU1E", 
-    "name": "Soils", 
-    "packages": [], 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mUWpNaDBsN3IyVVk",
+    "hash_id": "0ByStJjVZ7c7mTUNtQUI2cWRnU1E",
+    "name": "Soils",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mSDFxRU8waXdBQ28"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.Soils", 
-    "shape_id": "0ByStJjVZ7c7meUZSTFJrNDl1TGM", 
+    ],
+    "sgid_name": "SGID10.GEOSCIENCE.Soils",
+    "shape_id": "0ByStJjVZ7c7meUZSTFJrNDl1TGM",
     "update_cycle": "annual"
 }

@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
-    "gdb_id": "0ByStJjVZ7c7mMlY0YmxLcXByUTQ", 
-    "hash_id": "0ByStJjVZ7c7mTUxoZXNaTmZUVWM", 
-    "name": "FUD", 
+    "category": "ENVIRONMENT",
+    "gdb_id": "0ByStJjVZ7c7mMlY0YmxLcXByUTQ",
+    "hash_id": "0ByStJjVZ7c7mTUxoZXNaTmZUVWM",
+    "name": "FUD",
     "packages": [
-        "DEQLand", 
+        "DEQLand",
         "DEQLandRelatedContaminantAndCleanupSites"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mR242NVRBbEROaHM"
-    ], 
-    "sgid_name": "SGID10.ENVIRONMENT.FUD", 
-    "shape_id": "0ByStJjVZ7c7mLVhiWkljWHFVRzQ", 
+    ],
+    "sgid_name": "SGID10.ENVIRONMENT.FUD",
+    "shape_id": "0ByStJjVZ7c7mLVhiWkljWHFVRzQ",
     "update_cycle": "day"
 }
