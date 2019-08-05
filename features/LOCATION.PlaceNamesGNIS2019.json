@@ -1,0 +1,13 @@
+{
+    "category": "LOCATION",
+    "gdb_id": "1wVVV1C5wIOyYNpKQ4wX8FMK7d-Ik2PXH",
+    "hash_id": "1GdXm1QBqGszh-PmHGWaN7JSbRLMIWDXq",
+    "name": "PlaceNamesGNIS2019",
+    "packages": [],
+    "parent_ids": [
+        "1h79QOA7ycP5PesxhImkS5fpILr2VrwAw"
+    ],
+    "sgid_name": "SGID10.LOCATION.PlaceNamesGNIS2019",
+    "shape_id": "1rEFQAvA1Ev_8NBVPOiseb1KjNhvWOz0s",
+    "update_cycle": ""
+}
