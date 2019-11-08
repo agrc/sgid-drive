@@ -11,6 +11,14 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "args": ["SGID.sde", "--all", "-d"]
+        },
+        {
+            "name": "Python: Delete Dataset",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["SGID.sde", "--delete_feature", "SGID10.HEALTH.EMSServiceAreas"]
         }
     ]
 }
