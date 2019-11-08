@@ -2,7 +2,7 @@
     "category": "ENVIRONMENT",
     "gdb_id": "0ByStJjVZ7c7mSHN6R19xX1VRbkE",
     "hash_id": "0ByStJjVZ7c7mU2VQNjFuS3hhOGM",
-    "name": "DWQMonitoredLakes132",
+    "name": "DWQAssessedLakes",
     "packages": [
         "DEQLandRelatedSites",
         "DEQWaterMonitoring"
@@ -10,7 +10,7 @@
     "parent_ids": [
         "0ByStJjVZ7c7ma0V0SEVkeVNwX2c"
     ],
-    "sgid_name": "SGID10.ENVIRONMENT.DWQMonitoredLakes132",
+    "sgid_name": "SGID10.ENVIRONMENT.DWQAssessedLakes",
     "shape_id": "0ByStJjVZ7c7meWhHeDZKdHpZcVE",
     "update_cycle": "day"
 }

@@ -1,16 +1,16 @@
 {
-    "category": "ENVIRONMENT", 
+    "category": "ENVIRONMENT",
     "feature_classes": [
-        "SGID10.ENVIRONMENT.DWQAssessmentUnits", 
-        "SGID10.ENVIRONMENT.DWQGroundWaterPermits", 
-        "SGID10.ENVIRONMENT.DWQMonitoredLakes132", 
-        "SGID10.ENVIRONMENT.LakeMonitoring", 
+        "SGID10.ENVIRONMENT.DWQAssessmentUnits",
+        "SGID10.ENVIRONMENT.DWQGroundWaterPermits",
+        "SGID10.ENVIRONMENT.DWQAssessedLakes",
+        "SGID10.ENVIRONMENT.LakeMonitoring",
         "SGID10.ENVIRONMENT.StreamMonitorSites"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mTXo2Y1hfTDBvQzA", 
-    "name": "DEQWaterMonitoring", 
+    ],
+    "gdb_id": "0ByStJjVZ7c7mTXo2Y1hfTDBvQzA",
+    "name": "DEQWaterMonitoring",
     "parent_ids": [
         "0ByStJjVZ7c7mVFFHQ1VWU3pHWjA"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mN3hnLVFDeC13b3M"
 }
