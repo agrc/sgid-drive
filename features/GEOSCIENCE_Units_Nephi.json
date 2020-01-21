@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mcDFCY2dzQW1fRVE", 
-    "hash_id": "0ByStJjVZ7c7mSE5DTjA3ZGJSeVk", 
-    "name": "Units_Nephi", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mcDFCY2dzQW1fRVE",
+    "hash_id": "0ByStJjVZ7c7mSE5DTjA3ZGJSeVk",
+    "name": "Units_Nephi",
     "packages": [
         "GeologicUnits"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mNDRkWm9VTDdmWk0"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.Units_Nephi", 
-    "shape_id": "0ByStJjVZ7c7mSUhuMmY5SW93OUE", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.Units_Nephi",
+    "shape_id": "0ByStJjVZ7c7mSUhuMmY5SW93OUE",
     "update_cycle": "demand"
 }

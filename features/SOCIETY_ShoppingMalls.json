@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mVXB2NkdqbnQ3Unc", 
-    "hash_id": "0ByStJjVZ7c7mQkJTaUpIalNUMmM", 
-    "name": "ShoppingMalls", 
-    "packages": [], 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mVXB2NkdqbnQ3Unc",
+    "hash_id": "0ByStJjVZ7c7mQkJTaUpIalNUMmM",
+    "name": "ShoppingMalls",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mZ2RWenBzWU95cFE"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.ShoppingMalls", 
-    "shape_id": "0ByStJjVZ7c7mczVqYS1qb19oU1U", 
+    ],
+    "sgid_name": "SGID.SOCIETY.ShoppingMalls",
+    "shape_id": "0ByStJjVZ7c7mczVqYS1qb19oU1U",
     "update_cycle": "demand"
 }

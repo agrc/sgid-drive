@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mdm9aVll6SUxtOHM", 
-    "hash_id": "0ByStJjVZ7c7mcU5ScnVDYk5XTWc", 
-    "name": "LiDAR2013_2014_8ppm_WasatchFront_LAS_Tiles", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mdm9aVll6SUxtOHM",
+    "hash_id": "0ByStJjVZ7c7mcU5ScnVDYk5XTWc",
+    "name": "LiDAR2013_2014_8ppm_WasatchFront_LAS_Tiles",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mWEJsa09GSHlvM3M"
-    ], 
-    "sgid_name": "SGID10.INDICES.LiDAR2013_2014_8ppm_WasatchFront_LAS_Tiles", 
-    "shape_id": "0ByStJjVZ7c7mbmMyOHFpWENzV3c", 
+    ],
+    "sgid_name": "SGID.INDICES.LiDAR2013_2014_8ppm_WasatchFront_LAS_Tiles",
+    "shape_id": "0ByStJjVZ7c7mbmMyOHFpWENzV3c",
     "update_cycle": "demand"
 }

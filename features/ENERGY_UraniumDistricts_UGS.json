@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mLW5DQmhRNjhjSXM", 
-    "hash_id": "0ByStJjVZ7c7mM2dJSXlXZDQ2ZE0", 
-    "name": "UraniumDistricts_UGS", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mLW5DQmhRNjhjSXM",
+    "hash_id": "0ByStJjVZ7c7mM2dJSXlXZDQ2ZE0",
+    "name": "UraniumDistricts_UGS",
     "packages": [
         "UraniumResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mSnZOQzBRT2dYQk0"
-    ], 
-    "sgid_name": "SGID10.ENERGY.UraniumDistricts_UGS", 
-    "shape_id": "0ByStJjVZ7c7mMXoyQ200TlRaTGM", 
+    ],
+    "sgid_name": "SGID.ENERGY.UraniumDistricts_UGS",
+    "shape_id": "0ByStJjVZ7c7mMXoyQ200TlRaTGM",
     "update_cycle": "demand"
 }

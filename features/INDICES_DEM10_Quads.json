@@ -1,16 +1,16 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7meXlwYUFidjZfU2M", 
-    "hash_id": "0ByStJjVZ7c7mbm5kQ2trV1Bkdmc", 
-    "name": "DEM10_Quads", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7meXlwYUFidjZfU2M",
+    "hash_id": "0ByStJjVZ7c7mbm5kQ2trV1Bkdmc",
+    "name": "DEM10_Quads",
     "packages": [
-        "USGSurveyDEMAndNEDExtentsAndIndices", 
+        "USGSurveyDEMAndNEDExtentsAndIndices",
         "USGSurveyDEMExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mM3BybnlFSGtOejQ"
-    ], 
-    "sgid_name": "SGID10.INDICES.DEM10_Quads", 
-    "shape_id": "0ByStJjVZ7c7mZXZLTWVZRGx4Njg", 
+    ],
+    "sgid_name": "SGID.INDICES.DEM10_Quads",
+    "shape_id": "0ByStJjVZ7c7mZXZLTWVZRGx4Njg",
     "update_cycle": "demand"
 }

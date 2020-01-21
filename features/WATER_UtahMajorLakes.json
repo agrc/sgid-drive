@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mYUplTHZ3R3Y3TVE", 
-    "hash_id": "0ByStJjVZ7c7mcnpaZTFFaGhYRjg", 
-    "name": "UtahMajorLakes", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mYUplTHZ3R3Y3TVE",
+    "hash_id": "0ByStJjVZ7c7mcnpaZTFFaGhYRjg",
+    "name": "UtahMajorLakes",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcjFpd2JyaDIwYWc"
-    ], 
-    "sgid_name": "SGID10.WATER.UtahMajorLakes", 
-    "shape_id": "0ByStJjVZ7c7mQk00VFZzV01uVmM", 
+    ],
+    "sgid_name": "SGID.WATER.UtahMajorLakes",
+    "shape_id": "0ByStJjVZ7c7mQk00VFZzV01uVmM",
     "update_cycle": "demand"
 }

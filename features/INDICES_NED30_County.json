@@ -1,16 +1,16 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mTl9iU191YmYyOWc", 
-    "hash_id": "0ByStJjVZ7c7mamJHZjBKR1BvUG8", 
-    "name": "NED30_County", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mTl9iU191YmYyOWc",
+    "hash_id": "0ByStJjVZ7c7mamJHZjBKR1BvUG8",
+    "name": "NED30_County",
     "packages": [
-        "USGSurveyDEMAndNEDExtentsAndIndices", 
+        "USGSurveyDEMAndNEDExtentsAndIndices",
         "USGSurveyNEDExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQjUyTmJ6WHpIcTQ"
-    ], 
-    "sgid_name": "SGID10.INDICES.NED30_County", 
-    "shape_id": "0ByStJjVZ7c7mQXVlSXpDeEdYUWs", 
+    ],
+    "sgid_name": "SGID.INDICES.NED30_County",
+    "shape_id": "0ByStJjVZ7c7mQXVlSXpDeEdYUWs",
     "update_cycle": "demand"
 }

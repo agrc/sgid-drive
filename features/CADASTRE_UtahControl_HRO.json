@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mZFlaZ0lqNTl2Tzg", 
-    "hash_id": "0ByStJjVZ7c7mbEZ3Znk3ZTk0WHc", 
-    "name": "UtahControl_HRO", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mZFlaZ0lqNTl2Tzg",
+    "hash_id": "0ByStJjVZ7c7mbEZ3Znk3ZTk0WHc",
+    "name": "UtahControl_HRO",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mR2JtN1lQbVNVdmM"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.UtahControl_HRO", 
-    "shape_id": "0ByStJjVZ7c7mZFNvMjdoblFzRkE", 
+    ],
+    "sgid_name": "SGID.CADASTRE.UtahControl_HRO",
+    "shape_id": "0ByStJjVZ7c7mZFNvMjdoblFzRkE",
     "update_cycle": "demand"
 }

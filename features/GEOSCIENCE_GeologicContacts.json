@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mWjZ3QUFjRzRGOFE", 
-    "hash_id": "0ByStJjVZ7c7mTzFtRkdZNE5WZWc", 
-    "name": "GeologicContacts", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mWjZ3QUFjRzRGOFE",
+    "hash_id": "0ByStJjVZ7c7mTzFtRkdZNE5WZWc",
+    "name": "GeologicContacts",
     "packages": [
         "Geology"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mS01SLUw0b2FGZkU"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.GeologicContacts", 
-    "shape_id": "0ByStJjVZ7c7mOGtWNDlfS3RaOGs", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.GeologicContacts",
+    "shape_id": "0ByStJjVZ7c7mOGtWNDlfS3RaOGs",
     "update_cycle": "demand"
 }

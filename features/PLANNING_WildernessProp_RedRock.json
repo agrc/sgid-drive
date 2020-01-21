@@ -1,15 +1,15 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mdTlWSHFhRjVabVk", 
-    "hash_id": "0ByStJjVZ7c7mcUNWQ0RKRFc5Slk", 
-    "name": "WildernessProp_RedRock", 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mdTlWSHFhRjVabVk",
+    "hash_id": "0ByStJjVZ7c7mcUNWQ0RKRFc5Slk",
+    "name": "WildernessProp_RedRock",
     "packages": [
         "Wilderness_ProtectedLandsAndProposals"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mZ1BpVVdyYjkzcm8"
-    ], 
-    "sgid_name": "SGID10.PLANNING.WildernessProp_RedRock", 
-    "shape_id": "0ByStJjVZ7c7mOW5tbVY2YXAyaG8", 
+    ],
+    "sgid_name": "SGID.PLANNING.WildernessProp_RedRock",
+    "shape_id": "0ByStJjVZ7c7mOW5tbVY2YXAyaG8",
     "update_cycle": "demand"
 }

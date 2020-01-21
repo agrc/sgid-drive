@@ -1,15 +1,15 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mNzRZV1VlR2ZZSDA", 
-    "hash_id": "0ByStJjVZ7c7mRDhKcmtxaU5yX2c", 
-    "name": "UtahConservationZones", 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mNzRZV1VlR2ZZSDA",
+    "hash_id": "0ByStJjVZ7c7mRDhKcmtxaU5yX2c",
+    "name": "UtahConservationZones",
     "packages": [
         "UtahSoilConservationDistrictsAndZones"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mN1hjVjMzckhRRm8"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.UtahConservationZones", 
-    "shape_id": "0ByStJjVZ7c7mV3ZTV2RBTk5UUHc", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.UtahConservationZones",
+    "shape_id": "0ByStJjVZ7c7mV3ZTV2RBTk5UUHc",
     "update_cycle": "demand"
 }

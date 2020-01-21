@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mM1M4eFVpOFFpOUk", 
-    "hash_id": "0ByStJjVZ7c7mdFBhU0ZfaXZPbG8", 
-    "name": "DOQ_County", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mM1M4eFVpOFFpOUk",
+    "hash_id": "0ByStJjVZ7c7mdFBhU0ZfaXZPbG8",
+    "name": "DOQ_County",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mODNFX0oxV3R2TVE"
-    ], 
-    "sgid_name": "SGID10.INDICES.DOQ_County", 
-    "shape_id": "0ByStJjVZ7c7mcE1EeGRWRl9keXc", 
+    ],
+    "sgid_name": "SGID.INDICES.DOQ_County",
+    "shape_id": "0ByStJjVZ7c7mcE1EeGRWRl9keXc",
     "update_cycle": "demand"
 }

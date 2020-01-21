@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mVnlvMmpERkpsMEk", 
-    "hash_id": "0ByStJjVZ7c7mSjdHTFE0WWZCclU", 
-    "name": "Coal_4FootSeams", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mVnlvMmpERkpsMEk",
+    "hash_id": "0ByStJjVZ7c7mSjdHTFE0WWZCclU",
+    "name": "Coal_4FootSeams",
     "packages": [
         "CoalResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7meDJjVm9zM1NTV28"
-    ], 
-    "sgid_name": "SGID10.ENERGY.Coal_4FootSeams", 
-    "shape_id": "0ByStJjVZ7c7mU0ZYWDJ6c3Y2aGM", 
+    ],
+    "sgid_name": "SGID.ENERGY.Coal_4FootSeams",
+    "shape_id": "0ByStJjVZ7c7mU0ZYWDJ6c3Y2aGM",
     "update_cycle": "demand"
 }

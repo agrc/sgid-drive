@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mNEVHUDdNb09YZGs", 
-    "hash_id": "0ByStJjVZ7c7mWHMxc0c0dlFtSEU", 
-    "name": "PotentialLiquefaction_WasatchFront", 
-    "packages": [], 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mNEVHUDdNb09YZGs",
+    "hash_id": "0ByStJjVZ7c7mWHMxc0c0dlFtSEU",
+    "name": "PotentialLiquefaction_WasatchFront",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mX0hWdE5KdTAyMEU"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.PotentialLiquefaction_WasatchFront", 
-    "shape_id": "0ByStJjVZ7c7meWd6cjVodUUtSXc", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.PotentialLiquefaction_WasatchFront",
+    "shape_id": "0ByStJjVZ7c7meWd6cjVodUUtSXc",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "POLITICAL", 
+    "category": "POLITICAL",
     "feature_classes": [
-        "SGID10.POLITICAL.USCongressDistricts2012", 
-        "SGID10.POLITICAL.UtahHouseDistricts2012", 
-        "SGID10.POLITICAL.UtahSchoolBoardDistricts2012", 
-        "SGID10.POLITICAL.UtahSenateDistricts2012"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mMk9NZWY4YW9oR3M", 
-    "name": "UtahPoliticalDistricts_Begin2012", 
+        "SGID.POLITICAL.USCongressDistricts2012",
+        "SGID.POLITICAL.UtahHouseDistricts2012",
+        "SGID.POLITICAL.UtahSchoolBoardDistricts2012",
+        "SGID.POLITICAL.UtahSenateDistricts2012"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mMk9NZWY4YW9oR3M",
+    "name": "UtahPoliticalDistricts_Begin2012",
     "parent_ids": [
         "0ByStJjVZ7c7mMW83YklfbkxfazQ"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mY1VpTHhZN3lxemc"
 }

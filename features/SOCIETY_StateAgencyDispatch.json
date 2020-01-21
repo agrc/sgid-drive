@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mM0VDOHdnRFVjMzQ", 
-    "hash_id": "0ByStJjVZ7c7mSWVOZlAtdndSc1U", 
-    "name": "StateAgencyDispatch", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mM0VDOHdnRFVjMzQ",
+    "hash_id": "0ByStJjVZ7c7mSWVOZlAtdndSc1U",
+    "name": "StateAgencyDispatch",
     "packages": [
         "PublicSafety"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUXlsc0RiS3I3d2s"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.StateAgencyDispatch", 
-    "shape_id": "0ByStJjVZ7c7mN1lHQ0c5RXVNbWs", 
+    ],
+    "sgid_name": "SGID.SOCIETY.StateAgencyDispatch",
+    "shape_id": "0ByStJjVZ7c7mN1lHQ0c5RXVNbWs",
     "update_cycle": "demand"
 }

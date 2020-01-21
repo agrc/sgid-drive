@@ -1,13 +1,13 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mRnZXbU1kQXVyMzQ", 
-    "hash_id": "0ByStJjVZ7c7ma1I0NTZlVENqNDQ", 
-    "name": "ForestService", 
-    "packages": [], 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mRnZXbU1kQXVyMzQ",
+    "hash_id": "0ByStJjVZ7c7ma1I0NTZlVENqNDQ",
+    "name": "ForestService",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mUlBqanFidWg5RkE"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.ForestService", 
-    "shape_id": "0ByStJjVZ7c7maXJNRnBITGM2VTQ", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.ForestService",
+    "shape_id": "0ByStJjVZ7c7maXJNRnBITGM2VTQ",
     "update_cycle": "demand"
 }

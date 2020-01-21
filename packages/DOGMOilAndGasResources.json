@@ -1,16 +1,16 @@
 {
-    "category": "ENERGY", 
+    "category": "ENERGY",
     "feature_classes": [
-        "SGID10.ENERGY.DNROilGasFields", 
-        "SGID10.ENERGY.DNROilGasUnits", 
-        "SGID10.ENERGY.OilGasWells", 
-        "SGID10.ENERGY.OilGasWells_DownHoles", 
-        "SGID10.ENERGY.OilGasWells_Paths"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mbUV5Q0R5YWRPdEE", 
-    "name": "DOGMOilAndGasResources", 
+        "SGID.ENERGY.DNROilGasFields",
+        "SGID.ENERGY.DNROilGasUnits",
+        "SGID.ENERGY.OilGasWells",
+        "SGID.ENERGY.OilGasWells_DownHoles",
+        "SGID.ENERGY.OilGasWells_Paths"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mbUV5Q0R5YWRPdEE",
+    "name": "DOGMOilAndGasResources",
     "parent_ids": [
         "0ByStJjVZ7c7mS2c2djl3c2d6ZWs"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mM2hOYmF4ZENpNVE"
 }

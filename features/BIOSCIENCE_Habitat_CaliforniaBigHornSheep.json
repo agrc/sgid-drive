@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mLTg1RWtPTFdTTzg", 
-    "hash_id": "0ByStJjVZ7c7mVEc1MkhJazJRQmM", 
-    "name": "Habitat_CaliforniaBigHornSheep", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mLTg1RWtPTFdTTzg",
+    "hash_id": "0ByStJjVZ7c7mVEc1MkhJazJRQmM",
+    "name": "Habitat_CaliforniaBigHornSheep",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mYUNNcTE5WnVaeG8"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_CaliforniaBigHornSheep", 
-    "shape_id": "0ByStJjVZ7c7mYkpzcUR1NlBfTlU", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_CaliforniaBigHornSheep",
+    "shape_id": "0ByStJjVZ7c7mYkpzcUR1NlBfTlU",
     "update_cycle": "demand"
 }

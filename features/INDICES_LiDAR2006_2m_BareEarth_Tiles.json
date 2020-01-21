@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mSmIwTEs1bGIwdWc", 
-    "hash_id": "0ByStJjVZ7c7mb25TZHY3NDZOQVU", 
-    "name": "LiDAR2006_2m_BareEarth_Tiles", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mSmIwTEs1bGIwdWc",
+    "hash_id": "0ByStJjVZ7c7mb25TZHY3NDZOQVU",
+    "name": "LiDAR2006_2m_BareEarth_Tiles",
     "packages": [
         "LiDARExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mR1FfbVNKdVk0V0U"
-    ], 
-    "sgid_name": "SGID10.INDICES.LiDAR2006_2m_BareEarth_Tiles", 
-    "shape_id": "0ByStJjVZ7c7mSk53U3ZYYVpjTmc", 
+    ],
+    "sgid_name": "SGID.INDICES.LiDAR2006_2m_BareEarth_Tiles",
+    "shape_id": "0ByStJjVZ7c7mSk53U3ZYYVpjTmc",
     "update_cycle": "demand"
 }

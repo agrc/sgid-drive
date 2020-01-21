@@ -1,15 +1,15 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7mSm9NdVp0V19QT3c", 
-    "hash_id": "0ByStJjVZ7c7mVTJIeHpNaVN5Y2M", 
-    "name": "USCongressDistricts2012", 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7mSm9NdVp0V19QT3c",
+    "hash_id": "0ByStJjVZ7c7mVTJIeHpNaVN5Y2M",
+    "name": "USCongressDistricts2012",
     "packages": [
         "UtahPoliticalDistricts_Begin2012"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mNTVNYXVFWGdmZjA"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.USCongressDistricts2012", 
-    "shape_id": "0ByStJjVZ7c7mOHU4TjNNaFA0bDg", 
+    ],
+    "sgid_name": "SGID.POLITICAL.USCongressDistricts2012",
+    "shape_id": "0ByStJjVZ7c7mOHU4TjNNaFA0bDg",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mbDBkUVNoNFkxVzA", 
-    "hash_id": "0ByStJjVZ7c7mSjVjem5MZFhhODg", 
-    "name": "UrbanAreasCensus2010", 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mbDBkUVNoNFkxVzA",
+    "hash_id": "0ByStJjVZ7c7mSjVjem5MZFhhODg",
+    "name": "UrbanAreasCensus2010",
     "packages": [
         "Census2010"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQ05PSC1EUVoxdzA"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.UrbanAreasCensus2010", 
-    "shape_id": "0ByStJjVZ7c7meDhvNTFaOGQ1YjQ", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.UrbanAreasCensus2010",
+    "shape_id": "0ByStJjVZ7c7meDhvNTFaOGQ1YjQ",
     "update_cycle": "demand"
 }

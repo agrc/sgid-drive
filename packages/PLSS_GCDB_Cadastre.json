@@ -1,16 +1,16 @@
 {
-    "category": "CADASTRE", 
+    "category": "CADASTRE",
     "feature_classes": [
-        "SGID10.Cadastre.PLSSTownships_GCDB", 
-        "SGID10.Cadastre.PLSSSections_GCDB", 
-        "SGID10.Cadastre.PLSSQuarterSections_GCDB", 
-        "SGID10.Cadastre.PLSSQuarterQuarterSections_GCDB", 
-        "SGID10.Cadastre.PLSSPoint_GCDB"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mOXYzTE5PRXA0c2c", 
-    "name": "PLSS_GCDB_Cadastre", 
+        "SGID.Cadastre.PLSSTownships_GCDB",
+        "SGID.Cadastre.PLSSSections_GCDB",
+        "SGID.Cadastre.PLSSQuarterSections_GCDB",
+        "SGID.Cadastre.PLSSQuarterQuarterSections_GCDB",
+        "SGID.Cadastre.PLSSPoint_GCDB"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mOXYzTE5PRXA0c2c",
+    "name": "PLSS_GCDB_Cadastre",
     "parent_ids": [
         "0ByStJjVZ7c7mOUpBR0dQcm9UdWs"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mTV9vazcza0NlMjg"
 }

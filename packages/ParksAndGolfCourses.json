@@ -1,13 +1,13 @@
 {
-    "category": "RECREATION", 
+    "category": "RECREATION",
     "feature_classes": [
-        "SGID10.RECREATION.ParksLocal", 
-        "SGID10.RECREATION.GolfCourses"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mWUptcy10QWcxU00", 
-    "name": "ParksAndGolfCourses", 
+        "SGID.RECREATION.ParksLocal",
+        "SGID.RECREATION.GolfCourses"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mWUptcy10QWcxU00",
+    "name": "ParksAndGolfCourses",
     "parent_ids": [
         "0ByStJjVZ7c7mZk5tdmE3NzRRS0E"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mYmFnQ19lU3QtbnM"
 }

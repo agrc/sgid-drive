@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mMkcyWHJGWk9wUG8", 
-    "hash_id": "0ByStJjVZ7c7mcm5xa0xzSV85ZWs", 
-    "name": "LawEnforcement", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mMkcyWHJGWk9wUG8",
+    "hash_id": "0ByStJjVZ7c7mcm5xa0xzSV85ZWs",
+    "name": "LawEnforcement",
     "packages": [
         "PublicSafety"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mM3NuRUx6WnFlbXM"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.LawEnforcement", 
-    "shape_id": "0ByStJjVZ7c7mX0VmY0ZSMzJ6ZmM", 
+    ],
+    "sgid_name": "SGID.SOCIETY.LawEnforcement",
+    "shape_id": "0ByStJjVZ7c7mX0VmY0ZSMzJ6ZmM",
     "update_cycle": "demand"
 }

@@ -1,19 +1,19 @@
 {
-    "category": "ENERGY", 
+    "category": "ENERGY",
     "feature_classes": [
-        "SGID10.ENERGY.UREZPhase1_GeothermalZones", 
-        "SGID10.ENERGY.UREZPhase1_SolarZones", 
-        "SGID10.ENERGY.UREZPhase1_Transmission", 
-        "SGID10.ENERGY.UREZPhase1_WindDrainage", 
-        "SGID10.ENERGY.UREZPhase1_WindZones", 
-        "SGID10.ENERGY.UREZPhase2_ConceptualTransmission", 
-        "SGID10.ENERGY.UREZPhase2_Geothermal", 
-        "SGID10.ENERGY.UREZPhase2_ZoneBoundaries"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7maGRTVXNlOVpHeFk", 
-    "name": "RenewableEnergyResources", 
+        "SGID.ENERGY.UREZPhase1_GeothermalZones",
+        "SGID.ENERGY.UREZPhase1_SolarZones",
+        "SGID.ENERGY.UREZPhase1_Transmission",
+        "SGID.ENERGY.UREZPhase1_WindDrainage",
+        "SGID.ENERGY.UREZPhase1_WindZones",
+        "SGID.ENERGY.UREZPhase2_ConceptualTransmission",
+        "SGID.ENERGY.UREZPhase2_Geothermal",
+        "SGID.ENERGY.UREZPhase2_ZoneBoundaries"
+    ],
+    "gdb_id": "0ByStJjVZ7c7maGRTVXNlOVpHeFk",
+    "name": "RenewableEnergyResources",
     "parent_ids": [
         "0ByStJjVZ7c7mN0VrUTZaRFZKWHM"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mb0xTUmY3T0tPVDg"
 }

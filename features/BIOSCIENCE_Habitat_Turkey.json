@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mbUR5QVYxWFVDT1E", 
-    "hash_id": "0ByStJjVZ7c7mcjdrZnlTOG94dG8", 
-    "name": "Habitat_Turkey", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mbUR5QVYxWFVDT1E",
+    "hash_id": "0ByStJjVZ7c7mcjdrZnlTOG94dG8",
+    "name": "Habitat_Turkey",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mdnVQVFdUZU95WTg"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_Turkey", 
-    "shape_id": "0ByStJjVZ7c7mNGIyMmRSMmZSODQ", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_Turkey",
+    "shape_id": "0ByStJjVZ7c7mNGIyMmRSMmZSODQ",
     "update_cycle": "demand"
 }

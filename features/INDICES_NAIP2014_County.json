@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mb2hTdDV6RW1sVlU", 
-    "hash_id": "0ByStJjVZ7c7mcTI2VXhMc0ljeDg", 
-    "name": "NAIP2014_County", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mb2hTdDV6RW1sVlU",
+    "hash_id": "0ByStJjVZ7c7mcTI2VXhMc0ljeDg",
+    "name": "NAIP2014_County",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mN0JjTzhpcGtZS2c"
-    ], 
-    "sgid_name": "SGID10.INDICES.NAIP2014_County", 
-    "shape_id": "0ByStJjVZ7c7mdm1PVTdnRXNQUVE", 
+    ],
+    "sgid_name": "SGID.INDICES.NAIP2014_County",
+    "shape_id": "0ByStJjVZ7c7mdm1PVTdnRXNQUVE",
     "update_cycle": "demand"
 }

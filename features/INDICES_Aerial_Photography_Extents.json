@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7ma2F0aXNNbkZpc00", 
-    "hash_id": "0ByStJjVZ7c7mSWtIbXJkbzVaVFk", 
-    "name": "Aerial_Photography_Extents", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7ma2F0aXNNbkZpc00",
+    "hash_id": "0ByStJjVZ7c7mSWtIbXJkbzVaVFk",
+    "name": "Aerial_Photography_Extents",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7ma3hiOUdYb2dUakU"
-    ], 
-    "sgid_name": "SGID10.INDICES.Aerial_Photography_Extents", 
-    "shape_id": "0ByStJjVZ7c7mVUN2Q2xJeVA0c0k", 
+    ],
+    "sgid_name": "SGID.INDICES.Aerial_Photography_Extents",
+    "shape_id": "0ByStJjVZ7c7mVUN2Q2xJeVA0c0k",
     "update_cycle": "demand"
 }

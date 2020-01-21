@@ -149,32 +149,32 @@ class AgrcDriver(object):
 
         return True
 
-    def keep_revision(self, file_id, revision_id='head'):
-        file_metadata = {'keepForever': True}
-        request = self.service.revisions().update(fileId=file_id,
-                                                  revisionId=revision_id,
-                                                  body=file_metadata,
-                                                  fields='id')
+    # def keep_revision(self, file_id, revision_id='head'):
+    #     file_metadata = {'keepForever': True}
+    #     request = self.service.revisions().update(fileId=file_id,
+    #                                               revisionId=revision_id,
+    #                                               body=file_metadata,
+    #                                               fields='id')
 
-        response = None
-        backoff = 1
-        while response is None:
-            try:
-                response = request.execute()
-            except errors.HttpError as e:
-                if e.resp.status in [404]:
-                    # Start the upload all over again.
-                    raise Exception('Upload Failed 404')
-                elif e.resp.status in [500, 502, 503, 504]:
-                    if backoff > 8:
-                        raise Exception('Upload Failed: {}'.format(e))
-                    print('Retrying upload in: {} seconds'.format(backoff))
-                    sleep(backoff + uniform(.001, .999))
-                    backoff += backoff
-                else:
-                    raise Exception('Update Failed')
+    #     response = None
+    #     backoff = 1
+    #     while response is None:
+    #         try:
+    #             response = request.execute()
+    #         except errors.HttpError as e:
+    #             if e.resp.status in [404]:
+    #                 # Start the upload all over again.
+    #                 raise Exception('Upload Failed 404')
+    #             elif e.resp.status in [500, 502, 503, 504]:
+    #                 if backoff > 8:
+    #                     raise Exception('Upload Failed: {}'.format(e))
+    #                 print('Retrying upload in: {} seconds'.format(backoff))
+    #                 sleep(backoff + uniform(.001, .999))
+    #                 backoff += backoff
+    #             else:
+    #                 raise Exception('Update Failed')
 
-        return response.get('id')
+    #     return response.get('id')
 
     def update_file(self, file_id, local_file, mime_type):
         media_body = MediaFileUpload(local_file,

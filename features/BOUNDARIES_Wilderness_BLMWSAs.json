@@ -1,15 +1,15 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7maW0tQUwySWdVclU", 
-    "hash_id": "0ByStJjVZ7c7mMlZmbEtfaVNJYmM", 
-    "name": "Wilderness_BLMWSAs", 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7maW0tQUwySWdVclU",
+    "hash_id": "0ByStJjVZ7c7mMlZmbEtfaVNJYmM",
+    "name": "Wilderness_BLMWSAs",
     "packages": [
         "Wilderness_ProtectedLandsAndProposals"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTkJ5YVZvTmFIc1k"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.Wilderness_BLMWSAs", 
-    "shape_id": "0ByStJjVZ7c7mRFR3d3lkQVBQeXM", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.Wilderness_BLMWSAs",
+    "shape_id": "0ByStJjVZ7c7mRFR3d3lkQVBQeXM",
     "update_cycle": "demand"
 }

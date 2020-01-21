@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7majdDTkZWdVhNQVU", 
-    "hash_id": "0ByStJjVZ7c7mVGI4cGFuZ3NSZWM", 
-    "name": "PSAPBoundaries", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7majdDTkZWdVhNQVU",
+    "hash_id": "0ByStJjVZ7c7mVGI4cGFuZ3NSZWM",
+    "name": "PSAPBoundaries",
     "packages": [
         "PublicSafety"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mZlcwby1KR2h2YUE"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.PSAPBoundaries", 
-    "shape_id": "0ByStJjVZ7c7mQW9HT25ISXo1LVE", 
+    ],
+    "sgid_name": "SGID.SOCIETY.PSAPBoundaries",
+    "shape_id": "0ByStJjVZ7c7mQW9HT25ISXo1LVE",
     "update_cycle": "demand"
 }

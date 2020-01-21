@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mUmRvUHVSRlBuLUE", 
-    "hash_id": "0ByStJjVZ7c7mbGVyRWRKVFNwVms", 
-    "name": "CoalMines_UGS", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mUmRvUHVSRlBuLUE",
+    "hash_id": "0ByStJjVZ7c7mbGVyRWRKVFNwVms",
+    "name": "CoalMines_UGS",
     "packages": [
         "CoalResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mNk15TjktN1g3aDQ"
-    ], 
-    "sgid_name": "SGID10.ENERGY.CoalMines_UGS", 
-    "shape_id": "0ByStJjVZ7c7mY1A4T05ZejZsMUU", 
+    ],
+    "sgid_name": "SGID.ENERGY.CoalMines_UGS",
+    "shape_id": "0ByStJjVZ7c7mY1A4T05ZejZsMUU",
     "update_cycle": "demand"
 }

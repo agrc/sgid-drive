@@ -1,15 +1,15 @@
 {
-    "category": "RECREATION", 
+    "category": "RECREATION",
     "feature_classes": [
-        "SGID10.RECREATION.SkiAreaLocations", 
-        "SGID10.RECREATION.SkiAreaBoundaries", 
-        "SGID10.RECREATION.SkiLifts", 
-        "SGID10.RECREATION.SkiTrails_XC"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mX1ZwWmJTVW9pY3M", 
-    "name": "SkiAreas", 
+        "SGID.RECREATION.SkiAreaLocations",
+        "SGID.RECREATION.SkiAreaBoundaries",
+        "SGID.RECREATION.SkiLifts",
+        "SGID.RECREATION.SkiTrails_XC"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mX1ZwWmJTVW9pY3M",
+    "name": "SkiAreas",
     "parent_ids": [
         "0ByStJjVZ7c7mY0Z0UkF1QkdiTVU"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7meTdfMUVjTGpLeWc"
 }

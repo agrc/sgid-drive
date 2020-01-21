@@ -1,16 +1,16 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mMFFPbFIxZkt6am8", 
-    "hash_id": "0ByStJjVZ7c7mMjJmZTBEVEp1YUE", 
-    "name": "RoadsShieldLines", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mMFFPbFIxZkt6am8",
+    "hash_id": "0ByStJjVZ7c7mMjJmZTBEVEp1YUE",
+    "name": "RoadsShieldLines",
     "packages": [
-        "LRSRouteCharacteristics", 
+        "LRSRouteCharacteristics",
         "UtahRoadAndHighwaySystem"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mcTBRQXBtTFkybms"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.RoadsShieldLines", 
-    "shape_id": "0ByStJjVZ7c7mOVNuSlBGU1k5aUU", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.RoadsShieldLines",
+    "shape_id": "0ByStJjVZ7c7mOVNuSlBGU1k5aUU",
     "update_cycle": "demand"
 }

@@ -1,12 +1,12 @@
 {
-    "category": "INDICES", 
+    "category": "INDICES",
     "feature_classes": [
-        "SGID10.INDICES.AutoCorrelated_DEM_Extents"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mb1JqdnYxczlNWjQ", 
-    "name": "AutoCorrelatedDEMExtentsAndIndices", 
+        "SGID.INDICES.AutoCorrelated_DEM_Extents"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mb1JqdnYxczlNWjQ",
+    "name": "AutoCorrelatedDEMExtentsAndIndices",
     "parent_ids": [
         "0ByStJjVZ7c7mUUpwYTd4Qi1rRmM"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mYkdSMm1TbU1XRVE"
 }

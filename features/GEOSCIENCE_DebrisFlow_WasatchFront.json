@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mM3U4NDZla0VVOGM", 
-    "hash_id": "0ByStJjVZ7c7mUXdnbEp4M01VU1E", 
-    "name": "DebrisFlow_WasatchFront", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mM3U4NDZla0VVOGM",
+    "hash_id": "0ByStJjVZ7c7mUXdnbEp4M01VU1E",
+    "name": "DebrisFlow_WasatchFront",
     "packages": [
         "DebrisFlow"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVnNqSjN1VXNGUDA"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.DebrisFlow_WasatchFront", 
-    "shape_id": "0ByStJjVZ7c7mWF8xcHd2ZVNOaHM", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.DebrisFlow_WasatchFront",
+    "shape_id": "0ByStJjVZ7c7mWF8xcHd2ZVNOaHM",
     "update_cycle": "demand"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "RECREATION", 
-    "gdb_id": "0ByStJjVZ7c7mQTFtNkhsRC1tZjQ", 
-    "hash_id": "0ByStJjVZ7c7mbko0QXp3Q2NFeDQ", 
-    "name": "BoatRamps", 
-    "packages": [], 
+    "category": "RECREATION",
+    "gdb_id": "0ByStJjVZ7c7mQTFtNkhsRC1tZjQ",
+    "hash_id": "0ByStJjVZ7c7mbko0QXp3Q2NFeDQ",
+    "name": "BoatRamps",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mYkJCMjg1NGZ5eTQ"
-    ], 
-    "sgid_name": "SGID10.RECREATION.BoatRamps", 
-    "shape_id": "0ByStJjVZ7c7mWkhmSkRiRkJ4NVE", 
+    ],
+    "sgid_name": "SGID.RECREATION.BoatRamps",
+    "shape_id": "0ByStJjVZ7c7mWkhmSkRiRkJ4NVE",
     "update_cycle": "demand"
 }

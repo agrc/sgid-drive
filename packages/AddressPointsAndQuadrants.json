@@ -1,13 +1,13 @@
 {
-    "category": "LOCATION", 
+    "category": "LOCATION",
     "feature_classes": [
-        "SGID10.LOCATION.AddressPoints", 
-        "SGID10.LOCATION.AddressSystemQuadrants"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mU3I2SHpONHQwSFU", 
-    "name": "AddressPointsAndQuadrants", 
+        "SGID.LOCATION.AddressPoints",
+        "SGID.LOCATION.AddressSystemQuadrants"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mU3I2SHpONHQwSFU",
+    "name": "AddressPointsAndQuadrants",
     "parent_ids": [
         "0ByStJjVZ7c7mcVFBanVmTXlOQkU"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mSUJaVzQ3MW1WLVU"
 }

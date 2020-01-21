@@ -1,15 +1,15 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mWGlxcGJndTlWY0k", 
-    "hash_id": "0ByStJjVZ7c7mSkRVc1JIN3NuLUU", 
-    "name": "Airports", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mWGlxcGJndTlWY0k",
+    "hash_id": "0ByStJjVZ7c7mSkRVc1JIN3NuLUU",
+    "name": "Airports",
     "packages": [
         "AirTransportation"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUXBqUHJtUENoZ0k"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.Airports", 
-    "shape_id": "0ByStJjVZ7c7manpWN040cFFIMEE", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.Airports",
+    "shape_id": "0ByStJjVZ7c7manpWN040cFFIMEE",
     "update_cycle": "demand"
 }

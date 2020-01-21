@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mRTlhbVMzVW1nUkU", 
-    "hash_id": "0ByStJjVZ7c7mUm5jVXFxdG9ncFk", 
-    "name": "AutoCorrelated_DEM_5m_Extent", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mRTlhbVMzVW1nUkU",
+    "hash_id": "0ByStJjVZ7c7mUm5jVXFxdG9ncFk",
+    "name": "AutoCorrelated_DEM_5m_Extent",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7manpiNFVWRmtzUTg"
-    ], 
-    "sgid_name": "SGID10.INDICES.AutoCorrelated_DEM_5m_Extent", 
-    "shape_id": "0ByStJjVZ7c7mNDJzRFlGMkNTMDA", 
+    ],
+    "sgid_name": "SGID.INDICES.AutoCorrelated_DEM_5m_Extent",
+    "shape_id": "0ByStJjVZ7c7mNDJzRFlGMkNTMDA",
     "update_cycle": "demand"
 }

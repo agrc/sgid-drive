@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mTUJnNG5EcVc5T00", 
-    "hash_id": "0ByStJjVZ7c7mNTBWUm42YTI5ZDg", 
-    "name": "NAIP2014_RGB_QQuads", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mTUJnNG5EcVc5T00",
+    "hash_id": "0ByStJjVZ7c7mNTBWUm42YTI5ZDg",
+    "name": "NAIP2014_RGB_QQuads",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mX2dnc2dUVXFwNUU"
-    ], 
-    "sgid_name": "SGID10.INDICES.NAIP2014_RGB_QQuads", 
-    "shape_id": "0ByStJjVZ7c7mT3Vock8xU0d5eFU", 
+    ],
+    "sgid_name": "SGID.INDICES.NAIP2014_RGB_QQuads",
+    "shape_id": "0ByStJjVZ7c7mT3Vock8xU0d5eFU",
     "update_cycle": "demand"
 }

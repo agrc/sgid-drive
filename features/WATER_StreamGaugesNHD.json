@@ -7,7 +7,7 @@
     "parent_ids": [
         "0ByStJjVZ7c7mcXhqWGNYYmV1THM"
     ],
-    "sgid_name": "SGID10.WATER.StreamGaugesNHD",
+    "sgid_name": "SGID.WATER.StreamGaugesNHD",
     "shape_id": "0ByStJjVZ7c7mbkRFUlp2QzRTalE",
     "update_cycle": "annual"
 }

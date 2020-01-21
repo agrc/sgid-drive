@@ -64,7 +64,7 @@ def get_feature_update_cycles(steward_info):
     with open(steward_info, 'rb') as info:
         reader = csv.DictReader(info)
         for row in reader:
-            feature = 'SGID10.' + row['SGID Data Layer']
+            feature = 'SGID.' + row['SGID Data Layer']
             if feature in features or feature.strip() == '':
                 print('wtf?')
                 continue
@@ -96,7 +96,7 @@ def package_specs_from_gdbs(directory_path, category):
         data = []
         data.extend(arcpy.ListFeatureClasses())
         data.extend(arcpy.ListTables())
-        sgid_names = ['SGID10.{}.{}'.format(category.upper(), d) for d in data]
+        sgid_names = ['SGID.{}.{}'.format(category.upper(), d) for d in data]
         package_json = spec_manager.create_package_spec(gdb_name,
                                                         sgid_names,
                                                         category.upper())
@@ -252,11 +252,11 @@ def replace_metadata_links(top_dir='data/ftplinktest', rewrite_source=False):
     def get_replace_link(link):
         new_prefix = 'ftp://ftp.agrc.utah.gov/UtahSGID_Vector/UTM12_NAD83/Metadata/'
         new_html_file_path = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
-        if not os.path.exists(new_html_file_path + 'SGID10.' + link + '.xml'):
+        if not os.path.exists(new_html_file_path + 'SGID.' + link + '.xml'):
             print(link, 'does not exist as new')
             return None
         else:
-            return new_prefix + 'SGID10.' + link + '.xml'
+            return new_prefix + 'SGID.' + link + '.xml'
 
     def check_ftp_links_in_file(path, matcher, preview_name):
         data_links = []
@@ -333,11 +333,11 @@ def replace_direct_package_links(top_dir='data/ftplinktest', rewrite_source=Fals
     def get_replace_link(link):
         new_prefix = 'ftp://ftp.agrc.utah.gov/UtahSGID_Vector/UTM12_NAD83/Metadata/'
         new_html_file_path = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
-        if not os.path.exists(new_html_file_path + 'SGID10.' + link + '.xml'):
+        if not os.path.exists(new_html_file_path + 'SGID.' + link + '.xml'):
             print(link, 'does not exist as new')
             return None
         else:
-            return new_prefix + 'SGID10.' + link + '.xml'
+            return new_prefix + 'SGID.' + link + '.xml'
 
     def check_direct_links_in_file(path, direct_links, preview_name):
         data_links = []
@@ -549,7 +549,7 @@ def create_new_features(spec_catnames, ftp_catname_dict, workspace):
     for catname in ftp_catname_dict:
         if catname not in spec_catnames:
             ftp_link = ftp_catname_dict[catname]
-            fc = "{}.{}.{}".format('SGID10', ftp_link.category.upper(), ftp_link.name)
+            fc = "{}.{}.{}".format('SGID', ftp_link.category.upper(), ftp_link.name)
             if arcpy.Exists(os.path.join(workspace, fc)):
                 spec_manager.get_feature(fc, create=True)
                 print(catname)
@@ -809,7 +809,7 @@ def get_new_metadata_url(old_metadata_url):
         link = matches[0][1]
         l = parse_metadata_link(link)
         ftp_metadata = 'ftp://ftp.agrc.utah.gov/UtahSGID_Vector/UTM12_NAD83/Metadata/'
-        new_xml_path = os.path.join(ftp_metadata, 'SGID10.' + l + '.xml')
+        new_xml_path = os.path.join(ftp_metadata, 'SGID.' + l + '.xml')
         return new_xml_path
     else:
         raise(Exception('url parse error'))
@@ -830,10 +830,10 @@ def find_old_metadata():
     for path in ftp_metadata:
         l = parse_metadata_link(path)
         ftp_metadata = '/Volumes/ftp/UtahSGID_Vector/UTM12_NAD83/Metadata/'
-        new_xml_path = os.path.join(ftp_metadata, 'SGID10.' + l + '.xml')
-        new_xml_name = 'SGID10.' + l + '.xml'
+        new_xml_path = os.path.join(ftp_metadata, 'SGID.' + l + '.xml')
+        new_xml_name = 'SGID.' + l + '.xml'
         if not os.path.exists(new_xml_path):
-            print('\'SGID10.' + l + "',")
+            print('\'SGID.' + l + "',")
             # print(path)
             pass
         else:

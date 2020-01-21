@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
+    "category": "WATER",
     "feature_classes": [
-        "SGID10.WATER.Wetlands", 
-        "SGID10.WATER.WetlandsMappingProjects"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mLWFROVBXY0JVOTQ", 
-    "name": "Wetlands", 
+        "SGID.WATER.Wetlands",
+        "SGID.WATER.WetlandsMappingProjects"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mLWFROVBXY0JVOTQ",
+    "name": "Wetlands",
     "parent_ids": [
         "0ByStJjVZ7c7mOXdndHpnektzV0U"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mSWZ2Sll4a3hobkU"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "CLIMATE", 
-    "gdb_id": "0ByStJjVZ7c7mQS14WmVEbzBlVVk", 
-    "hash_id": "0ByStJjVZ7c7mdGxNS2QwZC0zMVU", 
-    "name": "WeatherStations", 
-    "packages": [], 
+    "category": "CLIMATE",
+    "gdb_id": "0ByStJjVZ7c7mQS14WmVEbzBlVVk",
+    "hash_id": "0ByStJjVZ7c7mdGxNS2QwZC0zMVU",
+    "name": "WeatherStations",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mTEJEaDlPWkdQUm8"
-    ], 
-    "sgid_name": "SGID10.CLIMATE.WeatherStations", 
-    "shape_id": "0ByStJjVZ7c7mZkxiaU9hU0djczQ", 
+    ],
+    "sgid_name": "SGID.CLIMATE.WeatherStations",
+    "shape_id": "0ByStJjVZ7c7mZkxiaU9hU0djczQ",
     "update_cycle": "demand"
 }

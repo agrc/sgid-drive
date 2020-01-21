@@ -1,16 +1,16 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mb1BJT01oVEdOekU", 
-    "hash_id": "0ByStJjVZ7c7mU2dqV3ZJWXBKN2M", 
-    "name": "UDOTMileposts", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mb1BJT01oVEdOekU",
+    "hash_id": "0ByStJjVZ7c7mU2dqV3ZJWXBKN2M",
+    "name": "UDOTMileposts",
     "packages": [
-        "LRSRouteCharacteristics", 
+        "LRSRouteCharacteristics",
         "UtahRoadAndHighwaySystem"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMmx0WnJuUzkwaFU"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.UDOTMileposts", 
-    "shape_id": "0ByStJjVZ7c7mNFlDenZWTnNwekE", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.UDOTMileposts",
+    "shape_id": "0ByStJjVZ7c7mNFlDenZWTnNwekE",
     "update_cycle": "demand"
 }

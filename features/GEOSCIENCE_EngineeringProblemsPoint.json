@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mckg5WXpjSllCbTg", 
-    "hash_id": "0ByStJjVZ7c7mYXR4QjZMNTNyalk", 
-    "name": "EngineeringProblemsPoint", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mckg5WXpjSllCbTg",
+    "hash_id": "0ByStJjVZ7c7mYXR4QjZMNTNyalk",
+    "name": "EngineeringProblemsPoint",
     "packages": [
         "Engineering"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWFVyNTZxMGhRaWc"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.EngineeringProblemsPoint", 
-    "shape_id": "0ByStJjVZ7c7mRUtOd25qWjNjeWM", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.EngineeringProblemsPoint",
+    "shape_id": "0ByStJjVZ7c7mRUtOd25qWjNjeWM",
     "update_cycle": "demand"
 }

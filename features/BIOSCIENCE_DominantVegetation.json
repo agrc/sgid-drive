@@ -1,13 +1,13 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mSml1b0ZKdXpsRHM", 
-    "hash_id": "0ByStJjVZ7c7mOWREVkNsdUgyM3M", 
-    "name": "DominantVegetation", 
-    "packages": [], 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mSml1b0ZKdXpsRHM",
+    "hash_id": "0ByStJjVZ7c7mOWREVkNsdUgyM3M",
+    "name": "DominantVegetation",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mNEFsbWhudnI3SHc"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.DominantVegetation", 
-    "shape_id": "0ByStJjVZ7c7mN3RGSEp2ZnMtc1k", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.DominantVegetation",
+    "shape_id": "0ByStJjVZ7c7mN3RGSEp2ZnMtc1k",
     "update_cycle": "demand"
 }

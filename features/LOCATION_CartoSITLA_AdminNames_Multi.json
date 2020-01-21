@@ -1,13 +1,13 @@
 {
-    "category": "LOCATION", 
-    "gdb_id": "0ByStJjVZ7c7mbWZnOEJfUUNmcW8", 
-    "hash_id": "0ByStJjVZ7c7mMERxRHZqRXlDM1U", 
-    "name": "CartoSITLA_AdminNames_Multi", 
-    "packages": [], 
+    "category": "LOCATION",
+    "gdb_id": "0ByStJjVZ7c7mbWZnOEJfUUNmcW8",
+    "hash_id": "0ByStJjVZ7c7mMERxRHZqRXlDM1U",
+    "name": "CartoSITLA_AdminNames_Multi",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mXzY5YW9mdVVDRHc"
-    ], 
-    "sgid_name": "SGID10.LOCATION.CartoSITLA_AdminNames_Multi", 
-    "shape_id": "0ByStJjVZ7c7mcklDZzNvd0RsQTQ", 
+    ],
+    "sgid_name": "SGID.LOCATION.CartoSITLA_AdminNames_Multi",
+    "shape_id": "0ByStJjVZ7c7mcklDZzNvd0RsQTQ",
     "update_cycle": "demand"
 }

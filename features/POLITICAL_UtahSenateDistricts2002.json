@@ -1,15 +1,15 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7memx6U2ozZEJlbUE", 
-    "hash_id": "0ByStJjVZ7c7maVZaT2paY0NSMzg", 
-    "name": "UtahSenateDistricts2002", 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7memx6U2ozZEJlbUE",
+    "hash_id": "0ByStJjVZ7c7maVZaT2paY0NSMzg",
+    "name": "UtahSenateDistricts2002",
     "packages": [
         "UtahPoliticalDistricts_Thru2011"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mb3N1LUI0Q1FRSnM"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.UtahSenateDistricts2002", 
-    "shape_id": "0ByStJjVZ7c7mNlpxWkFZSUM1Vnc", 
+    ],
+    "sgid_name": "SGID.POLITICAL.UtahSenateDistricts2002",
+    "shape_id": "0ByStJjVZ7c7mNlpxWkFZSUM1Vnc",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
+    "category": "ENERGY",
     "feature_classes": [
-        "SGID10.ENERGY.Coal_4FootSeams", 
-        "SGID10.ENERGY.CoalDepositAreas1988", 
-        "SGID10.ENERGY.CoalLeases", 
-        "SGID10.ENERGY.CoalMines_UGS"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mZ0tpLUxjcHIzOGs", 
-    "name": "CoalResources", 
+        "SGID.ENERGY.Coal_4FootSeams",
+        "SGID.ENERGY.CoalDepositAreas1988",
+        "SGID.ENERGY.CoalLeases",
+        "SGID.ENERGY.CoalMines_UGS"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mZ0tpLUxjcHIzOGs",
+    "name": "CoalResources",
     "parent_ids": [
         "0ByStJjVZ7c7mLXFFdGZwc2JtaGc"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mSVEyeDdDaUxVZlk"
 }

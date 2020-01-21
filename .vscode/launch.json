@@ -18,7 +18,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["SGID.sde", "--delete_feature", "SGID10.HEALTH.EMSServiceAreas"]
+            "args": ["SGID.sde", "--delete_feature", "SGID.HEALTH.EMSServiceAreas"]
         }
     ]
 }

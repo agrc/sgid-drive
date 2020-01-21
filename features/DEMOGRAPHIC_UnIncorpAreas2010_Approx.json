@@ -1,13 +1,13 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mOGk4T2tmZU5CWmc", 
-    "hash_id": "0ByStJjVZ7c7mbmFqYmZMVmhpRm8", 
-    "name": "UnIncorpAreas2010_Approx", 
-    "packages": [], 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mOGk4T2tmZU5CWmc",
+    "hash_id": "0ByStJjVZ7c7mbmFqYmZMVmhpRm8",
+    "name": "UnIncorpAreas2010_Approx",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mMEVuc3hIQTVXdkk"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.UnIncorpAreas2010_Approx", 
-    "shape_id": "0ByStJjVZ7c7mVDNycmhMNmZIUGc", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.UnIncorpAreas2010_Approx",
+    "shape_id": "0ByStJjVZ7c7mVDNycmhMNmZIUGc",
     "update_cycle": "demand"
 }

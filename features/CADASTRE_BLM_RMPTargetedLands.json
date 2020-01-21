@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7mNlkyMGk2clpraEU", 
-    "hash_id": "0ByStJjVZ7c7mTzdUUFc0SjhZdXM", 
-    "name": "BLM_RMPTargetedLands", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7mNlkyMGk2clpraEU",
+    "hash_id": "0ByStJjVZ7c7mTzdUUFc0SjhZdXM",
+    "name": "BLM_RMPTargetedLands",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mb3o3QnF6cVFVY1k"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.BLM_RMPTargetedLands", 
-    "shape_id": "0ByStJjVZ7c7mOHFnY2N2U0VFdlE", 
+    ],
+    "sgid_name": "SGID.CADASTRE.BLM_RMPTargetedLands",
+    "shape_id": "0ByStJjVZ7c7mOHFnY2N2U0VFdlE",
     "update_cycle": "demand"
 }

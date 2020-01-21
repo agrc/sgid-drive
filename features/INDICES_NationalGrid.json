@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mV1BJcnVrWEJQU3c", 
-    "hash_id": "0ByStJjVZ7c7mOVhXbS1wV1ZDV0U", 
-    "name": "NationalGrid", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mV1BJcnVrWEJQU3c",
+    "hash_id": "0ByStJjVZ7c7mOVhXbS1wV1ZDV0U",
+    "name": "NationalGrid",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mRmVnWkhTYTdxNEE"
-    ], 
-    "sgid_name": "SGID10.INDICES.NationalGrid", 
-    "shape_id": "0ByStJjVZ7c7mdHUxVmhJc3NDZVE", 
+    ],
+    "sgid_name": "SGID.INDICES.NationalGrid",
+    "shape_id": "0ByStJjVZ7c7mdHUxVmhJc3NDZVE",
     "update_cycle": "demand"
 }

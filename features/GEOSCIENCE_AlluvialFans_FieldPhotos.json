@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "1VbWmRBQrDsyYjvfgZYWlox618zI718zi", 
-    "hash_id": "14HqH-g1vtRy1Lrznum0FZkI7vfnm2UGa", 
-    "name": "AlluvialFans_FieldPhotos", 
-    "packages": [], 
+    "category": "GEOSCIENCE",
+    "gdb_id": "1VbWmRBQrDsyYjvfgZYWlox618zI718zi",
+    "hash_id": "14HqH-g1vtRy1Lrznum0FZkI7vfnm2UGa",
+    "name": "AlluvialFans_FieldPhotos",
+    "packages": [],
     "parent_ids": [
         "13Rg8LyhxFwOp_FF8abELXKwCur91_AF8"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.AlluvialFans_FieldPhotos", 
-    "shape_id": "1GOA72L6zj1h7YLSgOdv4xWhvqhCrye3p", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.AlluvialFans_FieldPhotos",
+    "shape_id": "1GOA72L6zj1h7YLSgOdv4xWhvqhCrye3p",
     "update_cycle": ""
 }

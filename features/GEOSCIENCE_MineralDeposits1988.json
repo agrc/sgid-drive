@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mREFNV2NjcnprTUU", 
-    "hash_id": "0ByStJjVZ7c7mWndKR2RHMEVLOUE", 
-    "name": "MineralDeposits1988", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mREFNV2NjcnprTUU",
+    "hash_id": "0ByStJjVZ7c7mWndKR2RHMEVLOUE",
+    "name": "MineralDeposits1988",
     "packages": [
         "Minerals"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mNGJ4NDlSd3hZQ0U"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.MineralDeposits1988", 
-    "shape_id": "0ByStJjVZ7c7mX3M3MVRiVWpOSms", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.MineralDeposits1988",
+    "shape_id": "0ByStJjVZ7c7mX3M3MVRiVWpOSms",
     "update_cycle": "demand"
 }

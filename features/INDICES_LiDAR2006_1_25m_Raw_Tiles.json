@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mZERBeDdDWWdkTWc", 
-    "hash_id": "0ByStJjVZ7c7mVHFvRzEzVHdDYTA", 
-    "name": "LiDAR2006_1_25m_Raw_Tiles", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mZERBeDdDWWdkTWc",
+    "hash_id": "0ByStJjVZ7c7mVHFvRzEzVHdDYTA",
+    "name": "LiDAR2006_1_25m_Raw_Tiles",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mRG1WcDlUMnFsek0"
-    ], 
-    "sgid_name": "SGID10.INDICES.LiDAR2006_1_25m_Raw_Tiles", 
-    "shape_id": "0ByStJjVZ7c7mMklLRTM1V3dtZkk", 
+    ],
+    "sgid_name": "SGID.INDICES.LiDAR2006_1_25m_Raw_Tiles",
+    "shape_id": "0ByStJjVZ7c7mMklLRTM1V3dtZkk",
     "update_cycle": "demand"
 }

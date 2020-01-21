@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mc29oNmE3SWVFYTA", 
-    "hash_id": "0ByStJjVZ7c7mTERKZENDNnB1Q1U", 
-    "name": "Contours_2meter_SLCo", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mc29oNmE3SWVFYTA",
+    "hash_id": "0ByStJjVZ7c7mTERKZENDNnB1Q1U",
+    "name": "Contours_2meter_SLCo",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mdmZJV0FDcDJ1WU0"
-    ], 
-    "sgid_name": "SGID10.INDICES.Contours_2meter_SLCo", 
-    "shape_id": "0ByStJjVZ7c7mMDVIakhMNzVQWFk", 
+    ],
+    "sgid_name": "SGID.INDICES.Contours_2meter_SLCo",
+    "shape_id": "0ByStJjVZ7c7mMDVIakhMNzVQWFk",
     "update_cycle": "demand"
 }

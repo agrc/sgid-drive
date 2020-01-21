@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
+    "category": "SOCIETY",
     "feature_classes": [
-        "SGID10.SOCIETY.Schools", 
-        "SGID10.SOCIETY.Libraries"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mU24wMmF6ZTZPWWM", 
-    "name": "SchoolsLibraries", 
+        "SGID.SOCIETY.Schools",
+        "SGID.SOCIETY.Libraries"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mU24wMmF6ZTZPWWM",
+    "name": "SchoolsLibraries",
     "parent_ids": [
         "0ByStJjVZ7c7mdTRGQ2JUS3BWWE0"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7meVNBaGlMcGwzdmM"
 }

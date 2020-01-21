@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mS2syMHBXeElYU0E", 
-    "hash_id": "0ByStJjVZ7c7mVDl4eTlnczRrczQ", 
-    "name": "LiDAR2006_1m_Extents", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mS2syMHBXeElYU0E",
+    "hash_id": "0ByStJjVZ7c7mVDl4eTlnczRrczQ",
+    "name": "LiDAR2006_1m_Extents",
     "packages": [
         "LiDARExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTVB0aXdlakJEczg"
-    ], 
-    "sgid_name": "SGID10.INDICES.LiDAR2006_1m_Extents", 
-    "shape_id": "0ByStJjVZ7c7mOUZUbDkyMTh1RFk", 
+    ],
+    "sgid_name": "SGID.INDICES.LiDAR2006_1m_Extents",
+    "shape_id": "0ByStJjVZ7c7mOUZUbDkyMTh1RFk",
     "update_cycle": "demand"
 }

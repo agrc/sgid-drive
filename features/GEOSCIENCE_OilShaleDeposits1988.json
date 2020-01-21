@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mbWU4YW41QkZXQlk", 
-    "hash_id": "0ByStJjVZ7c7mRjNia0JpMjgyS0E", 
-    "name": "OilShaleDeposits1988", 
-    "packages": [], 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mbWU4YW41QkZXQlk",
+    "hash_id": "0ByStJjVZ7c7mRjNia0JpMjgyS0E",
+    "name": "OilShaleDeposits1988",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mV29kUjVRZkVjYUE"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.OilShaleDeposits1988", 
-    "shape_id": "0ByStJjVZ7c7mTmVsU3o1d3pHRjg", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.OilShaleDeposits1988",
+    "shape_id": "0ByStJjVZ7c7mTmVsU3o1d3pHRjg",
     "update_cycle": "demand"
 }

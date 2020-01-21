@@ -10,7 +10,7 @@
     "parent_ids": [
         "0ByStJjVZ7c7mLVlDQ1hReXRId2M"
     ],
-    "sgid_name": "SGID10.ENVIRONMENT.StreamMonitorSites",
+    "sgid_name": "SGID.ENVIRONMENT.StreamMonitorSites",
     "shape_id": "0ByStJjVZ7c7mZFNNbVJ4SzVRNGM",
     "update_cycle": "day"
 }

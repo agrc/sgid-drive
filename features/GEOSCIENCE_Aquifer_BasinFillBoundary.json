@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7majNHMktSMDZjZEE", 
-    "hash_id": "0ByStJjVZ7c7mRWtFNk1id0VIeDA", 
-    "name": "Aquifer_BasinFillBoundary", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7majNHMktSMDZjZEE",
+    "hash_id": "0ByStJjVZ7c7mRWtFNk1id0VIeDA",
+    "name": "Aquifer_BasinFillBoundary",
     "packages": [
         "Aquifers"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mN0tMbjUzdlQ3UkE"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.Aquifer_BasinFillBoundary", 
-    "shape_id": "0ByStJjVZ7c7mbW5qeFVtZUE0YlE", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.Aquifer_BasinFillBoundary",
+    "shape_id": "0ByStJjVZ7c7mbW5qeFVtZUE0YlE",
     "update_cycle": "demand"
 }

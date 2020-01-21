@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mMzY3RUMzS2YwWUU", 
-    "hash_id": "0ByStJjVZ7c7mSW5FdWxMaGIzeFU", 
-    "name": "CemeterySurvey", 
-    "packages": [], 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mMzY3RUMzS2YwWUU",
+    "hash_id": "0ByStJjVZ7c7mSW5FdWxMaGIzeFU",
+    "name": "CemeterySurvey",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mNDVCX3NGb1lCVWM"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.CemeterySurvey", 
-    "shape_id": "0ByStJjVZ7c7mbE41SGEyRkMyekk", 
+    ],
+    "sgid_name": "SGID.SOCIETY.CemeterySurvey",
+    "shape_id": "0ByStJjVZ7c7mbE41SGEyRkMyekk",
     "update_cycle": "demand"
 }

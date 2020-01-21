@@ -1,13 +1,13 @@
 {
-    "category": "LOCATION", 
-    "gdb_id": "0ByStJjVZ7c7mMWNNbXZ3eHU3bTQ", 
-    "hash_id": "0ByStJjVZ7c7mSFFYUnZ2R0FBM2c", 
-    "name": "CartoSITLA_Hydrology_600k", 
-    "packages": [], 
+    "category": "LOCATION",
+    "gdb_id": "0ByStJjVZ7c7mMWNNbXZ3eHU3bTQ",
+    "hash_id": "0ByStJjVZ7c7mSFFYUnZ2R0FBM2c",
+    "name": "CartoSITLA_Hydrology_600k",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mYWZxQkRmRVB5djA"
-    ], 
-    "sgid_name": "SGID10.LOCATION.CartoSITLA_Hydrology_600k", 
-    "shape_id": "0ByStJjVZ7c7mWXhUNDV1b2RWY3c", 
+    ],
+    "sgid_name": "SGID.LOCATION.CartoSITLA_Hydrology_600k",
+    "shape_id": "0ByStJjVZ7c7mWXhUNDV1b2RWY3c",
     "update_cycle": "demand"
 }

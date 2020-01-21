@@ -7,7 +7,7 @@
     "parent_ids": [
         "0ByStJjVZ7c7mYkpUaldTLXljVm8"
     ],
-    "sgid_name": "SGID10.ENVIRONMENT.DAQAirEmissionsInventory",
+    "sgid_name": "SGID.ENVIRONMENT.DAQAirEmissionsInventory",
     "shape_id": "0ByStJjVZ7c7mYkNWU2tRUmt4bVE",
     "update_cycle": "day"
 }

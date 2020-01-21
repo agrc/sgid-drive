@@ -1,16 +1,16 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mV0wwbDRsVG5UdGs", 
-    "hash_id": "0ByStJjVZ7c7mS3lCaFM5QUk1aGM", 
-    "name": "QuaternaryFaults", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mV0wwbDRsVG5UdGs",
+    "hash_id": "0ByStJjVZ7c7mS3lCaFM5QUk1aGM",
+    "name": "QuaternaryFaults",
     "packages": [
-        "Quaternary", 
+        "Quaternary",
         "SeismologyVolcanology"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUVFWSVNEOTViN0k"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.QuaternaryFaults", 
-    "shape_id": "0ByStJjVZ7c7mUHVuQkgtbG4wZG8", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.QuaternaryFaults",
+    "shape_id": "0ByStJjVZ7c7mUHVuQkgtbG4wZG8",
     "update_cycle": "demand"
 }

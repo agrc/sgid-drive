@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mNDRBdEVOdlZ5MGM", 
-    "hash_id": "0ByStJjVZ7c7mZjJ5bTFTYzZzcEE", 
-    "name": "UREZPhase2_Geothermal", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mNDRBdEVOdlZ5MGM",
+    "hash_id": "0ByStJjVZ7c7mZjJ5bTFTYzZzcEE",
+    "name": "UREZPhase2_Geothermal",
     "packages": [
         "RenewableEnergyResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mLTl1ME9KbWpkdlU"
-    ], 
-    "sgid_name": "SGID10.ENERGY.UREZPhase2_Geothermal", 
-    "shape_id": "0ByStJjVZ7c7mOF9jang0dDBEU00", 
+    ],
+    "sgid_name": "SGID.ENERGY.UREZPhase2_Geothermal",
+    "shape_id": "0ByStJjVZ7c7mOF9jang0dDBEU00",
     "update_cycle": "demand"
 }

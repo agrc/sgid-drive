@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mREZFb0RFNUZiU28", 
-    "hash_id": "0ByStJjVZ7c7mOHBMQnJ6RUlUbjg", 
-    "name": "WeberCoFloodZones", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mREZFb0RFNUZiU28",
+    "hash_id": "0ByStJjVZ7c7mOHBMQnJ6RUlUbjg",
+    "name": "WeberCoFloodZones",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mbm9PRmVZUzBoTTQ"
-    ], 
-    "sgid_name": "SGID10.WATER.WeberCoFloodZones", 
-    "shape_id": "0ByStJjVZ7c7mZDB4V1g3QWh1UDg", 
+    ],
+    "sgid_name": "SGID.WATER.WeberCoFloodZones",
+    "shape_id": "0ByStJjVZ7c7mZDB4V1g3QWh1UDg",
     "update_cycle": "demand"
 }

@@ -10,7 +10,7 @@
     "parent_ids": [
         "0ByStJjVZ7c7mUDRFSS1Bc0N2STA"
     ],
-    "sgid_name": "SGID10.ENVIRONMENT.ICBUFFERZONES",
+    "sgid_name": "SGID.ENVIRONMENT.ICBUFFERZONES",
     "shape_id": "0ByStJjVZ7c7mQjI2NjVEQ0pUV1U",
     "update_cycle": "day"
 }

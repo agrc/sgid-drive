@@ -1,13 +1,13 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mZkpqQXpTVnduOTQ", 
-    "hash_id": "0ByStJjVZ7c7mcThrR2t1cDIySm8", 
-    "name": "PublicLandsInitiativeHR5780Lines_BLM2016", 
-    "packages": [], 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mZkpqQXpTVnduOTQ",
+    "hash_id": "0ByStJjVZ7c7mcThrR2t1cDIySm8",
+    "name": "PublicLandsInitiativeHR5780Lines_BLM2016",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7maEttMFBpeTFWT1U"
-    ], 
-    "sgid_name": "SGID10.PLANNING.PublicLandsInitiativeHR5780Lines_BLM2016", 
-    "shape_id": "0ByStJjVZ7c7mRkZDc3FDTlBueWs", 
+    ],
+    "sgid_name": "SGID.PLANNING.PublicLandsInitiativeHR5780Lines_BLM2016",
+    "shape_id": "0ByStJjVZ7c7mRkZDc3FDTlBueWs",
     "update_cycle": "demand"
 }

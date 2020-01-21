@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mYjVZWF9vWnhOeW8", 
-    "hash_id": "0ByStJjVZ7c7mdHVtaXR2ZFVkX1k", 
-    "name": "ParagonahStructures", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mYjVZWF9vWnhOeW8",
+    "hash_id": "0ByStJjVZ7c7mdHVtaXR2ZFVkX1k",
+    "name": "ParagonahStructures",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mMzFTYXhsVXowSlk"
-    ], 
-    "sgid_name": "SGID10.WATER.ParagonahStructures", 
-    "shape_id": "0ByStJjVZ7c7mQWR6VjVWU0hHZTA", 
+    ],
+    "sgid_name": "SGID.WATER.ParagonahStructures",
+    "shape_id": "0ByStJjVZ7c7mQWR6VjVWU0hHZTA",
     "update_cycle": "demand"
 }

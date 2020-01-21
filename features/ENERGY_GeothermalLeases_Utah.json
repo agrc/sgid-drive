@@ -1,13 +1,13 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mQjNPQUJkVjZMeWc", 
-    "hash_id": "0ByStJjVZ7c7mSFg1MjZNN3l6bkk", 
-    "name": "GeothermalLeases_Utah", 
-    "packages": [], 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mQjNPQUJkVjZMeWc",
+    "hash_id": "0ByStJjVZ7c7mSFg1MjZNN3l6bkk",
+    "name": "GeothermalLeases_Utah",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mdkhHMjZvVnA3eDg"
-    ], 
-    "sgid_name": "SGID10.ENERGY.GeothermalLeases_Utah", 
-    "shape_id": "0ByStJjVZ7c7mYk1jSm1YcnZmcEE", 
+    ],
+    "sgid_name": "SGID.ENERGY.GeothermalLeases_Utah",
+    "shape_id": "0ByStJjVZ7c7mYk1jSm1YcnZmcEE",
     "update_cycle": "demand"
 }

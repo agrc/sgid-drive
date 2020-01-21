@@ -1,13 +1,13 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mbXA4VzY1TDlsUkU", 
-    "hash_id": "0ByStJjVZ7c7mOGlTNnlybGtwcTA", 
-    "name": "CensusPlacePoints2010", 
-    "packages": [], 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mbXA4VzY1TDlsUkU",
+    "hash_id": "0ByStJjVZ7c7mOGlTNnlybGtwcTA",
+    "name": "CensusPlacePoints2010",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mVlFvOWlFUVNyQ3c"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.CensusPlacePoints2010", 
-    "shape_id": "0ByStJjVZ7c7mcXZicU5uUW12MXc", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.CensusPlacePoints2010",
+    "shape_id": "0ByStJjVZ7c7mcXZicU5uUW12MXc",
     "update_cycle": "demand"
 }

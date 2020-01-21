@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7meWZYci1LY3pUekE", 
-    "hash_id": "0ByStJjVZ7c7mTHV6aTBxcjRZS1k", 
-    "name": "HRO2006_Outline", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7meWZYci1LY3pUekE",
+    "hash_id": "0ByStJjVZ7c7mTHV6aTBxcjRZS1k",
+    "name": "HRO2006_Outline",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVW1UdW03Mk1MZUk"
-    ], 
-    "sgid_name": "SGID10.INDICES.HRO2006_Outline", 
-    "shape_id": "0ByStJjVZ7c7mRFVVcVZxWXpBUTA", 
+    ],
+    "sgid_name": "SGID.INDICES.HRO2006_Outline",
+    "shape_id": "0ByStJjVZ7c7mRFVVcVZxWXpBUTA",
     "update_cycle": "demand"
 }

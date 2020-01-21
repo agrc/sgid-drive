@@ -1,15 +1,15 @@
 {
-    "category": "LOCATION", 
-    "gdb_id": "0ByStJjVZ7c7mZjBRM01MRU1NRDA", 
-    "hash_id": "0ByStJjVZ7c7mYm5lNV9oSC05Yjg", 
-    "name": "ZipCodePOBoxes", 
+    "category": "LOCATION",
+    "gdb_id": "0ByStJjVZ7c7mZjBRM01MRU1NRDA",
+    "hash_id": "0ByStJjVZ7c7mYm5lNV9oSC05Yjg",
+    "name": "ZipCodePOBoxes",
     "packages": [
         "USPS"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mSU5kbUZmQkx1aGs"
-    ], 
-    "sgid_name": "SGID10.LOCATION.ZipCodePOBoxes", 
-    "shape_id": "0ByStJjVZ7c7majhvdXRQSy1XVVk", 
+    ],
+    "sgid_name": "SGID.LOCATION.ZipCodePOBoxes",
+    "shape_id": "0ByStJjVZ7c7majhvdXRQSy1XVVk",
     "update_cycle": "demand"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mT3BMNE90c19jRTQ", 
-    "hash_id": "0ByStJjVZ7c7mQUNIbkFueUk3LTg", 
-    "name": "PostOffices", 
-    "packages": [], 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mT3BMNE90c19jRTQ",
+    "hash_id": "0ByStJjVZ7c7mQUNIbkFueUk3LTg",
+    "name": "PostOffices",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mS3pTNEZDM0JNeHc"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.PostOffices", 
-    "shape_id": "0ByStJjVZ7c7mWnBYeUVxaDJ6Z1k", 
+    ],
+    "sgid_name": "SGID.SOCIETY.PostOffices",
+    "shape_id": "0ByStJjVZ7c7mWnBYeUVxaDJ6Z1k",
     "update_cycle": "demand"
 }

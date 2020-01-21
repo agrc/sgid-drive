@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mcm40RVVKVWpEWnc", 
-    "hash_id": "0ByStJjVZ7c7mcFM5eDlSS0cwMkU", 
-    "name": "Habitat_MountainGoat", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mcm40RVVKVWpEWnc",
+    "hash_id": "0ByStJjVZ7c7mcFM5eDlSS0cwMkU",
+    "name": "Habitat_MountainGoat",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mNnFETWxLbkFoTEU"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_MountainGoat", 
-    "shape_id": "0ByStJjVZ7c7menJaUnU4SFFReEk", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_MountainGoat",
+    "shape_id": "0ByStJjVZ7c7menJaUnU4SFFReEk",
     "update_cycle": "demand"
 }

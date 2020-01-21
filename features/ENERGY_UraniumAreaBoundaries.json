@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7ma3YyRlRiWGZIWjA", 
-    "hash_id": "0ByStJjVZ7c7mSGtRamtMcFhvZzg", 
-    "name": "UraniumAreaBoundaries", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7ma3YyRlRiWGZIWjA",
+    "hash_id": "0ByStJjVZ7c7mSGtRamtMcFhvZzg",
+    "name": "UraniumAreaBoundaries",
     "packages": [
         "UraniumResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mbXJHX180SlVTcGs"
-    ], 
-    "sgid_name": "SGID10.ENERGY.UraniumAreaBoundaries", 
-    "shape_id": "0ByStJjVZ7c7mVHdTX2VUZzJUUFk", 
+    ],
+    "sgid_name": "SGID.ENERGY.UraniumAreaBoundaries",
+    "shape_id": "0ByStJjVZ7c7mVHdTX2VUZzJUUFk",
     "update_cycle": "demand"
 }

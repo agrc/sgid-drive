@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7maDA3UTlLRVVNZU0", 
-    "hash_id": "0ByStJjVZ7c7mbmFrT0dEV29TdzA", 
-    "name": "LatLongGrid1Degree", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7maDA3UTlLRVVNZU0",
+    "hash_id": "0ByStJjVZ7c7mbmFrT0dEV29TdzA",
+    "name": "LatLongGrid1Degree",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7ma2lxdllTc0ZzZVE"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.LatLongGrid1Degree", 
-    "shape_id": "0ByStJjVZ7c7mRkpqb2JyOGxEcDQ", 
+    ],
+    "sgid_name": "SGID.CADASTRE.LatLongGrid1Degree",
+    "shape_id": "0ByStJjVZ7c7mRkpqb2JyOGxEcDQ",
     "update_cycle": "demand"
 }

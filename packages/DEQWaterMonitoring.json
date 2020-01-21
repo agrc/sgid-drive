@@ -1,11 +1,11 @@
 {
     "category": "ENVIRONMENT",
     "feature_classes": [
-        "SGID10.ENVIRONMENT.DWQAssessmentUnits",
-        "SGID10.ENVIRONMENT.DWQGroundWaterPermits",
-        "SGID10.ENVIRONMENT.DWQAssessedLakes",
-        "SGID10.ENVIRONMENT.LakeMonitoring",
-        "SGID10.ENVIRONMENT.StreamMonitorSites"
+        "SGID.ENVIRONMENT.DWQAssessmentUnits",
+        "SGID.ENVIRONMENT.DWQGroundWaterPermits",
+        "SGID.ENVIRONMENT.DWQAssessedLakes",
+        "SGID.ENVIRONMENT.LakeMonitoring",
+        "SGID.ENVIRONMENT.StreamMonitorSites"
     ],
     "gdb_id": "0ByStJjVZ7c7mTXo2Y1hfTDBvQzA",
     "name": "DEQWaterMonitoring",

@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mU0JOV2I2ZG5pVms", 
-    "hash_id": "0ByStJjVZ7c7maVhMU3NuU2kyLUk", 
-    "name": "LiDAR2006_1_25m_BareEarth_Extent", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mU0JOV2I2ZG5pVms",
+    "hash_id": "0ByStJjVZ7c7maVhMU3NuU2kyLUk",
+    "name": "LiDAR2006_1_25m_BareEarth_Extent",
     "packages": [
         "LiDARExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVW1xTGlRNmVlZzg"
-    ], 
-    "sgid_name": "SGID10.INDICES.LiDAR2006_1_25m_BareEarth_Extent", 
-    "shape_id": "0ByStJjVZ7c7malhERjFCRDBLakU", 
+    ],
+    "sgid_name": "SGID.INDICES.LiDAR2006_1_25m_BareEarth_Extent",
+    "shape_id": "0ByStJjVZ7c7malhERjFCRDBLakU",
     "update_cycle": "demand"
 }

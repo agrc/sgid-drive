@@ -1,13 +1,13 @@
 {
-    "category": "UTILITIES", 
-    "gdb_id": "0ByStJjVZ7c7mSHV2MmdYVmdFZ00", 
-    "hash_id": "0ByStJjVZ7c7mSnhhbDY4b0VyMUE", 
-    "name": "ElectricalLines", 
-    "packages": [], 
+    "category": "UTILITIES",
+    "gdb_id": "0ByStJjVZ7c7mSHV2MmdYVmdFZ00",
+    "hash_id": "0ByStJjVZ7c7mSnhhbDY4b0VyMUE",
+    "name": "ElectricalLines",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mTG5kMS1mbEFZXzg"
-    ], 
-    "sgid_name": "SGID10.UTILITIES.ElectricalLines", 
-    "shape_id": "0ByStJjVZ7c7mVHNqUFd1Sk5mX1U", 
+    ],
+    "sgid_name": "SGID.UTILITIES.ElectricalLines",
+    "shape_id": "0ByStJjVZ7c7mVHNqUFd1Sk5mX1U",
     "update_cycle": "demand"
 }

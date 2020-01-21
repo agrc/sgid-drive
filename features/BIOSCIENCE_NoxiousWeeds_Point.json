@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mVDVhaVF0b210U2M", 
-    "hash_id": "0ByStJjVZ7c7mb1FYTndFQnI3ZGc", 
-    "name": "NoxiousWeeds_Point", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mVDVhaVF0b210U2M",
+    "hash_id": "0ByStJjVZ7c7mb1FYTndFQnI3ZGc",
+    "name": "NoxiousWeeds_Point",
     "packages": [
         "NoxiousWeeds"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRHBCYlAzSWdrVXM"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.NoxiousWeeds_Point", 
-    "shape_id": "0ByStJjVZ7c7mZ1N5ZDBIQ3RFWjQ", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.NoxiousWeeds_Point",
+    "shape_id": "0ByStJjVZ7c7mZ1N5ZDBIQ3RFWjQ",
     "update_cycle": "demand"
 }

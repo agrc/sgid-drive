@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mZmVnck04X0hENXc", 
-    "hash_id": "0ByStJjVZ7c7mVi1zbU5YUm5WRW8", 
-    "name": "Habitat_Moose", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mZmVnck04X0hENXc",
+    "hash_id": "0ByStJjVZ7c7mVi1zbU5YUm5WRW8",
+    "name": "Habitat_Moose",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMGlLZUltdkJVcFE"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_Moose", 
-    "shape_id": "0ByStJjVZ7c7mY1k2dWNEeUtKcWs", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_Moose",
+    "shape_id": "0ByStJjVZ7c7mY1k2dWNEeUtKcWs",
     "update_cycle": "demand"
 }

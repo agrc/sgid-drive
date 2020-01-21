@@ -1,16 +1,16 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mX1JLbjhORzRvY00", 
-    "hash_id": "0ByStJjVZ7c7mM3E4b3ExZzUyUm8", 
-    "name": "NED30_Statewide", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mX1JLbjhORzRvY00",
+    "hash_id": "0ByStJjVZ7c7mM3E4b3ExZzUyUm8",
+    "name": "NED30_Statewide",
     "packages": [
-        "USGSurveyDEMAndNEDExtentsAndIndices", 
+        "USGSurveyDEMAndNEDExtentsAndIndices",
         "USGSurveyNEDExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMUVobThBby1DM2s"
-    ], 
-    "sgid_name": "SGID10.INDICES.NED30_Statewide", 
-    "shape_id": "0ByStJjVZ7c7mT0EzcjhKcnNyYUU", 
+    ],
+    "sgid_name": "SGID.INDICES.NED30_Statewide",
+    "shape_id": "0ByStJjVZ7c7mT0EzcjhKcnNyYUU",
     "update_cycle": "demand"
 }

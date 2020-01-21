@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mdmlfbUctZXRMYjA", 
-    "hash_id": "0ByStJjVZ7c7mSXQxemQyem5CWUE", 
-    "name": "USGS100KQuads", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mdmlfbUctZXRMYjA",
+    "hash_id": "0ByStJjVZ7c7mSXQxemQyem5CWUE",
+    "name": "USGS100KQuads",
     "packages": [
         "USGSurveyTopographicMapIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQjB1ZlVzaFFVbUU"
-    ], 
-    "sgid_name": "SGID10.INDICES.USGS100KQuads", 
-    "shape_id": "0ByStJjVZ7c7mYUFsVEpVWmozYzg", 
+    ],
+    "sgid_name": "SGID.INDICES.USGS100KQuads",
+    "shape_id": "0ByStJjVZ7c7mYUFsVEpVWmozYzg",
     "update_cycle": "demand"
 }

@@ -1,20 +1,20 @@
 {
-    "category": "INDICES", 
+    "category": "INDICES",
     "feature_classes": [
-        "SGID10.INDICES.NED10_County", 
-        "SGID10.INDICES.NED10_Quads", 
-        "SGID10.INDICES.NED30_County", 
-        "SGID10.INDICES.NED30_Statewide", 
-        "SGID10.INDICES.DEM10_Quads", 
-        "SGID10.INDICES.DEM30_Quads", 
-        "SGID10.INDICES.DEM30_Statewide", 
-        "SGID10.INDICES.DEM90_Quads", 
-        "SGID10.INDICES.DEM90_Statewide"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7meUs3d3NCRVo3dVE", 
-    "name": "USGSurveyDEMAndNEDExtentsAndIndices", 
+        "SGID.INDICES.NED10_County",
+        "SGID.INDICES.NED10_Quads",
+        "SGID.INDICES.NED30_County",
+        "SGID.INDICES.NED30_Statewide",
+        "SGID.INDICES.DEM10_Quads",
+        "SGID.INDICES.DEM30_Quads",
+        "SGID.INDICES.DEM30_Statewide",
+        "SGID.INDICES.DEM90_Quads",
+        "SGID.INDICES.DEM90_Statewide"
+    ],
+    "gdb_id": "0ByStJjVZ7c7meUs3d3NCRVo3dVE",
+    "name": "USGSurveyDEMAndNEDExtentsAndIndices",
     "parent_ids": [
         "0ByStJjVZ7c7mRHpHSWdFWkwtTGs"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mempwSlA1bHRtWWM"
 }

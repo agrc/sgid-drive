@@ -1,16 +1,16 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mNm1LNGN0eDNBLUE", 
-    "hash_id": "0ByStJjVZ7c7mVkIxQ3d6ZGpPRGM", 
-    "name": "Roads_FreewayExits", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mNm1LNGN0eDNBLUE",
+    "hash_id": "0ByStJjVZ7c7mVkIxQ3d6ZGpPRGM",
+    "name": "Roads_FreewayExits",
     "packages": [
-        "LRSRouteCharacteristics", 
+        "LRSRouteCharacteristics",
         "UtahRoadAndHighwaySystem"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mZkdRVWFiYU5aV2c"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.Roads_FreewayExits", 
-    "shape_id": "0ByStJjVZ7c7mRjZpRFpkbng5ak0", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.Roads_FreewayExits",
+    "shape_id": "0ByStJjVZ7c7mRjZpRFpkbng5ak0",
     "update_cycle": "demand"
 }

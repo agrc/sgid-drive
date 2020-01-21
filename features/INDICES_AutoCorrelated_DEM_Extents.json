@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7maEFtYUtDOVB0YVE", 
-    "hash_id": "0ByStJjVZ7c7ma08xQ2cyZzNqa3M", 
-    "name": "AutoCorrelated_DEM_Extents", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7maEFtYUtDOVB0YVE",
+    "hash_id": "0ByStJjVZ7c7ma08xQ2cyZzNqa3M",
+    "name": "AutoCorrelated_DEM_Extents",
     "packages": [
         "AutoCorrelatedDEMExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTExmZnBnanNkNE0"
-    ], 
-    "sgid_name": "SGID10.INDICES.AutoCorrelated_DEM_Extents", 
-    "shape_id": "0ByStJjVZ7c7mSU42bWVOSHg5eWM", 
+    ],
+    "sgid_name": "SGID.INDICES.AutoCorrelated_DEM_Extents",
+    "shape_id": "0ByStJjVZ7c7mSU42bWVOSHg5eWM",
     "update_cycle": "demand"
 }

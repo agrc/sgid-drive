@@ -1,13 +1,13 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mcXBucnVDQ0p3dU0", 
-    "hash_id": "0ByStJjVZ7c7mLTBLWDRwTGlIODA", 
-    "name": "TarSands", 
-    "packages": [], 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mcXBucnVDQ0p3dU0",
+    "hash_id": "0ByStJjVZ7c7mLTBLWDRwTGlIODA",
+    "name": "TarSands",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mUHpUb1BJYWVDcU0"
-    ], 
-    "sgid_name": "SGID10.ENERGY.TarSands", 
-    "shape_id": "0ByStJjVZ7c7mSW9ZblhDLXp2bW8", 
+    ],
+    "sgid_name": "SGID.ENERGY.TarSands",
+    "shape_id": "0ByStJjVZ7c7mSW9ZblhDLXp2bW8",
     "update_cycle": "demand"
 }

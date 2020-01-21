@@ -1,15 +1,15 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7mbF8yQTFpWUtMbFU", 
-    "hash_id": "0ByStJjVZ7c7mMEFHbXIzYVhSUGM", 
-    "name": "UtahHouseDistricts2012", 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7mbF8yQTFpWUtMbFU",
+    "hash_id": "0ByStJjVZ7c7mMEFHbXIzYVhSUGM",
+    "name": "UtahHouseDistricts2012",
     "packages": [
         "UtahPoliticalDistricts_Begin2012"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQ1RDWTN1cm41VmM"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.UtahHouseDistricts2012", 
-    "shape_id": "0ByStJjVZ7c7maWctb3BOcVduekU", 
+    ],
+    "sgid_name": "SGID.POLITICAL.UtahHouseDistricts2012",
+    "shape_id": "0ByStJjVZ7c7maWctb3BOcVduekU",
     "update_cycle": "demand"
 }

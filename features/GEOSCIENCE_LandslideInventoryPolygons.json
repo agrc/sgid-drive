@@ -1,16 +1,16 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mN1VBNW5kZ1llZk0", 
-    "hash_id": "0ByStJjVZ7c7mTHlBZm50bWg3RHc", 
-    "name": "LandslideInventoryPolygons", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mN1VBNW5kZ1llZk0",
+    "hash_id": "0ByStJjVZ7c7mTHlBZm50bWg3RHc",
+    "name": "LandslideInventoryPolygons",
     "packages": [
-        "LandslideInventory", 
+        "LandslideInventory",
         "Landslides"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7meWZ0b0staXhTdG8"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.LandslideInventoryPolygons", 
-    "shape_id": "0ByStJjVZ7c7mQUhCWGhRcGZ5X3M", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.LandslideInventoryPolygons",
+    "shape_id": "0ByStJjVZ7c7mQUhCWGhRcGZ5X3M",
     "update_cycle": "demand"
 }

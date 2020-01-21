@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mQjIxaVRJWmlxM0k", 
-    "hash_id": "0ByStJjVZ7c7manVaVjR5RVQyc28", 
-    "name": "PhosphateDeposits1988", 
-    "packages": [], 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mQjIxaVRJWmlxM0k",
+    "hash_id": "0ByStJjVZ7c7manVaVjR5RVQyc28",
+    "name": "PhosphateDeposits1988",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mQmZVUU1HV3lyRWc"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.PhosphateDeposits1988", 
-    "shape_id": "0ByStJjVZ7c7mNTRPcmRWZ1YtUFE", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.PhosphateDeposits1988",
+    "shape_id": "0ByStJjVZ7c7mNTRPcmRWZ1YtUFE",
     "update_cycle": "demand"
 }

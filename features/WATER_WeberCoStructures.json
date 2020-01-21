@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7meXd6UzAxZDVFVlk", 
-    "hash_id": "0ByStJjVZ7c7mcDhVNnEyNjJkX1E", 
-    "name": "WeberCoStructures", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7meXd6UzAxZDVFVlk",
+    "hash_id": "0ByStJjVZ7c7mcDhVNnEyNjJkX1E",
+    "name": "WeberCoStructures",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mN1pKNXBrcDhaaGc"
-    ], 
-    "sgid_name": "SGID10.WATER.WeberCoStructures", 
-    "shape_id": "0ByStJjVZ7c7mVVpqZmoyaXl2Ymc", 
+    ],
+    "sgid_name": "SGID.WATER.WeberCoStructures",
+    "shape_id": "0ByStJjVZ7c7mVVpqZmoyaXl2Ymc",
     "update_cycle": "demand"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7maWU2Qzl0T0liRUk", 
-    "hash_id": "0ByStJjVZ7c7ma0lndUFmdlppaUk", 
-    "name": "SummitCoFloodZones", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7maWU2Qzl0T0liRUk",
+    "hash_id": "0ByStJjVZ7c7ma0lndUFmdlppaUk",
+    "name": "SummitCoFloodZones",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mQ1BLVTVzU01vYWM"
-    ], 
-    "sgid_name": "SGID10.WATER.SummitCoFloodZones", 
-    "shape_id": "0ByStJjVZ7c7mZXYyQ2tEajNodzA", 
+    ],
+    "sgid_name": "SGID.WATER.SummitCoFloodZones",
+    "shape_id": "0ByStJjVZ7c7mZXYyQ2tEajNodzA",
     "update_cycle": "demand"
 }

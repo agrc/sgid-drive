@@ -1,16 +1,16 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mTGhJNkxNcE9hVk0", 
-    "hash_id": "0ByStJjVZ7c7md1VWVmwxRkZZdEk", 
-    "name": "UDOTTenthMileRefPoints", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mTGhJNkxNcE9hVk0",
+    "hash_id": "0ByStJjVZ7c7md1VWVmwxRkZZdEk",
+    "name": "UDOTTenthMileRefPoints",
     "packages": [
-        "LRSRouteCharacteristics", 
+        "LRSRouteCharacteristics",
         "UtahRoadAndHighwaySystem"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mdDBLNi1zaWNRVTg"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.UDOTTenthMileRefPoints", 
-    "shape_id": "0ByStJjVZ7c7mbVZ3bmVmLV9yemM", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.UDOTTenthMileRefPoints",
+    "shape_id": "0ByStJjVZ7c7mbVZ3bmVmLV9yemM",
     "update_cycle": "demand"
 }

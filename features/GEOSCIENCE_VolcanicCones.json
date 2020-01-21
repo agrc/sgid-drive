@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7may1Gb2JKUm5OaDA", 
-    "hash_id": "0ByStJjVZ7c7md3FQT0FVMVd3YW8", 
-    "name": "VolcanicCones", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7may1Gb2JKUm5OaDA",
+    "hash_id": "0ByStJjVZ7c7md3FQT0FVMVd3YW8",
+    "name": "VolcanicCones",
     "packages": [
         "SeismologyVolcanology"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMVNzOXNtbHU1U2c"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.VolcanicCones", 
-    "shape_id": "0ByStJjVZ7c7mb1p6OXExLV9FVjQ", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.VolcanicCones",
+    "shape_id": "0ByStJjVZ7c7mb1p6OXExLV9FVjQ",
     "update_cycle": "demand"
 }

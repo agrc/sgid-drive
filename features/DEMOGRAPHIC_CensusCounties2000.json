@@ -1,15 +1,15 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mcFEwWW12dGRrWWs", 
-    "hash_id": "0ByStJjVZ7c7mSHZHNnVTYk5WTWc", 
-    "name": "CensusCounties2000", 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mcFEwWW12dGRrWWs",
+    "hash_id": "0ByStJjVZ7c7mSHZHNnVTYk5WTWc",
+    "name": "CensusCounties2000",
     "packages": [
         "2000Demographic"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mNjJxNXZWZzN5YTA"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.CensusCounties2000", 
-    "shape_id": "0ByStJjVZ7c7mZ2Qyem5lMk9aX3c", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.CensusCounties2000",
+    "shape_id": "0ByStJjVZ7c7mZ2Qyem5lMk9aX3c",
     "update_cycle": "demand"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "Transportation", 
-    "gdb_id": "0ByStJjVZ7c7mVk1COGVoRlZZa2M", 
-    "hash_id": "0ByStJjVZ7c7mb216TElBVXNVNms", 
-    "name": "LRSRouteCharacteristics", 
-    "packages": [], 
+    "category": "Transportation",
+    "gdb_id": "0ByStJjVZ7c7mVk1COGVoRlZZa2M",
+    "hash_id": "0ByStJjVZ7c7mb216TElBVXNVNms",
+    "name": "LRSRouteCharacteristics",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mRjFUa0FGcURtRW8"
-    ], 
-    "sgid_name": "SGID10.Transportation.LRSRouteCharacteristics", 
-    "shape_id": "0ByStJjVZ7c7mcWxlTmpwUGtWaXc", 
+    ],
+    "sgid_name": "SGID.Transportation.LRSRouteCharacteristics",
+    "shape_id": "0ByStJjVZ7c7mcWxlTmpwUGtWaXc",
     "update_cycle": "demand"
 }

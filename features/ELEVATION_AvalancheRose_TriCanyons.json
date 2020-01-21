@@ -1,13 +1,13 @@
 {
-    "category": "ELEVATION", 
-    "gdb_id": "0ByStJjVZ7c7mMG5WUjAwMER4WGs", 
-    "hash_id": "0ByStJjVZ7c7mWWp0V18tMXNvR2M", 
-    "name": "AvalancheRose_TriCanyons", 
-    "packages": [], 
+    "category": "ELEVATION",
+    "gdb_id": "0ByStJjVZ7c7mMG5WUjAwMER4WGs",
+    "hash_id": "0ByStJjVZ7c7mWWp0V18tMXNvR2M",
+    "name": "AvalancheRose_TriCanyons",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mdmVGb3Rxd2ZORGM"
-    ], 
-    "sgid_name": "SGID10.ELEVATION.AvalancheRose_TriCanyons", 
-    "shape_id": "0ByStJjVZ7c7meXgyVEZwOFFrOUE", 
+    ],
+    "sgid_name": "SGID.ELEVATION.AvalancheRose_TriCanyons",
+    "shape_id": "0ByStJjVZ7c7meXgyVEZwOFFrOUE",
     "update_cycle": "demand"
 }

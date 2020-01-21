@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mWE1yOFN1Y25mWU0", 
-    "hash_id": "0ByStJjVZ7c7mSEUzY0MzWE1IN28", 
-    "name": "UDOTMap_CityLocations", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mWE1yOFN1Y25mWU0",
+    "hash_id": "0ByStJjVZ7c7mSEUzY0MzWE1IN28",
+    "name": "UDOTMap_CityLocations",
     "packages": [
         "UDOTMapLocations"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7maWtwMjBvb2xBYW8"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.UDOTMap_CityLocations", 
-    "shape_id": "0ByStJjVZ7c7mTlU1T0VaVlltekE", 
+    ],
+    "sgid_name": "SGID.SOCIETY.UDOTMap_CityLocations",
+    "shape_id": "0ByStJjVZ7c7mTlU1T0VaVlltekE",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mSmZCalV5ckdaZWc", 
-    "hash_id": "0ByStJjVZ7c7mVXh1TjFmMEI3UEk", 
-    "name": "UAO2003_Outline", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mSmZCalV5ckdaZWc",
+    "hash_id": "0ByStJjVZ7c7mVXh1TjFmMEI3UEk",
+    "name": "UAO2003_Outline",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMElNQVJuWkMtNDA"
-    ], 
-    "sgid_name": "SGID10.INDICES.UAO2003_Outline", 
-    "shape_id": "0ByStJjVZ7c7mV0g1MWF3bWc4a2M", 
+    ],
+    "sgid_name": "SGID.INDICES.UAO2003_Outline",
+    "shape_id": "0ByStJjVZ7c7mV0g1MWF3bWc4a2M",
     "update_cycle": "demand"
 }

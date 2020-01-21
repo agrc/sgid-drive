@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mZ0hSem9ZRWw5b00", 
-    "hash_id": "0ByStJjVZ7c7mdU1mUGxoYzRKdlU", 
-    "name": "StationsBio", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mZ0hSem9ZRWw5b00",
+    "hash_id": "0ByStJjVZ7c7mdU1mUGxoYzRKdlU",
+    "name": "StationsBio",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mREVHdkk5UGpQcG8"
-    ], 
-    "sgid_name": "SGID10.WATER.StationsBio", 
-    "shape_id": "0ByStJjVZ7c7mNERRREh4LVpJR3M", 
+    ],
+    "sgid_name": "SGID.WATER.StationsBio",
+    "shape_id": "0ByStJjVZ7c7mNERRREh4LVpJR3M",
     "update_cycle": "demand"
 }

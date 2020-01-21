@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7maEFUZnRxaWwzX0U", 
-    "hash_id": "0ByStJjVZ7c7ma25KaHlDWW8xSEk", 
-    "name": "ParagonahBFE", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7maEFUZnRxaWwzX0U",
+    "hash_id": "0ByStJjVZ7c7ma25KaHlDWW8xSEk",
+    "name": "ParagonahBFE",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mU1BSZ1dHYzl4QXM"
-    ], 
-    "sgid_name": "SGID10.WATER.ParagonahBFE", 
-    "shape_id": "0ByStJjVZ7c7mcmdzSnZkREdBUWM", 
+    ],
+    "sgid_name": "SGID.WATER.ParagonahBFE",
+    "shape_id": "0ByStJjVZ7c7mcmdzSnZkREdBUWM",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "UTILITIES", 
-    "gdb_id": "0ByStJjVZ7c7mY3l0X0dWTkp0Z1E", 
-    "hash_id": "0ByStJjVZ7c7mVUpyMTdBcHJqVU0", 
-    "name": "ElectricalService", 
+    "category": "UTILITIES",
+    "gdb_id": "0ByStJjVZ7c7mY3l0X0dWTkp0Z1E",
+    "hash_id": "0ByStJjVZ7c7mVUpyMTdBcHJqVU0",
+    "name": "ElectricalService",
     "packages": [
         "WaterGasElectricUtilities"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7meWtxaVRsd2c1UEk"
-    ], 
-    "sgid_name": "SGID10.UTILITIES.ElectricalService", 
-    "shape_id": "0ByStJjVZ7c7mTUR2Z3dVVjNIOFU", 
+    ],
+    "sgid_name": "SGID.UTILITIES.ElectricalService",
+    "shape_id": "0ByStJjVZ7c7mTUR2Z3dVVjNIOFU",
     "update_cycle": "demand"
 }

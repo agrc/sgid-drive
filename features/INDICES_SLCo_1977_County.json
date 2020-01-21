@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7meDJ5YkgyQ2tyMTQ", 
-    "hash_id": "0ByStJjVZ7c7mbVVxWlN6SjNOUWM", 
-    "name": "SLCo_1977_County", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7meDJ5YkgyQ2tyMTQ",
+    "hash_id": "0ByStJjVZ7c7mbVVxWlN6SjNOUWM",
+    "name": "SLCo_1977_County",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQm5wMFZYdDJjZ00"
-    ], 
-    "sgid_name": "SGID10.INDICES.SLCo_1977_County", 
-    "shape_id": "0ByStJjVZ7c7mLVUyYi1rLXotYzA", 
+    ],
+    "sgid_name": "SGID.INDICES.SLCo_1977_County",
+    "shape_id": "0ByStJjVZ7c7mLVUyYi1rLXotYzA",
     "update_cycle": "demand"
 }

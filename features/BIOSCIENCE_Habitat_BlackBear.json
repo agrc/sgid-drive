@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mb0Q4aktMTjEwWDQ", 
-    "hash_id": "0ByStJjVZ7c7mMnJuenQwUzRlU1E", 
-    "name": "Habitat_BlackBear", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mb0Q4aktMTjEwWDQ",
+    "hash_id": "0ByStJjVZ7c7mMnJuenQwUzRlU1E",
+    "name": "Habitat_BlackBear",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQktvWVY0YkUwU0U"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_BlackBear", 
-    "shape_id": "0ByStJjVZ7c7mTjBFVDlkQ1plUDg", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_BlackBear",
+    "shape_id": "0ByStJjVZ7c7mTjBFVDlkQ1plUDg",
     "update_cycle": "demand"
 }

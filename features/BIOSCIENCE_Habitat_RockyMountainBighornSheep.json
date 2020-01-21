@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mSnJqSy1MejFsN1U", 
-    "hash_id": "0ByStJjVZ7c7mdVNxY0g5N20weUk", 
-    "name": "Habitat_RockyMountainBighornSheep", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mSnJqSy1MejFsN1U",
+    "hash_id": "0ByStJjVZ7c7mdVNxY0g5N20weUk",
+    "name": "Habitat_RockyMountainBighornSheep",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mV0R2elZuWVRrazQ"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_RockyMountainBighornSheep", 
-    "shape_id": "0ByStJjVZ7c7mcG1uS0sxVHNvbWs", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_RockyMountainBighornSheep",
+    "shape_id": "0ByStJjVZ7c7mcG1uS0sxVHNvbWs",
     "update_cycle": "demand"
 }

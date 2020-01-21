@@ -1,15 +1,15 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mbzhxQVJucWFpUWM", 
-    "hash_id": "0ByStJjVZ7c7mMnd2dmQ2SEdsY1E", 
-    "name": "CensusCounties2010", 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mbzhxQVJucWFpUWM",
+    "hash_id": "0ByStJjVZ7c7mMnd2dmQ2SEdsY1E",
+    "name": "CensusCounties2010",
     "packages": [
         "Census2010"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7md1JJQkRsMTlIZ0k"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.CensusCounties2010", 
-    "shape_id": "0ByStJjVZ7c7mUXRfR1pPejJrbzg", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.CensusCounties2010",
+    "shape_id": "0ByStJjVZ7c7mUXRfR1pPejJrbzg",
     "update_cycle": "demand"
 }

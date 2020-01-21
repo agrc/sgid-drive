@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mUnE4SExiWTlpWDg", 
-    "hash_id": "0ByStJjVZ7c7mXzRtQnpGLUlEX0E", 
-    "name": "GeologicVeins", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mUnE4SExiWTlpWDg",
+    "hash_id": "0ByStJjVZ7c7mXzRtQnpGLUlEX0E",
+    "name": "GeologicVeins",
     "packages": [
         "Geology"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mcVc5WTQ0N05VcmM"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.GeologicVeins", 
-    "shape_id": "0ByStJjVZ7c7mcVRDSXJUbm9HMG8", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.GeologicVeins",
+    "shape_id": "0ByStJjVZ7c7mcVRDSXJUbm9HMG8",
     "update_cycle": "demand"
 }

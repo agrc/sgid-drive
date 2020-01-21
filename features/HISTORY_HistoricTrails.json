@@ -1,13 +1,13 @@
 {
-    "category": "HISTORY", 
-    "gdb_id": "0ByStJjVZ7c7mTl9BZnFJSThpLTQ", 
-    "hash_id": "0ByStJjVZ7c7mQ09JRzRZNlNCODg", 
-    "name": "HistoricTrails", 
-    "packages": [], 
+    "category": "HISTORY",
+    "gdb_id": "0ByStJjVZ7c7mTl9BZnFJSThpLTQ",
+    "hash_id": "0ByStJjVZ7c7mQ09JRzRZNlNCODg",
+    "name": "HistoricTrails",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mRkVZd05fVWUxRmc"
-    ], 
-    "sgid_name": "SGID10.HISTORY.HistoricTrails", 
-    "shape_id": "0ByStJjVZ7c7mRk9fVWFMS3pveDg", 
+    ],
+    "sgid_name": "SGID.HISTORY.HistoricTrails",
+    "shape_id": "0ByStJjVZ7c7mRk9fVWFMS3pveDg",
     "update_cycle": "demand"
 }

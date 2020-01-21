@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mUW9jbnQxRVQ2Wm8", 
-    "hash_id": "0ByStJjVZ7c7mcjhVUFJkQW1WLUk", 
-    "name": "AvalanchePaths", 
-    "packages": [], 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mUW9jbnQxRVQ2Wm8",
+    "hash_id": "0ByStJjVZ7c7mcjhVUFJkQW1WLUk",
+    "name": "AvalanchePaths",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mU1FKTDJ5bHdiQ0E"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.AvalanchePaths", 
-    "shape_id": "0ByStJjVZ7c7mSXVQOGdQQlZGbDQ", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.AvalanchePaths",
+    "shape_id": "0ByStJjVZ7c7mSXVQOGdQQlZGbDQ",
     "update_cycle": "demand"
 }

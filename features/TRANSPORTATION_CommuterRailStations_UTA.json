@@ -1,15 +1,15 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mYzUtd3BFcE5LN3M", 
-    "hash_id": "0ByStJjVZ7c7mSnFtTGd5SC1lUVk", 
-    "name": "CommuterRailStations_UTA", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mYzUtd3BFcE5LN3M",
+    "hash_id": "0ByStJjVZ7c7mSnFtTGd5SC1lUVk",
+    "name": "CommuterRailStations_UTA",
     "packages": [
         "UtahTransitSystems"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUnpLakFCM2tMbE0"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.CommuterRailStations_UTA", 
-    "shape_id": "0ByStJjVZ7c7mSmhydGg1NjVBSXM", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.CommuterRailStations_UTA",
+    "shape_id": "0ByStJjVZ7c7mSmhydGg1NjVBSXM",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mdXhEVXNEZEJLUnc", 
-    "hash_id": "0ByStJjVZ7c7maVBGU1ZrZndSM00", 
-    "name": "NAIP2004_County", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mdXhEVXNEZEJLUnc",
+    "hash_id": "0ByStJjVZ7c7maVBGU1ZrZndSM00",
+    "name": "NAIP2004_County",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTVk5WmR1YU9Jd1k"
-    ], 
-    "sgid_name": "SGID10.INDICES.NAIP2004_County", 
-    "shape_id": "0ByStJjVZ7c7mOUE0Q0RJNm4tMVk", 
+    ],
+    "sgid_name": "SGID.INDICES.NAIP2004_County",
+    "shape_id": "0ByStJjVZ7c7mOUE0Q0RJNm4tMVk",
     "update_cycle": "demand"
 }

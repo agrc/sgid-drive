@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mZEE0TTJ4SWdqN1k", 
-    "hash_id": "0ByStJjVZ7c7mMVo0bFpER2JnX2c", 
-    "name": "PublicServiceFacilities1989", 
-    "packages": [], 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mZEE0TTJ4SWdqN1k",
+    "hash_id": "0ByStJjVZ7c7mMVo0bFpER2JnX2c",
+    "name": "PublicServiceFacilities1989",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mN3FFM000eFhnZjg"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.PublicServiceFacilities1989", 
-    "shape_id": "0ByStJjVZ7c7mQWMxeFAydUhlTlk", 
+    ],
+    "sgid_name": "SGID.SOCIETY.PublicServiceFacilities1989",
+    "shape_id": "0ByStJjVZ7c7mQWMxeFAydUhlTlk",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mZUZ5cHZZUW1BQTg", 
-    "hash_id": "0ByStJjVZ7c7mUzF6UHpoeDRpQzQ", 
-    "name": "QuaternaryVolcanicFlow", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mZUZ5cHZZUW1BQTg",
+    "hash_id": "0ByStJjVZ7c7mUzF6UHpoeDRpQzQ",
+    "name": "QuaternaryVolcanicFlow",
     "packages": [
         "Quaternary"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRjIxSHpwMXdKMzQ"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.QuaternaryVolcanicFlow", 
-    "shape_id": "0ByStJjVZ7c7mS3dPeWdBNzhtZTQ", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.QuaternaryVolcanicFlow",
+    "shape_id": "0ByStJjVZ7c7mS3dPeWdBNzhtZTQ",
     "update_cycle": "demand"
 }

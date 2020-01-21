@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mV0NWM01zWHdnLWs", 
-    "hash_id": "0ByStJjVZ7c7mZGdDX2EyNVdRY3c", 
-    "name": "PotentialLiquefaction_WasatchStudyBoundary", 
-    "packages": [], 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mV0NWM01zWHdnLWs",
+    "hash_id": "0ByStJjVZ7c7mZGdDX2EyNVdRY3c",
+    "name": "PotentialLiquefaction_WasatchStudyBoundary",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mWjRUNVV5WG1HeFk"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.PotentialLiquefaction_WasatchStudyBoundary", 
-    "shape_id": "0ByStJjVZ7c7meVVJcjFsNm02blE", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.PotentialLiquefaction_WasatchStudyBoundary",
+    "shape_id": "0ByStJjVZ7c7meVVJcjFsNm02blE",
     "update_cycle": "demand"
 }

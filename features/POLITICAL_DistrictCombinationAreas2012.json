@@ -1,13 +1,13 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7mT0pfbE5YRFptNms", 
-    "hash_id": "0ByStJjVZ7c7mQ29ocDlfSk94bzQ", 
-    "name": "DistrictCombinationAreas2012", 
-    "packages": [], 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7mT0pfbE5YRFptNms",
+    "hash_id": "0ByStJjVZ7c7mQ29ocDlfSk94bzQ",
+    "name": "DistrictCombinationAreas2012",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mM3BVNGVHNHdjN1k"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.DistrictCombinationAreas2012", 
-    "shape_id": "0ByStJjVZ7c7mVWlBUVlZZkN6WDA", 
+    ],
+    "sgid_name": "SGID.POLITICAL.DistrictCombinationAreas2012",
+    "shape_id": "0ByStJjVZ7c7mVWlBUVlZZkN6WDA",
     "update_cycle": "demand"
 }

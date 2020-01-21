@@ -1,15 +1,15 @@
 {
-    "category": "RECREATION", 
-    "gdb_id": "0ByStJjVZ7c7mdlNLeGlOeWxvWGM", 
-    "hash_id": "0ByStJjVZ7c7meTZBRl9FTVlIbTQ", 
-    "name": "ParksLocal", 
+    "category": "RECREATION",
+    "gdb_id": "0ByStJjVZ7c7mdlNLeGlOeWxvWGM",
+    "hash_id": "0ByStJjVZ7c7meTZBRl9FTVlIbTQ",
+    "name": "ParksLocal",
     "packages": [
         "ParksAndGolfCourses"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mdm1nUTl5dVFodXM"
-    ], 
-    "sgid_name": "SGID10.RECREATION.ParksLocal", 
-    "shape_id": "0ByStJjVZ7c7mVXNtVUVpdTVFbW8", 
+    ],
+    "sgid_name": "SGID.RECREATION.ParksLocal",
+    "shape_id": "0ByStJjVZ7c7mVXNtVUVpdTVFbW8",
     "update_cycle": "demand"
 }

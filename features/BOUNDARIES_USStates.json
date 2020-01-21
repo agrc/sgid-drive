@@ -1,13 +1,13 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mUHQySGdneXlTTEE", 
-    "hash_id": "0ByStJjVZ7c7mLXpZUFhNTTZxdW8", 
-    "name": "USStates", 
-    "packages": [], 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mUHQySGdneXlTTEE",
+    "hash_id": "0ByStJjVZ7c7mLXpZUFhNTTZxdW8",
+    "name": "USStates",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mOE9fdkw1dWxiVms"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.USStates", 
-    "shape_id": "0ByStJjVZ7c7meWpxZXFfSjMzeUE", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.USStates",
+    "shape_id": "0ByStJjVZ7c7meWpxZXFfSjMzeUE",
     "update_cycle": "demand"
 }

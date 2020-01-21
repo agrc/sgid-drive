@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mVFM1b0VpRUVES0E", 
-    "hash_id": "0ByStJjVZ7c7melZkbTBEbk80MzA", 
-    "name": "ForestServiceStations", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mVFM1b0VpRUVES0E",
+    "hash_id": "0ByStJjVZ7c7melZkbTBEbk80MzA",
+    "name": "ForestServiceStations",
     "packages": [
         "FieldStations"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTVZNdko0RHVNclE"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.ForestServiceStations", 
-    "shape_id": "0ByStJjVZ7c7mblZBWFlkcV8zM28", 
+    ],
+    "sgid_name": "SGID.SOCIETY.ForestServiceStations",
+    "shape_id": "0ByStJjVZ7c7mblZBWFlkcV8zM28",
     "update_cycle": "demand"
 }

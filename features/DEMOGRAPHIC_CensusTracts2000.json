@@ -1,15 +1,15 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mUzF2VGhPeDNNSlk", 
-    "hash_id": "0ByStJjVZ7c7meFRtd0dyQ1FIODg", 
-    "name": "CensusTracts2000", 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mUzF2VGhPeDNNSlk",
+    "hash_id": "0ByStJjVZ7c7meFRtd0dyQ1FIODg",
+    "name": "CensusTracts2000",
     "packages": [
         "2000Demographic"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUVpza2dIMW1YcUU"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.CensusTracts2000", 
-    "shape_id": "0ByStJjVZ7c7mQkRYb3prZTVnQm8", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.CensusTracts2000",
+    "shape_id": "0ByStJjVZ7c7mQkRYb3prZTVnQm8",
     "update_cycle": "demand"
 }

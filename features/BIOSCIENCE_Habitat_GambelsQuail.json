@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mQU5YMk1CclRQZGs", 
-    "hash_id": "0ByStJjVZ7c7mZ0VHSl90bEh2ZDQ", 
-    "name": "Habitat_GambelsQuail", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mQU5YMk1CclRQZGs",
+    "hash_id": "0ByStJjVZ7c7mZ0VHSl90bEh2ZDQ",
+    "name": "Habitat_GambelsQuail",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMUdLTngxVnVfUmc"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_GambelsQuail", 
-    "shape_id": "0ByStJjVZ7c7mdW5RY1NSRHIwcms", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_GambelsQuail",
+    "shape_id": "0ByStJjVZ7c7mdW5RY1NSRHIwcms",
     "update_cycle": "demand"
 }

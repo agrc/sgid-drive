@@ -1,15 +1,15 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7maWN0RUVCWXVOdTA", 
-    "hash_id": "0ByStJjVZ7c7mbHZxZHMzWUtRbzA", 
-    "name": "WetlandsMappingProjects", 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7maWN0RUVCWXVOdTA",
+    "hash_id": "0ByStJjVZ7c7mbHZxZHMzWUtRbzA",
+    "name": "WetlandsMappingProjects",
     "packages": [
         "Wetlands"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVHFKZkRUNmxubVE"
-    ], 
-    "sgid_name": "SGID10.WATER.WetlandsMappingProjects", 
-    "shape_id": "0ByStJjVZ7c7maUhMQWlVZzg1dm8", 
+    ],
+    "sgid_name": "SGID.WATER.WetlandsMappingProjects",
+    "shape_id": "0ByStJjVZ7c7maUhMQWlVZzg1dm8",
     "update_cycle": "demand"
 }

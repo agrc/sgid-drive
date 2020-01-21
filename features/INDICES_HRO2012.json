@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mdFh1R2RUX2d1SHc", 
-    "hash_id": "0ByStJjVZ7c7maG00aDViWUx0VE0", 
-    "name": "HRO2012", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mdFh1R2RUX2d1SHc",
+    "hash_id": "0ByStJjVZ7c7maG00aDViWUx0VE0",
+    "name": "HRO2012",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mTGVJbVlvb2o0bHM"
-    ], 
-    "sgid_name": "SGID10.INDICES.HRO2012", 
-    "shape_id": "0ByStJjVZ7c7mUW91cmRNZXZCU3M", 
+    ],
+    "sgid_name": "SGID.INDICES.HRO2012",
+    "shape_id": "0ByStJjVZ7c7mUW91cmRNZXZCU3M",
     "update_cycle": "demand"
 }

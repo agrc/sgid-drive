@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mY21Uak94ZmlLQlU", 
-    "hash_id": "0ByStJjVZ7c7menhYNG5zblRPV3c", 
-    "name": "Habitat_BandtailedPigeon", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mY21Uak94ZmlLQlU",
+    "hash_id": "0ByStJjVZ7c7menhYNG5zblRPV3c",
+    "name": "Habitat_BandtailedPigeon",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVE5VWnl3bFZIQ28"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_BandtailedPigeon", 
-    "shape_id": "0ByStJjVZ7c7mRm9GNDgyTWNXSlk", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_BandtailedPigeon",
+    "shape_id": "0ByStJjVZ7c7mRm9GNDgyTWNXSlk",
     "update_cycle": "demand"
 }

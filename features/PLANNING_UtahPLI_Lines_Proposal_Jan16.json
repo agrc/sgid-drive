@@ -1,15 +1,15 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mVG83S014TjdyYUk", 
-    "hash_id": "0ByStJjVZ7c7mbDFCTnROQnJ6TGM", 
-    "name": "UtahPLI_Lines_Proposal_Jan16", 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mVG83S014TjdyYUk",
+    "hash_id": "0ByStJjVZ7c7mbDFCTnROQnJ6TGM",
+    "name": "UtahPLI_Lines_Proposal_Jan16",
     "packages": [
         "PublicLandsInitiativeProposal"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRG1jV2p3bVlDTnM"
-    ], 
-    "sgid_name": "SGID10.PLANNING.UtahPLI_Lines_Proposal_Jan16", 
-    "shape_id": "0ByStJjVZ7c7mQ0loVDNMeEZhQm8", 
+    ],
+    "sgid_name": "SGID.PLANNING.UtahPLI_Lines_Proposal_Jan16",
+    "shape_id": "0ByStJjVZ7c7mQ0loVDNMeEZhQm8",
     "update_cycle": "demand"
 }

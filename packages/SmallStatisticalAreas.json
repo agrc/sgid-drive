@@ -1,13 +1,13 @@
 {
-    "category": "HEALTH", 
+    "category": "HEALTH",
     "feature_classes": [
-        "SGID10.HEALTH.HealthSmallStatisticalAreas2012", 
-        "SGID10.HEALTH.HealthSmallStatisticalAreas2014"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mZDJwR0lnRmhkOGs", 
-    "name": "SmallStatisticalAreas", 
+        "SGID.HEALTH.HealthSmallStatisticalAreas2012",
+        "SGID.HEALTH.HealthSmallStatisticalAreas2014"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mZDJwR0lnRmhkOGs",
+    "name": "SmallStatisticalAreas",
     "parent_ids": [
         "0ByStJjVZ7c7mVmtqMVZ5b3lJQVU"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mUHJnQWJ0MlY3VjA"
 }

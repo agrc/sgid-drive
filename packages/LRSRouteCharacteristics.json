@@ -1,17 +1,17 @@
 {
-    "category": "TRANSPORTATION", 
+    "category": "TRANSPORTATION",
     "feature_classes": [
-        "SGID10.TRANSPORTATION.Roads", 
-        "SGID10.TRANSPORTATION.Roads_FreewayExits", 
-        "SGID10.TRANSPORTATION.RoadsShieldLines", 
-        "SGID10.TRANSPORTATION.UDOTMileposts", 
-        "SGID10.TRANSPORTATION.UDOTRoutes_LRS", 
-        "SGID10.TRANSPORTATION.UDOTTenthMileRefPoints"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mZWhqNGczazBJNkk", 
-    "name": "LRSRouteCharacteristics", 
+        "SGID.TRANSPORTATION.Roads",
+        "SGID.TRANSPORTATION.Roads_FreewayExits",
+        "SGID.TRANSPORTATION.RoadsShieldLines",
+        "SGID.TRANSPORTATION.UDOTMileposts",
+        "SGID.TRANSPORTATION.UDOTRoutes_LRS",
+        "SGID.TRANSPORTATION.UDOTTenthMileRefPoints"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mZWhqNGczazBJNkk",
+    "name": "LRSRouteCharacteristics",
     "parent_ids": [
         "0ByStJjVZ7c7meDJJSUJMM0c0M2s"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mNlN3UzRFZEZUT28"
 }

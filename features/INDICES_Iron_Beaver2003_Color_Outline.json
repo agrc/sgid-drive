@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7ma3c3ZHRfVko0ejA", 
-    "hash_id": "0ByStJjVZ7c7mMUFYU2ZEYW9XLUU", 
-    "name": "Iron_Beaver2003_Color_Outline", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7ma3c3ZHRfVko0ejA",
+    "hash_id": "0ByStJjVZ7c7mMUFYU2ZEYW9XLUU",
+    "name": "Iron_Beaver2003_Color_Outline",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mVXJ0SFZhOHdpTWc"
-    ], 
-    "sgid_name": "SGID10.INDICES.Iron_Beaver2003_Color_Outline", 
-    "shape_id": "0ByStJjVZ7c7mRVJQRkpUWkxkaFU", 
+    ],
+    "sgid_name": "SGID.INDICES.Iron_Beaver2003_Color_Outline",
+    "shape_id": "0ByStJjVZ7c7mRVJQRkpUWkxkaFU",
     "update_cycle": "demand"
 }

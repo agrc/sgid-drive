@@ -1,14 +1,14 @@
 {
-    "category": "GEOSCIENCE", 
+    "category": "GEOSCIENCE",
     "feature_classes": [
-        "SGID10.GEOSCIENCE.Units_MoabSanRafael", 
-        "SGID10.GEOSCIENCE.Units_Nephi", 
-        "SGID10.GEOSCIENCE.Units_Price"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mQUVYUkRlYXAyTUk", 
-    "name": "GeologicUnits", 
+        "SGID.GEOSCIENCE.Units_MoabSanRafael",
+        "SGID.GEOSCIENCE.Units_Nephi",
+        "SGID.GEOSCIENCE.Units_Price"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mQUVYUkRlYXAyTUk",
+    "name": "GeologicUnits",
     "parent_ids": [
         "0ByStJjVZ7c7mamptX1FUN1lhakU"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mY3hjdjRfX2dOczQ"
 }

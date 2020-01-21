@@ -1,13 +1,13 @@
 {
-    "category": "ELEVATION", 
-    "gdb_id": "0ByStJjVZ7c7mT2o1QVZqRTBBZTg", 
-    "hash_id": "0ByStJjVZ7c7malFHM2M1NUZsaEU", 
-    "name": "HighestPeaks", 
-    "packages": [], 
+    "category": "ELEVATION",
+    "gdb_id": "0ByStJjVZ7c7mT2o1QVZqRTBBZTg",
+    "hash_id": "0ByStJjVZ7c7malFHM2M1NUZsaEU",
+    "name": "HighestPeaks",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mTHcySDZpNmRlS00"
-    ], 
-    "sgid_name": "SGID10.ELEVATION.HighestPeaks", 
-    "shape_id": "0ByStJjVZ7c7mSmktUE9fOUNkdVk", 
+    ],
+    "sgid_name": "SGID.ELEVATION.HighestPeaks",
+    "shape_id": "0ByStJjVZ7c7mSmktUE9fOUNkdVk",
     "update_cycle": "demand"
 }

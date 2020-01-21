@@ -1,16 +1,16 @@
 {
-    "category": "GEOSCIENCE", 
+    "category": "GEOSCIENCE",
     "feature_classes": [
-        "SGID10.GEOSCIENCE.LandslideCompilationDebrisFlowPaths", 
-        "SGID10.GEOSCIENCE.LandslideCompilationPolygons", 
-        "SGID10.GEOSCIENCE.LandslideCompilationScarps", 
-        "SGID10.GEOSCIENCE.LandslideInventoryMappedAreas", 
-        "SGID10.GEOSCIENCE.LandslideInventoryPolygons"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mYlBhbkpsZUtVUGc", 
-    "name": "LandslideInventory", 
+        "SGID.GEOSCIENCE.LandslideCompilationDebrisFlowPaths",
+        "SGID.GEOSCIENCE.LandslideCompilationPolygons",
+        "SGID.GEOSCIENCE.LandslideCompilationScarps",
+        "SGID.GEOSCIENCE.LandslideInventoryMappedAreas",
+        "SGID.GEOSCIENCE.LandslideInventoryPolygons"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mYlBhbkpsZUtVUGc",
+    "name": "LandslideInventory",
     "parent_ids": [
         "0ByStJjVZ7c7mb3ZPclRyYzV6cTA"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mLWlKREpWdkJFNmM"
 }

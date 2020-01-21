@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mN1RSVlNHVWNSYUU", 
-    "hash_id": "0ByStJjVZ7c7mejliOHRnLWJ0Sk0", 
-    "name": "Contour_Line_Extents", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mN1RSVlNHVWNSYUU",
+    "hash_id": "0ByStJjVZ7c7mejliOHRnLWJ0Sk0",
+    "name": "Contour_Line_Extents",
     "packages": [
         "ContourExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMGM0U1RtMGRaTTg"
-    ], 
-    "sgid_name": "SGID10.INDICES.Contour_Line_Extents", 
-    "shape_id": "0ByStJjVZ7c7mZTR4aFNqNjhpVlU", 
+    ],
+    "sgid_name": "SGID.INDICES.Contour_Line_Extents",
+    "shape_id": "0ByStJjVZ7c7mZTR4aFNqNjhpVlU",
     "update_cycle": "demand"
 }

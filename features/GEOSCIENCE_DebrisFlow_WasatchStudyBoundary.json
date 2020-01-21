@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mOEVoYnhtWS1PS3c", 
-    "hash_id": "0ByStJjVZ7c7mbVVxLVpEN1RuZjQ", 
-    "name": "DebrisFlow_WasatchStudyBoundary", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mOEVoYnhtWS1PS3c",
+    "hash_id": "0ByStJjVZ7c7mbVVxLVpEN1RuZjQ",
+    "name": "DebrisFlow_WasatchStudyBoundary",
     "packages": [
         "DebrisFlow"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMGt0V2swcWJ5aDg"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.DebrisFlow_WasatchStudyBoundary", 
-    "shape_id": "0ByStJjVZ7c7mSlEtZEF2YjdWa3M", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.DebrisFlow_WasatchStudyBoundary",
+    "shape_id": "0ByStJjVZ7c7mSlEtZEF2YjdWa3M",
     "update_cycle": "demand"
 }

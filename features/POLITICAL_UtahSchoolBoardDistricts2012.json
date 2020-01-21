@@ -1,15 +1,15 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7mbFJXNWNXVUN6NEk", 
-    "hash_id": "0ByStJjVZ7c7mWjAyTVVNSkplRzg", 
-    "name": "UtahSchoolBoardDistricts2012", 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7mbFJXNWNXVUN6NEk",
+    "hash_id": "0ByStJjVZ7c7mWjAyTVVNSkplRzg",
+    "name": "UtahSchoolBoardDistricts2012",
     "packages": [
         "UtahPoliticalDistricts_Begin2012"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mOGZ5empmNmZzMGs"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.UtahSchoolBoardDistricts2012", 
-    "shape_id": "0ByStJjVZ7c7mZDVXT1J6Yy1ibzg", 
+    ],
+    "sgid_name": "SGID.POLITICAL.UtahSchoolBoardDistricts2012",
+    "shape_id": "0ByStJjVZ7c7mZDVXT1J6Yy1ibzg",
     "update_cycle": "demand"
 }

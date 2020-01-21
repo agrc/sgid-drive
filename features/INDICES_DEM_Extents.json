@@ -1,13 +1,13 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mb20wa1pRZUZvR1U", 
-    "hash_id": "0ByStJjVZ7c7mSXBJNWppNGtFZFU", 
-    "name": "DEM_Extents", 
-    "packages": [], 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mb20wa1pRZUZvR1U",
+    "hash_id": "0ByStJjVZ7c7mSXBJNWppNGtFZFU",
+    "name": "DEM_Extents",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mLWFhUm9fVUZick0"
-    ], 
-    "sgid_name": "SGID10.INDICES.DEM_Extents", 
-    "shape_id": "0ByStJjVZ7c7mT3pOTlRMN3ZhUXM", 
+    ],
+    "sgid_name": "SGID.INDICES.DEM_Extents",
+    "shape_id": "0ByStJjVZ7c7mT3pOTlRMN3ZhUXM",
     "update_cycle": "demand"
 }

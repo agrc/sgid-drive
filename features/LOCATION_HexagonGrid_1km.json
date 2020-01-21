@@ -1,13 +1,13 @@
 {
-    "category": "LOCATION", 
-    "gdb_id": "0ByStJjVZ7c7mRndpM050eFJ5VU0", 
-    "hash_id": "0ByStJjVZ7c7mYTVLVFZwamNYZUk", 
-    "name": "HexagonGrid_1km", 
-    "packages": [], 
+    "category": "LOCATION",
+    "gdb_id": "0ByStJjVZ7c7mRndpM050eFJ5VU0",
+    "hash_id": "0ByStJjVZ7c7mYTVLVFZwamNYZUk",
+    "name": "HexagonGrid_1km",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7maE9qS3JBcnJRNlE"
-    ], 
-    "sgid_name": "SGID10.LOCATION.HexagonGrid_1km", 
-    "shape_id": "0ByStJjVZ7c7mN2NwVDM3VnBXRjA", 
+    ],
+    "sgid_name": "SGID.LOCATION.HexagonGrid_1km",
+    "shape_id": "0ByStJjVZ7c7mN2NwVDM3VnBXRjA",
     "update_cycle": "demand"
 }

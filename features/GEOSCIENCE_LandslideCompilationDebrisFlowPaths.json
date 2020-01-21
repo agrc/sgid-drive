@@ -1,16 +1,16 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mOHoySVZ4bVBteEk", 
-    "hash_id": "0ByStJjVZ7c7mN3N6ZzNRZG1PYzg", 
-    "name": "LandslideCompilationDebrisFlowPaths", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mOHoySVZ4bVBteEk",
+    "hash_id": "0ByStJjVZ7c7mN3N6ZzNRZG1PYzg",
+    "name": "LandslideCompilationDebrisFlowPaths",
     "packages": [
-        "LandslideInventory", 
+        "LandslideInventory",
         "Landslides"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQ2MxbU5Oa2V0clE"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.LandslideCompilationDebrisFlowPaths", 
-    "shape_id": "0ByStJjVZ7c7mX2NSaHczTkV3OVk", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.LandslideCompilationDebrisFlowPaths",
+    "shape_id": "0ByStJjVZ7c7mX2NSaHczTkV3OVk",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mU0ZTNW8yaWh4SVU", 
-    "hash_id": "0ByStJjVZ7c7mVkx3c3JIM0FPYjA", 
-    "name": "MetroMicroStatisticalAreas", 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mU0ZTNW8yaWh4SVU",
+    "hash_id": "0ByStJjVZ7c7mVkx3c3JIM0FPYjA",
+    "name": "MetroMicroStatisticalAreas",
     "packages": [
         "2000Demographic"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRFQ5SUVkS2ZjWWs"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.MetroMicroStatisticalAreas", 
-    "shape_id": "0ByStJjVZ7c7mbHE2c1RuWXdFenc", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.MetroMicroStatisticalAreas",
+    "shape_id": "0ByStJjVZ7c7mbHE2c1RuWXdFenc",
     "update_cycle": "demand"
 }

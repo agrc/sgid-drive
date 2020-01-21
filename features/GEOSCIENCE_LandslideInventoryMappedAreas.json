@@ -1,16 +1,16 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mS1BtRTBzc3MwME0", 
-    "hash_id": "0ByStJjVZ7c7mRmY2OWF0QlhQNk0", 
-    "name": "LandslideInventoryMappedAreas", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mS1BtRTBzc3MwME0",
+    "hash_id": "0ByStJjVZ7c7mRmY2OWF0QlhQNk0",
+    "name": "LandslideInventoryMappedAreas",
     "packages": [
-        "LandslideInventory", 
+        "LandslideInventory",
         "Landslides"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQ0xKRDhuWDJlams"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.LandslideInventoryMappedAreas", 
-    "shape_id": "0ByStJjVZ7c7mdTFORUZsSVhBZjQ", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.LandslideInventoryMappedAreas",
+    "shape_id": "0ByStJjVZ7c7mdTFORUZsSVhBZjQ",
     "update_cycle": "demand"
 }

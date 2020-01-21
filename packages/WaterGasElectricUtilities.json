@@ -1,14 +1,14 @@
 {
-    "category": "UTILITIES", 
+    "category": "UTILITIES",
     "feature_classes": [
-        "SGID10.UTILITIES.ElectricalService", 
-        "SGID10.UTILITIES.NaturalGasService_Approx", 
-        "SGID10.UTILITIES.RetailCulinaryWaterServiceAreas"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mYTlnNFRhaFNfNEk", 
-    "name": "WaterGasElectricUtilities", 
+        "SGID.UTILITIES.ElectricalService",
+        "SGID.UTILITIES.NaturalGasService_Approx",
+        "SGID.UTILITIES.RetailCulinaryWaterServiceAreas"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mYTlnNFRhaFNfNEk",
+    "name": "WaterGasElectricUtilities",
     "parent_ids": [
         "0ByStJjVZ7c7mdUc4aUdRd0tndms"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mSDhmeUw3OThuWEk"
 }

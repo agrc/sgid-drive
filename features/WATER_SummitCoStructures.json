@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mQnZfNUppaUxQeWc", 
-    "hash_id": "0ByStJjVZ7c7mNmw4bEdmS2ljV3c", 
-    "name": "SummitCoStructures", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mQnZfNUppaUxQeWc",
+    "hash_id": "0ByStJjVZ7c7mNmw4bEdmS2ljV3c",
+    "name": "SummitCoStructures",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mWGEtVGkwdjBFNk0"
-    ], 
-    "sgid_name": "SGID10.WATER.SummitCoStructures", 
-    "shape_id": "0ByStJjVZ7c7mX2VBYllmdERFa2s", 
+    ],
+    "sgid_name": "SGID.WATER.SummitCoStructures",
+    "shape_id": "0ByStJjVZ7c7mX2VBYllmdERFa2s",
     "update_cycle": "demand"
 }

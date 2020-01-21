@@ -1,18 +1,18 @@
 {
-    "category": "DEMOGRAPHIC", 
+    "category": "DEMOGRAPHIC",
     "feature_classes": [
-        "SGID10.DEMOGRAPHIC.CensusBlockGroups2010", 
-        "SGID10.DEMOGRAPHIC.CensusBlocks2010", 
-        "SGID10.DEMOGRAPHIC.CensusCounties2010", 
-        "SGID10.DEMOGRAPHIC.CensusTracts2010", 
-        "SGID10.DEMOGRAPHIC.PopBlockAreas2010_Approx", 
-        "SGID10.DEMOGRAPHIC.PopPlacePts2010_Approx", 
-        "SGID10.DEMOGRAPHIC.UrbanAreasCensus2010"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mVHpqV01ZdzBBVms", 
-    "name": "Census2010", 
+        "SGID.DEMOGRAPHIC.CensusBlockGroups2010",
+        "SGID.DEMOGRAPHIC.CensusBlocks2010",
+        "SGID.DEMOGRAPHIC.CensusCounties2010",
+        "SGID.DEMOGRAPHIC.CensusTracts2010",
+        "SGID.DEMOGRAPHIC.PopBlockAreas2010_Approx",
+        "SGID.DEMOGRAPHIC.PopPlacePts2010_Approx",
+        "SGID.DEMOGRAPHIC.UrbanAreasCensus2010"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mVHpqV01ZdzBBVms",
+    "name": "Census2010",
     "parent_ids": [
         "0ByStJjVZ7c7mSThyMmZtSzJMREk"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mVVZNRHNieUFUbDQ"
 }

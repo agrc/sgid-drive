@@ -1,13 +1,13 @@
 {
-    "category": "CLIMATE", 
-    "gdb_id": "0ByStJjVZ7c7mTWlnNHR2YThNQ0U", 
-    "hash_id": "0ByStJjVZ7c7mS2dVM3BPZHZoNlE", 
-    "name": "NWSForecastZones", 
-    "packages": [], 
+    "category": "CLIMATE",
+    "gdb_id": "0ByStJjVZ7c7mTWlnNHR2YThNQ0U",
+    "hash_id": "0ByStJjVZ7c7mS2dVM3BPZHZoNlE",
+    "name": "NWSForecastZones",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7malFqNC1qRmd0MXc"
-    ], 
-    "sgid_name": "SGID10.CLIMATE.NWSForecastZones", 
-    "shape_id": "0ByStJjVZ7c7mdmRRWGtZRlh4bUE", 
+    ],
+    "sgid_name": "SGID.CLIMATE.NWSForecastZones",
+    "shape_id": "0ByStJjVZ7c7mdmRRWGtZRlh4bUE",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "UTILITIES", 
-    "gdb_id": "0ByStJjVZ7c7mZjdVbHdMV1I0Nm8", 
-    "hash_id": "0ByStJjVZ7c7maHVWQjdpVUZodlk", 
-    "name": "BroadbandWireless_historic", 
+    "category": "UTILITIES",
+    "gdb_id": "0ByStJjVZ7c7mZjdVbHdMV1I0Nm8",
+    "hash_id": "0ByStJjVZ7c7maHVWQjdpVUZodlk",
+    "name": "BroadbandWireless_historic",
     "packages": [
         "BroadbandInternet"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWlVLaHJyRkg5RWs"
-    ], 
-    "sgid_name": "SGID10.UTILITIES.BroadbandWireless_historic", 
-    "shape_id": "0ByStJjVZ7c7mcklybXBMU2FqUnc", 
+    ],
+    "sgid_name": "SGID.UTILITIES.BroadbandWireless_historic",
+    "shape_id": "0ByStJjVZ7c7mcklybXBMU2FqUnc",
     "update_cycle": "demand"
 }

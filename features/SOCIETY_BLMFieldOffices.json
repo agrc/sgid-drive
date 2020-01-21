@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mY3BFT2RQWURwUjg", 
-    "hash_id": "0ByStJjVZ7c7mY0szZ2M5OEVacGM", 
-    "name": "BLMFieldOffices", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mY3BFT2RQWURwUjg",
+    "hash_id": "0ByStJjVZ7c7mY0szZ2M5OEVacGM",
+    "name": "BLMFieldOffices",
     "packages": [
         "FieldStations"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWlJMR3VESUtzcWs"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.BLMFieldOffices", 
-    "shape_id": "0ByStJjVZ7c7mT1BTcTY1S1lYV3M", 
+    ],
+    "sgid_name": "SGID.SOCIETY.BLMFieldOffices",
+    "shape_id": "0ByStJjVZ7c7mT1BTcTY1S1lYV3M",
     "update_cycle": "demand"
 }

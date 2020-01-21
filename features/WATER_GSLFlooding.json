@@ -1,15 +1,15 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mUWhjN0ZFajNvbGc", 
-    "hash_id": "0ByStJjVZ7c7mRmM5dFNIdVdLNzA", 
-    "name": "GSLFlooding", 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mUWhjN0ZFajNvbGc",
+    "hash_id": "0ByStJjVZ7c7mRmM5dFNIdVdLNzA",
+    "name": "GSLFlooding",
     "packages": [
         "FloodAreas"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7md0N1b2FwWmdLZGM"
-    ], 
-    "sgid_name": "SGID10.WATER.GSLFlooding", 
-    "shape_id": "0ByStJjVZ7c7mdDhwYW4td0J5VEE", 
+    ],
+    "sgid_name": "SGID.WATER.GSLFlooding",
+    "shape_id": "0ByStJjVZ7c7mdDhwYW4td0J5VEE",
     "update_cycle": "demand"
 }

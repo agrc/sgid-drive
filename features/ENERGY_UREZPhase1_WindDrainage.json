@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mWFY1dVNBMkkxdXc", 
-    "hash_id": "0ByStJjVZ7c7mVDlDU0VSVG8zOGs", 
-    "name": "UREZPhase1_WindDrainage", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mWFY1dVNBMkkxdXc",
+    "hash_id": "0ByStJjVZ7c7mVDlDU0VSVG8zOGs",
+    "name": "UREZPhase1_WindDrainage",
     "packages": [
         "RenewableEnergyResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mS1dKOVhjSS1tUk0"
-    ], 
-    "sgid_name": "SGID10.ENERGY.UREZPhase1_WindDrainage", 
-    "shape_id": "0ByStJjVZ7c7mUklLOXRzUHVjaTQ", 
+    ],
+    "sgid_name": "SGID.ENERGY.UREZPhase1_WindDrainage",
+    "shape_id": "0ByStJjVZ7c7mUklLOXRzUHVjaTQ",
     "update_cycle": "demand"
 }

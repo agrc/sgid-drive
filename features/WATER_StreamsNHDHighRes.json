@@ -9,7 +9,7 @@
     "parent_ids": [
         "0ByStJjVZ7c7mbjJWNEd4N3VlaUk"
     ],
-    "sgid_name": "SGID10.WATER.StreamsNHDHighRes",
+    "sgid_name": "SGID.WATER.StreamsNHDHighRes",
     "shape_id": "0ByStJjVZ7c7ma2k3blloOUNfaDA",
     "update_cycle": "annual"
 }

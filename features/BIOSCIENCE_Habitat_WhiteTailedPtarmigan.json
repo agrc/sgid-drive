@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mLW5xajJkVkp1MHc", 
-    "hash_id": "0ByStJjVZ7c7mVWlqQjVDNjhhbjg", 
-    "name": "Habitat_WhiteTailedPtarmigan", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mLW5xajJkVkp1MHc",
+    "hash_id": "0ByStJjVZ7c7mVWlqQjVDNjhhbjg",
+    "name": "Habitat_WhiteTailedPtarmigan",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTGlNemQyODJ0LWM"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_WhiteTailedPtarmigan", 
-    "shape_id": "0ByStJjVZ7c7mYXVkVlljczR6Qk0", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_WhiteTailedPtarmigan",
+    "shape_id": "0ByStJjVZ7c7mYXVkVlljczR6Qk0",
     "update_cycle": "demand"
 }

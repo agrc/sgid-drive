@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mOU5VU29ySFRMREk", 
-    "hash_id": "0ByStJjVZ7c7mMzhVNjQxM1FRQVk", 
-    "name": "UREZPhase2_ZoneBoundaries", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mOU5VU29ySFRMREk",
+    "hash_id": "0ByStJjVZ7c7mMzhVNjQxM1FRQVk",
+    "name": "UREZPhase2_ZoneBoundaries",
     "packages": [
         "RenewableEnergyResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7maGt1TlljVzRwckE"
-    ], 
-    "sgid_name": "SGID10.ENERGY.UREZPhase2_ZoneBoundaries", 
-    "shape_id": "0ByStJjVZ7c7mVmRySUJjMGJxbkk", 
+    ],
+    "sgid_name": "SGID.ENERGY.UREZPhase2_ZoneBoundaries",
+    "shape_id": "0ByStJjVZ7c7mVmRySUJjMGJxbkk",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mMmU3T0tNblRpSGs", 
-    "hash_id": "0ByStJjVZ7c7mYjlTYjljLWlDa0U", 
-    "name": "Habitat_SnowshoeHare", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mMmU3T0tNblRpSGs",
+    "hash_id": "0ByStJjVZ7c7mYjlTYjljLWlDa0U",
+    "name": "Habitat_SnowshoeHare",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mb01rLWdZSjJVSVE"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_SnowshoeHare", 
-    "shape_id": "0ByStJjVZ7c7mQ3VVMWpDNGhRc3M", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_SnowshoeHare",
+    "shape_id": "0ByStJjVZ7c7mQ3VVMWpDNGhRc3M",
     "update_cycle": "demand"
 }

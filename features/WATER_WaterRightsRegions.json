@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7meW9XRjNkcmJkTkk", 
-    "hash_id": "0ByStJjVZ7c7mekVZUHlHRERCY28", 
-    "name": "WaterRightsRegions", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7meW9XRjNkcmJkTkk",
+    "hash_id": "0ByStJjVZ7c7mekVZUHlHRERCY28",
+    "name": "WaterRightsRegions",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mOEdNZ0NONDNSSFU"
-    ], 
-    "sgid_name": "SGID10.WATER.WaterRightsRegions", 
-    "shape_id": "0ByStJjVZ7c7maHlQNE1sTEo2b2s", 
+    ],
+    "sgid_name": "SGID.WATER.WaterRightsRegions",
+    "shape_id": "0ByStJjVZ7c7maHlQNE1sTEo2b2s",
     "update_cycle": "demand"
 }

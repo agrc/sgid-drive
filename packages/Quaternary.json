@@ -1,14 +1,14 @@
 {
-    "category": "GEOSCIENCE", 
+    "category": "GEOSCIENCE",
     "feature_classes": [
-        "SGID10.GEOSCIENCE.QuaternaryFaults", 
-        "SGID10.GEOSCIENCE.QuaternaryVolcanicFlow", 
-        "SGID10.GEOSCIENCE.QuaternaryVolcanicVents"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mdVVXZlZLUHU0Sms", 
-    "name": "Quaternary", 
+        "SGID.GEOSCIENCE.QuaternaryFaults",
+        "SGID.GEOSCIENCE.QuaternaryVolcanicFlow",
+        "SGID.GEOSCIENCE.QuaternaryVolcanicVents"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mdVVXZlZLUHU0Sms",
+    "name": "Quaternary",
     "parent_ids": [
         "0ByStJjVZ7c7mRldKY3hLS0R3T2c"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mcDhwS00wdHFPQjg"
 }

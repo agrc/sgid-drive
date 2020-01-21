@@ -1,15 +1,15 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mZlRERndMeXJOMzg", 
-    "hash_id": "0ByStJjVZ7c7mcmZYYVpZUVFDdlU", 
-    "name": "SemiPrimativeProp_EmeryCo", 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mZlRERndMeXJOMzg",
+    "hash_id": "0ByStJjVZ7c7mcmZYYVpZUVFDdlU",
+    "name": "SemiPrimativeProp_EmeryCo",
     "packages": [
         "PrimitiveAreas"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mcGdkUzh5SUlrRGs"
-    ], 
-    "sgid_name": "SGID10.PLANNING.SemiPrimativeProp_EmeryCo", 
-    "shape_id": "0ByStJjVZ7c7maDZaU1ZaZjkxZnM", 
+    ],
+    "sgid_name": "SGID.PLANNING.SemiPrimativeProp_EmeryCo",
+    "shape_id": "0ByStJjVZ7c7maDZaU1ZaZjkxZnM",
     "update_cycle": "demand"
 }

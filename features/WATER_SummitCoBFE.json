@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mWUJQV2pBdkhNd3c", 
-    "hash_id": "0ByStJjVZ7c7mUExoSk40Nkkxd1k", 
-    "name": "SummitCoBFE", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mWUJQV2pBdkhNd3c",
+    "hash_id": "0ByStJjVZ7c7mUExoSk40Nkkxd1k",
+    "name": "SummitCoBFE",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcHFNa0ZqU3ljOW8"
-    ], 
-    "sgid_name": "SGID10.WATER.SummitCoBFE", 
-    "shape_id": "0ByStJjVZ7c7mOElveE9Vc2Ezazg", 
+    ],
+    "sgid_name": "SGID.WATER.SummitCoBFE",
+    "shape_id": "0ByStJjVZ7c7mOElveE9Vc2Ezazg",
     "update_cycle": "demand"
 }

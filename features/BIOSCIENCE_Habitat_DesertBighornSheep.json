@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mMUl5VXlyejZXdWM", 
-    "hash_id": "0ByStJjVZ7c7mRFdRRFNxeGNwcVk", 
-    "name": "Habitat_DesertBighornSheep", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mMUl5VXlyejZXdWM",
+    "hash_id": "0ByStJjVZ7c7mRFdRRFNxeGNwcVk",
+    "name": "Habitat_DesertBighornSheep",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mS0hsYWtfMTkwOW8"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_DesertBighornSheep", 
-    "shape_id": "0ByStJjVZ7c7mWDMyZ0Itd3BHQWs", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_DesertBighornSheep",
+    "shape_id": "0ByStJjVZ7c7mWDMyZ0Itd3BHQWs",
     "update_cycle": "demand"
 }

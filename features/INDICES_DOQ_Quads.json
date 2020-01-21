@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mWnFxWUdNZzI1TFU", 
-    "hash_id": "0ByStJjVZ7c7mTkNONW9hejV6V1k", 
-    "name": "DOQ_Quads", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mWnFxWUdNZzI1TFU",
+    "hash_id": "0ByStJjVZ7c7mTkNONW9hejV6V1k",
+    "name": "DOQ_Quads",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mNzVRVThUTnNkT2c"
-    ], 
-    "sgid_name": "SGID10.INDICES.DOQ_Quads", 
-    "shape_id": "0ByStJjVZ7c7mb2I0RkVucUQwZW8", 
+    ],
+    "sgid_name": "SGID.INDICES.DOQ_Quads",
+    "shape_id": "0ByStJjVZ7c7mb2I0RkVucUQwZW8",
     "update_cycle": "demand"
 }

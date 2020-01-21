@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mQmpxOXppSHRzNlE", 
-    "hash_id": "0ByStJjVZ7c7malRUdnBtZXAzOHc", 
-    "name": "Habitat_BonetailedChub", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mQmpxOXppSHRzNlE",
+    "hash_id": "0ByStJjVZ7c7malRUdnBtZXAzOHc",
+    "name": "Habitat_BonetailedChub",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mX0RTa2k3bTlHYkU"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_BonetailedChub", 
-    "shape_id": "0ByStJjVZ7c7mdS11cmgtSUE1dWs", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_BonetailedChub",
+    "shape_id": "0ByStJjVZ7c7mdS11cmgtSUE1dWs",
     "update_cycle": "demand"
 }

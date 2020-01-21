@@ -1,16 +1,16 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mcDJ4eVhqUllibk0", 
-    "hash_id": "0ByStJjVZ7c7mYTZKYzh4bDRkNEE", 
-    "name": "Roads", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mcDJ4eVhqUllibk0",
+    "hash_id": "0ByStJjVZ7c7mYTZKYzh4bDRkNEE",
+    "name": "Roads",
     "packages": [
-        "LRSRouteCharacteristics", 
+        "LRSRouteCharacteristics",
         "UtahRoadAndHighwaySystem"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mdlVNWElES0k1dGs"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.Roads", 
-    "shape_id": "0ByStJjVZ7c7mU05HZkxvZzlfbms", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.Roads",
+    "shape_id": "0ByStJjVZ7c7mU05HZkxvZzlfbms",
     "update_cycle": "demand"
 }

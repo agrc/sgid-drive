@@ -1,13 +1,13 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7malFXaFZzdmVxUWM", 
-    "hash_id": "0ByStJjVZ7c7mcDJhMzRGVzl5SlE", 
-    "name": "VistaBallotAreas_Archive2011", 
-    "packages": [], 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7malFXaFZzdmVxUWM",
+    "hash_id": "0ByStJjVZ7c7mcDJhMzRGVzl5SlE",
+    "name": "VistaBallotAreas_Archive2011",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mdzJtVk1sdGhWNjA"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.VistaBallotAreas_Archive2011", 
-    "shape_id": "0ByStJjVZ7c7mMFUwRm9mTlhjd0E", 
+    ],
+    "sgid_name": "SGID.POLITICAL.VistaBallotAreas_Archive2011",
+    "shape_id": "0ByStJjVZ7c7mMFUwRm9mTlhjd0E",
     "update_cycle": "demand"
 }

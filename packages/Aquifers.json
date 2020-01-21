@@ -1,13 +1,13 @@
 {
-    "category": "GEOSCIENCE", 
+    "category": "GEOSCIENCE",
     "feature_classes": [
-        "SGID10.GEOSCIENCE.Aquifer_RechargeDischargeAreas", 
-        "SGID10.GEOSCIENCE.Aquifer_BasinFillBoundary"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mVTk4MVVxckx4eTg", 
-    "name": "Aquifers", 
+        "SGID.GEOSCIENCE.Aquifer_RechargeDischargeAreas",
+        "SGID.GEOSCIENCE.Aquifer_BasinFillBoundary"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mVTk4MVVxckx4eTg",
+    "name": "Aquifers",
     "parent_ids": [
         "0ByStJjVZ7c7mVmZudmFKS0hIUFE"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mU0VwLUZvWDlqbXc"
 }

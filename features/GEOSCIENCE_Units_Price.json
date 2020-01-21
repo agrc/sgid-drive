@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mWFFwcEw2N2NRQ00", 
-    "hash_id": "0ByStJjVZ7c7maEtac1Q3Vjhma1k", 
-    "name": "Units_Price", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mWFFwcEw2N2NRQ00",
+    "hash_id": "0ByStJjVZ7c7maEtac1Q3Vjhma1k",
+    "name": "Units_Price",
     "packages": [
         "GeologicUnits"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7md2xRak4zbWo1dTQ"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.Units_Price", 
-    "shape_id": "0ByStJjVZ7c7mdHhvbzBuQnZXQVU", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.Units_Price",
+    "shape_id": "0ByStJjVZ7c7mdHhvbzBuQnZXQVU",
     "update_cycle": "demand"
 }

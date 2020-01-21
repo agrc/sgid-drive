@@ -1,14 +1,14 @@
 {
-    "category": "SOCIETY", 
+    "category": "SOCIETY",
     "feature_classes": [
-        "SGID10.SOCIETY.UDOTMap_CityLocations", 
-        "SGID10.SOCIETY.UDOTMap_InterestPoints", 
-        "SGID10.SOCIETY.UDOTMap_StateParks"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mZmlJdlpSZFUxOG8", 
-    "name": "UDOTMapLocations", 
+        "SGID.SOCIETY.UDOTMap_CityLocations",
+        "SGID.SOCIETY.UDOTMap_InterestPoints",
+        "SGID.SOCIETY.UDOTMap_StateParks"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mZmlJdlpSZFUxOG8",
+    "name": "UDOTMapLocations",
     "parent_ids": [
         "0ByStJjVZ7c7mT25wd3c0eFZOZzA"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mdHFCVjNUQkNCd0E"
 }

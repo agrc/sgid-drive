@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mQzlyeEEwUFZUelU", 
-    "hash_id": "0ByStJjVZ7c7mblRtT1NhZXVtZWs", 
-    "name": "NHDHighRes_PointsAll", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mQzlyeEEwUFZUelU",
+    "hash_id": "0ByStJjVZ7c7mblRtT1NhZXVtZWs",
+    "name": "NHDHighRes_PointsAll",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mT2V1dE04dVE1LVU"
-    ], 
-    "sgid_name": "SGID10.WATER.NHDHighRes_PointsAll", 
-    "shape_id": "0ByStJjVZ7c7mcGpJMzIxeVhaTVE", 
+    ],
+    "sgid_name": "SGID.WATER.NHDHighRes_PointsAll",
+    "shape_id": "0ByStJjVZ7c7mcGpJMzIxeVhaTVE",
     "update_cycle": "demand"
 }

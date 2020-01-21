@@ -1,15 +1,15 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mWksxMHFHRDZERWs", 
-    "hash_id": "0ByStJjVZ7c7maDVaWW10VndlbTQ", 
-    "name": "USFSRoadlessInventory", 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mWksxMHFHRDZERWs",
+    "hash_id": "0ByStJjVZ7c7maDVaWW10VndlbTQ",
+    "name": "USFSRoadlessInventory",
     "packages": [
         "Wilderness_ProtectedLandsAndProposals"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUUdEUVlyb0VzMk0"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.USFSRoadlessInventory", 
-    "shape_id": "0ByStJjVZ7c7ma2VpWlcyWFY2REU", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.USFSRoadlessInventory",
+    "shape_id": "0ByStJjVZ7c7ma2VpWlcyWFY2REU",
     "update_cycle": "demand"
 }

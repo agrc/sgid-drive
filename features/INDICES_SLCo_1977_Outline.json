@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mXzVndl9QX25BZGM", 
-    "hash_id": "0ByStJjVZ7c7mdnE0TnMzQlJPWG8", 
-    "name": "SLCo_1977_Outline", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mXzVndl9QX25BZGM",
+    "hash_id": "0ByStJjVZ7c7mdnE0TnMzQlJPWG8",
+    "name": "SLCo_1977_Outline",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQTZMekZ3cko0YU0"
-    ], 
-    "sgid_name": "SGID10.INDICES.SLCo_1977_Outline", 
-    "shape_id": "0ByStJjVZ7c7mZkd3Tnh5ZWJ0NzA", 
+    ],
+    "sgid_name": "SGID.INDICES.SLCo_1977_Outline",
+    "shape_id": "0ByStJjVZ7c7mZkd3Tnh5ZWJ0NzA",
     "update_cycle": "demand"
 }

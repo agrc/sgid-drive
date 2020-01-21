@@ -1,16 +1,16 @@
 {
-    "category": "DEMOGRAPHIC", 
+    "category": "DEMOGRAPHIC",
     "feature_classes": [
-        "SGID10.DEMOGRAPHIC.CensusBlockGroups2000", 
-        "SGID10.DEMOGRAPHIC.CensusBlocks2000", 
-        "SGID10.DEMOGRAPHIC.CensusCounties2000", 
-        "SGID10.DEMOGRAPHIC.CensusTracts2000", 
-        "SGID10.DEMOGRAPHIC.MetroMicroStatisticalAreas"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7menFmXzBHT3BvNFk", 
-    "name": "2000Demographic", 
+        "SGID.DEMOGRAPHIC.CensusBlockGroups2000",
+        "SGID.DEMOGRAPHIC.CensusBlocks2000",
+        "SGID.DEMOGRAPHIC.CensusCounties2000",
+        "SGID.DEMOGRAPHIC.CensusTracts2000",
+        "SGID.DEMOGRAPHIC.MetroMicroStatisticalAreas"
+    ],
+    "gdb_id": "0ByStJjVZ7c7menFmXzBHT3BvNFk",
+    "name": "2000Demographic",
     "parent_ids": [
         "0ByStJjVZ7c7mcG5IZzluYXZpY1E"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mSHBzekRzaUJtdzQ"
 }

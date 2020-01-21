@@ -1,13 +1,13 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mSVYzcWw4R2Fpajg", 
-    "hash_id": "0ByStJjVZ7c7mSW9jUktwRDBaanc", 
-    "name": "PowerPlants_CO2", 
-    "packages": [], 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mSVYzcWw4R2Fpajg",
+    "hash_id": "0ByStJjVZ7c7mSW9jUktwRDBaanc",
+    "name": "PowerPlants_CO2",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mb3RuWnF3T2VZc1E"
-    ], 
-    "sgid_name": "SGID10.ENERGY.PowerPlants_CO2", 
-    "shape_id": "0ByStJjVZ7c7mUEFGc0dJdUVPTnM", 
+    ],
+    "sgid_name": "SGID.ENERGY.PowerPlants_CO2",
+    "shape_id": "0ByStJjVZ7c7mUEFGc0dJdUVPTnM",
     "update_cycle": "demand"
 }

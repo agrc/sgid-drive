@@ -1,13 +1,13 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mUUlGbERfaVFmUjA", 
-    "hash_id": "0ByStJjVZ7c7mdTNzRlktNEpvZG8", 
-    "name": "UDOTMap_NeighborCounties", 
-    "packages": [], 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mUUlGbERfaVFmUjA",
+    "hash_id": "0ByStJjVZ7c7mdTNzRlktNEpvZG8",
+    "name": "UDOTMap_NeighborCounties",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mZ0ZPMndSSGdyNFU"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.UDOTMap_NeighborCounties", 
-    "shape_id": "0ByStJjVZ7c7mdjQyVHpxNGNMWmM", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.UDOTMap_NeighborCounties",
+    "shape_id": "0ByStJjVZ7c7mdjQyVHpxNGNMWmM",
     "update_cycle": "demand"
 }

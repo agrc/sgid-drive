@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mOTBDQ2VjeGZYaUE", 
-    "hash_id": "0ByStJjVZ7c7mWTRuZjhIenZvamc", 
-    "name": "StatewideFIRMPanels", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mOTBDQ2VjeGZYaUE",
+    "hash_id": "0ByStJjVZ7c7mWTRuZjhIenZvamc",
+    "name": "StatewideFIRMPanels",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcThLWTdtb1loN1k"
-    ], 
-    "sgid_name": "SGID10.WATER.StatewideFIRMPanels", 
-    "shape_id": "0ByStJjVZ7c7mQWhRclRFNEEwQk0", 
+    ],
+    "sgid_name": "SGID.WATER.StatewideFIRMPanels",
+    "shape_id": "0ByStJjVZ7c7mQWhRclRFNEEwQk0",
     "update_cycle": "demand"
 }

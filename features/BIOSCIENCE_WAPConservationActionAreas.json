@@ -1,13 +1,13 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7melVHY3VoZ19nVmM", 
-    "hash_id": "0ByStJjVZ7c7mZUw4cV9HRnBlbGs", 
-    "name": "WAPConservationActionAreas", 
-    "packages": [], 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7melVHY3VoZ19nVmM",
+    "hash_id": "0ByStJjVZ7c7mZUw4cV9HRnBlbGs",
+    "name": "WAPConservationActionAreas",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mWUtTUG5xUDlVNDg"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.WAPConservationActionAreas", 
-    "shape_id": "0ByStJjVZ7c7mT0s5THNXaS0zRGs", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.WAPConservationActionAreas",
+    "shape_id": "0ByStJjVZ7c7mT0s5THNXaS0zRGs",
     "update_cycle": "demand"
 }

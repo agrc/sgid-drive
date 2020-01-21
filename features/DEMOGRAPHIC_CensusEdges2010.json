@@ -1,13 +1,13 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mRGZQT0NSeGVqYjA", 
-    "hash_id": "0ByStJjVZ7c7mMldCZ3Jla0JjdWM", 
-    "name": "CensusEdges2010", 
-    "packages": [], 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mRGZQT0NSeGVqYjA",
+    "hash_id": "0ByStJjVZ7c7mMldCZ3Jla0JjdWM",
+    "name": "CensusEdges2010",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mbWxVR1JSeHN6WVk"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.CensusEdges2010", 
-    "shape_id": "0ByStJjVZ7c7maWNQdXdOMlppSjA", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.CensusEdges2010",
+    "shape_id": "0ByStJjVZ7c7maWNQdXdOMlppSjA",
     "update_cycle": "demand"
 }

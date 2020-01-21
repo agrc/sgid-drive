@@ -1,13 +1,13 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mdU54NkZoMXQ1RDA", 
-    "hash_id": "0ByStJjVZ7c7mTjdmWnJjdlJ0UU0", 
-    "name": "Cemeteries", 
-    "packages": [], 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mdU54NkZoMXQ1RDA",
+    "hash_id": "0ByStJjVZ7c7mTjdmWnJjdlJ0UU0",
+    "name": "Cemeteries",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mXzY5enhwaTBQa2s"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.Cemeteries", 
-    "shape_id": "0ByStJjVZ7c7mNmVtd2tpTGRPVXM", 
+    ],
+    "sgid_name": "SGID.SOCIETY.Cemeteries",
+    "shape_id": "0ByStJjVZ7c7mNmVtd2tpTGRPVXM",
     "update_cycle": "demand"
 }

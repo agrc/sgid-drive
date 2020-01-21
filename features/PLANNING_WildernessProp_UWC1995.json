@@ -1,15 +1,15 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mOEJJbi1YSFNyd00", 
-    "hash_id": "0ByStJjVZ7c7mdC1uOWkwZURka2s", 
-    "name": "WildernessProp_UWC1995", 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mOEJJbi1YSFNyd00",
+    "hash_id": "0ByStJjVZ7c7mdC1uOWkwZURka2s",
+    "name": "WildernessProp_UWC1995",
     "packages": [
         "Wilderness_ProtectedLandsAndProposals"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUjJYQUotUVRvNUk"
-    ], 
-    "sgid_name": "SGID10.PLANNING.WildernessProp_UWC1995", 
-    "shape_id": "0ByStJjVZ7c7mWmEwV0JTRnVKeVE", 
+    ],
+    "sgid_name": "SGID.PLANNING.WildernessProp_UWC1995",
+    "shape_id": "0ByStJjVZ7c7mWmEwV0JTRnVKeVE",
     "update_cycle": "demand"
 }

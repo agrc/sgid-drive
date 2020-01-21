@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mSEZ1aVJNSVFVckk", 
-    "hash_id": "0ByStJjVZ7c7mVjJ1MzFMS1Z3ZE0", 
-    "name": "Habitat_RingNeckedPheasant", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mSEZ1aVJNSVFVckk",
+    "hash_id": "0ByStJjVZ7c7mVjJ1MzFMS1Z3ZE0",
+    "name": "Habitat_RingNeckedPheasant",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTi1ZeEpxWFJuR3M"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_RingNeckedPheasant", 
-    "shape_id": "0ByStJjVZ7c7mOThMTWx4Ri1FbVU", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_RingNeckedPheasant",
+    "shape_id": "0ByStJjVZ7c7mOThMTWx4Ri1FbVU",
     "update_cycle": "demand"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "POLITICAL", 
-    "gdb_id": "0ByStJjVZ7c7mQWV1Y1R0Uy1sV0k", 
-    "hash_id": "0ByStJjVZ7c7mQ0VTZFlTZ3BIRkE", 
-    "name": "JudicialDistricts", 
-    "packages": [], 
+    "category": "POLITICAL",
+    "gdb_id": "0ByStJjVZ7c7mQWV1Y1R0Uy1sV0k",
+    "hash_id": "0ByStJjVZ7c7mQ0VTZFlTZ3BIRkE",
+    "name": "JudicialDistricts",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mdVk4NXdHLUIxMUE"
-    ], 
-    "sgid_name": "SGID10.POLITICAL.JudicialDistricts", 
-    "shape_id": "0ByStJjVZ7c7mRXhGeWJYMjZPeG8", 
+    ],
+    "sgid_name": "SGID.POLITICAL.JudicialDistricts",
+    "shape_id": "0ByStJjVZ7c7mRXhGeWJYMjZPeG8",
     "update_cycle": "demand"
 }

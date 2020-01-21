@@ -1,13 +1,13 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mMWhWemN1MmRGWVE", 
-    "hash_id": "0ByStJjVZ7c7mWDlaQ1dscGRLQm8", 
-    "name": "EnergyResourcesLine", 
-    "packages": [], 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mMWhWemN1MmRGWVE",
+    "hash_id": "0ByStJjVZ7c7mWDlaQ1dscGRLQm8",
+    "name": "EnergyResourcesLine",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mVWZHVmFKUGp3RFE"
-    ], 
-    "sgid_name": "SGID10.ENERGY.EnergyResourcesLine", 
-    "shape_id": "0ByStJjVZ7c7mWHZvXzRCcTJyU2M", 
+    ],
+    "sgid_name": "SGID.ENERGY.EnergyResourcesLine",
+    "shape_id": "0ByStJjVZ7c7mWHZvXzRCcTJyU2M",
     "update_cycle": "demand"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "RECREATION", 
-    "gdb_id": "0ByStJjVZ7c7mTGdXNm5JR0Rxa1E", 
-    "hash_id": "0ByStJjVZ7c7mRWJXQUJ3c1NjaFE", 
-    "name": "UrbanTrails", 
-    "packages": [], 
+    "category": "RECREATION",
+    "gdb_id": "0ByStJjVZ7c7mTGdXNm5JR0Rxa1E",
+    "hash_id": "0ByStJjVZ7c7mRWJXQUJ3c1NjaFE",
+    "name": "UrbanTrails",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mRl9RZFhCdFg5RVk"
-    ], 
-    "sgid_name": "SGID10.RECREATION.UrbanTrails", 
-    "shape_id": "0ByStJjVZ7c7mMlBOQ3NZWEJTdzg", 
+    ],
+    "sgid_name": "SGID.RECREATION.UrbanTrails",
+    "shape_id": "0ByStJjVZ7c7mMlBOQ3NZWEJTdzg",
     "update_cycle": "demand"
 }

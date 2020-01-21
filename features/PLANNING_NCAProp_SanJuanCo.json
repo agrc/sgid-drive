@@ -1,13 +1,13 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7mRVN0S19rLTl4b0E", 
-    "hash_id": "0ByStJjVZ7c7mc2NNM3RTdzJEQzA", 
-    "name": "NCAProp_SanJuanCo", 
-    "packages": [], 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7mRVN0S19rLTl4b0E",
+    "hash_id": "0ByStJjVZ7c7mc2NNM3RTdzJEQzA",
+    "name": "NCAProp_SanJuanCo",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mMGZSM2h0WU9va2c"
-    ], 
-    "sgid_name": "SGID10.PLANNING.NCAProp_SanJuanCo", 
-    "shape_id": "0ByStJjVZ7c7mZllXS3VKdFRmd1E", 
+    ],
+    "sgid_name": "SGID.PLANNING.NCAProp_SanJuanCo",
+    "shape_id": "0ByStJjVZ7c7mZllXS3VKdFRmd1E",
     "update_cycle": "demand"
 }

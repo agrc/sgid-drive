@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mRGU4TGFxTjQycFU", 
-    "hash_id": "0ByStJjVZ7c7mTEpzRDR4RE9YQk0", 
-    "name": "GeologicDikes", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mRGU4TGFxTjQycFU",
+    "hash_id": "0ByStJjVZ7c7mTEpzRDR4RE9YQk0",
+    "name": "GeologicDikes",
     "packages": [
         "Geology"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTk82Q3FkVElheGs"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.GeologicDikes", 
-    "shape_id": "0ByStJjVZ7c7mYmJkR2l5RU5TajQ", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.GeologicDikes",
+    "shape_id": "0ByStJjVZ7c7mYmJkR2l5RU5TajQ",
     "update_cycle": "demand"
 }

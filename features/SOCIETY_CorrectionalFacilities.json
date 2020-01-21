@@ -1,15 +1,15 @@
 {
-    "category": "SOCIETY", 
-    "gdb_id": "0ByStJjVZ7c7mV0g4ZlJ1aUlMS3M", 
-    "hash_id": "0ByStJjVZ7c7mdmFtT3RGVmx2R00", 
-    "name": "CorrectionalFacilities", 
+    "category": "SOCIETY",
+    "gdb_id": "0ByStJjVZ7c7mV0g4ZlJ1aUlMS3M",
+    "hash_id": "0ByStJjVZ7c7mdmFtT3RGVmx2R00",
+    "name": "CorrectionalFacilities",
     "packages": [
         "PublicSafety"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mSFNocXh1Z2pQSzQ"
-    ], 
-    "sgid_name": "SGID10.SOCIETY.CorrectionalFacilities", 
-    "shape_id": "0ByStJjVZ7c7mTkZtMy12VUtodXc", 
+    ],
+    "sgid_name": "SGID.SOCIETY.CorrectionalFacilities",
+    "shape_id": "0ByStJjVZ7c7mTkZtMy12VUtodXc",
     "update_cycle": "demand"
 }

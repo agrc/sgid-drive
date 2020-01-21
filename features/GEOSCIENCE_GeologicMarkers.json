@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mNDZhUjhuSS1CZk0", 
-    "hash_id": "0ByStJjVZ7c7mbVI1TlpaYUZtNDg", 
-    "name": "GeologicMarkers", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mNDZhUjhuSS1CZk0",
+    "hash_id": "0ByStJjVZ7c7mbVI1TlpaYUZtNDg",
+    "name": "GeologicMarkers",
     "packages": [
         "Geology"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7ma3ZKdmgwQW1Wcnc"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.GeologicMarkers", 
-    "shape_id": "0ByStJjVZ7c7mZl9YNE56QzBRMXM", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.GeologicMarkers",
+    "shape_id": "0ByStJjVZ7c7mZl9YNE56QzBRMXM",
     "update_cycle": "demand"
 }

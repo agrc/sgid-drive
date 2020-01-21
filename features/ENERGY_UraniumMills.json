@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mLTI3VUk0bXR3REU", 
-    "hash_id": "0ByStJjVZ7c7mTTRqODhJcFZxZjA", 
-    "name": "UraniumMills", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mLTI3VUk0bXR3REU",
+    "hash_id": "0ByStJjVZ7c7mTTRqODhJcFZxZjA",
+    "name": "UraniumMills",
     "packages": [
         "UraniumResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mUkJxNzdaVFg4X0k"
-    ], 
-    "sgid_name": "SGID10.ENERGY.UraniumMills", 
-    "shape_id": "0ByStJjVZ7c7mN2RWQW5yNjRETDA", 
+    ],
+    "sgid_name": "SGID.ENERGY.UraniumMills",
+    "shape_id": "0ByStJjVZ7c7mN2RWQW5yNjRETDA",
     "update_cycle": "demand"
 }

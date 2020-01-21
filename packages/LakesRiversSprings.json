@@ -1,15 +1,15 @@
 {
-    "category": "WATER", 
+    "category": "WATER",
     "feature_classes": [
-        "SGID10.WATER.LakesNHDHighRes", 
-        "SGID10.WATER.StreamsNHDHighRes", 
-        "SGID10.WATER.SpringsNHDHighRes", 
-        "SGID10.WATER.UtahMajorRiversPoly"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7meXVsSUpKRFFCU3M", 
-    "name": "LakesRiversSprings", 
+        "SGID.WATER.LakesNHDHighRes",
+        "SGID.WATER.StreamsNHDHighRes",
+        "SGID.WATER.SpringsNHDHighRes",
+        "SGID.WATER.UtahMajorRiversPoly"
+    ],
+    "gdb_id": "0ByStJjVZ7c7meXVsSUpKRFFCU3M",
+    "name": "LakesRiversSprings",
     "parent_ids": [
         "0ByStJjVZ7c7mdjRzWWo0OUVKMVE"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mRmtXOW0tbmdXMFU"
 }

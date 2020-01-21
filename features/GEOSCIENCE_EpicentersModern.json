@@ -1,15 +1,15 @@
 {
-    "category": "GEOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mSWFMVHlUODh0bEU", 
-    "hash_id": "0ByStJjVZ7c7mNWZ6X2RBTkFSdGc", 
-    "name": "EpicentersModern", 
+    "category": "GEOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mSWFMVHlUODh0bEU",
+    "hash_id": "0ByStJjVZ7c7mNWZ6X2RBTkFSdGc",
+    "name": "EpicentersModern",
     "packages": [
         "SeismologyVolcanology"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWUozRldDZnhCOFU"
-    ], 
-    "sgid_name": "SGID10.GEOSCIENCE.EpicentersModern", 
-    "shape_id": "0ByStJjVZ7c7mcnpsWXlTVVBVWk0", 
+    ],
+    "sgid_name": "SGID.GEOSCIENCE.EpicentersModern",
+    "shape_id": "0ByStJjVZ7c7mcnpsWXlTVVBVWk0",
     "update_cycle": "demand"
 }

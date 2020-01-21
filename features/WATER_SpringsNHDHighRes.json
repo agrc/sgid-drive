@@ -1,15 +1,15 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mazdwZ1J3MTJWZFE", 
-    "hash_id": "0ByStJjVZ7c7mWk9xbDUwc05wdFE", 
-    "name": "SpringsNHDHighRes", 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mazdwZ1J3MTJWZFE",
+    "hash_id": "0ByStJjVZ7c7mWk9xbDUwc05wdFE",
+    "name": "SpringsNHDHighRes",
     "packages": [
         "LakesRiversSprings"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mMnUtREN4OG5MSDA"
-    ], 
-    "sgid_name": "SGID10.WATER.SpringsNHDHighRes", 
-    "shape_id": "0ByStJjVZ7c7mVFVTU1hHUWtQTzA", 
+    ],
+    "sgid_name": "SGID.WATER.SpringsNHDHighRes",
+    "shape_id": "0ByStJjVZ7c7mVFVTU1hHUWtQTzA",
     "update_cycle": "demand"
 }

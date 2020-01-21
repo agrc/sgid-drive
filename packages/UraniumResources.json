@@ -1,16 +1,16 @@
 {
-    "category": "ENERGY", 
+    "category": "ENERGY",
     "feature_classes": [
-        "SGID10.ENERGY.PermittedUraniumMines", 
-        "SGID10.ENERGY.UraniumAreaBoundaries", 
-        "SGID10.ENERGY.UraniumDistricts_UGS", 
-        "SGID10.ENERGY.UraniumMills", 
-        "SGID10.ENERGY.UraniumPastProducers"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mbGp3VEd2UXpDSHM", 
-    "name": "UraniumResources", 
+        "SGID.ENERGY.PermittedUraniumMines",
+        "SGID.ENERGY.UraniumAreaBoundaries",
+        "SGID.ENERGY.UraniumDistricts_UGS",
+        "SGID.ENERGY.UraniumMills",
+        "SGID.ENERGY.UraniumPastProducers"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mbGp3VEd2UXpDSHM",
+    "name": "UraniumResources",
     "parent_ids": [
         "0ByStJjVZ7c7meUdSbjAxZ094UjA"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mX1BrNWRrZ3NpVHM"
 }

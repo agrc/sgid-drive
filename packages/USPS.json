@@ -1,13 +1,13 @@
 {
-    "category": "LOCATION", 
+    "category": "LOCATION",
     "feature_classes": [
-        "SGID10.BOUNDARIES.ZipCodes", 
-        "SGID10.LOCATION.ZipCodePOBoxes"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mRi1ESVp0WkVOcXc", 
-    "name": "USPS", 
+        "SGID.BOUNDARIES.ZipCodes",
+        "SGID.LOCATION.ZipCodePOBoxes"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mRi1ESVp0WkVOcXc",
+    "name": "USPS",
     "parent_ids": [
         "0ByStJjVZ7c7mclo0ZWtWeWlBSUU"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mRXV3VDUyVU04cUU"
 }

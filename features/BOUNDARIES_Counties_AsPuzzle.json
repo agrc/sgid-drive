@@ -1,13 +1,13 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mSl95cFZ2dVAwc2s", 
-    "hash_id": "0ByStJjVZ7c7mVDdjeVZ6OE5zZ0U", 
-    "name": "Counties_AsPuzzle", 
-    "packages": [], 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mSl95cFZ2dVAwc2s",
+    "hash_id": "0ByStJjVZ7c7mVDdjeVZ6OE5zZ0U",
+    "name": "Counties_AsPuzzle",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mNXVncE1MZF9kOE0"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.Counties_AsPuzzle", 
-    "shape_id": "0ByStJjVZ7c7mZXkwR0NJV0RGUnM", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.Counties_AsPuzzle",
+    "shape_id": "0ByStJjVZ7c7mZXkwR0NJV0RGUnM",
     "update_cycle": "demand"
 }

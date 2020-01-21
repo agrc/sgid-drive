@@ -1,16 +1,16 @@
 {
-    "category": "INDICES", 
+    "category": "INDICES",
     "feature_classes": [
-        "SGID10.INDICES.DEM10_Quads", 
-        "SGID10.INDICES.DEM30_Quads", 
-        "SGID10.INDICES.DEM30_Statewide", 
-        "SGID10.INDICES.DEM90_Quads", 
-        "SGID10.INDICES.DEM90_Statewide"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mZ29KeWlRMmlOOVE", 
-    "name": "USGSurveyDEMExtentsAndIndices", 
+        "SGID.INDICES.DEM10_Quads",
+        "SGID.INDICES.DEM30_Quads",
+        "SGID.INDICES.DEM30_Statewide",
+        "SGID.INDICES.DEM90_Quads",
+        "SGID.INDICES.DEM90_Statewide"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mZ29KeWlRMmlOOVE",
+    "name": "USGSurveyDEMExtentsAndIndices",
     "parent_ids": [
         "0ByStJjVZ7c7mbGdENUFiaWdaZkE"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mUlM2dm0wMFo3ZEE"
 }

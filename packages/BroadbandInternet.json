@@ -1,16 +1,16 @@
 {
-    "category": "UTILITIES", 
+    "category": "UTILITIES",
     "feature_classes": [
-        "SGID10.UTILITIES.BroadbandService", 
-        "SGID10.UTILITIES.BroadbandCAInstitutions", 
-        "SGID10.UTILITIES.BroadbandCensusBlocks_historic", 
-        "SGID10.UTILITIES.BroadbandRoadBuffers_historic", 
-        "SGID10.UTILITIES.BroadbandWireless_historic"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mTjd5VGR2Mm9uaGc", 
-    "name": "BroadbandInternet", 
+        "SGID.UTILITIES.BroadbandService",
+        "SGID.UTILITIES.BroadbandCAInstitutions",
+        "SGID.UTILITIES.BroadbandCensusBlocks_historic",
+        "SGID.UTILITIES.BroadbandRoadBuffers_historic",
+        "SGID.UTILITIES.BroadbandWireless_historic"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mTjd5VGR2Mm9uaGc",
+    "name": "BroadbandInternet",
     "parent_ids": [
         "0ByStJjVZ7c7mMjdWS3RsTkRPaE0"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mVDN2UGQ1QngzR2s"
 }

@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mZzVaa1dxSUlyT2c", 
-    "hash_id": "0ByStJjVZ7c7mM05obXluVkcycHM", 
-    "name": "GSLShoreline", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mZzVaa1dxSUlyT2c",
+    "hash_id": "0ByStJjVZ7c7mM05obXluVkcycHM",
+    "name": "GSLShoreline",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mTzhXUmJHMGw4XzA"
-    ], 
-    "sgid_name": "SGID10.WATER.GSLShoreline", 
-    "shape_id": "0ByStJjVZ7c7mTjlGOE5SRnF1Z0E", 
+    ],
+    "sgid_name": "SGID.WATER.GSLShoreline",
+    "shape_id": "0ByStJjVZ7c7mTjlGOE5SRnF1Z0E",
     "update_cycle": "demand"
 }

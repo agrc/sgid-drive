@@ -1,15 +1,15 @@
 {
-    "category": "ECONOMY", 
-    "gdb_id": "0ByStJjVZ7c7mNEpFbld6dS1ZVEk", 
-    "hash_id": "0ByStJjVZ7c7mRy1zakZvVElSSkE", 
-    "name": "TaxEntities2016", 
+    "category": "ECONOMY",
+    "gdb_id": "0ByStJjVZ7c7mNEpFbld6dS1ZVEk",
+    "hash_id": "0ByStJjVZ7c7mRy1zakZvVElSSkE",
+    "name": "TaxEntities2016",
     "packages": [
         "CurrentTaxingUnits"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWUdrZ3hPdFFCcjA"
-    ], 
-    "sgid_name": "SGID10.ECONOMY.TaxEntities2016", 
-    "shape_id": "0ByStJjVZ7c7mQ1labUhyWW52c3M", 
+    ],
+    "sgid_name": "SGID.ECONOMY.TaxEntities2016",
+    "shape_id": "0ByStJjVZ7c7mQ1labUhyWW52c3M",
     "update_cycle": "demand"
 }

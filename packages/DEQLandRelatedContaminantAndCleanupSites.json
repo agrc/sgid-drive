@@ -1,25 +1,25 @@
 {
-    "category": "ENVIRONMENT", 
+    "category": "ENVIRONMENT",
     "feature_classes": [
-        "SGID10.ENVIRONMENT.BFNONTARGETED", 
-        "SGID10.ENVIRONMENT.BFTARGETED", 
-        "SGID10.ENVIRONMENT.VCP", 
-        "SGID10.ENVIRONMENT.TRI", 
-        "SGID10.ENVIRONMENT.TIER2", 
-        "SGID10.ENVIRONMENT.SITEREM", 
-        "SGID10.ENVIRONMENT.NPL", 
-        "SGID10.ENVIRONMENT.MMRP", 
-        "SGID10.ENVIRONMENT.ICBUFFERZONES", 
-        "SGID10.ENVIRONMENT.FUD", 
-        "SGID10.ENVIRONMENT.FACILITYUST", 
-        "SGID10.ENVIRONMENT.EWA", 
-        "SGID10.ENVIRONMENT.DWMRCHazWasteUsedOilFacilities", 
-        "SGID10.ENVIRONMENT.DWMRCSolidWasteFacilities"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mb0s4aWc5UHVhS0U", 
-    "name": "DEQLandRelatedContaminantAndCleanupSites", 
+        "SGID.ENVIRONMENT.BFNONTARGETED",
+        "SGID.ENVIRONMENT.BFTARGETED",
+        "SGID.ENVIRONMENT.VCP",
+        "SGID.ENVIRONMENT.TRI",
+        "SGID.ENVIRONMENT.TIER2",
+        "SGID.ENVIRONMENT.SITEREM",
+        "SGID.ENVIRONMENT.NPL",
+        "SGID.ENVIRONMENT.MMRP",
+        "SGID.ENVIRONMENT.ICBUFFERZONES",
+        "SGID.ENVIRONMENT.FUD",
+        "SGID.ENVIRONMENT.FACILITYUST",
+        "SGID.ENVIRONMENT.EWA",
+        "SGID.ENVIRONMENT.DWMRCHazWasteUsedOilFacilities",
+        "SGID.ENVIRONMENT.DWMRCSolidWasteFacilities"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mb0s4aWc5UHVhS0U",
+    "name": "DEQLandRelatedContaminantAndCleanupSites",
     "parent_ids": [
         "0ByStJjVZ7c7mR3FKbTA2UDEwQWs"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7ma1c0NHNhS09iUzA"
 }

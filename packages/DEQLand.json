@@ -1,21 +1,21 @@
 {
-    "category": "ENVIRONMENT", 
+    "category": "ENVIRONMENT",
     "feature_classes": [
-        "SGID10.ENVIRONMENT.FUD", 
-        "SGID10.ENVIRONMENT.EWA", 
-        "SGID10.ENVIRONMENT.NPL", 
-        "SGID10.ENVIRONMENT.SITEREM", 
-        "SGID10.ENVIRONMENT.ICBUFFERZONES", 
-        "SGID10.ENVIRONMENT.TIER2", 
-        "SGID10.ENVIRONMENT.TRI", 
-        "SGID10.ENVIRONMENT.VCP", 
-        "SGID10.ENVIRONMENT.FACILITYUST", 
-        "SGID10.ENVIRONMENT.DWMRCSolidWasteFacilities"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mNW5fckozNzkxY2c", 
-    "name": "DEQLand", 
+        "SGID.ENVIRONMENT.FUD",
+        "SGID.ENVIRONMENT.EWA",
+        "SGID.ENVIRONMENT.NPL",
+        "SGID.ENVIRONMENT.SITEREM",
+        "SGID.ENVIRONMENT.ICBUFFERZONES",
+        "SGID.ENVIRONMENT.TIER2",
+        "SGID.ENVIRONMENT.TRI",
+        "SGID.ENVIRONMENT.VCP",
+        "SGID.ENVIRONMENT.FACILITYUST",
+        "SGID.ENVIRONMENT.DWMRCSolidWasteFacilities"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mNW5fckozNzkxY2c",
+    "name": "DEQLand",
     "parent_ids": [
         "0ByStJjVZ7c7mSXJYTUJGbTZ0elU"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mYThqcUx2YmI5S1k"
 }

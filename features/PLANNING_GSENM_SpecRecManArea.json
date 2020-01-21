@@ -1,13 +1,13 @@
 {
-    "category": "PLANNING", 
-    "gdb_id": "0ByStJjVZ7c7maWppY204bE1ZSmM", 
-    "hash_id": "0ByStJjVZ7c7mRlM1bjN1bm9jSEU", 
-    "name": "GSENM_SpecRecManArea", 
-    "packages": [], 
+    "category": "PLANNING",
+    "gdb_id": "0ByStJjVZ7c7maWppY204bE1ZSmM",
+    "hash_id": "0ByStJjVZ7c7mRlM1bjN1bm9jSEU",
+    "name": "GSENM_SpecRecManArea",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcHhsSE1KbDNDNzg"
-    ], 
-    "sgid_name": "SGID10.PLANNING.GSENM_SpecRecManArea", 
-    "shape_id": "0ByStJjVZ7c7mNFJDbFY4TE8zbDQ", 
+    ],
+    "sgid_name": "SGID.PLANNING.GSENM_SpecRecManArea",
+    "shape_id": "0ByStJjVZ7c7mNFJDbFY4TE8zbDQ",
     "update_cycle": "demand"
 }

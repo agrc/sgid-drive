@@ -1,15 +1,15 @@
 {
-    "category": "RECREATION", 
-    "gdb_id": "0ByStJjVZ7c7mckktYl93YVFicm8", 
-    "hash_id": "0ByStJjVZ7c7mRG5SYmNLZlR2cEk", 
-    "name": "GolfCourses", 
+    "category": "RECREATION",
+    "gdb_id": "0ByStJjVZ7c7mckktYl93YVFicm8",
+    "hash_id": "0ByStJjVZ7c7mRG5SYmNLZlR2cEk",
+    "name": "GolfCourses",
     "packages": [
         "ParksAndGolfCourses"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mZmdhbVRUdnlBeHc"
-    ], 
-    "sgid_name": "SGID10.RECREATION.GolfCourses", 
-    "shape_id": "0ByStJjVZ7c7mUFV5NWZMd3BRa1E", 
+    ],
+    "sgid_name": "SGID.RECREATION.GolfCourses",
+    "shape_id": "0ByStJjVZ7c7mUFV5NWZMd3BRa1E",
     "update_cycle": "demand"
 }

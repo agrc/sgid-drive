@@ -1,15 +1,15 @@
 {
-    "category": "HEALTH", 
-    "gdb_id": "0ByStJjVZ7c7mMDZYZzFIMVM0Mmc", 
-    "hash_id": "0ByStJjVZ7c7mZXNsdlFxYTE1ejQ", 
-    "name": "EmergencyMedicalServices", 
+    "category": "HEALTH",
+    "gdb_id": "0ByStJjVZ7c7mMDZYZzFIMVM0Mmc",
+    "hash_id": "0ByStJjVZ7c7mZXNsdlFxYTE1ejQ",
+    "name": "EmergencyMedicalServices",
     "packages": [
         "HealthCareFacilities"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mbThUSllrSUhReUk"
-    ], 
-    "sgid_name": "SGID10.HEALTH.EmergencyMedicalServices", 
-    "shape_id": "0ByStJjVZ7c7memtEYXpyeWR1eUk", 
+    ],
+    "sgid_name": "SGID.HEALTH.EmergencyMedicalServices",
+    "shape_id": "0ByStJjVZ7c7memtEYXpyeWR1eUk",
     "update_cycle": "demand"
 }

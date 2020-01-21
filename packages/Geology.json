@@ -1,16 +1,16 @@
 {
-    "category": "GEOSCIENCE", 
+    "category": "GEOSCIENCE",
     "feature_classes": [
-        "SGID10.GEOSCIENCE.GeologicContacts", 
-        "SGID10.GEOSCIENCE.GeologicDikes", 
-        "SGID10.GEOSCIENCE.GeologicFormationsLine", 
-        "SGID10.GEOSCIENCE.GeologicMarkers", 
-        "SGID10.GEOSCIENCE.GeologicVeins"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mZG1OZzJKR2FFTEE", 
-    "name": "Geology", 
+        "SGID.GEOSCIENCE.GeologicContacts",
+        "SGID.GEOSCIENCE.GeologicDikes",
+        "SGID.GEOSCIENCE.GeologicFormationsLine",
+        "SGID.GEOSCIENCE.GeologicMarkers",
+        "SGID.GEOSCIENCE.GeologicVeins"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mZG1OZzJKR2FFTEE",
+    "name": "Geology",
     "parent_ids": [
         "0ByStJjVZ7c7manUyM3p3TG4ySjg"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mbWZCOWlWSG5JYzQ"
 }

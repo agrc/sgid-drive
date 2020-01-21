@@ -1,15 +1,15 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7maWJFY1dUZ25LcHM", 
-    "hash_id": "0ByStJjVZ7c7mZ3BhRHpNMm9xQnM", 
-    "name": "CensusBlockGroups2000", 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7maWJFY1dUZ25LcHM",
+    "hash_id": "0ByStJjVZ7c7mZ3BhRHpNMm9xQnM",
+    "name": "CensusBlockGroups2000",
     "packages": [
         "2000Demographic"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mb0xfQVp3TEo3Mms"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.CensusBlockGroups2000", 
-    "shape_id": "0ByStJjVZ7c7mc1QwMDkxbndDbWM", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.CensusBlockGroups2000",
+    "shape_id": "0ByStJjVZ7c7mc1QwMDkxbndDbWM",
     "update_cycle": "demand"
 }

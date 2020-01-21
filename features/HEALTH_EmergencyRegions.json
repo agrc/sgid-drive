@@ -1,13 +1,13 @@
 {
-    "category": "HEALTH", 
-    "gdb_id": "0ByStJjVZ7c7mNnpfRGt1WFNZdEk", 
-    "hash_id": "0ByStJjVZ7c7mMnRkY1YzcnlaQUU", 
-    "name": "EmergencyRegions", 
-    "packages": [], 
+    "category": "HEALTH",
+    "gdb_id": "0ByStJjVZ7c7mNnpfRGt1WFNZdEk",
+    "hash_id": "0ByStJjVZ7c7mMnRkY1YzcnlaQUU",
+    "name": "EmergencyRegions",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mX21VVGtBRkdaTlE"
-    ], 
-    "sgid_name": "SGID10.HEALTH.EmergencyRegions", 
-    "shape_id": "0ByStJjVZ7c7mbjZRNHBCSko0ZTA", 
+    ],
+    "sgid_name": "SGID.HEALTH.EmergencyRegions",
+    "shape_id": "0ByStJjVZ7c7mbjZRNHBCSko0ZTA",
     "update_cycle": "demand"
 }

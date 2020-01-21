@@ -1,15 +1,15 @@
 {
-    "category": "TRANSPORTATION", 
-    "gdb_id": "0ByStJjVZ7c7mX0FGNGZDeTd0cXM", 
-    "hash_id": "0ByStJjVZ7c7mMmhBMnAySi1ELUk", 
-    "name": "LightRail_UTA", 
+    "category": "TRANSPORTATION",
+    "gdb_id": "0ByStJjVZ7c7mX0FGNGZDeTd0cXM",
+    "hash_id": "0ByStJjVZ7c7mMmhBMnAySi1ELUk",
+    "name": "LightRail_UTA",
     "packages": [
         "UtahTransitSystems"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mRkNrQkhjRjFkYms"
-    ], 
-    "sgid_name": "SGID10.TRANSPORTATION.LightRail_UTA", 
-    "shape_id": "0ByStJjVZ7c7mNGN4aGNicnNEX3M", 
+    ],
+    "sgid_name": "SGID.TRANSPORTATION.LightRail_UTA",
+    "shape_id": "0ByStJjVZ7c7mNGN4aGNicnNEX3M",
     "update_cycle": "demand"
 }

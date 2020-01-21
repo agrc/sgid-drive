@@ -1,13 +1,13 @@
 {
-    "category": "ELEVATION", 
-    "gdb_id": "0ByStJjVZ7c7mei1CMUFwVE1NczQ", 
-    "hash_id": "0ByStJjVZ7c7mck1leXdrOGVXNE0", 
-    "name": "Contours500Ft", 
-    "packages": [], 
+    "category": "ELEVATION",
+    "gdb_id": "0ByStJjVZ7c7mei1CMUFwVE1NczQ",
+    "hash_id": "0ByStJjVZ7c7mck1leXdrOGVXNE0",
+    "name": "Contours500Ft",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mX0tzVG1XOW5PeFE"
-    ], 
-    "sgid_name": "SGID10.ELEVATION.Contours500Ft", 
-    "shape_id": "0ByStJjVZ7c7mQ0ZDSFBFbE55dzQ", 
+    ],
+    "sgid_name": "SGID.ELEVATION.Contours500Ft",
+    "shape_id": "0ByStJjVZ7c7mQ0ZDSFBFbE55dzQ",
     "update_cycle": "demand"
 }

@@ -1,15 +1,15 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mTDhDMnplbjZKb1E", 
-    "hash_id": "0ByStJjVZ7c7mbmdOWnc2bnpmVE0", 
-    "name": "NAIP2009_4_Band_QQuads", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mTDhDMnplbjZKb1E",
+    "hash_id": "0ByStJjVZ7c7mbmdOWnc2bnpmVE0",
+    "name": "NAIP2009_4_Band_QQuads",
     "packages": [
         "AerialPhotographyExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTkRUWHNLRWtFQVE"
-    ], 
-    "sgid_name": "SGID10.INDICES.NAIP2009_4_Band_QQuads", 
-    "shape_id": "0ByStJjVZ7c7mMjBva05ZcW1lTGs", 
+    ],
+    "sgid_name": "SGID.INDICES.NAIP2009_4_Band_QQuads",
+    "shape_id": "0ByStJjVZ7c7mMjBva05ZcW1lTGs",
     "update_cycle": "demand"
 }

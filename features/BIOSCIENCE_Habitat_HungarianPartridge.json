@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mS1hfQTIxYVdQLTg", 
-    "hash_id": "0ByStJjVZ7c7mWHdYOEl0M1BWNGs", 
-    "name": "Habitat_HungarianPartridge", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mS1hfQTIxYVdQLTg",
+    "hash_id": "0ByStJjVZ7c7mWHdYOEl0M1BWNGs",
+    "name": "Habitat_HungarianPartridge",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mYnRTdFdIQlBSUGM"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_HungarianPartridge", 
-    "shape_id": "0ByStJjVZ7c7mWWJheDQyS1dUSnc", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_HungarianPartridge",
+    "shape_id": "0ByStJjVZ7c7mWWJheDQyS1dUSnc",
     "update_cycle": "demand"
 }

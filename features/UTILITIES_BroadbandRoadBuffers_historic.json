@@ -1,15 +1,15 @@
 {
-    "category": "UTILITIES", 
-    "gdb_id": "0ByStJjVZ7c7mNkNDY2dzQTVMWk0", 
-    "hash_id": "0ByStJjVZ7c7maDRFWkZBWUZ4TFE", 
-    "name": "BroadbandRoadBuffers_historic", 
+    "category": "UTILITIES",
+    "gdb_id": "0ByStJjVZ7c7mNkNDY2dzQTVMWk0",
+    "hash_id": "0ByStJjVZ7c7maDRFWkZBWUZ4TFE",
+    "name": "BroadbandRoadBuffers_historic",
     "packages": [
         "BroadbandInternet"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mSUpwUjFwZ3F3Y2s"
-    ], 
-    "sgid_name": "SGID10.UTILITIES.BroadbandRoadBuffers_historic", 
-    "shape_id": "0ByStJjVZ7c7mN1lpOFg4T2pkUlE", 
+    ],
+    "sgid_name": "SGID.UTILITIES.BroadbandRoadBuffers_historic",
+    "shape_id": "0ByStJjVZ7c7mN1lpOFg4T2pkUlE",
     "update_cycle": "demand"
 }

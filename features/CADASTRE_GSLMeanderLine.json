@@ -1,13 +1,13 @@
 {
-    "category": "CADASTRE", 
-    "gdb_id": "0ByStJjVZ7c7meFlSQ3RCSmdFUmM", 
-    "hash_id": "0ByStJjVZ7c7mcE5pYkxzcS1QclE", 
-    "name": "GSLMeanderLine", 
-    "packages": [], 
+    "category": "CADASTRE",
+    "gdb_id": "0ByStJjVZ7c7meFlSQ3RCSmdFUmM",
+    "hash_id": "0ByStJjVZ7c7mcE5pYkxzcS1QclE",
+    "name": "GSLMeanderLine",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mNDRPSEZmTElMS1U"
-    ], 
-    "sgid_name": "SGID10.CADASTRE.GSLMeanderLine", 
-    "shape_id": "0ByStJjVZ7c7mdlNFNHRVc3NHWkk", 
+    ],
+    "sgid_name": "SGID.CADASTRE.GSLMeanderLine",
+    "shape_id": "0ByStJjVZ7c7mdlNFNHRVc3NHWkk",
     "update_cycle": "demand"
 }

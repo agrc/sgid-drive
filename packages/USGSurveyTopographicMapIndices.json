@@ -1,16 +1,16 @@
 {
-    "category": "INDICES", 
+    "category": "INDICES",
     "feature_classes": [
-        "SGID10.INDICES.USGS24KQuads", 
-        "SGID10.INDICES.USGS24KQuarterQuads", 
-        "SGID10.INDICES.USGS250KQuads1x1", 
-        "SGID10.INDICES.USGS250KQuads1x2", 
-        "SGID10.INDICES.USGS100KQuads"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mN2FJdVRaa1lXajQ", 
-    "name": "USGSurveyTopographicMapIndices", 
+        "SGID.INDICES.USGS24KQuads",
+        "SGID.INDICES.USGS24KQuarterQuads",
+        "SGID.INDICES.USGS250KQuads1x1",
+        "SGID.INDICES.USGS250KQuads1x2",
+        "SGID.INDICES.USGS100KQuads"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mN2FJdVRaa1lXajQ",
+    "name": "USGSurveyTopographicMapIndices",
     "parent_ids": [
         "0ByStJjVZ7c7meG9ZM2N4QzZrM0E"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mYURxZkdVWExBX3M"
 }

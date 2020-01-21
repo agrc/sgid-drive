@@ -1,15 +1,15 @@
 {
-    "category": "ENERGY", 
-    "gdb_id": "0ByStJjVZ7c7mSk03cUV3ZlppQkU", 
-    "hash_id": "0ByStJjVZ7c7mVFRoNU1aQlkxdVE", 
-    "name": "UREZPhase1_SolarZones", 
+    "category": "ENERGY",
+    "gdb_id": "0ByStJjVZ7c7mSk03cUV3ZlppQkU",
+    "hash_id": "0ByStJjVZ7c7mVFRoNU1aQlkxdVE",
+    "name": "UREZPhase1_SolarZones",
     "packages": [
         "RenewableEnergyResources"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTnVlSTY3RGI4UVE"
-    ], 
-    "sgid_name": "SGID10.ENERGY.UREZPhase1_SolarZones", 
-    "shape_id": "0ByStJjVZ7c7mUzJHOThlZ1Q5UE0", 
+    ],
+    "sgid_name": "SGID.ENERGY.UREZPhase1_SolarZones",
+    "shape_id": "0ByStJjVZ7c7mUzJHOThlZ1Q5UE0",
     "update_cycle": "demand"
 }

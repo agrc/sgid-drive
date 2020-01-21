@@ -1,13 +1,13 @@
 {
-    "category": "ECONOMY", 
-    "gdb_id": "0ByStJjVZ7c7mTTVxeHpwRWRndTA", 
-    "hash_id": "0ByStJjVZ7c7maWhjVlFBQzBHZXc", 
-    "name": "TaxEntities2015", 
-    "packages": [], 
+    "category": "ECONOMY",
+    "gdb_id": "0ByStJjVZ7c7mTTVxeHpwRWRndTA",
+    "hash_id": "0ByStJjVZ7c7maWhjVlFBQzBHZXc",
+    "name": "TaxEntities2015",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcm9aREkyanB6NXM"
-    ], 
-    "sgid_name": "SGID10.ECONOMY.TaxEntities2015", 
-    "shape_id": "0ByStJjVZ7c7mWldXWkpyNFRQd00", 
+    ],
+    "sgid_name": "SGID.ECONOMY.TaxEntities2015",
+    "shape_id": "0ByStJjVZ7c7mWldXWkpyNFRQd00",
     "update_cycle": "demand"
 }

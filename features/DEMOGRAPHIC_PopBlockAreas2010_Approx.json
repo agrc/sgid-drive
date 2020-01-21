@@ -1,15 +1,15 @@
 {
-    "category": "DEMOGRAPHIC", 
-    "gdb_id": "0ByStJjVZ7c7mUElFUk1WN051N2c", 
-    "hash_id": "0ByStJjVZ7c7manhzNDZmNDZOZFk", 
-    "name": "PopBlockAreas2010_Approx", 
+    "category": "DEMOGRAPHIC",
+    "gdb_id": "0ByStJjVZ7c7mUElFUk1WN051N2c",
+    "hash_id": "0ByStJjVZ7c7manhzNDZmNDZOZFk",
+    "name": "PopBlockAreas2010_Approx",
     "packages": [
         "Census2010"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mQjNFMEVSWTRDWnc"
-    ], 
-    "sgid_name": "SGID10.DEMOGRAPHIC.PopBlockAreas2010_Approx", 
-    "shape_id": "0ByStJjVZ7c7mVTBLcmlqVGRSU3c", 
+    ],
+    "sgid_name": "SGID.DEMOGRAPHIC.PopBlockAreas2010_Approx",
+    "shape_id": "0ByStJjVZ7c7mVTBLcmlqVGRSU3c",
     "update_cycle": "demand"
 }

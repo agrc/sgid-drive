@@ -1,15 +1,15 @@
 {
-    "category": "BIOSCIENCE", 
-    "gdb_id": "0ByStJjVZ7c7mQmtXS09GR04zdXM", 
-    "hash_id": "0ByStJjVZ7c7mMlhiTDBOZVZlZzg", 
-    "name": "Habitat_Muledeer", 
+    "category": "BIOSCIENCE",
+    "gdb_id": "0ByStJjVZ7c7mQmtXS09GR04zdXM",
+    "hash_id": "0ByStJjVZ7c7mMlhiTDBOZVZlZzg",
+    "name": "Habitat_Muledeer",
     "packages": [
         "DWRWildlifeHabitat"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mTjNNOTZnQ3dwcFU"
-    ], 
-    "sgid_name": "SGID10.BIOSCIENCE.Habitat_Muledeer", 
-    "shape_id": "0ByStJjVZ7c7mdGMtVDN2QXQtZ00", 
+    ],
+    "sgid_name": "SGID.BIOSCIENCE.Habitat_Muledeer",
+    "shape_id": "0ByStJjVZ7c7mdGMtVDN2QXQtZ00",
     "update_cycle": "demand"
 }

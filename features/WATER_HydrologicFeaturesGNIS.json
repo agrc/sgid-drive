@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mR3ZxM0V0OTdqaUE", 
-    "hash_id": "0ByStJjVZ7c7mMG1keW5tYzFJcm8", 
-    "name": "HydrologicFeaturesGNIS", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mR3ZxM0V0OTdqaUE",
+    "hash_id": "0ByStJjVZ7c7mMG1keW5tYzFJcm8",
+    "name": "HydrologicFeaturesGNIS",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mVXQzVmF1b2lpamc"
-    ], 
-    "sgid_name": "SGID10.WATER.HydrologicFeaturesGNIS", 
-    "shape_id": "0ByStJjVZ7c7mb0Y3X2dpblZUcXc", 
+    ],
+    "sgid_name": "SGID.WATER.HydrologicFeaturesGNIS",
+    "shape_id": "0ByStJjVZ7c7mb0Y3X2dpblZUcXc",
     "update_cycle": "demand"
 }

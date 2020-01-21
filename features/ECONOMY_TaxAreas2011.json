@@ -1,13 +1,13 @@
 {
-    "category": "ECONOMY", 
-    "gdb_id": "0ByStJjVZ7c7mVG9rQ3d3Q2hBQ1E", 
-    "hash_id": "0ByStJjVZ7c7mRDBqSnZ3enlNOVk", 
-    "name": "TaxAreas2011", 
-    "packages": [], 
+    "category": "ECONOMY",
+    "gdb_id": "0ByStJjVZ7c7mVG9rQ3d3Q2hBQ1E",
+    "hash_id": "0ByStJjVZ7c7mRDBqSnZ3enlNOVk",
+    "name": "TaxAreas2011",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mMjFXTVpiRkdMRFU"
-    ], 
-    "sgid_name": "SGID10.ECONOMY.TaxAreas2011", 
-    "shape_id": "0ByStJjVZ7c7mRUNZUVNEQzUxNlk", 
+    ],
+    "sgid_name": "SGID.ECONOMY.TaxAreas2011",
+    "shape_id": "0ByStJjVZ7c7mRUNZUVNEQzUxNlk",
     "update_cycle": "demand"
 }

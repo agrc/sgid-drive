@@ -202,7 +202,7 @@ def load_zip_to_drive(spec, id_key, new_zip, parent_folder_ids):
         get_user_drive().create_owner(temp_id, "agrc@utah.gov")
         spec[id_key] = temp_id
 
-    drive.keep_revision(spec[id_key])
+    # drive.keep_revision(spec[id_key])
 
 
 def get_category_folder_id(category, parent_id):
@@ -307,7 +307,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
     Update a feature class on drive if it has changed.
 
     workspace: string path or connection to a workspace that contains feature_name
-    feature_name: string SGID name such as SGID10.RECREATION.Trails
+    feature_name: string SGID name such as SGID.RECREATION.Trails
     """
     print('\nStarting feature:', feature_name)
     feature_time = clock()

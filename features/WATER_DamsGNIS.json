@@ -1,13 +1,13 @@
 {
-    "category": "WATER", 
-    "gdb_id": "0ByStJjVZ7c7mQU16MGpGZ0tDLUE", 
-    "hash_id": "0ByStJjVZ7c7mcW9zQnN4Z3NRWXc", 
-    "name": "DamsGNIS", 
-    "packages": [], 
+    "category": "WATER",
+    "gdb_id": "0ByStJjVZ7c7mQU16MGpGZ0tDLUE",
+    "hash_id": "0ByStJjVZ7c7mcW9zQnN4Z3NRWXc",
+    "name": "DamsGNIS",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mNmZwYjN4ZFZpaFE"
-    ], 
-    "sgid_name": "SGID10.WATER.DamsGNIS", 
-    "shape_id": "0ByStJjVZ7c7mTDdFN2RmamVwdHM", 
+    ],
+    "sgid_name": "SGID.WATER.DamsGNIS",
+    "shape_id": "0ByStJjVZ7c7mTDdFN2RmamVwdHM",
     "update_cycle": "demand"
 }

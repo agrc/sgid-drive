@@ -1,12 +1,12 @@
 {
     "category": "ECONOMY",
     "feature_classes": [
-        "SGID10.ECONOMY.TaxEntities2017",
-        "SGID10.ECONOMY.NonTaxFeeEntities2016",
-        "SGID10.ECONOMY.TaxAreas2017",
-        "SGID10.ECONOMY.SalesTaxAreas",
-        "SGID10.ECONOMY.TransitSpecialTaxAreas",
-        "SGID10.ECONOMY.EnterpriseZones"
+        "SGID.ECONOMY.TaxEntities2017",
+        "SGID.ECONOMY.NonTaxFeeEntities2016",
+        "SGID.ECONOMY.TaxAreas2017",
+        "SGID.ECONOMY.SalesTaxAreas",
+        "SGID.ECONOMY.TransitSpecialTaxAreas",
+        "SGID.ECONOMY.EnterpriseZones"
     ],
     "gdb_id": "0ByStJjVZ7c7mcjZyUXdqdVFXUFE",
     "name": "CurrentTaxingUnits",

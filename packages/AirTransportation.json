@@ -1,14 +1,14 @@
 {
-    "category": "TRANSPORTATION", 
+    "category": "TRANSPORTATION",
     "feature_classes": [
-        "SGID10.TRANSPORTATION.AirportLocations", 
-        "SGID10.TRANSPORTATION.Airports", 
-        "SGID10.TRANSPORTATION.Heliports"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mUHBMMEw2Qnd6U3c", 
-    "name": "AirTransportation", 
+        "SGID.TRANSPORTATION.AirportLocations",
+        "SGID.TRANSPORTATION.Airports",
+        "SGID.TRANSPORTATION.Heliports"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mUHBMMEw2Qnd6U3c",
+    "name": "AirTransportation",
     "parent_ids": [
         "0ByStJjVZ7c7mRU90UWh6NEdwVHc"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mNGtNcW94NFMyWXc"
 }

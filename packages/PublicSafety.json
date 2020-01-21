@@ -1,17 +1,17 @@
 {
-    "category": "SOCIETY", 
+    "category": "SOCIETY",
     "feature_classes": [
-        "SGID10.SOCIETY.CorrectionalFacilities", 
-        "SGID10.SOCIETY.FireStations", 
-        "SGID10.SOCIETY.LawEnforcement", 
-        "SGID10.SOCIETY.PSAPBoundaries", 
-        "SGID10.SOCIETY.PSAPLocations", 
-        "SGID10.SOCIETY.StateAgencyDispatch"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mQlk4dUxfSlhUekU", 
-    "name": "PublicSafety", 
+        "SGID.SOCIETY.CorrectionalFacilities",
+        "SGID.SOCIETY.FireStations",
+        "SGID.SOCIETY.LawEnforcement",
+        "SGID.SOCIETY.PSAPBoundaries",
+        "SGID.SOCIETY.PSAPLocations",
+        "SGID.SOCIETY.StateAgencyDispatch"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mQlk4dUxfSlhUekU",
+    "name": "PublicSafety",
     "parent_ids": [
         "0ByStJjVZ7c7mSk1mNzRyS1kwR3c"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mcmJZXy1GLWxWQkE"
 }

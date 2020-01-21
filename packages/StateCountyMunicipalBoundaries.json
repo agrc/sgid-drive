@@ -1,16 +1,16 @@
 {
-    "category": "BOUNDARIES", 
+    "category": "BOUNDARIES",
     "feature_classes": [
-        "SGID10.BOUNDARIES.Counties", 
-        "SGID10.BOUNDARIES.Municipalities", 
-        "SGID10.BOUNDARIES.Municipalities_Carto", 
-        "SGID10.BOUNDARIES.Municipalities_Modifications", 
-        "SGID10.BOUNDARIES.Utah"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mVUJTY1FheC1ndkU", 
-    "name": "StateCountyMunicipalBoundaries", 
+        "SGID.BOUNDARIES.Counties",
+        "SGID.BOUNDARIES.Municipalities",
+        "SGID.BOUNDARIES.Municipalities_Carto",
+        "SGID.BOUNDARIES.Municipalities_Modifications",
+        "SGID.BOUNDARIES.Utah"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mVUJTY1FheC1ndkU",
+    "name": "StateCountyMunicipalBoundaries",
     "parent_ids": [
         "0ByStJjVZ7c7md2JrOVU1V3BVc1E"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mYmxjQWsxdUhzTHc"
 }

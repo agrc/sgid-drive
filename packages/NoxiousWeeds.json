@@ -1,14 +1,14 @@
 {
-    "category": "BIOSCIENCE", 
+    "category": "BIOSCIENCE",
     "feature_classes": [
-        "SGID10.BIOSCIENCE.NoxiousWeeds_Line", 
-        "SGID10.BIOSCIENCE.NoxiousWeeds_Poly", 
-        "SGID10.BIOSCIENCE.NoxiousWeeds_Point"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7maFNZRDhta3E0U1E", 
-    "name": "NoxiousWeeds", 
+        "SGID.BIOSCIENCE.NoxiousWeeds_Line",
+        "SGID.BIOSCIENCE.NoxiousWeeds_Poly",
+        "SGID.BIOSCIENCE.NoxiousWeeds_Point"
+    ],
+    "gdb_id": "0ByStJjVZ7c7maFNZRDhta3E0U1E",
+    "name": "NoxiousWeeds",
     "parent_ids": [
         "0ByStJjVZ7c7mQXhYWmY3aWJObXc"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mdXJEa1pUenJPT3c"
 }

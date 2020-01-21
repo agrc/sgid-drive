@@ -1,13 +1,13 @@
 {
-    "category": "FARMING", 
+    "category": "FARMING",
     "feature_classes": [
-        "SGID10.FARMING.GrazingAllotments", 
-        "SGID10.FARMING.GrazingImprovementRegions"
-    ], 
-    "gdb_id": "0ByStJjVZ7c7mQVVOcEtmZkFUa0E", 
-    "name": "Grazing", 
+        "SGID.FARMING.GrazingAllotments",
+        "SGID.FARMING.GrazingImprovementRegions"
+    ],
+    "gdb_id": "0ByStJjVZ7c7mQVVOcEtmZkFUa0E",
+    "name": "Grazing",
     "parent_ids": [
         "0ByStJjVZ7c7mWkotY1RhNGxOTVE"
-    ], 
+    ],
     "shape_id": "0ByStJjVZ7c7mT1AwdWIzLTJ3WWs"
 }

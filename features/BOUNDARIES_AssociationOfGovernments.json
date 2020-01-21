@@ -1,13 +1,13 @@
 {
-    "category": "BOUNDARIES", 
-    "gdb_id": "0ByStJjVZ7c7mYzIxYjh3NURIcFE", 
-    "hash_id": "0ByStJjVZ7c7ma1RKMlBBaGh4ekU", 
-    "name": "AssociationOfGovernments", 
-    "packages": [], 
+    "category": "BOUNDARIES",
+    "gdb_id": "0ByStJjVZ7c7mYzIxYjh3NURIcFE",
+    "hash_id": "0ByStJjVZ7c7ma1RKMlBBaGh4ekU",
+    "name": "AssociationOfGovernments",
+    "packages": [],
     "parent_ids": [
         "0ByStJjVZ7c7mcGpHRGZkTFNWUzA"
-    ], 
-    "sgid_name": "SGID10.BOUNDARIES.AssociationOfGovernments", 
-    "shape_id": "0ByStJjVZ7c7mWGtQU01faUJEWjA", 
+    ],
+    "sgid_name": "SGID.BOUNDARIES.AssociationOfGovernments",
+    "shape_id": "0ByStJjVZ7c7mWGtQU01faUJEWjA",
     "update_cycle": "demand"
 }

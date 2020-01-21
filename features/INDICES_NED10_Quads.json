@@ -1,16 +1,16 @@
 {
-    "category": "INDICES", 
-    "gdb_id": "0ByStJjVZ7c7mVnNTXzZ3U1E3SGc", 
-    "hash_id": "0ByStJjVZ7c7mTjMzZzVuYmI4ckk", 
-    "name": "NED10_Quads", 
+    "category": "INDICES",
+    "gdb_id": "0ByStJjVZ7c7mVnNTXzZ3U1E3SGc",
+    "hash_id": "0ByStJjVZ7c7mTjMzZzVuYmI4ckk",
+    "name": "NED10_Quads",
     "packages": [
-        "USGSurveyDEMAndNEDExtentsAndIndices", 
+        "USGSurveyDEMAndNEDExtentsAndIndices",
         "USGSurveyNEDExtentsAndIndices"
-    ], 
+    ],
     "parent_ids": [
         "0ByStJjVZ7c7mWEwzaGVrNDl1bkE"
-    ], 
-    "sgid_name": "SGID10.INDICES.NED10_Quads", 
-    "shape_id": "0ByStJjVZ7c7mNFlGM09YTUE0TFE", 
+    ],
+    "sgid_name": "SGID.INDICES.NED10_Quads",
+    "shape_id": "0ByStJjVZ7c7mNFlGM09YTUE0TFE",
     "update_cycle": "demand"
 }

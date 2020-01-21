@@ -1,12 +1,12 @@
 {
     "category": "TRANSPORTATION",
     "feature_classes": [
-        "SGID10.TRANSPORTATION.BusRoutes_UTA",
-        "SGID10.TRANSPORTATION.BusStops_UTA",
-        "SGID10.TRANSPORTATION.CommuterRailRoutes_UTA",
-        "SGID10.TRANSPORTATION.CommuterRailStations_UTA",
-        "SGID10.TRANSPORTATION.LightRail_UTA",
-        "SGID10.TRANSPORTATION.LightRailStations_UTA"
+        "SGID.TRANSPORTATION.BusRoutes_UTA",
+        "SGID.TRANSPORTATION.BusStops_UTA",
+        "SGID.TRANSPORTATION.CommuterRailRoutes_UTA",
+        "SGID.TRANSPORTATION.CommuterRailStations_UTA",
+        "SGID.TRANSPORTATION.LightRail_UTA",
+        "SGID.TRANSPORTATION.LightRailStations_UTA"
     ],
     "gdb_id": "0ByStJjVZ7c7mQWV2bThuQTlTZmM",
     "name": "UtahTransitSystems",
