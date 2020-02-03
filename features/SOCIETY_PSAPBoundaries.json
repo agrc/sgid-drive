@@ -11,5 +11,5 @@
     ],
     "sgid_name": "SGID.SOCIETY.PSAPBoundaries",
     "shape_id": "0ByStJjVZ7c7mQW9HT25ISXo1LVE",
-    "update_cycle": "demand"
+    "update_cycle": "day"
 }

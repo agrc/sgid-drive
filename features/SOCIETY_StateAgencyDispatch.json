@@ -11,5 +11,5 @@
     ],
     "sgid_name": "SGID.SOCIETY.StateAgencyDispatch",
     "shape_id": "0ByStJjVZ7c7mN1lHQ0c5RXVNbWs",
-    "update_cycle": "demand"
+    "update_cycle": "day"
 }

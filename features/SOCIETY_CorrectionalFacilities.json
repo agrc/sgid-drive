@@ -11,5 +11,5 @@
     ],
     "sgid_name": "SGID.SOCIETY.CorrectionalFacilities",
     "shape_id": "0ByStJjVZ7c7mTkZtMy12VUtodXc",
-    "update_cycle": "demand"
+    "update_cycle": "day"
 }

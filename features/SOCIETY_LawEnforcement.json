@@ -11,5 +11,5 @@
     ],
     "sgid_name": "SGID.SOCIETY.LawEnforcement",
     "shape_id": "0ByStJjVZ7c7mX0VmY0ZSMzJ6ZmM",
-    "update_cycle": "demand"
+    "update_cycle": "day"
 }
