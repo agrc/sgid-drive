@@ -4,7 +4,7 @@ import os
 import zipfile
 import csv
 from time import clock
-from datetime import datetime
+from datetime import datetime, date, timedelta
 # from hashlib import md5
 from xxhash import xxh64
 import json
@@ -101,66 +101,6 @@ def unzip(zip_path, output_path):
     """Unzip a folder that was zipped by zip_folder."""
     with zipfile.ZipFile(zip_path, 'r', zipfile.ZIP_DEFLATED) as zipped:
         zipped.extractall(output_path)
-
-
-def get_hash_lookup(hash_path, hash_field):
-    """Get the has lookup for change detection."""
-    hash_lookup = {}
-    with arcpy.da.SearchCursor(hash_path, [hash_field]) as cursor:
-        for row in cursor:
-            hash_value = row[0]
-            # hash_value, hash_oid = row
-            if hash_value not in hash_lookup:
-                hash_lookup[hash_value] = 0  # hash_oid isn't used for anything yet
-            else:
-                'Hash OID {} is duplicate wtf?'.format(hash_value)
-
-    return hash_lookup
-
-
-def detect_changes(data_path, fields, past_hashes, output_hashes, shape_token=None):
-    """Detect any changes and create a new hash store for uploading."""
-    float_subber = re.compile(r'(\d+\.\d{4})(\d+)')
-    hash_store = output_hashes
-    cursor_fields = list(fields)
-    attribute_subindex = -1
-    cursor_fields.append('OID@')
-    if shape_token:
-        cursor_fields.append('SHAPE@XY')  # TODO: Use centriod SHAPE@XY coordinates for change mapping.
-        cursor_fields.append(shape_token)
-        attribute_subindex = -3
-
-    hashes = {}
-    changes = 0
-    with arcpy.da.SearchCursor(data_path, cursor_fields) as cursor, \
-            open(hash_store, 'w') as hash_csv:
-        hash_writer = csv.writer(hash_csv)
-        hash_writer.writerow(('hash',))
-        # hash_writer.writerow(('src_id', 'hash', 'centroidxy'))
-        for row in cursor:
-            hasher = xxh64()  # Create/reset hash object
-            hasher.update(float_subber.sub(r'\1', str(row[:attribute_subindex])))  # Hash only attributes
-            if shape_token:
-                shape_string = row[-1]
-                if shape_string:  # None object won't hash
-                    shape_string = float_subber.sub(r'\1', shape_string)
-                    hasher.update(shape_string)
-                else:
-                    hasher.update('No shape')  # Add something to the hash to represent None geometry object
-            # Generate a unique hash if current row has duplicates
-            digest = hasher.hexdigest()
-            while digest in hashes:
-                hasher.update(digest)
-                digest = hasher.hexdigest()
-
-            hash_writer.writerow((digest,))
-
-            if digest not in past_hashes:
-                changes += 1
-
-    print('Total changes: {}'.format(changes))
-
-    return changes
 
 
 def _get_copier(is_table):
@@ -314,11 +254,10 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
 
     input_feature_path = os.path.join(workspace, feature_name)
 
-    feature = spec_manager.get_feature(feature_name, create=True)
+    feature = spec_manager.get_feature(feature_name)
     if not src_data_exists(input_feature_path):
         now = datetime.now()
         log_sheet_values = [['{}.{}'.format(feature['category'], feature['name']),
-                             'Does not exist',
                              now.strftime('%m/%d/%Y'),
                              now.strftime('%H:%M:%S.%f'),
                              clock() - feature_time]]
@@ -336,79 +275,47 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
 
     output_name = feature['name']
 
-    # Get the last hash from drive to check changes
-    past_hash_directory = os.path.join(output_directory, 'pasthashes')
-    hash_field = 'hash'
-    past_hash_zip = os.path.join(output_directory, output_name + '_hash' + '.zip')
-    past_hash_store = os.path.join(past_hash_directory, output_name + '_hash', output_name + '_hashes.csv')
-    past_hashes = None
-    if feature['hash_id']:
-        drive.download_file(feature['hash_id'], past_hash_zip)
-        print('Past hashes downloaded')
-        unzip(past_hash_zip, past_hash_directory)
-        past_hashes = get_hash_lookup(past_hash_store, hash_field)
-    else:
-        past_hashes = {}
+    packages = feature['packages']
+    # Copy data local
+    print('Copying...')
+    fc_directory, shape_directory = create_outputs(
+                                                    output_directory,
+                                                    input_feature_path,
+                                                    output_name)
 
-    # Check for changes
-    # Create directory for feature hashes
-    hash_directory = os.path.join(output_directory, output_name + '_hash')
-    if not os.path.exists(hash_directory):
-        os.makedirs(hash_directory)
-    hash_store = os.path.join(hash_directory, '{}_hashes.csv'.format(output_name))
-    # Get fields for hashing
-    fields = set([fld.name for fld in arcpy.ListFields(input_feature_path)])
-    fields = _filter_fields(fields)
+    # Zip up outputs
+    new_gdb_zip = os.path.join(output_directory, '{}_gdb.zip'.format(output_name))
+    new_shape_zip = os.path.join(output_directory, '{}_shp.zip'.format(output_name))
+    print('Zipping...')
+    zip_folder(fc_directory, new_gdb_zip)
+    zip_folder(shape_directory, new_shape_zip)
+    # Upload to drive
+    if load_to_drive:
+        load_zip_to_drive(feature, 'gdb_id', new_gdb_zip, feature['parent_ids'])
+        load_zip_to_drive(feature, 'shape_id', new_shape_zip, feature['parent_ids'])
+        print('All zips loaded')
 
-    shape_token = None
-    if not arcpy.Describe(input_feature_path).datasetType.lower() == 'table':
-        shape_token = 'SHAPE@WKT'
-
-    try:
-        change_count = detect_changes(input_feature_path, fields, past_hashes, hash_store, shape_token)
-    except RuntimeError:
-        change_count = -1
-
-    packages = []
-    if change_count != 0 or force_update:
-        packages = feature['packages']
-        # Copy data local
-        print('Copying...')
-        fc_directory, shape_directory = create_outputs(
-                                                     output_directory,
-                                                     input_feature_path,
-                                                     output_name)
-
-        # Zip up outputs
-        new_gdb_zip = os.path.join(output_directory, '{}_gdb.zip'.format(output_name))
-        new_shape_zip = os.path.join(output_directory, '{}_shp.zip'.format(output_name))
-        new_hash_zip = os.path.join(output_directory, '{}_hash.zip'.format(output_name))
-        print('Zipping...')
-        zip_folder(fc_directory, new_gdb_zip)
-        zip_folder(shape_directory, new_shape_zip)
-        zip_folder(hash_directory, new_hash_zip)
-        # Upload to drive
-        if load_to_drive:
-            load_zip_to_drive(feature, 'gdb_id', new_gdb_zip, feature['parent_ids'])
-            load_zip_to_drive(feature, 'shape_id', new_shape_zip, feature['parent_ids'])
-            load_zip_to_drive(feature, 'hash_id', new_hash_zip, [HASH_DRIVE_FOLDER])
-            print('All zips loaded')
-
-        spec_manager.save_spec_json(feature)
-        now = datetime.now()
-        if change_count == -1:
-            change_count = 'Change detection error'
-        log_sheet_values = [['{}.{}'.format(feature['category'], feature['name']),
-                            change_count,
-                            now.strftime('%m/%d/%Y'),
-                            now.strftime('%H:%M:%S.%f'),
-                            clock() - feature_time]]
-        sheets.append_row(LOG_SHEET_ID, LOG_SHEET_NAME, log_sheet_values)
+    spec_manager.save_spec_json(feature)
+    now = datetime.now()
+    log_sheet_values = [['{}.{}'.format(feature['category'], feature['name']),
+                        now.strftime('%m/%d/%Y'),
+                        now.strftime('%H:%M:%S.%f'),
+                        clock() - feature_time]]
+    sheets.append_row(LOG_SHEET_ID, LOG_SHEET_NAME, log_sheet_values)
 
     return packages
 
 
-def run_features(workspace, output_directory, feature_list_json=None, load=True, force=False, category=None, update_cycles=None):
+def get_changed_tables(workspace):
+    change_detection_table = 'SGID.META.ChangeDetection'
+    table_name = 'table_name'
+    yesterday = date.today() - timedelta(days=1)
+    query = f"last_modified = '{yesterday.strftime('%Y-%m-%d')}'"
+    with arcpy.da.SearchCursor(os.path.join(workspace, change_detection_table), [table_name], where_clause=query) as cursor:
+        return [f'sgid.{table}' for table, in cursor]
+
+
+def run_features(workspace, output_directory, feature_list_json=None, load=True, force=False, category=None):
     """
     CLI option to update all features in spec_manager.FEATURE_SPEC_FOLDER or just those in feature_list_json.
 
@@ -417,7 +324,7 @@ def run_features(workspace, output_directory, feature_list_json=None, load=True,
     run_all_lists = None
     features = []
     if not feature_list_json:
-        for feature_spec in spec_manager.get_feature_specs(update_cycles):
+        for feature_spec in spec_manager.get_feature_specs(get_changed_tables(workspace)):
             if feature_spec['sgid_name'] != '' and\
                     (category is None or category.upper() == feature_spec['category'].upper()):
                 features.append(feature_spec['sgid_name'])
@@ -443,7 +350,7 @@ def run_packages(workspace, output_directory, package_list_json=None, load=True,
     features = []
     packages_to_check = []
     if not package_list_json:
-        packages_to_check = spec_manager.get_package_specs()
+        packages_to_check = spec_manager.get_package_specs(get_changed_tables(workspace))
     else:
         with open(package_list_json, 'r') as json_file:
             run_all_lists = json.load(json_file)
@@ -558,19 +465,6 @@ if __name__ == '__main__':
                         help='Check all features for changes and update changed features and packages')
     parser.add_argument('--category', action='store', dest='feature_category',
                         help='Limits --all to specified category')
-    # Update cycle to run
-    parser.add_argument('-d', action='store_true', dest='daily',
-                        help='Limits --all to daily updated features')
-    parser.add_argument('-w', action='store_true', dest='weekly',
-                        help='Limits --all to weekly updated features')
-    parser.add_argument('-m', action='store_true', dest='monthly',
-                        help='Limits --all to monthly updated features')
-    parser.add_argument('-q', action='store_true', dest='quarterly',
-                        help='Limits --all to quarterly updated features')
-    parser.add_argument('-b', action='store_true', dest='biannual',
-                        help='Limits --all to yearly updated features')
-    parser.add_argument('-y', action='store_true', dest='yearly',
-                        help='Limits --all to yearly updated features')
 
     parser.add_argument('--all_packages', action='store_true', dest='check_packages',
                         help='Update all packages that have changed features. Equivalent to --all with all features contained in package specs')
@@ -592,7 +486,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     driver.flags = args  # flags global required for driver
 
-    workspace = args.workspace  # r'Database Connections\Connection to sgid.agrc.utah.gov.sde'
+    workspace = args.workspace #: SGID
     output_directory = r'package_temp'
     temp_package_directory = os.path.join(output_directory, 'output_packages')
 
@@ -610,26 +504,11 @@ if __name__ == '__main__':
     start_time = clock()
 
     if args.check_features:
-        update_cycles = []
-        if args.daily:
-            update_cycles.append(spec_manager.UPDATE_CYCLES.DAY)
-        if args.weekly:
-            update_cycles.append(spec_manager.UPDATE_CYCLES.WEEK)
-        if args.monthly:
-            update_cycles.append(spec_manager.UPDATE_CYCLES.MONTH)
-        if args.quarterly:
-            update_cycles.append(spec_manager.UPDATE_CYCLES.QUARTER)
-        if args.biannual:
-            update_cycles.append(spec_manager.UPDATE_CYCLES.BIANNUAL)
-        if args.yearly:
-            update_cycles.append(spec_manager.UPDATE_CYCLES.ANNUAL)
-
         run_features(workspace,
                      output_directory,
                      load=args.load,
                      force=args.force,
-                     category=args.feature_category,
-                     update_cycles=update_cycles)
+                     category=args.feature_category)
     elif args.feature_list:
         run_features(workspace,
                      output_directory,
