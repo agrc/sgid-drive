@@ -10,18 +10,6 @@ FEATURE_SPEC_TEMPLATE = 'templates/feature_template.json'
 PACKAGE_SPEC_TEMPLATE = 'templates/package_template.json'
 
 
-class UPDATE_CYCLES(object):
-    """Update cycle constants."""
-
-    NEVER = 'demand'
-    ANNUAL = 'annual'
-    BIANNUAL = 'biannual'
-    QUARTER = 'quarter'
-    MONTH = 'month'
-    WEEK = 'week'
-    DAY = 'day'
-
-
 def valitdate_spec(spec):
     if "" in spec['parent_ids']:
         msg = 'Invalid spec: {}'.format(spec)
@@ -45,6 +33,7 @@ def save_spec_json(spec, json_path=None):
 
     with open(save_path, 'w') as f_out:
         f_out.write(json.dumps(spec, sort_keys=True, indent=4))
+        f_out.write('\n')
 
 
 def load_feature_json(json_path):
@@ -106,7 +95,7 @@ def get_package(package_name):
     return package
 
 
-def get_feature(source_name, packages=[], create=False):
+def get_feature(source_name, packages=[]):
     empty_spec = FEATURE_SPEC_TEMPLATE
     spec_name = create_feature_spec_name(source_name)
     feature_spec = os.path.join(FEATURE_SPEC_FOLDER, spec_name)
@@ -153,25 +142,27 @@ def get_feature_spec_path_list():
     return features
 
 
-def get_feature_specs(update_cycles=None):
-    selected_cycles = update_cycles
-    if type(selected_cycles) == str:
-        selected_cycles = [update_cycles]
-
+def get_feature_specs(changed_tables):
     feature_specs = []
     for f in get_feature_spec_path_list():
         spec = load_feature_json(f)
-        if update_cycles is None or len(update_cycles) == 0 or spec['update_cycle'] in selected_cycles:
+        if spec['sgid_name'].lower() in changed_tables:
             feature_specs.append(spec)
 
     return feature_specs
 
 
-def get_package_specs():
+def get_package_specs(changed_tables):
     package_specs = []
     for p in get_package_spec_path_list():
         spec = load_feature_json(p)
-        package_specs.append(spec)
+        changed = False
+        for feature_class in spec['feature_classes']:
+            if feature_class.lower() in changed_tables:
+                changed = True
+                break
+        if changed:
+            package_specs.append(spec)
 
     return package_specs
 

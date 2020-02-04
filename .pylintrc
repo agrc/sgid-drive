@@ -1,2 +1,4 @@
 [TYPECHECK]
 generated-members = arcpy.da.SearchCursor, arcpy.da.UpdateCursor, arcpy.da.InsertCursor
+
+max-line-length = 120
