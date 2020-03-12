@@ -1,0 +1,12 @@
+{
+    "category": "LOCATION",
+    "gdb_id": "10lu2yvPBHsCFsLNRyzSCuiOVQ4cU65mo",
+    "hash_id": "",
+    "name": "PlaceNamesGNIS",
+    "packages": [],
+    "parent_ids": [
+        "1yZYZSffatP8i8pU36SFbUQREytQ_r6Rm"
+    ],
+    "sgid_name": "SGID.LOCATION.PlaceNamesGNIS",
+    "shape_id": "1Vi7QAKVtNdrwK5Z70D_RJ2WuvqdKO0ju"
+}
