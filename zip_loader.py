@@ -312,7 +312,7 @@ def get_changed_tables(workspace):
     yesterday = date.today() - timedelta(days=1)
     query = f"last_modified = '{yesterday.strftime('%Y-%m-%d')}'"
     with arcpy.da.SearchCursor(os.path.join(workspace, change_detection_table), [table_name], where_clause=query) as cursor:
-        return [f'sgid.{table}' for table, in cursor]
+        return [table for table, in cursor]
 
 
 def run_features(workspace, output_directory, feature_list_json=None, load=True, force=False, category=None):
