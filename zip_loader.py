@@ -247,7 +247,7 @@ def update_feature(workspace, feature_name, output_directory, load_to_drive=True
     Update a feature class on drive if it has changed.
 
     workspace: string path or connection to a workspace that contains feature_name
-    feature_name: string SGID name such as SGID.RECREATION.Trails
+    feature_name: string SGID name such as SGID.BOUNDARIES.ZipCodes
     """
     print('\nStarting feature:', feature_name)
     feature_time = clock()

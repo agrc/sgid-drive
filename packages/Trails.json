@@ -1,7 +1,7 @@
 {
     "category": "RECREATION",
     "feature_classes": [
-        "SGID.RECREATION.Trails",
+        "SGID.RECREATION.TrailsAndPathways",
         "SGID.RECREATION.Trailheads"
     ],
     "gdb_id": "0ByStJjVZ7c7mZ3FhbDQ2VmVWQ2c",
