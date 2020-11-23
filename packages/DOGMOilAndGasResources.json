@@ -1,7 +1,6 @@
 {
     "category": "ENERGY",
     "feature_classes": [
-        "SGID.ENERGY.DNROilGasFields",
         "SGID.ENERGY.DNROilGasUnits",
         "SGID.ENERGY.OilGasWells",
         "SGID.ENERGY.OilGasWells_DownHoles",
