@@ -1,0 +1,12 @@
+{
+    "category": "CADASTRE",
+    "gdb_id": "1QGqlkpQzn_FlE3GdRnt3aLuOgItzOmZ0",
+    "hash_id": "",
+    "name": "Parcels_Sevier_LIR",
+    "packages": [],
+    "parent_ids": [
+        "1lkzhqfbKeNWmnQTqTYaFqkgehnirYFva"
+    ],
+    "sgid_name": "SGID.CADASTRE.Parcels_Sevier_LIR",
+    "shape_id": "1j8kDCMk9mGS_KiY6No-73dhO58OxH-EI"
+}

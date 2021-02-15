@@ -1,0 +1,12 @@
+{
+    "category": "CADASTRE",
+    "gdb_id": "1Fd5EuaUTV5i_Ts4Hvn09qOq4FL-XcI_M",
+    "hash_id": "",
+    "name": "Parcels_Duchesne_LIR",
+    "packages": [],
+    "parent_ids": [
+        "1KhrbKaJedEAP9fesYEVuI258ex86ahYT"
+    ],
+    "sgid_name": "SGID.CADASTRE.Parcels_Duchesne_LIR",
+    "shape_id": "1DOHslC0SbcZnze4E9sJsk94PbseovmOy"
+}

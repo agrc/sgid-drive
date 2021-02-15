@@ -1,0 +1,12 @@
+{
+    "category": "CADASTRE",
+    "gdb_id": "1h-c51PlmfOqcShM8scb_cxyxCdpaOmku",
+    "hash_id": "",
+    "name": "Parcels_Rich_LIR",
+    "packages": [],
+    "parent_ids": [
+        "1SVE03iF8hLVrBKusZ31pOiZdT5j-mHaT"
+    ],
+    "sgid_name": "SGID.CADASTRE.Parcels_Rich_LIR",
+    "shape_id": "1iJqhEKBqIfPPYtVMTq1gGlY_8HUpt4BR"
+}
