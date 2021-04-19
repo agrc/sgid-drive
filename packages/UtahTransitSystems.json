@@ -1,8 +1,8 @@
 {
     "category": "TRANSPORTATION",
     "feature_classes": [
-        "SGID.TRANSPORTATION.BusRoutes_UTA",
-        "SGID.TRANSPORTATION.BusStops_UTA",
+        "SGID.TRANSPORTATION.UTA_RoutesAndRidership",
+        "SGID.TRANSPORTATION.UTA_StopsAndRidership",
         "SGID.TRANSPORTATION.CommuterRailRoutes_UTA",
         "SGID.TRANSPORTATION.CommuterRailStations_UTA",
         "SGID.TRANSPORTATION.LightRail_UTA",
