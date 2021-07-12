@@ -1,3 +1,5 @@
+# NOTE: This project is no longer maintained.
+
 Application to update Google Drive files with SGID data.
 
 #### Install
